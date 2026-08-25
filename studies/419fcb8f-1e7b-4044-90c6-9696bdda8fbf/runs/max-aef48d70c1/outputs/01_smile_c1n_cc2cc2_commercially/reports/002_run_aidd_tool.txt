@@ -1,0 +1,55 @@
+[dispatch] pulling image for rdkit — first use on this host, several GB, this can take minutes before any output appears
+[dispatch] tool=rdkit rc=0 gpu=True duration_s=20.7
+{
+  "tool_id": "rdkit",
+  "image": "registry.rayca.org/rayca-tools/rdkit:latest",
+  "rc": 0,
+  "gpu": true,
+  "duration_s": 20.7,
+  "files_written": [
+    "rdkit-results.json"
+  ],
+  "staged_files": [],
+  "output": {
+    "molecules": [
+      {
+        "input_smiles": "O=C1N(CC2CC2)Cc(cc2OCOc2c2)c2NCC1",
+        "canonical_smiles": "O=C1CCNc2cc3c(cc2CN1CC1CC1)OCO3",
+        "inchi": "InChI=1S/C15H18N2O3/c18-15-3-4-16-12-6-14-13(19-9-20-14)5-11(12)8-17(15)7-10-1-2-10/h5-6,10,16H,1-4,7-9H2",
+        "inchikey": "GVBVTSKYBQRTGM-UHFFFAOYSA-N",
+        "formula": "C15H18N2O3",
+        "exact_mass": 274.131742436,
+        "num_atoms": 38,
+        "num_heavy_atoms": 20,
+        "descriptors": {
+          "MolWt": 274.32000000000005,
+          "MolLogP": 1.9694999999999998,
+          "NumHDonors": 1.0,
+          "NumHAcceptors": 4.0,
+          "NumRotatableBonds": 2.0,
+          "RingCount": 4.0,
+          "TPSA": 50.800000000000004
+        },
+        "fingerprint": {
+          "type": "morgan",
+          "n_bits": 2048,
+          "num_on_bits": 41,
+          "radius": 2
+        }
+      }
+    ],
+    "failed": [],
+    "n_molecules": 1,
+    "n_failed": 0,
+    "unknown_descriptors": [],
+    "rdkit_version": "2026.03.3",
+    "summary": "RDKit 2026.03.3: processed 1/1 molecule(s) (0 failed); computed 7 descriptor(s) and morgan fingerprint."
+  },
+  "output_saved_to": "rdkit-results.json",
+  "summary": "rdkit rc=0 (GPU) in 20.7s",
+  "autonomy": {
+    "decision": "ask",
+    "reason": "step tool:rdkit is 'frontier' work, above the client's ceiling 'established'",
+    "blocking": false
+  }
+}
