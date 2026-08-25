@@ -4,6 +4,6 @@ Every study this repository holds, regenerated on each push from the repository'
 
 | Session | Runs | Latest outcome |
 | --- | --- | --- |
-| [`419fcb8f-1e7b-4044-90c6-9696bdda8fbf`](studies/419fcb8f-1e7b-4044-90c6-9696bdda8fbf) | 1 | recorded |
+| [`419fcb8f-1e7b-4044-90c6-9696bdda8fbf`](studies/419fcb8f-1e7b-4044-90c6-9696bdda8fbf) | 2 | recorded |
 
 _Pushed by Rayca Modulon. A run appears here whether it succeeded or failed: a failed run's code and logs are often what you most want to keep._
