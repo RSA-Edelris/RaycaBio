@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/tmp/rayca-exec-3493p8b3/harness.py", line 279, in <module>
+    exec(compile(code, "<model>", "exec"), ns)
+  File "<model>", line 239, in <module>
+  File "<model>", line 233, in write_rxn_cdxml
+  File "/usr/lib/python3.12/xml/etree/ElementTree.py", line 729, in write
+    serialize(write, self._root, qnames, namespaces,
+  File "/usr/lib/python3.12/xml/etree/ElementTree.py", line 867, in _serialize_xml
+    write("<" + tag)
+TypeError: a bytes-like object is required, not 'str'
