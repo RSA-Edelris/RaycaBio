@@ -1,0 +1,68 @@
+{
+  "study_id": "9f706d13-c84e-42fd-b664-01936080168a",
+  "run_id": "max-8071534f5d",
+  "published_at": "2026-09-04T16:07:21Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "reports/audit_inventory_docking_tools.md",
+      "sha256": "a7e89b4577671e54d2cc8c7f3b22142632f86008c5e04a0c71e7872363016b64",
+      "size": 11604,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-c646888b6f",
+      "committed": true
+    },
+    {
+      "path": "01_inventory_retrosynthesis_tools/reports/phase_02_task_a7403e747bc6eb9be.md",
+      "sha256": "f8c097b3c64af7e4c9b3a8c025ea42921f021e543e3a4152f144042ec3d92f02",
+      "size": 1790,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task create",
+      "run_id": "max-e049676906",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_inventory_retrosynthesis_tools.md",
+      "sha256": "f30a86005f43952eb565c9284e6f64a0a122e8605ee3b778901f4a61d8f777b8",
+      "size": 1849,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-e049676906",
+      "committed": true
+    },
+    {
+      "path": "01_push_session_to_github/reports/phase_02_task_a4b90516c5d181f98.md",
+      "sha256": "724b6704d71252412661465cd6594a8e910edf6cc0aab49521bbbfe3f26ef8bd",
+      "size": 1915,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task create",
+      "run_id": "max-6332e8d495",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "9f706d13-c84e-42fd-b664-01936080168a",
+    "run_id": "max-8071534f5d",
+    "outcome": "",
+    "pushed_at": "2026-09-04T16:07:21Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "outputs/reports/audit_inventory_docking_tools.md": "a7e89b4577671e54d2cc8c7f3b22142632f86008c5e04a0c71e7872363016b64",
+    "outputs/01_inventory_retrosynthesis_tools/reports/phase_02_task_a7403e747bc6eb9be.md": "f8c097b3c64af7e4c9b3a8c025ea42921f021e543e3a4152f144042ec3d92f02",
+    "outputs/reports/phase_01_inventory_retrosynthesis_tools.md": "f30a86005f43952eb565c9284e6f64a0a122e8605ee3b778901f4a61d8f777b8",
+    "outputs/01_push_session_to_github/reports/phase_02_task_a4b90516c5d181f98.md": "724b6704d71252412661465cd6594a8e910edf6cc0aab49521bbbfe3f26ef8bd",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
