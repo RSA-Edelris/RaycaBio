@@ -4,6 +4,7 @@ Every study this repository holds, regenerated on each push from the repository'
 
 | Session | Runs | Latest outcome |
 | --- | --- | --- |
+| [`02401922-b475-444f-9b2f-fb824dbff349`](studies/02401922-b475-444f-9b2f-fb824dbff349) | 1 | recorded |
 | [`419fcb8f-1e7b-4044-90c6-9696bdda8fbf`](studies/419fcb8f-1e7b-4044-90c6-9696bdda8fbf) | 3 | recorded |
 | [`c29e716e-6774-4a9b-8ead-aba645849be4`](studies/c29e716e-6774-4a9b-8ead-aba645849be4) | 3 | recorded |
 
