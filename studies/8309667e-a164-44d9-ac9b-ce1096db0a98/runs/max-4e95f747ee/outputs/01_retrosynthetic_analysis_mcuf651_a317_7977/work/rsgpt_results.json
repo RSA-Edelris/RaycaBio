@@ -1,0 +1,366 @@
+{
+  "MCUF651": {
+    "tool_id": "rsgpt",
+    "image": "registry.rayca.org/rayca-tools/rsgpt:latest",
+    "rc": 0,
+    "gpu": true,
+    "duration_s": 128.9,
+    "files_written": [
+      "rsgpt-results.json"
+    ],
+    "staged_files": [],
+    "output": {
+      "summary": "RSGPT retrosynthesis for CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1: 15 candidate reactant set(s) in 8.5s (beam_size=15). Top-1: CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1",
+      "product": "CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+      "reactants": [
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1",
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(cc(F)cc2F)s1",
+        "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1",
+        "CN(C)CCCl.O=C(Nc1nc2c(F)cc(F)cc2s1)[C@@H]1CCCNC1",
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(s1)cc(F)cc2F",
+        "CN(C)CCCl.O=C(Nc1nc2c(s1)cc(F)cc2F)[C@@H]1CCCNC1",
+        "CN(C)CCN1CCC[C@@H](N)C1.O=C(O)c1nc2c(F)cc(F)cc2s1",
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(s1)c(F)cc(F)cc2F",
+        "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(cc(F)cc2F)s1",
+        "CN(C)CCN1CCC[C@H](C(=O)Cl)C1.Nc1nc2c(F)cc(F)cc2s1",
+        "CN(C)CCCl.O=C(Nc1nc2c(cc(F)cc2F)s1)[C@@H]1CCCNC1",
+        "CN(C)CCCl.Nc1nc2c(F)cc(F)cc2s1.CN(C)CCN1CCC[C@H](O)C1",
+        "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(s1)cc(F)cc2F",
+        "CN(C)CCCl.Nc1nc2c(F)cc(F)cc2s1.CN(C)CCN1CCC[C@H](C(=O)O)C1",
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc1F)cc(F)cc2F"
+      ],
+      "predicted_reactions": [
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(cc(F)cc2F)s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCCl.O=C(Nc1nc2c(F)cc(F)cc2s1)[C@@H]1CCCNC1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(s1)cc(F)cc2F>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCCl.O=C(Nc1nc2c(s1)cc(F)cc2F)[C@@H]1CCCNC1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCN1CCC[C@@H](N)C1.O=C(O)c1nc2c(F)cc(F)cc2s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(s1)c(F)cc(F)cc2F>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(cc(F)cc2F)s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCN1CCC[C@H](C(=O)Cl)C1.Nc1nc2c(F)cc(F)cc2s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCCl.O=C(Nc1nc2c(cc(F)cc2F)s1)[C@@H]1CCCNC1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCCl.Nc1nc2c(F)cc(F)cc2s1.CN(C)CCN1CCC[C@H](O)C1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(s1)cc(F)cc2F>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCCl.Nc1nc2c(F)cc(F)cc2s1.CN(C)CCN1CCC[C@H](C(=O)O)C1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc1F)cc(F)cc2F>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1"
+      ],
+      "num_predictions": 15
+    },
+    "output_saved_to": "rsgpt-results.json",
+    "summary": "rsgpt rc=0 (GPU) in 128.9s"
+  },
+  "A317": {
+    "tool_id": "rsgpt",
+    "image": "registry.rayca.org/rayca-tools/rsgpt:latest",
+    "rc": 0,
+    "gpu": true,
+    "duration_s": 77.8,
+    "files_written": [
+      "rsgpt-results-2.json"
+    ],
+    "staged_files": [],
+    "output": {
+      "summary": "RSGPT retrosynthesis for O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1: 15 candidate reactant set(s) in 7.1s (beam_size=15). Top-1: O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Fc1ccccn1",
+      "product": "O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+      "reactants": [
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Fc1ccccn1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Clc1ccccn1",
+        "Nc1nc([C@H]2CCCN2)cs1.O=C(O)c1cccn1Cc1ccncc1",
+        "Nc1nc([C@H]2CCCN2c2ccccn2)cs1.O=C(O)c1cccn1Cc1ccncc1",
+        "O=C(O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2)cs1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(Cl)c1ccccn1",
+        "Clc1ccccn1.O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1",
+        "O=C(O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(O)c1ccccn1",
+        "COC(=O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "O=C(Cl)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(Cl)c1cccn1Cc1ccncc1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(O)c1cccn1Cc1ccncc1",
+        "ClCc1ccncc1.O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1",
+        "CCOC(=O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1"
+      ],
+      "predicted_reactions": [
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Fc1ccccn1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Clc1ccccn1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "Nc1nc([C@H]2CCCN2)cs1.O=C(O)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "Nc1nc([C@H]2CCCN2c2ccccn2)cs1.O=C(O)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "O=C(O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(Cl)c1ccccn1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "Clc1ccccn1.O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "O=C(O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(O)c1ccccn1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "COC(=O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "O=C(Cl)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(Cl)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(O)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "ClCc1ccncc1.O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+        "CCOC(=O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1"
+      ],
+      "num_predictions": 15
+    },
+    "output_saved_to": "rsgpt-results-2.json",
+    "summary": "rsgpt rc=0 (GPU) in 77.8s"
+  },
+  "7977": {
+    "tool_id": "rsgpt",
+    "image": "registry.rayca.org/rayca-tools/rsgpt:latest",
+    "rc": 0,
+    "gpu": true,
+    "duration_s": 78.4,
+    "files_written": [
+      "rsgpt-results-3.json"
+    ],
+    "staged_files": [],
+    "output": {
+      "summary": "RSGPT retrosynthesis for Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21: 15 candidate reactant set(s) in 7.6s (beam_size=15). Top-1: Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+      "product": "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+      "reactants": [
+        "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.NC(=O)CI",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.NC(=O)CBr",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(=O)O)c2cnccc21",
+        "Cc1cnc(-c2cc(Br)cc(-n3c(=O)n(CC(N)=O)c4cnccc43)c2)cc1F",
+        "Cc1cnc(-c2cc(Br)cc(F)c2)c(-n2c(=O)n(CC(N)=O)c3cnccc32)c1",
+        "CC(=O)Cn1c(=O)n(-c2cc(Br)ccc2F)c2cnccc21.C[Sn](C)(C)c1cc(Cl)ccc1F",
+        "Cc1cnc(Br)cc1-n1c(=O)n(CC(N)=O)c2cnccc21.OB(O)c1cc(Cl)ccc1F",
+        "Cc1cnc(-c2cc(Br)cc(-n3c(=O)n(CC(N)=O)c4cnccc43)c2)c(F)c1",
+        "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21.OB(O)c1cc(Cl)ccc1F",
+        "CCOC(=O)Cn1c(=O)n(-c2cc(-c3cc(Cl)ccc3F)ccc2C)c2cnccc21",
+        "COC(=O)Cn1c(=O)n(-c2cc(-c3cc(Cl)ccc3F)ccc2C)c2cnccc21",
+        "CC(=O)n1c2cnccc2n(CC(=O)O)c1=O.Cc1cnc(-c2cc(Cl)ccc2F)cc1N",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(=O)OCc2ccccc2)c2cnccc21"
+      ],
+      "predicted_reactions": [
+        "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.NC(=O)CI>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.NC(=O)CBr>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(=O)O)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Br)cc(-n3c(=O)n(CC(N)=O)c4cnccc43)c2)cc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Br)cc(F)c2)c(-n2c(=O)n(CC(N)=O)c3cnccc32)c1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "CC(=O)Cn1c(=O)n(-c2cc(Br)ccc2F)c2cnccc21.C[Sn](C)(C)c1cc(Cl)ccc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(Br)cc1-n1c(=O)n(CC(N)=O)c2cnccc21.OB(O)c1cc(Cl)ccc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Br)cc(-n3c(=O)n(CC(N)=O)c4cnccc43)c2)c(F)c1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21.OB(O)c1cc(Cl)ccc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "CCOC(=O)Cn1c(=O)n(-c2cc(-c3cc(Cl)ccc3F)ccc2C)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "COC(=O)Cn1c(=O)n(-c2cc(-c3cc(Cl)ccc3F)ccc2C)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "CC(=O)n1c2cnccc2n(CC(=O)O)c1=O.Cc1cnc(-c2cc(Cl)ccc2F)cc1N>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(=O)OCc2ccccc2)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21"
+      ],
+      "num_predictions": 15
+    },
+    "output_saved_to": "rsgpt-results-3.json",
+    "summary": "rsgpt rc=0 (GPU) in 78.4s"
+  },
+  "MCUF651_int1": {
+    "tool_id": "rsgpt",
+    "image": "registry.rayca.org/rayca-tools/rsgpt:latest",
+    "rc": 0,
+    "gpu": true,
+    "duration_s": 78.0,
+    "files_written": [
+      "rsgpt-results-4.json"
+    ],
+    "staged_files": [],
+    "output": {
+      "summary": "RSGPT retrosynthesis for O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1: 15 candidate reactant set(s) in 7.2s (beam_size=15). Top-1: CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3c(cc(F)cc3F)s2)C1",
+      "product": "O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+      "reactants": [
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3c(cc(F)cc3F)s2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2nc3c(cc(F)cc3F)s2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2nc3cc(F)cc(F)c3s2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3cc(F)cc(F)c3s2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3ccc(F)cc3s2)C1",
+        "O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCN(C(=O)OC(C)(C)C)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2sc3cc(F)cc(F)c3n2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2nc3ccc(F)cc3s2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@H]1C(=O)Nc1nc2c(F)cc(F)cc2s1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3c(cc(F)cc3F)s2)c1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](NC(=O)C(=O)Nc2nc3cc(F)cc(F)c3s2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2sc3cc(F)cc(F)c3n2)C1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3c(s2)cc(F)cc3F)C1"
+      ],
+      "predicted_reactions": [
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3c(cc(F)cc3F)s2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2nc3c(cc(F)cc3F)s2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2nc3cc(F)cc(F)c3s2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3cc(F)cc(F)c3s2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3ccc(F)cc3s2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCN(C(=O)OC(C)(C)C)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2sc3cc(F)cc(F)c3n2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@H](C(=O)Nc2nc3ccc(F)cc3s2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@H]1C(=O)Nc1nc2c(F)cc(F)cc2s1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3c(cc(F)cc3F)s2)c1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](NC(=O)C(=O)Nc2nc3cc(F)cc(F)c3s2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2sc3cc(F)cc(F)c3n2)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H](C(=O)Nc2nc3c(s2)cc(F)cc3F)C1>>O=C(Nc1nc2c(F)cc(F)cc2s1)[C@H]1CCCNC1"
+      ],
+      "num_predictions": 15
+    },
+    "output_saved_to": "rsgpt-results-4.json",
+    "summary": "rsgpt rc=0 (GPU) in 78.0s"
+  },
+  "MCUF651_int2": {
+    "tool_id": "rsgpt",
+    "image": "registry.rayca.org/rayca-tools/rsgpt:latest",
+    "rc": 0,
+    "gpu": true,
+    "duration_s": 80.2,
+    "files_written": [
+      "rsgpt-results-5.json"
+    ],
+    "staged_files": [],
+    "output": {
+      "summary": "RSGPT retrosynthesis for Nc1nc2c(F)cc(F)cc2s1: 15 candidate reactant set(s) in 7.0s (beam_size=15). Top-1: O=[N+]([O-])c1nc2c(F)cc(F)cc2s1",
+      "product": "Nc1nc2c(F)cc(F)cc2s1",
+      "reactants": [
+        "O=[N+]([O-])c1nc2c(F)cc(F)cc2s1",
+        "CC(=O)Nc1nc2c(F)cc(F)cc2s1",
+        "CC(C)(C)OC(=O)Nc1nc2c(F)cc(F)cc2s1",
+        "Nc1nc2c(F)cc(F)cc2s1",
+        "N#Cc1nc2c(F)cc(F)cc2s1",
+        "Fc1cc(F)c2nc(Cl)sc2c1",
+        "Clc1nc2c(F)cc(F)cc2s1",
+        "O=C(Nc1nc2c(F)cc(F)cc2s1)OCc1ccccc1",
+        "O=C(Nc1nc2c(F)cc(F)cc2s1)OC(C)(C)C",
+        "N#Cc1c(F)cc(F)cc1F",
+        "Nc1nc2c(F)cc(F)cc2s1Br",
+        "NC(N)=S.O=C(CBr)c1ccc(F)cc1F",
+        "O=C(Nc1nc2c(F)cc(F)cc2s1)C(F)(F)F",
+        "[N-]=[N+]=Nc1nc2c(F)cc(F)cc2s1",
+        "NC(=S)Nc1c(F)cc(F)cc1F"
+      ],
+      "predicted_reactions": [
+        "O=[N+]([O-])c1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+        "CC(=O)Nc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+        "CC(C)(C)OC(=O)Nc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+        "Nc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+        "N#Cc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+        "Fc1cc(F)c2nc(Cl)sc2c1>>Nc1nc2c(F)cc(F)cc2s1",
+        "Clc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+        "O=C(Nc1nc2c(F)cc(F)cc2s1)OCc1ccccc1>>Nc1nc2c(F)cc(F)cc2s1",
+        "O=C(Nc1nc2c(F)cc(F)cc2s1)OC(C)(C)C>>Nc1nc2c(F)cc(F)cc2s1",
+        "N#Cc1c(F)cc(F)cc1F>>Nc1nc2c(F)cc(F)cc2s1",
+        "Nc1nc2c(F)cc(F)cc2s1Br>>Nc1nc2c(F)cc(F)cc2s1",
+        "NC(N)=S.O=C(CBr)c1ccc(F)cc1F>>Nc1nc2c(F)cc(F)cc2s1",
+        "O=C(Nc1nc2c(F)cc(F)cc2s1)C(F)(F)F>>Nc1nc2c(F)cc(F)cc2s1",
+        "[N-]=[N+]=Nc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+        "NC(=S)Nc1c(F)cc(F)cc1F>>Nc1nc2c(F)cc(F)cc2s1"
+      ],
+      "num_predictions": 15
+    },
+    "output_saved_to": "rsgpt-results-5.json",
+    "summary": "rsgpt rc=0 (GPU) in 80.2s"
+  },
+  "A317_int1": {
+    "tool_id": "rsgpt",
+    "image": "registry.rayca.org/rayca-tools/rsgpt:latest",
+    "rc": 0,
+    "gpu": true,
+    "duration_s": 78.4,
+    "files_written": [
+      "rsgpt-results-6.json"
+    ],
+    "staged_files": [],
+    "output": {
+      "summary": "RSGPT retrosynthesis for Nc1nc([C@H]2CCCN2c2ccccn2)cs1: 15 candidate reactant set(s) in 7.2s (beam_size=15). Top-1: CC(C)(C)OC(=O)N1CCC[C@@H]1c1csc(N)n1",
+      "product": "Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+      "reactants": [
+        "CC(C)(C)OC(=O)N1CCC[C@@H]1c1csc(N)n1",
+        "CC(C)(C)OC(=O)Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)OCc1ccccc1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H]1c1nc(N)sc1",
+        "COC(=O)c1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "Nc1nc([C@H]2CCCN2)cs1.Fc1ccccn1",
+        "CC(=O)Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)OCc1ccccc1",
+        "Clc1ccccn1.Nc1nc([C@H]2CCCN2)cs1",
+        "Nc1nc([C@@H]2CCCN2c2ccccn2)cs1",
+        "NC(N)=S.O=C(CBr)c1ccccn1",
+        "O=[N+]([O-])c1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "CC(C)(C)OC(=O)Nc1nc([C@H]2CCCN2)cs1",
+        "Brc1ccccn1.Nc1nc([C@H]2CCCN2)cs1"
+      ],
+      "predicted_reactions": [
+        "CC(C)(C)OC(=O)N1CCC[C@@H]1c1csc(N)n1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "CC(C)(C)OC(=O)Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "O=C(Nc1nc([C@H]2CCCN2)cs1)OCc1ccccc1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "CC(C)(C)OC(=O)N1CCC[C@@H]1c1nc(N)sc1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "COC(=O)c1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "Nc1nc([C@H]2CCCN2)cs1.Fc1ccccn1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "CC(=O)Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)OCc1ccccc1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "Clc1ccccn1.Nc1nc([C@H]2CCCN2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "Nc1nc([C@@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "NC(N)=S.O=C(CBr)c1ccccn1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "O=[N+]([O-])c1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "CC(C)(C)OC(=O)Nc1nc([C@H]2CCCN2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+        "Brc1ccccn1.Nc1nc([C@H]2CCCN2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1"
+      ],
+      "num_predictions": 15
+    },
+    "output_saved_to": "rsgpt-results-6.json",
+    "summary": "rsgpt rc=0 (GPU) in 78.4s"
+  },
+  "7977_int1": {
+    "tool_id": "rsgpt",
+    "image": "registry.rayca.org/rayca-tools/rsgpt:latest",
+    "rc": 0,
+    "gpu": true,
+    "duration_s": 78.1,
+    "files_written": [
+      "rsgpt-results-7.json"
+    ],
+    "staged_files": [],
+    "output": {
+      "summary": "RSGPT retrosynthesis for Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21: 15 candidate reactant set(s) in 7.3s (beam_size=15). Top-1: Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.OB(O)c1cc(Cl)ccc1F",
+      "product": "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+      "reactants": [
+        "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.OB(O)c1cc(Cl)ccc1F",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1I.O=c1[nH]c2cnccc2[nH]1",
+        "CI.O=c1[nH]c2cnccc2n1-c1cc(-c2cc(Cl)ccc2F)ccn1",
+        "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "CC1(C)OB(c2cc(-n3c(=O)[nH]c4cnccc43)ccc2F)OC1(C)C.Cc1cnc(Br)cc1Cl",
+        "Cc1cnc(Br)cc1-n1c(=O)[nH]c2cnccc21.OB(O)c1cc(Cl)ccc1F",
+        "CNc1ccc2[nH]c(=O)n(-c3cc(Br)ccc3F)c2c1.OB(O)c1cc(Cl)ccc1F",
+        "CC1(C)OB(c2cc(Cl)ccc2F)OC1(C)C.Cc1cnc(-c2cc(Cl)ccc2F)cc1I",
+        "CC1(C)OB(c2cc(-n3c(=O)[nH]c4cnccc43)ccc2F)OC1(C)C.Cc1cnc(Br)cc1-n1c(=O)[nH]c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1B(O)O.O=c1[nH]c2cnccc2[nH]1",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1Br.O=c1[nH]c2cnccc2[nH]1",
+        "CC1(C)OB(c2cc(Cl)ccc2F)OC1(C)C.Cc1cnc(-c2cc(Cl)ccc2F)cc1Cl",
+        "Cc1c[nH]c(-c2cc(Br)ccc2F)c1.O=c1[nH]c2cnccc2[nH]1",
+        "CNc1ccncc1N.Cc1cnc(-c2cc(Cl)ccc2F)cc1I",
+        "CI.O=c1[nH]c2cnccc2n1-c1cc(-c2ccc(Cl)cc2F)ccn1"
+      ],
+      "predicted_reactions": [
+        "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.OB(O)c1cc(Cl)ccc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1I.O=c1[nH]c2cnccc2[nH]1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "CI.O=c1[nH]c2cnccc2n1-c1cc(-c2cc(Cl)ccc2F)ccn1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)[nH]c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "CC1(C)OB(c2cc(-n3c(=O)[nH]c4cnccc43)ccc2F)OC1(C)C.Cc1cnc(Br)cc1Cl>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "Cc1cnc(Br)cc1-n1c(=O)[nH]c2cnccc21.OB(O)c1cc(Cl)ccc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "CNc1ccc2[nH]c(=O)n(-c3cc(Br)ccc3F)c2c1.OB(O)c1cc(Cl)ccc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "CC1(C)OB(c2cc(Cl)ccc2F)OC1(C)C.Cc1cnc(-c2cc(Cl)ccc2F)cc1I>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "CC1(C)OB(c2cc(-n3c(=O)[nH]c4cnccc43)ccc2F)OC1(C)C.Cc1cnc(Br)cc1-n1c(=O)[nH]c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1B(O)O.O=c1[nH]c2cnccc2[nH]1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "Cc1cnc(-c2cc(Cl)ccc2F)cc1Br.O=c1[nH]c2cnccc2[nH]1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "CC1(C)OB(c2cc(Cl)ccc2F)OC1(C)C.Cc1cnc(-c2cc(Cl)ccc2F)cc1Cl>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "Cc1c[nH]c(-c2cc(Br)ccc2F)c1.O=c1[nH]c2cnccc2[nH]1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "CNc1ccncc1N.Cc1cnc(-c2cc(Cl)ccc2F)cc1I>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21",
+        "CI.O=c1[nH]c2cnccc2n1-c1cc(-c2ccc(Cl)cc2F)ccn1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21"
+      ],
+      "num_predictions": 15
+    },
+    "output_saved_to": "rsgpt-results-7.json",
+    "summary": "rsgpt rc=0 (GPU) in 78.1s"
+  }
+}

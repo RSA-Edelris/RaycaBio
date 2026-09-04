@@ -1,0 +1,39 @@
+{
+ "summary": "RSGPT retrosynthesis for Nc1nc2c(F)cc(F)cc2s1: 15 candidate reactant set(s) in 7.0s (beam_size=15). Top-1: O=[N+]([O-])c1nc2c(F)cc(F)cc2s1",
+ "product": "Nc1nc2c(F)cc(F)cc2s1",
+ "reactants": [
+  "O=[N+]([O-])c1nc2c(F)cc(F)cc2s1",
+  "CC(=O)Nc1nc2c(F)cc(F)cc2s1",
+  "CC(C)(C)OC(=O)Nc1nc2c(F)cc(F)cc2s1",
+  "Nc1nc2c(F)cc(F)cc2s1",
+  "N#Cc1nc2c(F)cc(F)cc2s1",
+  "Fc1cc(F)c2nc(Cl)sc2c1",
+  "Clc1nc2c(F)cc(F)cc2s1",
+  "O=C(Nc1nc2c(F)cc(F)cc2s1)OCc1ccccc1",
+  "O=C(Nc1nc2c(F)cc(F)cc2s1)OC(C)(C)C",
+  "N#Cc1c(F)cc(F)cc1F",
+  "Nc1nc2c(F)cc(F)cc2s1Br",
+  "NC(N)=S.O=C(CBr)c1ccc(F)cc1F",
+  "O=C(Nc1nc2c(F)cc(F)cc2s1)C(F)(F)F",
+  "[N-]=[N+]=Nc1nc2c(F)cc(F)cc2s1",
+  "NC(=S)Nc1c(F)cc(F)cc1F"
+ ],
+ "predicted_reactions": [
+  "O=[N+]([O-])c1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+  "CC(=O)Nc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+  "CC(C)(C)OC(=O)Nc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+  "Nc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+  "N#Cc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+  "Fc1cc(F)c2nc(Cl)sc2c1>>Nc1nc2c(F)cc(F)cc2s1",
+  "Clc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+  "O=C(Nc1nc2c(F)cc(F)cc2s1)OCc1ccccc1>>Nc1nc2c(F)cc(F)cc2s1",
+  "O=C(Nc1nc2c(F)cc(F)cc2s1)OC(C)(C)C>>Nc1nc2c(F)cc(F)cc2s1",
+  "N#Cc1c(F)cc(F)cc1F>>Nc1nc2c(F)cc(F)cc2s1",
+  "Nc1nc2c(F)cc(F)cc2s1Br>>Nc1nc2c(F)cc(F)cc2s1",
+  "NC(N)=S.O=C(CBr)c1ccc(F)cc1F>>Nc1nc2c(F)cc(F)cc2s1",
+  "O=C(Nc1nc2c(F)cc(F)cc2s1)C(F)(F)F>>Nc1nc2c(F)cc(F)cc2s1",
+  "[N-]=[N+]=Nc1nc2c(F)cc(F)cc2s1>>Nc1nc2c(F)cc(F)cc2s1",
+  "NC(=S)Nc1c(F)cc(F)cc1F>>Nc1nc2c(F)cc(F)cc2s1"
+ ],
+ "num_predictions": 15
+}

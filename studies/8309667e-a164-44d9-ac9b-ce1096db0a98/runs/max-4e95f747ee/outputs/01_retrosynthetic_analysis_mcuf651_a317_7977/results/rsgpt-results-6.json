@@ -1,0 +1,39 @@
+{
+ "summary": "RSGPT retrosynthesis for Nc1nc([C@H]2CCCN2c2ccccn2)cs1: 15 candidate reactant set(s) in 7.2s (beam_size=15). Top-1: CC(C)(C)OC(=O)N1CCC[C@@H]1c1csc(N)n1",
+ "product": "Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+ "reactants": [
+  "CC(C)(C)OC(=O)N1CCC[C@@H]1c1csc(N)n1",
+  "CC(C)(C)OC(=O)Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)OCc1ccccc1",
+  "CC(C)(C)OC(=O)N1CCC[C@@H]1c1nc(N)sc1",
+  "COC(=O)c1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "Nc1nc([C@H]2CCCN2)cs1.Fc1ccccn1",
+  "CC(=O)Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)OCc1ccccc1",
+  "Clc1ccccn1.Nc1nc([C@H]2CCCN2)cs1",
+  "Nc1nc([C@@H]2CCCN2c2ccccn2)cs1",
+  "NC(N)=S.O=C(CBr)c1ccccn1",
+  "O=[N+]([O-])c1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "CC(C)(C)OC(=O)Nc1nc([C@H]2CCCN2)cs1",
+  "Brc1ccccn1.Nc1nc([C@H]2CCCN2)cs1"
+ ],
+ "predicted_reactions": [
+  "CC(C)(C)OC(=O)N1CCC[C@@H]1c1csc(N)n1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "CC(C)(C)OC(=O)Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)OCc1ccccc1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "CC(C)(C)OC(=O)N1CCC[C@@H]1c1nc(N)sc1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "COC(=O)c1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "Nc1nc([C@H]2CCCN2)cs1.Fc1ccccn1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "CC(=O)Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)OCc1ccccc1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "Clc1ccccn1.Nc1nc([C@H]2CCCN2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "Nc1nc([C@@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "NC(N)=S.O=C(CBr)c1ccccn1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "O=[N+]([O-])c1nc([C@H]2CCCN2c2ccccn2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "CC(C)(C)OC(=O)Nc1nc([C@H]2CCCN2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "Brc1ccccn1.Nc1nc([C@H]2CCCN2)cs1>>Nc1nc([C@H]2CCCN2c2ccccn2)cs1"
+ ],
+ "num_predictions": 15
+}

@@ -1,0 +1,39 @@
+{
+ "summary": "RSGPT retrosynthesis for CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1: 15 candidate reactant set(s) in 8.5s (beam_size=15). Top-1: CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1",
+ "product": "CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+ "reactants": [
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1",
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(cc(F)cc2F)s1",
+  "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1",
+  "CN(C)CCCl.O=C(Nc1nc2c(F)cc(F)cc2s1)[C@@H]1CCCNC1",
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(s1)cc(F)cc2F",
+  "CN(C)CCCl.O=C(Nc1nc2c(s1)cc(F)cc2F)[C@@H]1CCCNC1",
+  "CN(C)CCN1CCC[C@@H](N)C1.O=C(O)c1nc2c(F)cc(F)cc2s1",
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(s1)c(F)cc(F)cc2F",
+  "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(cc(F)cc2F)s1",
+  "CN(C)CCN1CCC[C@H](C(=O)Cl)C1.Nc1nc2c(F)cc(F)cc2s1",
+  "CN(C)CCCl.O=C(Nc1nc2c(cc(F)cc2F)s1)[C@@H]1CCCNC1",
+  "CN(C)CCCl.Nc1nc2c(F)cc(F)cc2s1.CN(C)CCN1CCC[C@H](O)C1",
+  "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(s1)cc(F)cc2F",
+  "CN(C)CCCl.Nc1nc2c(F)cc(F)cc2s1.CN(C)CCN1CCC[C@H](C(=O)O)C1",
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc1F)cc(F)cc2F"
+ ],
+ "predicted_reactions": [
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(cc(F)cc2F)s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(F)cc(F)cc2s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCCl.O=C(Nc1nc2c(F)cc(F)cc2s1)[C@@H]1CCCNC1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(s1)cc(F)cc2F>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCCl.O=C(Nc1nc2c(s1)cc(F)cc2F)[C@@H]1CCCNC1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCN1CCC[C@@H](N)C1.O=C(O)c1nc2c(F)cc(F)cc2s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(s1)c(F)cc(F)cc2F>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(cc(F)cc2F)s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCN1CCC[C@H](C(=O)Cl)C1.Nc1nc2c(F)cc(F)cc2s1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCCl.O=C(Nc1nc2c(cc(F)cc2F)s1)[C@@H]1CCCNC1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCCl.Nc1nc2c(F)cc(F)cc2s1.CN(C)CCN1CCC[C@H](O)C1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCN1CCC[C@@H](C(=O)O)C1.Nc1nc2c(s1)cc(F)cc2F>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCCl.Nc1nc2c(F)cc(F)cc2s1.CN(C)CCN1CCC[C@H](C(=O)O)C1>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1",
+  "CN(C)CCN1CCC[C@H](C(=O)O)C1.Nc1nc2c(F)cc1F)cc(F)cc2F>>CN(C)CCN1CCC[C@H](C(=O)Nc2nc3c(F)cc(F)cc3s2)C1"
+ ],
+ "num_predictions": 15
+}

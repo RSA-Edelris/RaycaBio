@@ -1,0 +1,39 @@
+{
+ "summary": "RSGPT retrosynthesis for Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21: 15 candidate reactant set(s) in 7.6s (beam_size=15). Top-1: Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+ "product": "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+ "reactants": [
+  "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.NC(=O)CI",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.NC(=O)CBr",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(=O)O)c2cnccc21",
+  "Cc1cnc(-c2cc(Br)cc(-n3c(=O)n(CC(N)=O)c4cnccc43)c2)cc1F",
+  "Cc1cnc(-c2cc(Br)cc(F)c2)c(-n2c(=O)n(CC(N)=O)c3cnccc32)c1",
+  "CC(=O)Cn1c(=O)n(-c2cc(Br)ccc2F)c2cnccc21.C[Sn](C)(C)c1cc(Cl)ccc1F",
+  "Cc1cnc(Br)cc1-n1c(=O)n(CC(N)=O)c2cnccc21.OB(O)c1cc(Cl)ccc1F",
+  "Cc1cnc(-c2cc(Br)cc(-n3c(=O)n(CC(N)=O)c4cnccc43)c2)c(F)c1",
+  "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21.OB(O)c1cc(Cl)ccc1F",
+  "CCOC(=O)Cn1c(=O)n(-c2cc(-c3cc(Cl)ccc3F)ccc2C)c2cnccc21",
+  "COC(=O)Cn1c(=O)n(-c2cc(-c3cc(Cl)ccc3F)ccc2C)c2cnccc21",
+  "CC(=O)n1c2cnccc2n(CC(=O)O)c1=O.Cc1cnc(-c2cc(Cl)ccc2F)cc1N",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(=O)OCc2ccccc2)c2cnccc21"
+ ],
+ "predicted_reactions": [
+  "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.NC(=O)CI>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)[nH]c2cnccc21.NC(=O)CBr>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(=O)O)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Br)cc(-n3c(=O)n(CC(N)=O)c4cnccc43)c2)cc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Br)cc(F)c2)c(-n2c(=O)n(CC(N)=O)c3cnccc32)c1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "CC(=O)Cn1c(=O)n(-c2cc(Br)ccc2F)c2cnccc21.C[Sn](C)(C)c1cc(Cl)ccc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(Br)cc1-n1c(=O)n(CC(N)=O)c2cnccc21.OB(O)c1cc(Cl)ccc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Br)cc(-n3c(=O)n(CC(N)=O)c4cnccc43)c2)c(F)c1>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Br)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21.OB(O)c1cc(Cl)ccc1F>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "CCOC(=O)Cn1c(=O)n(-c2cc(-c3cc(Cl)ccc3F)ccc2C)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "COC(=O)Cn1c(=O)n(-c2cc(-c3cc(Cl)ccc3F)ccc2C)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "CC(=O)n1c2cnccc2n(CC(=O)O)c1=O.Cc1cnc(-c2cc(Cl)ccc2F)cc1N>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21",
+  "Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(=O)OCc2ccccc2)c2cnccc21>>Cc1cnc(-c2cc(Cl)ccc2F)cc1-n1c(=O)n(CC(N)=O)c2cnccc21"
+ ],
+ "num_predictions": 15
+}

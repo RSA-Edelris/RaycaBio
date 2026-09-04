@@ -1,0 +1,39 @@
+{
+ "summary": "RSGPT retrosynthesis for O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1: 15 candidate reactant set(s) in 7.1s (beam_size=15). Top-1: O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Fc1ccccn1",
+ "product": "O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+ "reactants": [
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Fc1ccccn1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Clc1ccccn1",
+  "Nc1nc([C@H]2CCCN2)cs1.O=C(O)c1cccn1Cc1ccncc1",
+  "Nc1nc([C@H]2CCCN2c2ccccn2)cs1.O=C(O)c1cccn1Cc1ccncc1",
+  "O=C(O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2)cs1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(Cl)c1ccccn1",
+  "Clc1ccccn1.O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1",
+  "O=C(O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(O)c1ccccn1",
+  "COC(=O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "O=C(Cl)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(Cl)c1cccn1Cc1ccncc1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(O)c1cccn1Cc1ccncc1",
+  "ClCc1ccncc1.O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1",
+  "CCOC(=O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1"
+ ],
+ "predicted_reactions": [
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Fc1ccccn1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.Clc1ccccn1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "Nc1nc([C@H]2CCCN2)cs1.O=C(O)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "Nc1nc([C@H]2CCCN2c2ccccn2)cs1.O=C(O)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "O=C(O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(Cl)c1ccccn1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "Clc1ccccn1.O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "O=C(O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(O)c1ccccn1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "COC(=O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "O=C(Cl)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(Cl)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1.O=C(O)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "ClCc1ccncc1.O=C(Nc1nc([C@H]2CCCN2)cs1)c1cccn1Cc1ccncc1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1",
+  "CCOC(=O)c1cccn1Cc1ccncc1.Nc1nc([C@H]2CCCN2c2ccccn2)cs1>>O=C(Nc1nc([C@H]2CCCN2c2ccccn2)cs1)c1cccn1Cc1ccncc1"
+ ],
+ "num_predictions": 15
+}
