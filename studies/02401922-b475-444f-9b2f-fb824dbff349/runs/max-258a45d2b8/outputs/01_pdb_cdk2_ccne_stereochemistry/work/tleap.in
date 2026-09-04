@@ -1,0 +1,23 @@
+
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+source leaprc.water.tip3p
+
+loadamberparams ligand.frcmod
+LIG = loadmol2 ligand.mol2
+
+# Load receptor (already has H from PDBFixer)
+REC = loadpdb receptor_prepared.pdb
+
+# Load best docked pose
+DOCKED = loadpdb best_pose.pdb
+
+# Build complex
+COM = combine {REC DOCKED}
+
+# Single-point — no solvent for gas-phase MM/GBSA
+saveamberparm COM complex.prmtop complex.inpcrd
+saveamberparm REC receptor.prmtop receptor.inpcrd
+saveamberparm DOCKED ligand_amber.prmtop ligand_amber.inpcrd
+
+quit

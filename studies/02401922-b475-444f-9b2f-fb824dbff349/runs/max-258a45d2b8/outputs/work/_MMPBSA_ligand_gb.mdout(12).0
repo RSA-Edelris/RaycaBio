@@ -1,0 +1,29 @@
+Reading parm file (/home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1020521/lig_dock.prmtop)
+title:
+MOL                                                                             
+	mm_options:  e_debug=2
+	mm_options:  gb=5
+	mm_options:  rgbmax=25.000000
+	mm_options:  gbsa=0
+	mm_options:  surften=0.007200
+	mm_options:  cut=999.000000
+	mm_options:  epsext=78.300000
+	mm_options:  kappa=0.127315
+Processing ASCII trajectory (_MMPBSA_ligand.mdcrd.0)
+
+Processing frame 1
+      iter    Total       bad      vdW     elect   nonpolar   genBorn      frms
+/home/conda/feedstock_root/build_artifacts/ambertools_1784081780839/work/AmberTools/src/sff/eff.c(2672) enb14 --> 4911355782724.538
+/home/conda/feedstock_root/build_artifacts/ambertools_1784081780839/work/AmberTools/src/sff/eff.c(2673) eel14 -->   181.148
+/home/conda/feedstock_root/build_artifacts/ambertools_1784081780839/work/AmberTools/src/sff/eff.c(2731) enb --> 15584.912
+/home/conda/feedstock_root/build_artifacts/ambertools_1784081780839/work/AmberTools/src/sff/eff.c(2732) eel -->   -50.311
+/home/conda/feedstock_root/build_artifacts/ambertools_1784081780839/work/AmberTools/src/sff/eff.c(2733) e_gb -->   -79.655
+/home/conda/feedstock_root/build_artifacts/ambertools_1784081780839/work/AmberTools/src/sff/eff.c(2734) esurf -->     0.000
+/home/conda/feedstock_root/build_artifacts/ambertools_1784081780839/work/AmberTools/src/sff/eff.c(2735) evdwnp -->     0.000
+ff:     0 4911355800370.71   2010.08 4911355798309.45    130.84      0.00    -79.66  3.13e+13
+ BOND    =       22.1393  ANGLE   =     1662.3549  DIHED      =      325.5814
+ VDWAALS =    15584.9122  EEL     =      -50.3105  EGB        =      -79.6554
+ 1-4 VDW = 4911355782724.5381  1-4 EEL =      181.1479  RESTRAINT  =        0.0000
+ ESURF   =        0.0000
+
+MM/GBSA processing done!

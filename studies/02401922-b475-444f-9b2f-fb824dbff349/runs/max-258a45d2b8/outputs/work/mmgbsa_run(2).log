@@ -1,0 +1,17 @@
+
+=== CTX-1020521 (lig61, nc=+1) ===
+Traceback (most recent call last):
+  File "/home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/run_mmgbsa.py", line 27, in <module>
+    r = subprocess.run([antechamber,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/usr/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/antechamber', '-i', '/home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/ligands_3d/lig61.sdf', '-fi', 'sdf', '-o', '/home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1020521/lig.mol2', '-fo', 'mol2', '-c', 'bcc', '-s', '2', '-nc', '1', '-pf', 'yes', '-at', 'gaff2']' timed out after 300 seconds

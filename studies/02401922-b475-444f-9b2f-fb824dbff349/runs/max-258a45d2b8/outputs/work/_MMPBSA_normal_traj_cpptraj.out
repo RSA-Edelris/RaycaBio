@@ -1,0 +1,168 @@
+
+CPPTRAJ: Trajectory Analysis. V7.6.2 (AmberTools)
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 08/27/26 12:59:57
+| Available memory: 5.852 GB
+
+	Reading 'complex.prmtop' as Amber Topology
+	Radius Set: modified Bondi radii (mbondi)
+INPUT: Reading input from 'STDIN'
+  [trajin complex.inpcrd 1 1 1]
+	Reading 'complex.inpcrd' as Amber Restart
+  [noprogress]
+	Progress bar will not be used during Run.
+  [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+    RMSD: (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), reference is first frame (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [outtraj _MMPBSA_complex.pdb onlyframes 1 nobox pdb]
+	Saving frames 1
+	Writing '_MMPBSA_complex.pdb' as PDB
+    OUTTRAJ: Writing frames associated with topology 'complex.prmtop'
+  [outtraj _MMPBSA_dummycomplex.inpcrd onlyframes 1 nobox restart]
+	Saving frames 1
+	Writing '_MMPBSA_dummycomplex.inpcrd' as Amber Restart
+    OUTTRAJ: Writing frames associated with topology 'complex.prmtop'
+  [outtraj _MMPBSA_complex.mdcrd.0 onlyframes 1-1 nobox]
+Warning: Format not specified and extension '.0' not recognized. Defaulting to Amber Trajectory.
+	Saving frames 1
+	Writing '_MMPBSA_complex.mdcrd.0' as Amber Trajectory
+    OUTTRAJ: Writing frames associated with topology 'complex.prmtop'
+  [strip :567]
+    STRIP: Stripping atoms in mask [:567]
+  [outtraj _MMPBSA_receptor.pdb onlyframes 1 nobox pdb]
+	Saving frames 1
+	Writing '_MMPBSA_receptor.pdb' as PDB
+    OUTTRAJ: Writing frames associated with topology 'complex.prmtop'
+  [outtraj _MMPBSA_dummyreceptor.inpcrd onlyframes 1 nobox restart]
+	Saving frames 1
+	Writing '_MMPBSA_dummyreceptor.inpcrd' as Amber Restart
+    OUTTRAJ: Writing frames associated with topology 'complex.prmtop'
+  [outtraj _MMPBSA_receptor.mdcrd.0 onlyframes 1-1 nobox]
+Warning: Format not specified and extension '.0' not recognized. Defaulting to Amber Trajectory.
+	Saving frames 1
+	Writing '_MMPBSA_receptor.mdcrd.0' as Amber Trajectory
+    OUTTRAJ: Writing frames associated with topology 'complex.prmtop'
+  [unstrip]
+  [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+    RMSD: (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), reference is first frame (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [strip :1-566]
+    STRIP: Stripping atoms in mask [:1-566]
+  [outtraj _MMPBSA_ligand.pdb onlyframes 1 nobox pdb]
+	Saving frames 1
+	Writing '_MMPBSA_ligand.pdb' as PDB
+    OUTTRAJ: Writing frames associated with topology 'complex.prmtop'
+  [outtraj _MMPBSA_dummyligand.inpcrd onlyframes 1 nobox restart]
+	Saving frames 1
+	Writing '_MMPBSA_dummyligand.inpcrd' as Amber Restart
+    OUTTRAJ: Writing frames associated with topology 'complex.prmtop'
+  [outtraj _MMPBSA_ligand.mdcrd.0 onlyframes 1-1 nobox]
+Warning: Format not specified and extension '.0' not recognized. Defaulting to Amber Trajectory.
+	Saving frames 1
+	Writing '_MMPBSA_ligand.mdcrd.0' as Amber Trajectory
+    OUTTRAJ: Writing frames associated with topology 'complex.prmtop'
+  [unstrip]
+  [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+    RMSD: (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), reference is first frame (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: complex.prmtop, 9308 atoms, 567 res, box: None, 4 mol
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'complex.inpcrd' is an AMBER restart file, no velocities, Parm complex.prmtop (reading 1 of 1)
+  Coordinate processing will occur on 1 frames.
+
+BEGIN TRAJECTORY PROCESSING:
+.....................................................
+ACTION SETUP FOR PARM 'complex.prmtop' (16 actions):
+  0: [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+	Target mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9308)
+	Reference topology: complex.prmtop
+	Reference mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9308)
+  1: [outtraj _MMPBSA_complex.pdb onlyframes 1 nobox pdb]
+        '_MMPBSA_complex.pdb' is a PDB file, Parm complex.prmtop no box info,: Writing frames 1
+	Has coordinates
+  2: [outtraj _MMPBSA_dummycomplex.inpcrd onlyframes 1 nobox restart]
+        '_MMPBSA_dummycomplex.inpcrd' is an AMBER restart file, Parm complex.prmtop no box info,: Writing frames 1
+	Has coordinates
+  3: [outtraj _MMPBSA_complex.mdcrd.0 onlyframes 1-1 nobox]
+        '_MMPBSA_complex.mdcrd.0' is an AMBER trajectory, Parm complex.prmtop no box info,: Writing frames 1
+	Has coordinates
+  4: [strip :567]
+	Stripping 73 atoms.
+	Stripped topology: 9235 atoms, 566 res, box: None, 3 mol
+  5: [outtraj _MMPBSA_receptor.pdb onlyframes 1 nobox pdb]
+        '_MMPBSA_receptor.pdb' is a PDB file, Parm complex.prmtop no box info,: Writing frames 1
+	Has coordinates
+  6: [outtraj _MMPBSA_dummyreceptor.inpcrd onlyframes 1 nobox restart]
+        '_MMPBSA_dummyreceptor.inpcrd' is an AMBER restart file, Parm complex.prmtop no box info,: Writing frames 1
+	Has coordinates
+  7: [outtraj _MMPBSA_receptor.mdcrd.0 onlyframes 1-1 nobox]
+        '_MMPBSA_receptor.mdcrd.0' is an AMBER trajectory, Parm complex.prmtop no box info,: Writing frames 1
+	Has coordinates
+  8: [unstrip]
+  9: [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+	Target mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9308)
+	Reference topology: complex.prmtop
+	Reference mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9308)
+  10: [strip :1-566]
+	Stripping 9235 atoms.
+	Stripped topology: 73 atoms, 1 res, box: None, 1 mol
+  11: [outtraj _MMPBSA_ligand.pdb onlyframes 1 nobox pdb]
+        '_MMPBSA_ligand.pdb' is a PDB file, Parm complex.prmtop no box info,: Writing frames 1
+	Has coordinates
+  12: [outtraj _MMPBSA_dummyligand.inpcrd onlyframes 1 nobox restart]
+        '_MMPBSA_dummyligand.inpcrd' is an AMBER restart file, Parm complex.prmtop no box info,: Writing frames 1
+	Has coordinates
+  13: [outtraj _MMPBSA_ligand.mdcrd.0 onlyframes 1-1 nobox]
+        '_MMPBSA_ligand.mdcrd.0' is an AMBER trajectory, Parm complex.prmtop no box info,: Writing frames 1
+	Has coordinates
+  14: [unstrip]
+  15: [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+	Target mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9308)
+	Reference topology: complex.prmtop
+	Reference mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9308)
+----- complex.inpcrd (1-1, 1) -----
+
+Read 1 frames and processed 1 frames.
+TIME: Avg. throughput= 10.9191 frames / second.
+
+ACTION OUTPUT:
+    OUTTRAJ: '_MMPBSA_complex.pdb': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_dummycomplex.inpcrd': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_complex.mdcrd.0': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_receptor.pdb': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_dummyreceptor.inpcrd': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_receptor.mdcrd.0': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_ligand.pdb': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_dummyligand.inpcrd': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_ligand.mdcrd.0': Wrote 1 frames.
+TIME: Analyses took 0.0000 seconds.
+
+DATASETS (3 total):
+	RMSD_00001 "RMSD_00001" (double, rms), size is 1 (0.008 kB)
+	RMSD_00002 "RMSD_00002" (double, rms), size is 1 (0.008 kB)
+	RMSD_00003 "RMSD_00003" (double, rms), size is 1 (0.008 kB)
+    Total data set memory usage is at least 0.024 kB
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.05%)
+TIME:		Trajectory Process : 0.0916 s ( 98.96%)
+TIME:		Action Post        : 0.0000 s (  0.01%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0001 s (  0.09%)
+TIME:		Other              : 0.0008 s (  0.01%)
+TIME:	Run Total 0.0925 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 0.1201 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+

@@ -1,0 +1,150 @@
+
+          -------------------------------------------------------
+          Amber 26 SANDER                              2026
+          -------------------------------------------------------
+
+| Run on 08/31/2026 at 14:21:34
+
+|   Executable path: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/sander
+| Working directory: /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1020751
+|          Hostname: Unknown
+  [-O]verwriting output
+
+File Assignments:
+|  MDIN: /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a
+| MDOUT: /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a
+|INPCRD: /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a
+|  PARM: /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a
+|RESTRT: /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a
+|  REFC: /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a
+| MDVEL: mdvel                                                                 
+| MDFRC: mdfrc                                                                 
+|  MDEN: mden                                                                  
+| MDCRD: mdcrd                                                                 
+|MDINFO: mdinfo                                                                
+|  MTMD: mtmd                                                                  
+|INPDIP: inpdip                                                                
+|RSTDIP: rstdip                                                                
+|INPTRA: inptraj                                                               
+
+
+ Here is the input file:
+
+Minimization                                                                   
+&cntrl                                                                         
+ imin=1, maxcyc=300, ncyc=100,                                                 
+ ntb=0, igb=5, cut=12.0,                                                       
+/                                                                              
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+| Flags:                                                                        
+| New format PARM file being parsed.
+| Version =    1.000 Date = 08/28/26 Time = 15:58:43
+ NATOM  =    9282 NTYPES =      26 NBONH =    4661 MBONA  =    4742
+ NTHETH =   10620 MTHETA =    6441 NPHIH =   21132 MPHIA  =   20321
+ NHPARM =       0 NPARM  =       0 NNB   =   51506 NRES   =     566
+ NBONA  =    4742 NTHETA =    6441 NPHIA =   20321 NUMBND =      89
+ NUMANG =     200 NPTRA  =     212 NATYP =      49 NPHB   =       0
+ IFBOX  =       0 NMXRS  =      58 IFCAP =       0 NEXTRA =       0
+ NCOPY  =       0
+
+ Implicit solvent radii are modified Bondi radii (mbondi)                                                   
+
+|     Memory Use     Allocated
+|     Real             1492729
+|     Hollerith          28414
+|     Integer           540169
+|     Max Pairs              1
+|     nblistReal             0
+|     nblist Int             0
+|       Total            13882 kbytes
+
+| Note: 1-4 EEL scale factors are being read from the topology file.
+
+| Note: 1-4 VDW scale factors are being read from the topology file.
+| Duplicated    0 dihedrals
+| Duplicated    0 dihedrals
+
+--------------------------------------------------------------------------------
+   2.  CONTROL  DATA  FOR  THE  RUN
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+
+General flags:
+     imin    =       1, nmropt  =       0
+
+Nature and format of input:
+     ntx     =       1, irest   =       0, ntrx    =       1
+
+Nature and format of output:
+     ntxo    =       2, ntpr    =      50, ntrx    =       1, ntwr    =       1
+     iwrap   =       0, ntwx    =       0, ntwv    =       0, ntwe    =       0
+     ioutfm  =       1, ntwprt  =       0, idecomp =       0, rbornstat=      0
+
+Potential function:
+     ntf     =       1, ntb     =       0, igb     =       5, nsnb    =      25
+     ipol    =       0, gbsa    =       0, iesp    =       0
+     dielc   =   1.00000, cut     =  12.00000, intdiel =   1.00000
+     saltcon =   0.00000, offset  =   0.09000, gbalpha=    1.00000
+     gbbeta  =   0.80000, gbgamma =   4.85000, surften =   0.00500
+     rdt     =   0.00000, rgbmax  =  25.00000  extdiel =  78.50000
+     alpb  =        0
+
+Frozen or restrained atoms:
+     ibelly  =       0, ntr     =       0
+
+Energy minimization:
+     maxcyc  =     300, ncyc    =     100, ntmin   =       1
+     dx0     =   0.01000, drms    =   0.00010
+|  INFO: Old style inpcrd file read
+
+
+--------------------------------------------------------------------------------
+   3.  ATOMIC COORDINATES AND VELOCITIES
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+ begin time read from input coords =     0.000 ps
+
+ Number of triangulated 3-point waters found:        0
+
+--------------------------------------------------------------------------------
+   4.  RESULTS
+--------------------------------------------------------------------------------
+
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+      1       9.9828E+04     7.7007E+02     6.3735E+04     HG23     2689
+
+ BOND    =    97281.5186  ANGLE   =     1549.4190  DIHED      =     6766.5958
+ VDWAALS =    12711.6101  EEL     =   -41684.7607  EGB        =    -5310.5351
+ 1-4 VDW =     2894.5252  1-4 EEL =    25619.6812  RESTRAINT  =        0.0000
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+     50      -9.9839E+03     6.2144E+00     5.0613E+02     C        7523
+
+ BOND    =     4394.3448  ANGLE   =     2301.8069  DIHED      =     6781.6999
+ VDWAALS =    -4201.8963  EEL     =   -41256.4902  EGB        =    -5748.4003
+ 1-4 VDW =     2585.2930  1-4 EEL =    25159.7849  RESTRAINT  =        0.0000
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    100      -1.5722E+04     1.1885E+00     3.7351E+01     C        7523
+
+ BOND    =      752.1874  ANGLE   =     1631.1495  DIHED      =     6747.4257
+ VDWAALS =    -4838.0608  EEL     =   -42086.1888  EGB        =    -4915.9386
+ 1-4 VDW =     2211.2433  1-4 EEL =    24776.4660  RESTRAINT  =        0.0000
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    150      -1.7129E+04     1.1366E+00     4.1155E+01     OD1      7519
+
+ BOND    =      426.8101  ANGLE   =     1430.2049  DIHED      =     6660.0552
+ VDWAALS =    -5124.6458  EEL     =   -42577.6700  EGB        =    -4513.8489
+ 1-4 VDW =     2011.7729  1-4 EEL =    24558.4700  RESTRAINT  =        0.0000

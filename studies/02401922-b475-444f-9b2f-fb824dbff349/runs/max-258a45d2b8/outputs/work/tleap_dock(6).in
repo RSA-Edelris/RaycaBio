@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+loadAmberParams /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1019813/lig.frcmod
+LIG = loadmol2 /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1019813/lig_docked.mol2
+REC = loadpdb /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/receptor_ab.pdb
+COM = combine {REC LIG}
+saveamberparm LIG /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1019813/lig_dock.prmtop /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1019813/lig_dock.rst7
+saveamberparm REC /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1019813/rec_dock.prmtop /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1019813/rec_dock.rst7
+saveamberparm COM /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1019813/complex_dock.prmtop /home/ubuntu/rayca-sessions/02401922-b475-444f-9b2f-fb824dbff349-fec3a540149a/mmgbsa/CTX-1019813/complex_dock.rst7
+quit

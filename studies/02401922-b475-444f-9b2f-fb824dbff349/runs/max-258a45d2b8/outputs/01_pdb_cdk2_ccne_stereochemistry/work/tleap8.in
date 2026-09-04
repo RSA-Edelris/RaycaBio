@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+loadamberparams ligand_mapped.frcmod
+LIG = loadmol2 ligand_mapped.mol2
+REC = loadpdb receptor_noh2.pdb
+COM = combine {REC LIG}
+saveamberparm COM  complex.prmtop  complex.inpcrd
+saveamberparm REC  receptor.prmtop receptor.inpcrd
+saveamberparm LIG  ligand_amber.prmtop ligand_amber.inpcrd
+quit

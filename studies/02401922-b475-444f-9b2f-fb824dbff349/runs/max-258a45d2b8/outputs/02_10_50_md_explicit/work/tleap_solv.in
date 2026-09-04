@@ -1,0 +1,13 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+source leaprc.water.tip3p
+loadamberparams ligand_mapped.frcmod
+LIG = loadmol2 ligand_mapped.mol2
+REC = loadpdb receptor_noh2.pdb
+COM = combine {REC LIG}
+solvateOct COM TIP3PBOX 10.0
+addIons COM Na+ 0
+addIonsRand COM Na+ 27 Cl- 27
+saveamberparm COM  complex_solv.prmtop  complex_solv.inpcrd
+savepdb COM complex_solv.pdb
+quit

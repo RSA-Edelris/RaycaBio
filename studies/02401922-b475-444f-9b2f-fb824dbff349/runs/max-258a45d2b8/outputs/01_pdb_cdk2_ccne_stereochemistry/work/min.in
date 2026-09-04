@@ -1,0 +1,9 @@
+Minimization of docked complex
+ &cntrl
+  imin=1, maxcyc=1500, ncyc=500,
+  ntb=0,               ! no periodic box (gas phase / implicit solvent)
+  igb=5, saltcon=0.15,
+  cut=999.0,           ! no cutoff for implicit solvent
+  ntr=1, restraintmask=':1-566', restraint_wt=5.0,  ! restrain receptor
+  ntpr=100,
+ /
