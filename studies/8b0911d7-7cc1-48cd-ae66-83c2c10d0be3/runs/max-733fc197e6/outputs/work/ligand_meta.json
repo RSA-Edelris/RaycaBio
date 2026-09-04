@@ -1,0 +1,58 @@
+[
+  {
+    "id": "EDS00760714-1",
+    "name": "Compound 32",
+    "kd": "1-5\u00b5M",
+    "cls": "Weak repro",
+    "smiles": "Cn1c(CN2CC3(CC3)C[C@@H]2c2cccc(C(=O)NCCF)n2)nc2ccccc21",
+    "smiles_orig": "Cn1c(cccc2)c2nc1CN(CC1(CC1)C1)C1c1cccc(C(NCCF)=O)n1",
+    "mw": 407.5,
+    "logp": 3.39,
+    "hba": 4,
+    "hbd": 1,
+    "rot": 6,
+    "sdf": "/home/ubuntu/rayca-sessions/8b0911d7-7cc1-48cd-ae66-83c2c10d0be3-c43f8bb507fc/ligands/EDS00760714-1.sdf"
+  },
+  {
+    "id": "EDS00760778-1",
+    "name": "Compound 16",
+    "kd": "<1\u00b5M",
+    "cls": "Medium repro",
+    "smiles": "Cn1c(CN2CC3(CC3)C[C@@H]2c2cccc(C(=O)NC3CCC3)n2)nc2ccccc21",
+    "smiles_orig": "Cn1c(cccc2)c2nc1CN(CC1(CC1)C1)C1c1cccc(C(NC2CCC2)=O)n1",
+    "mw": 415.5,
+    "logp": 3.98,
+    "hba": 4,
+    "hbd": 1,
+    "rot": 5,
+    "sdf": "/home/ubuntu/rayca-sessions/8b0911d7-7cc1-48cd-ae66-83c2c10d0be3-c43f8bb507fc/ligands/EDS00760778-1.sdf"
+  },
+  {
+    "id": "EDS00760778-2",
+    "name": ">  <Ranking_Reconfirmation>",
+    "kd": "?",
+    "cls": ">  <Increasing_signal>",
+    "smiles": "Cn1c(CN2CC3(CC3)C[C@H]2c2cccc(C(=O)NC3CCC3)n2)nc2ccccc21",
+    "smiles_orig": "",
+    "mw": 415.5,
+    "logp": 3.98,
+    "hba": 4,
+    "hbd": 1,
+    "rot": 5,
+    "sdf": "/home/ubuntu/rayca-sessions/8b0911d7-7cc1-48cd-ae66-83c2c10d0be3-c43f8bb507fc/ligands/EDS00760778-2.sdf"
+  },
+  {
+    "id": "EDS00760714-2",
+    "name": ">  <Ranking_Reconfirmation>",
+    "kd": "?",
+    "cls": ">  <Increasing_signal>",
+    "smiles": "Cn1c(CN2CC3(CC3)C[C@H]2c2cccc(C(=O)NCCF)n2)nc2ccccc21",
+    "smiles_orig": "",
+    "mw": 407.5,
+    "logp": 3.39,
+    "hba": 4,
+    "hbd": 1,
+    "rot": 6,
+    "sdf": "/home/ubuntu/rayca-sessions/8b0911d7-7cc1-48cd-ae66-83c2c10d0be3-c43f8bb507fc/ligands/EDS00760714-2.sdf"
+  }
+]

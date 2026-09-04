@@ -1,0 +1,14 @@
+{
+ "summary": "AutoDock-Vina-GPU 2.1 docked file EDS00760778-1.sdf into the box @(28.48,12.33,4.22) [22x28x24 A]; 5 pose(s), best affinity -7.30 kcal/mol (GPU/OpenCL: Platform #0: NVIDIA CUDA).",
+ "best_affinity_kcal_mol": -7.3,
+ "affinities_kcal_mol": [
+  -7.3,
+  -7.1,
+  -7.1,
+  -7.0,
+  -7.0
+ ],
+ "num_poses": 5,
+ "poses_pdbqt": "/work/vina_tk5vw02n/ligand_out.pdbqt",
+ "receptor_pdbqt": "/work/vina_tk5vw02n/receptor.pdbqt"
+}
