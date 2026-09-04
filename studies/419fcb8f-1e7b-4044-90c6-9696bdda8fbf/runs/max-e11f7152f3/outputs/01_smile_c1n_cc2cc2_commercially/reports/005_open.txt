@@ -1,0 +1,123 @@
+
+=== ROUTE 1 | solved=True | depth=12 | reactions=6 | leaves=3 in_stock=3 ===
+MOL: O=C1CCNc2cc3c(cc2CN1CC1CC1)OCO3
+  RXN: template=14600 class=0.0 Unrecognized prob=0.005 occ=56
+       [C:1]([CH3:2])[NH:3][c:4]1[cH:5][cH:6][c:7]([O:8][CH3:9])[cH:10][cH:11]1>>O=[C:1]([CH3:2])[NH:3][c:4]1[cH:5][cH:6][c:7](
+    MOL: O=C1CC(=O)N(CC2CC2)Cc2cc3c(cc2N1)OCO3
+      RXN: template=11766 class=0.0 Unrecognized prob=0.003 occ=13673
+           [C:1]([CH3:2])(=[O:3])[N:5]([CH3:4])[CH3:6]>>O[C:1]([CH3:2])=[O:3].[CH3:4][N:5][CH3:6]
+        MOL: O=C(O)CC(=O)Nc1cc2c(cc1CNCC1CC1)OCO2
+          RXN: template=2818 class=0.0 Unrecognized prob=0.247 occ=21925
+               [O:1][C:2]([CH3:3])=[O:4]>>C[O:1][C:2]([CH3:3])=[O:4]
+            MOL: COC(=O)CC(=O)Nc1cc2c(cc1CNCC1CC1)OCO2
+              RXN: template=29589 class=0.0 Unrecognized prob=0.143 occ=5220
+                   [C:1]([CH3:2])(=[O:3])[N:4][cH3:5]>>Cl[C:1]([CH3:2])=[O:3].[N:4][cH3:5]
+                MOL: COC(=O)CC(=O)Cl [IN STOCK]
+                MOL: Nc1cc2c(cc1CNCC1CC1)OCO2
+                  RXN: template=17064 class=0.0 Unrecognized prob=0.289 occ=33350
+                       [N:1][cH3:2]>>O=[N:1]([O-])[cH3:2]
+                    MOL: O=[N+]([O-])c1cc2c(cc1CNCC1CC1)OCO2
+                      RXN: template=17405 class=0.0 Unrecognized prob=0.599 occ=4845
+                           [C:1]([cH3:2])[N:4][CH3:3]>>O=[C:1][cH3:2].[CH3:3][N:4]
+                        MOL: NCC1CC1 [IN STOCK]
+                        MOL: O=Cc1cc2c(cc1[N+](=O)[O-])OCO2 [IN STOCK]
+
+=== ROUTE 2 | solved=False | depth=12 | reactions=6 | leaves=5 in_stock=4 ===
+MOL: O=C1CCNc2cc3c(cc2CN1CC1CC1)OCO3
+  RXN: template=6158 class=0.0 Unrecognized prob=0.039 occ=265
+       [C:1]([CH3:2])[N:6]([C:4]([CH3:3])=[O:5])[CH3:7]>>Br[C:1][CH3:2].[CH3:3][C:4](=[O:5])[N:6][CH3:7]
+    MOL: BrCC1CC1 [IN STOCK]
+    MOL: O=C1CCNc2cc3c(cc2CN1)OCO3
+      RXN: template=12818 class=0.0 Unrecognized prob=0.003 occ=109
+           [C:1]1[O:2][cH:3][cH:4][O:5]1>>CN(C)[C:1]=O.[O:2][cH:3][cH:4][O:5]
+        MOL: CN(C)C=O [IN STOCK]
+        MOL: O=C1CCNc2cc(O)c(O)cc2CN1
+          RXN: template=17606 class=0.0 Unrecognized prob=0.011 occ=6005
+               [cH3:1][O:2]>>c1ccc(C[O:2][cH3:1])cc1
+            MOL: O=C1CCNc2cc(OCc3ccccc3)c(O)cc2CN1
+              RXN: template=31122 class=0.0 Unrecognized prob=0.087 occ=964
+                   [O:1][cH3:2]>>CC(=O)[O:1][cH3:2]
+                MOL: CC(=O)Oc1cc2c(cc1OCc1ccccc1)NCCC(=O)NC2
+                  RXN: template=14455 class=0.0 Unrecognized prob=0.193 occ=5146
+                       [C:1]([cH3:2])[O:3][cH3:4]>>Br[C:1][cH3:2].[O:3][cH3:4]
+                    MOL: BrCc1ccccc1 [IN STOCK]
+                    MOL: CC(=O)Oc1cc2c(cc1O)NCCC(=O)NC2
+                      RXN: template=5183 class=0.0 Unrecognized prob=0.029 occ=104
+                           [O:1]([C:3]([CH3:2])=[O:4])[c:5]([cH2:6])[cH2:7]>>O=C(O[O:1])c1cccc(Cl)c1.[CH3:2][C:3](=[O:4])[c:5]([cH2:6])[cH2:7]
+                        MOL: O=C(OO)c1cccc(Cl)c1 [IN STOCK]
+                        MOL: CC(=O)c1cc2c(cc1O)NCCC(=O)NC2
+
+=== ROUTE 3 | solved=False | depth=12 | reactions=6 | leaves=5 in_stock=4 ===
+MOL: O=C1CCNc2cc3c(cc2CN1CC1CC1)OCO3
+  RXN: template=6158 class=0.0 Unrecognized prob=0.039 occ=265
+       [C:1]([CH3:2])[N:6]([C:4]([CH3:3])=[O:5])[CH3:7]>>Br[C:1][CH3:2].[CH3:3][C:4](=[O:5])[N:6][CH3:7]
+    MOL: BrCC1CC1 [IN STOCK]
+    MOL: O=C1CCNc2cc3c(cc2CN1)OCO3
+      RXN: template=12818 class=0.0 Unrecognized prob=0.003 occ=109
+           [C:1]1[O:2][cH:3][cH:4][O:5]1>>CN(C)[C:1]=O.[O:2][cH:3][cH:4][O:5]
+        MOL: CN(C)C=O [IN STOCK]
+        MOL: O=C1CCNc2cc(O)c(O)cc2CN1
+          RXN: template=17606 class=0.0 Unrecognized prob=0.011 occ=6005
+               [cH3:1][O:2]>>c1ccc(C[O:2][cH3:1])cc1
+            MOL: O=C1CCNc2cc(O)c(OCc3ccccc3)cc2CN1
+              RXN: template=31122 class=0.0 Unrecognized prob=0.091 occ=964
+                   [O:1][cH3:2]>>CC(=O)[O:1][cH3:2]
+                MOL: CC(=O)Oc1cc2c(cc1OCc1ccccc1)CNC(=O)CCN2
+                  RXN: template=14455 class=0.0 Unrecognized prob=0.193 occ=5146
+                       [C:1]([cH3:2])[O:3][cH3:4]>>Br[C:1][cH3:2].[O:3][cH3:4]
+                    MOL: BrCc1ccccc1 [IN STOCK]
+                    MOL: CC(=O)Oc1cc2c(cc1O)CNC(=O)CCN2
+                      RXN: template=5183 class=0.0 Unrecognized prob=0.033 occ=104
+                           [O:1]([C:3]([CH3:2])=[O:4])[c:5]([cH2:6])[cH2:7]>>O=C(O[O:1])c1cccc(Cl)c1.[CH3:2][C:3](=[O:4])[c:5]([cH2:6])[cH2:7]
+                        MOL: O=C(OO)c1cccc(Cl)c1 [IN STOCK]
+                        MOL: CC(=O)c1cc2c(cc1O)CNC(=O)CCN2
+
+=== ROUTE 4 | solved=False | depth=12 | reactions=6 | leaves=5 in_stock=4 ===
+MOL: O=C1CCNc2cc3c(cc2CN1CC1CC1)OCO3
+  RXN: template=29327 class=0.0 Unrecognized prob=0.001 occ=7055
+       [C:1]([CH3:2])[N:4]([CH3:3])[CH3:5]>>Cl[C:1][CH3:2].[CH3:3][N:4][CH3:5]
+    MOL: ClCC1CC1 [IN STOCK]
+    MOL: O=C1CCNc2cc3c(cc2CN1)OCO3
+      RXN: template=12818 class=0.0 Unrecognized prob=0.003 occ=109
+           [C:1]1[O:2][cH:3][cH:4][O:5]1>>CN(C)[C:1]=O.[O:2][cH:3][cH:4][O:5]
+        MOL: CN(C)C=O [IN STOCK]
+        MOL: O=C1CCNc2cc(O)c(O)cc2CN1
+          RXN: template=17606 class=0.0 Unrecognized prob=0.011 occ=6005
+               [cH3:1][O:2]>>c1ccc(C[O:2][cH3:1])cc1
+            MOL: O=C1CCNc2cc(OCc3ccccc3)c(O)cc2CN1
+              RXN: template=31122 class=0.0 Unrecognized prob=0.087 occ=964
+                   [O:1][cH3:2]>>CC(=O)[O:1][cH3:2]
+                MOL: CC(=O)Oc1cc2c(cc1OCc1ccccc1)NCCC(=O)NC2
+                  RXN: template=14455 class=0.0 Unrecognized prob=0.193 occ=5146
+                       [C:1]([cH3:2])[O:3][cH3:4]>>Br[C:1][cH3:2].[O:3][cH3:4]
+                    MOL: BrCc1ccccc1 [IN STOCK]
+                    MOL: CC(=O)Oc1cc2c(cc1O)NCCC(=O)NC2
+                      RXN: template=5183 class=0.0 Unrecognized prob=0.029 occ=104
+                           [O:1]([C:3]([CH3:2])=[O:4])[c:5]([cH2:6])[cH2:7]>>O=C(O[O:1])c1cccc(Cl)c1.[CH3:2][C:3](=[O:4])[c:5]([cH2:6])[cH2:7]
+                        MOL: O=C(OO)c1cccc(Cl)c1 [IN STOCK]
+                        MOL: CC(=O)c1cc2c(cc1O)NCCC(=O)NC2
+
+=== ROUTE 5 | solved=False | depth=12 | reactions=6 | leaves=5 in_stock=4 ===
+MOL: O=C1CCNc2cc3c(cc2CN1CC1CC1)OCO3
+  RXN: template=29327 class=0.0 Unrecognized prob=0.001 occ=7055
+       [C:1]([CH3:2])[N:4]([CH3:3])[CH3:5]>>Cl[C:1][CH3:2].[CH3:3][N:4][CH3:5]
+    MOL: ClCC1CC1 [IN STOCK]
+    MOL: O=C1CCNc2cc3c(cc2CN1)OCO3
+      RXN: template=12818 class=0.0 Unrecognized prob=0.003 occ=109
+           [C:1]1[O:2][cH:3][cH:4][O:5]1>>CN(C)[C:1]=O.[O:2][cH:3][cH:4][O:5]
+        MOL: CN(C)C=O [IN STOCK]
+        MOL: O=C1CCNc2cc(O)c(O)cc2CN1
+          RXN: template=17606 class=0.0 Unrecognized prob=0.011 occ=6005
+               [cH3:1][O:2]>>c1ccc(C[O:2][cH3:1])cc1
+            MOL: O=C1CCNc2cc(O)c(OCc3ccccc3)cc2CN1
+              RXN: template=31122 class=0.0 Unrecognized prob=0.091 occ=964
+                   [O:1][cH3:2]>>CC(=O)[O:1][cH3:2]
+                MOL: CC(=O)Oc1cc2c(cc1OCc1ccccc1)CNC(=O)CCN2
+                  RXN: template=14455 class=0.0 Unrecognized prob=0.193 occ=5146
+                       [C:1]([cH3:2])[O:3][cH3:4]>>Br[C:1][cH3:2].[O:3][cH3:4]
+                    MOL: BrCc1ccccc1 [IN STOCK]
+                    MOL: CC(=O)Oc1cc2c(cc1O)CNC(=O)CCN2
+                      RXN: template=5183 class=0.0 Unrecognized prob=0.033 occ=104
+                           [O:1]([C:3]([CH3:2])=[O:4])[c:5]([cH2:6])[cH2:7]>>O=C(O[O:1])c1cccc(Cl)c1.[CH3:2][C:3](=[O:4])[c:5]([cH2:6])[cH2:7]
+                        MOL: O=C(OO)c1cccc(Cl)c1 [IN STOCK]
+                        MOL: CC(=O)c1cc2c(cc1O)CNC(=O)CCN2
