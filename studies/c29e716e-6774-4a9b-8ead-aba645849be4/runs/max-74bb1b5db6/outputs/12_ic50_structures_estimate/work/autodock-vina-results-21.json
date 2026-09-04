@@ -1,0 +1,12 @@
+{
+ "summary": "AutoDock-Vina-GPU 2.1 docked SMILES Cc1c(C(=O)N2CCc3ccc(C(=O)NCc4ccc(F)cc4)nc3C2)oc2ccccc12 into the box @(28.78950740740741,4.090674074074074,-24.39952592592593) [25x25x25 A]; 3 pose(s), best affinity -12.70 kcal/mol (GPU/OpenCL: Platform #0: NVIDIA CUDA).",
+ "best_affinity_kcal_mol": -12.7,
+ "affinities_kcal_mol": [
+  -12.7,
+  -12.2,
+  -12.1
+ ],
+ "num_poses": 3,
+ "poses_pdbqt": "/work/vina_u_v_c_k8/ligand_out.pdbqt",
+ "receptor_pdbqt": "/work/vina_u_v_c_k8/receptor.pdbqt"
+}
