@@ -1,0 +1,20 @@
+{
+  "tool_id": "gnina",
+  "rc": 0,
+  "gpu": true,
+  "status": "success",
+  "note": "First dispatch failed (receptorFile used instead of proteinFile — wrong field name). Second dispatch with proteinFile succeeded. This record reflects the successful retry.",
+  "ligandName": "CTX-1020667",
+  "best_affinity_kcal_mol": -8.21,
+  "best_cnn_affinity": 7.271,
+  "best_cnn_pose_score": 0.4097,
+  "num_poses": 9,
+  "output_sdf_gz": "gnina_docked.sdf.gz",
+  "failed_first_attempt": {
+    "error": "missing_required_fields",
+    "missing": ["proteinFile"],
+    "rc": null,
+    "duration_s": 0.0,
+    "note": "Stale record from first failed call (used receptorFile instead of proteinFile). Retained for audit trail."
+  }
+}
