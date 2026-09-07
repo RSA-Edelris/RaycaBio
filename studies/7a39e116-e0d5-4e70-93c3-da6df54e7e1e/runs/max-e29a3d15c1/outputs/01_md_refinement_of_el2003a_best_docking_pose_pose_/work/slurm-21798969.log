@@ -1,0 +1,16 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"amber/24-gpu"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "amber/24-gpu"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+
+RAYCA: the job stopped at line 21 with exit 1
+RAYCA: the command was: return $__lmod_my_status
+RAYCA: if that command is allowed to fail, end it with || true

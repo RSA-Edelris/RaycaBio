@@ -1,0 +1,581 @@
+# Study: 7a39e116-e0d5-4e70-93c3-da6df54e7e1e
+
+> WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.
+
+## Run Identity
+
+- Run ID: `max-e29a3d15c1`
+- Published: 2026-09-07T17:57:23Z
+- Review: not reviewed
+
+## Tools and Environment
+
+- No tool version information recorded.
+
+## Outputs
+
+Files included in this repository:
+
+- `outputs/01_3d_conformer_generation_for_p922_results_2_sdf_5/structures/ligand_clean_PDK1(3).sdf` (27996 bytes)
+- `outputs/01_3d_conformer_generation_for_p922_results_2_sdf_5/structures/ligand_clean_PDK1(4).sdf` (28551 bytes)
+- `outputs/01_export_merged_sdf_files_and_push_to_github_rsa_e/structures/MD_PDK1.sdf` (20121 bytes)
+- `outputs/01_export_merged_sdf_files_and_push_to_github_rsa_e/structures/docking_PDK1.sdf` (100603 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/results/protonation-state-results-2.json` (10653 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/results/protonation-state-results-3.json` (10523 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/results/protonation-state-results-4.json` (11563 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/results/protonation-state-results-5.json` (5073 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/results/protonation-state-results-6.json` (4545 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/results/protonation-state-results-7.json` (5667 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_5poses.sdf` (16190 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_best.sdf` (3238 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_pose1.mol` (3271 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_pose2.mol` (3271 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_pose2.sdf` (3238 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_pose3.mol` (3271 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_pose3.sdf` (3238 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_pose4.mol` (3271 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_pose4.sdf` (3238 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_pose5.mol` (3271 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/BX912_pose5.sdf` (3238 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_5poses.sdf` (17990 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_best.sdf` (3598 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_pose1.mol` (3668 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_pose2.mol` (3668 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_pose2.sdf` (3598 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_pose3.mol` (3668 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_pose3.sdf` (3598 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_pose4.mol` (3668 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_pose4.sdf` (3598 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_pose5.mol` (3668 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A2U1_pose5.sdf` (3598 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_5poses.sdf` (19235 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_best.sdf` (3847 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_pose1.mol` (3944 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_pose2.mol` (3944 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_pose2.sdf` (3847 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_pose3.mol` (3944 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_pose3.sdf` (3847 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_pose4.mol` (3944 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_pose4.sdf` (3847 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_pose5.mol` (3944 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A-A4U1_pose5.sdf` (3847 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_5poses.sdf` (17500 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_best.sdf` (3500 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_pose1.mol` (3571 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_pose2.mol` (3571 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_pose2.sdf` (3500 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_pose3.mol` (3571 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_pose3.sdf` (3500 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_pose4.mol` (3571 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_pose4.sdf` (3500 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_pose5.mol` (3571 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL2003A_pose5.sdf` (3500 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_5poses.sdf` (14460 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_best.sdf` (2892 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_pose1.mol` (2883 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_pose2.mol` (2883 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_pose2.sdf` (2892 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_pose3.mol` (2883 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_pose3.sdf` (2892 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_pose4.mol` (2883 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_pose4.sdf` (2892 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_pose5.mol` (2883 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5001A_pose5.sdf` (2892 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_5poses.sdf` (15915 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_best.sdf` (3183 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_pose1.mol` (3181 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_pose2.mol` (3181 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_pose2.sdf` (3183 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_pose3.mol` (3181 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_pose3.sdf` (3183 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_pose4.mol` (3181 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_pose4.sdf` (3183 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_pose5.mol` (3181 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/EL5003A_pose5.sdf` (3183 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(10).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(11).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(12).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(13).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(14).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(15).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(16).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(17).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(18).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(19).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(20).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(21).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(22).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(23).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(24).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(25).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(26).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(27).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(28).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(29).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(30).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(31).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(32).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(33).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(34).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(35).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(36).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(7).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(8).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex(9).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(10).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(11).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(12).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(13).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(14).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(15).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(16).pdb` (373905 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(17).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(18).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(19).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(20).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(21).pdb` (374142 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(22).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(23).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(24).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(25).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(26).pdb` (373826 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(27).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(28).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(29).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(30).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(31).pdb` (373273 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(32).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(33).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(34).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(35).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(36).pdb` (373510 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(7).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(8).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/complex_reres(9).pdb` (373589 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/structures/gnina_docked.sdf(2).gz` (16269 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/061_fix_sdf_property_tag_uses_field_one_space_not_fi.csv` (1201 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/071_load_all_gbsa_jsons_merge_into_full_table.csv` (2174 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/BindingEnergy(4).csv` (1280 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(10).csv` (1886 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(11).csv` (1743 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(12).csv` (1915 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(13).csv` (2081 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(14).csv` (2008 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(15).csv` (1852 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(16).csv` (2132 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(17).csv` (1935 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(18).csv` (1899 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(19).csv` (2048 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(20).csv` (2013 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(21).csv` (2007 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(22).csv` (1813 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(23).csv` (1816 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(24).csv` (1686 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(25).csv` (1984 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(26).csv` (1903 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(27).csv` (2082 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(28).csv` (1863 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(29).csv` (1614 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(30).csv` (1726 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(31).csv` (1628 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(32).csv` (1786 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(33).csv` (2202 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(34).csv` (1361 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(35).csv` (1723 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(6).csv` (1852 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(7).csv` (2008 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(8).csv` (1753 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Dec(9).csv` (1729 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(10).csv` (349 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(11).csv` (344 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(12).csv` (342 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(13).csv` (340 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(14).csv` (346 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(15).csv` (342 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(16).csv` (339 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(17).csv` (344 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(18).csv` (343 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(19).csv` (348 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(20).csv` (342 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(21).csv` (345 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(22).csv` (348 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(23).csv` (347 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(24).csv` (347 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(25).csv` (342 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(26).csv` (350 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(27).csv` (342 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(28).csv` (341 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(29).csv` (341 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(30).csv` (339 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(31).csv` (338 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(32).csv` (336 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(33).csv` (341 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(34).csv` (344 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(35).csv` (347 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(36).csv` (341 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(7).csv` (344 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(8).csv` (342 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/Energy(9).csv` (340 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/full_docking_gbsa_table(2).csv` (2420 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/tables/full_docking_gbsa_table.csv` (79 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(11).top` (2435919 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(12).top` (2438446 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(13).top` (2438446 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(17).top` (2439874 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(19).top` (2439874 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(22).top` (2437728 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(25).top` (2437728 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(27).top` (2433701 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(28).top` (2433701 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(32).top` (2435663 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(33).top` (2435663 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/complex(7).top` (2435919 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/gbsa_BX912.json` (6181 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/gbsa_EL2003A-A2U1.json` (6227 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/gbsa_EL2003A-A4U1.json` (6279 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/gbsa_EL2003A.json` (6209 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/gbsa_EL5001A.json` (6169 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/gbsa_EL5003A.json` (6195 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/gnina_all6_result.json` (1766 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/index(12).ndx` (154475 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/index(17).ndx` (154395 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/index(2).ndx` (154335 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/index(22).ndx` (154255 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/index(27).ndx` (154315 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/index(7).ndx` (154415 bytes)
+- `outputs/01_full_pdk1_docking_campaign_all_6_ligands_from_li/work/interactions_best_poses.json` (5333 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/results/protonation-state-results.json` (10653 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/source/config(2).ini` (252 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/source/config.ini` (252 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/1Z5M.pdb` (237573 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/1Z5M_receptor_pH7.4.pdb` (380285 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/EL2003A-A2U1_all5poses.sdf` (18155 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_1(2).mol` (5594 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_1(2).sdf` (5038 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_1.mol` (5594 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_1.sdf` (5032 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_2(2).mol` (5600 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_2.mol` (0 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_2.sdf` (5038 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_3(2).mol` (5600 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_3.sdf` (5038 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_4(2).mol` (5600 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_4.sdf` (5038 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_5(2).mol` (5600 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/clean_pose_5.sdf` (5038 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex(2).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex(3).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex(4).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex(5).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex(6).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex.pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex_reres(2).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex_reres(3).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex_reres(4).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex_reres(5).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex_reres(6).pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/complex_reres.pdb` (375564 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/gnina_docked.sdf.gz` (3231 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/pose_1(2).sdf` (3604 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/pose_1.mol` (3674 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/pose_1.sdf` (3631 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/pose_2.sdf` (3631 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/pose_3.sdf` (3631 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/pose_4.sdf` (3631 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/structures/pose_5.sdf` (3631 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/014_inspect_what_dispatch_run_aidd_tool_look_like.csv` (204 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/BindingEnergy(2).csv` (701 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/BindingEnergy(3).csv` (368 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/BindingEnergy.csv` (377 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Dec(2).csv` (1838 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Dec(3).csv` (2049 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Dec(4).csv` (1896 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Dec(5).csv` (2004 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Dec.csv` (1771 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Energy(2).csv` (337 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Energy(3).csv` (347 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Energy(4).csv` (345 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Energy(5).csv` (347 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Energy(6).csv` (341 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/tables/Energy.csv` (344 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/work/complex(2).top` (2450713 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/work/complex(3).top` (2450621 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/work/complex(4).top` (2450621 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/work/complex(5).top` (2450621 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/work/complex(6).top` (2450621 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/work/complex.top` (2450612 bytes)
+- `outputs/01_full_pdk1_docking_campaign_receptor_prep_docking/work/index.ndx` (154835 bytes)
+- `outputs/01_generate_3d_conformers_for_pdk1_ligands_with_ena/structures/ligand_clean_PDK1.sdf` (5180 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/reports/audit_amber_md_mmpbsa_script(2).md` (10474 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/reports/audit_amber_md_mmpbsa_script.md` (7672 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/reports/audit_md_lumi_cpu_EL2003A(2).md` (16415 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/reports/audit_md_lumi_cpu_EL2003A.md` (13110 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/reports/cpu_test(2).txt` (644 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/reports/cpu_test.txt` (5 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/reports/phase_02_submit_amber_md_mm_gbsa_to_lumi_cpu_partition.md` (5814 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/reports/phase_03_failure_analysis_corrected_resubmission.md` (6715 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/reports/phase_03_task_a285dd498619c3c0c.md` (5989 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/config(3).ini` (255 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/config(4).ini` (255 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/EL2003A_pose2(2).mol` (3571 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/EL2003A_pose2(3).mol` (3571 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/EL2003A_pose2(4).mol` (3571 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/EL2003A_pose2_3D.sdf` (3207 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/complex(37).pdb` (373835 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/complex(38).pdb` (373835 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/complex.prmtop` (3535012 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/complex_reres(37).pdb` (373835 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/complex_reres(38).pdb` (373835 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/ligand.prmtop` (26142 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/receptor.prmtop` (3494971 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/structures/receptor_pH74_noH.pdb` (188973 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/complex(37).top` (2437632 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/complex(38).top` (2437623 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/easymd_result2.json` (656 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/mmgbsa_result.json` (21408 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/openfe_result.json` (6978 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/slurm-21798812.log` (27 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/slurm-21798843.log` (18343 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/slurm-21798969.log` (529 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/traj_com(2).xtc` (1820780 bytes)
+- `outputs/01_md_refinement_of_el2003a_best_docking_pose_pose_/work/traj_com.xtc` (1823600 bytes)
+- `outputs/02_submit_amber_md_mm_gbsa_to_lumi_cpu_partition/reports/phase_01_md_refinement_of_el2003a_best_docking_pose_pose_.md` (6960 bytes)
+- `outputs/reports/MD_refinement_EL2003A_pose2.md` (4510 bytes)
+- `outputs/reports/PDK1_docking_campaign_final_report.md` (13907 bytes)
+- `outputs/reports/PDK1_docking_report.md` (9956 bytes)
+- `outputs/reports/ligand_clean_PDK1_conformer_report.md` (2811 bytes)
+- `outputs/reports/ligand_clean_PDK1_phase2_report.md` (3234 bytes)
+- `outputs/reports/phase_01_3d_conformer_generation_for_p922_results_2_sdf_5.md` (2770 bytes)
+- `outputs/reports/phase_01_export_merged_sdf_files_and_push_to_github_rsa_e.md` (2479 bytes)
+- `outputs/reports/phase_01_full_pdk1_docking_campaign(2).md` (5080 bytes)
+- `outputs/reports/phase_01_full_pdk1_docking_campaign.md` (5375 bytes)
+- `outputs/reports/phase_01_full_pdk1_docking_campaign_all_6_ligands_from_li.md` (37705 bytes)
+- `outputs/reports/phase_01_full_pdk1_docking_campaign_receptor_prep_docking.md` (14965 bytes)
+- `outputs/reports/phase_01_generate_3d_conformers_for_pdk1_ligands_with_ena.md` (2464 bytes)
+- `outputs/reports/phase_3d_conformer_generation_p922_results_2.md` (2947 bytes)
+- `outputs/reports/phase_export_sdf_github_push.md` (2908 bytes)
+- `outputs/reports/phase_md_refinement_EL2003A_lumi_cpu.md` (3090 bytes)
+- `outputs/uploads/P922_Results.sdf` (2102 bytes)
+- `outputs/uploads/P922_Results_2.sdf` (9896 bytes)
+
+## Scripts
+
+- `scripts/01_3d_conformer_generation_for_p922_results_2_sdf_5/source/042_chem_sdmolsupplier.py`
+- `scripts/01_3d_conformer_generation_for_p922_results_2_sdf_5/source/043_best_3d_conformer.py`
+- `scripts/01_3d_conformer_generation_for_p922_results_2_sdf_5/source/044_re_define_conformer_function_lost_between_calls.py`
+- `scripts/01_3d_conformer_generation_for_p922_results_2_sdf_5/source/045_get_mol_name.py`
+- `scripts/01_export_merged_sdf_files_and_push_to_github_rsa_e/source/078_sorted.py`
+- `scripts/01_export_merged_sdf_files_and_push_to_github_rsa_e/source/079_files.py`
+- `scripts/01_export_merged_sdf_files_and_push_to_github_rsa_e/source/080_write_annotated_sdf.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/inputs/056_read_raw_sdf_gzip.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/inputs/075_save_interaction_data_json_reference.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/046_os_path_join.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/047_search_all_scripts_subdirectories_box_center_params.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/048_read_dispatch_script_succeeded_get_actual_cx_cy_cz.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/049_open.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/050_re_extract_li8_centroid_original_1z5m.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/051_check_dimorphite_dl_availability_read_prior.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/052_load_all_6_ligands_get_their_smiles.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/053_chem_sdmolsupplier.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/054_protonate_all_6_ligands_ph_7_4_via_dispatch.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/055_print.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/057_inspect_all_property_keys_first_block_find_correct.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/058_show_last_20_lines_block_1_find_score_fields.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/059_re_parse_all_blocks_correct_field_names.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/060_fix_sdf_property_tag_uses_field_one_space_not_field.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/061_os_makedirs.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/062_read_successful_mm_gbsa_calculation_scripts_previous.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/063_print.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/064_parse_all_gbsa_results_merge_docking_scores.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/065_sorted.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/066_inspect_one_gbsa_json_understand_structure.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/067_load_gnina_scores_json.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/068_re_parse_docking_scores_gnina_docked_sdf_gz.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/069_fix_sort_ligand_names_longest_first_el2003a_a4u1.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/070_load_all_gbsa_jsons_merge_into_full_table.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/071_identify_best_pose_per_ligand_lowest_mm_gbsa.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/072_interaction_analysis_parse_receptor_pdb_atoms.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/073_analyze_interactions.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/074_build_interaction_statistics_table.py`
+- `scripts/01_full_pdk1_docking_campaign_all_6_ligands_from_li/source/076_open.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/inputs/017_check_full_result_dock_dict_raw_output.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/inputs/021_read_raw_sdf_text_extract_properties_manually.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/inputs/022_parse_scores_raw_sdf_blocks.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/inputs/023_parse_scores_raw_sdf_blocks.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/inputs/035_read_raw_clean_pose_files_compare.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/004_fetch_1z5m_rcsb.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/005_extract_li8_heavy_atom_coordinates_docking_box.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/006_run_pdbfixer_build_missing_loop_ser231_asn240_add_h.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/007_protonate_ligand_ph_7_4_using_dimorphite_dl_smiles.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/008_fix_pass_absolute_path_pdbfixer.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/009_find_where_dispatch_looks_files_check_work.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/010_decisions.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/011_copy_ligand_work_gnina.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/012_check_if_pdbfixer_prepared_receptor_landed_artifact.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/013_inspect_what_dispatch_run_aidd_tool_look_like.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/014_dispatch.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/015_inspect_dispatch_run_aidd_tool_properly.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/016_dispatch.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/018_pull_scores_output_dict.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/019_print_pose_table_without_strict_formatting.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/020_extract_full_score_table_sdf_properties.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/024_interaction_analysis_h_bonds_hydrophobic_contacts.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/025_interaction_frequency_statistics_across_all_5_poses.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/026_mm_gbsa_via_openmm_implicit_solvent_ff14sb_gaff2.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/027_check_what_s_actually_importable_openmmforcefields.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/028_test_gafftemplategenerator_rdkit_mol_directly_no.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/029_install_openff_toolkit_gafftemplategenerator_works.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/030_confirm_all_files_exist.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/031_create_clean_minimal_sdf_files_gbsa_no_extra.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/032_stage_all_5_clean_poses_receptor.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/033_check_what_csv_files_available.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/034_store_all_results.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/036_re_read_gnina_docked_sdf_art.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/037_range.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/038_full_mm_gbsa_table_pose_1_earlier_run_stored_gbsa.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/039_check_if_interaction_data_still_scope_earlier.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/040_inspect_per_pose_interaction_details.py`
+- `scripts/01_full_pdk1_docking_campaign_receptor_prep_docking/source/041_assemble_complete_data_summary_report.py`
+- `scripts/01_generate_3d_conformers_for_pdk1_ligands_with_ena/source/001_load_molecule.py`
+- `scripts/01_generate_3d_conformers_for_pdk1_ligands_with_ena/source/002_work_single_molecule_already_mol_add_explicit.py`
+- `scripts/01_generate_3d_conformers_for_pdk1_ligands_with_ena/source/003_best_cid_38_best_energy_80_5413_mol_h_has_all_50.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/081_print.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/082_print.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/083_print.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/084_print.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/085_os_path_getsize.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/086_check_available_libraries_mm_gbsa_post_processing.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/087_step_1_strip_all_h_atoms_receptor_fixes_hie_hd1.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/088_dispatch_easy_md_amber14sb_protein_openff_ligand_2.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/089_estimate_receptor_3d_extent_predict_simulation_box.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/090_print.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/091_read_pose_sdf_preserving_all_h_atoms_3d_coords.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/092_print.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/093_check_what_s_available.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/094_check_parmed_mdtraj_openmm.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/095_subprocess_run.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/096_structure.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/097_parmed_already_successfully_imported_grab_cached.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/098_run_mm_gbsa_script_subprocess_avoids_sandbox_code_py.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/099_find_all_python_executables_check_which_has_mdtraj.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/100_print.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/101_print.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/102_load_results.py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/mmgbsa_calc(2).py`
+- `scripts/01_md_refinement_of_el2003a_best_docking_pose_pose_/source/mmgbsa_calc.py`
+- `scripts/mmgbsa_calc.py`
+- `scripts/source/001_load_molecule.py`
+- `scripts/source/002_work_single_molecule_already_mol_add_explicit.py`
+- `scripts/source/003_best_cid_38_best_energy_80_5413_mol_h_has_all_50.py`
+- `scripts/source/004_fetch_1z5m_rcsb.py`
+- `scripts/source/005_extract_li8_heavy_atom_coordinates_docking_box.py`
+- `scripts/source/006_run_pdbfixer_build_missing_loop_ser231_asn240_add_h.py`
+- `scripts/source/007_protonate_ligand_ph_7_4_using_dimorphite_dl_smiles.py`
+- `scripts/source/008_fix_pass_absolute_path_pdbfixer.py`
+- `scripts/source/009_find_where_dispatch_looks_files_check_work.py`
+- `scripts/source/010_decisions.py`
+- `scripts/source/011_copy_ligand_work_gnina.py`
+- `scripts/source/012_check_if_pdbfixer_prepared_receptor_landed_artifact.py`
+- `scripts/source/013_inspect_what_dispatch_run_aidd_tool_look_like.py`
+- `scripts/source/014_dispatch.py`
+- `scripts/source/015_inspect_dispatch_run_aidd_tool_properly.py`
+- `scripts/source/016_dispatch.py`
+- `scripts/source/017_check_full_result_dock_dict_raw_output.py`
+- `scripts/source/018_pull_scores_output_dict.py`
+- `scripts/source/019_print_pose_table_without_strict_formatting.py`
+- `scripts/source/020_extract_full_score_table_sdf_properties.py`
+- `scripts/source/021_read_raw_sdf_text_extract_properties_manually.py`
+- `scripts/source/022_parse_scores_raw_sdf_blocks.py`
+- `scripts/source/023_parse_scores_raw_sdf_blocks.py`
+- `scripts/source/024_interaction_analysis_h_bonds_hydrophobic_contacts.py`
+- `scripts/source/025_interaction_frequency_statistics_across_all_5_poses.py`
+- `scripts/source/026_mm_gbsa_via_openmm_implicit_solvent_ff14sb_gaff2.py`
+- `scripts/source/027_check_what_s_actually_importable_openmmforcefields.py`
+- `scripts/source/028_test_gafftemplategenerator_rdkit_mol_directly_no.py`
+- `scripts/source/029_install_openff_toolkit_gafftemplategenerator_works.py`
+- `scripts/source/030_confirm_all_files_exist.py`
+- `scripts/source/031_create_clean_minimal_sdf_files_gbsa_no_extra.py`
+- `scripts/source/032_stage_all_5_clean_poses_receptor.py`
+- `scripts/source/033_check_what_csv_files_available.py`
+- `scripts/source/034_store_all_results.py`
+- `scripts/source/035_read_raw_clean_pose_files_compare.py`
+- `scripts/source/036_re_read_gnina_docked_sdf_art.py`
+- `scripts/source/037_range.py`
+- `scripts/source/038_full_mm_gbsa_table_pose_1_earlier_run_stored_gbsa.py`
+- `scripts/source/039_check_if_interaction_data_still_scope_earlier.py`
+- `scripts/source/040_inspect_per_pose_interaction_details.py`
+- `scripts/source/041_assemble_complete_data_summary_report.py`
+- `scripts/source/042_chem_sdmolsupplier.py`
+- `scripts/source/043_best_3d_conformer.py`
+- `scripts/source/044_re_define_conformer_function_lost_between_calls.py`
+- `scripts/source/045_get_mol_name.py`
+- `scripts/source/046_os_path_join.py`
+- `scripts/source/047_search_all_scripts_subdirectories_box_center_params.py`
+- `scripts/source/048_read_dispatch_script_succeeded_get_actual_cx_cy_cz.py`
+- `scripts/source/049_open.py`
+- `scripts/source/050_re_extract_li8_centroid_original_1z5m.py`
+- `scripts/source/051_check_dimorphite_dl_availability_read_prior.py`
+- `scripts/source/052_load_all_6_ligands_get_their_smiles.py`
+- `scripts/source/053_chem_sdmolsupplier.py`
+- `scripts/source/054_protonate_all_6_ligands_ph_7_4_via_dispatch.py`
+- `scripts/source/055_print.py`
+- `scripts/source/056_read_raw_sdf_gzip.py`
+- `scripts/source/057_inspect_all_property_keys_first_block_find_correct.py`
+- `scripts/source/058_show_last_20_lines_block_1_find_score_fields.py`
+- `scripts/source/059_re_parse_all_blocks_correct_field_names.py`
+- `scripts/source/060_fix_sdf_property_tag_uses_field_one_space_not_field.py`
+- `scripts/source/061_os_makedirs.py`
+- `scripts/source/062_read_successful_mm_gbsa_calculation_scripts_previous.py`
+- `scripts/source/063_print.py`
+- `scripts/source/064_parse_all_gbsa_results_merge_docking_scores.py`
+- `scripts/source/065_sorted.py`
+- `scripts/source/066_inspect_one_gbsa_json_understand_structure.py`
+- `scripts/source/067_load_gnina_scores_json.py`
+- `scripts/source/068_re_parse_docking_scores_gnina_docked_sdf_gz.py`
+- `scripts/source/069_fix_sort_ligand_names_longest_first_el2003a_a4u1.py`
+- `scripts/source/070_load_all_gbsa_jsons_merge_into_full_table.py`
+- `scripts/source/071_identify_best_pose_per_ligand_lowest_mm_gbsa.py`
+- `scripts/source/072_interaction_analysis_parse_receptor_pdb_atoms.py`
+- `scripts/source/073_analyze_interactions.py`
+- `scripts/source/074_build_interaction_statistics_table.py`
+- `scripts/source/075_save_interaction_data_json_reference.py`
+- `scripts/source/076_open.py`
+- `scripts/source/077_confirm_report_path_write_phase_document.py`
+- `scripts/source/078_sorted.py`
+- `scripts/source/079_files.py`
+- `scripts/source/080_write_annotated_sdf.py`
+- `scripts/source/081_print.py`
+- `scripts/source/082_print.py`
+- `scripts/source/083_print.py`
+- `scripts/source/084_print.py`
+- `scripts/source/085_os_path_getsize.py`
+- `scripts/source/086_check_available_libraries_mm_gbsa_post_processing.py`
+- `scripts/source/087_step_1_strip_all_h_atoms_receptor_fixes_hie_hd1.py`
+- `scripts/source/088_dispatch_easy_md_amber14sb_protein_openff_ligand_2.py`
+- `scripts/source/089_estimate_receptor_3d_extent_predict_simulation_box.py`
+- `scripts/source/090_print.py`
+- `scripts/source/091_read_pose_sdf_preserving_all_h_atoms_3d_coords.py`
+- `scripts/source/092_print.py`
+- `scripts/source/093_check_what_s_available.py`
+- `scripts/source/094_check_parmed_mdtraj_openmm.py`
+- `scripts/source/095_subprocess_run.py`
+- `scripts/source/096_structure.py`
+- `scripts/source/097_parmed_already_successfully_imported_grab_cached.py`
+- `scripts/source/098_run_mm_gbsa_script_subprocess_avoids_sandbox_code_py.py`
+- `scripts/source/099_find_all_python_executables_check_which_has_mdtraj.py`
+- `scripts/source/100_print.py`
+- `scripts/source/101_print.py`
+- `scripts/source/102_load_results.py`
+
+## Inputs
+
+- No inputs recorded.
+
+## Limitations and Caveats
+
+- This study has not been reviewed. The results are raw model output.
+- Reproducibility depends on the availability of the tool images listed above.
+
+## Provenance
+
+Full provenance chain is in `PROVENANCE.json`. It includes: which operations were model-generated, which were reviewed, by whom, and what was approved.
