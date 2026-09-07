@@ -5,7 +5,7 @@
 ## Run Identity
 
 - Run ID: `max-8e6bace49c`
-- Published: 2026-09-07T10:44:52Z
+- Published: 2026-09-07T10:54:16Z
 - Review: not reviewed
 
 ## Tools and Environment
@@ -1314,10 +1314,12 @@ Files included in this repository:
 - `outputs/06_task_bsax0ys95/reports/recovery_audit_parallel_workflow_failure(2).md` (4085 bytes)
 - `outputs/06_task_bsax0ys95/reports/recovery_audit_parallel_workflow_failure.md` (4111 bytes)
 - `outputs/reports/CRBN_docking_mmgbsa_report.md` (11921 bytes)
+- `outputs/reports/audit_final_create_final_sdf_and_pdb.md` (2934 bytes)
 - `outputs/reports/audit_phase_04_create_sdf_and_push_to_github.md` (4410 bytes)
 - `outputs/reports/phase5_mmgbsa_audit(2).md` (2560 bytes)
 - `outputs/reports/phase5_mmgbsa_audit.md` (6917 bytes)
 - `outputs/reports/phase_01_create_annotated_sdf_and_push_session_to_github.md` (4204 bytes)
+- `outputs/reports/phase_01_create_final_calculation_sdf_and_final_pose_pdb_.md` (13702 bytes)
 - `outputs/reports/phase_01_generate_enantiomers_and_3d_conformers_for_crbn_(2).md` (4715 bytes)
 - `outputs/reports/phase_01_generate_enantiomers_and_3d_conformers_for_crbn_(3).md` (5342 bytes)
 - `outputs/reports/phase_01_generate_enantiomers_and_3d_conformers_for_crbn_.md` (2106 bytes)
@@ -1326,6 +1328,7 @@ Files included in this repository:
 - `outputs/reports/phase_03_mmgbsa_interactions_report_document.md` (5584 bytes)
 - `outputs/reports/phase_04_annotated_sdf_and_github_push(2).md` (4522 bytes)
 - `outputs/reports/phase_04_annotated_sdf_and_github_push.md` (3070 bytes)
+- `outputs/reports/phase_final_create_final_calculation_sdf_and_final_pose_pdb.md` (5426 bytes)
 - `outputs/reports/phase_report_enantiomers_3d_conformers.md` (2811 bytes)
 - `outputs/reports/report(2).md` (6437 bytes)
 - `outputs/reports/report.md` (16992 bytes)

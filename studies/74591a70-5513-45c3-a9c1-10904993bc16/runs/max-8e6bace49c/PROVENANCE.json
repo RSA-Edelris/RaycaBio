@@ -1,7 +1,7 @@
 {
   "study_id": "74591a70-5513-45c3-a9c1-10904993bc16",
   "run_id": "max-8e6bace49c",
-  "published_at": "2026-09-07T10:44:52Z",
+  "published_at": "2026-09-07T10:54:16Z",
   "review_state": {},
   "is_reviewed": false,
   "tool_versions": [],
@@ -21402,6 +21402,39 @@
       "committed": true
     },
     {
+      "path": "reports/phase_01_create_final_calculation_sdf_and_final_pose_pdb_.md",
+      "sha256": "0ae86aeef4752963c87730e0fabdeb1ad52162dbe83eb544c49b956d3ed4a5db",
+      "size": 13702,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-8e6bace49c",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_final_create_final_calculation_sdf_and_final_pose_pdb.md",
+      "sha256": "f21995a8960eab19bb45cfdc4c70860164d80cbb73d46303f0eae1c5119eab2d",
+      "size": 5426,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/audit_final_create_final_sdf_and_pdb.md",
+      "sha256": "7b7953ff7a342e5495393fc108f93fc5f3285563f6b06522735d33a13b7e1e12",
+      "size": 2934,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-8e6bace49c",
+      "committed": true
+    },
+    {
       "path": "prep_enantio2.py",
       "size": 6116,
       "kind": "code",
@@ -22568,7 +22601,7 @@
     "session_id": "74591a70-5513-45c3-a9c1-10904993bc16",
     "run_id": "max-8e6bace49c",
     "outcome": "",
-    "pushed_at": "2026-09-07T10:44:52Z"
+    "pushed_at": "2026-09-07T10:54:16Z"
   },
   "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
   "file_digests": {
@@ -24610,6 +24643,9 @@
     "outputs/01_create_final_calculation_sdf_and_final_pose_pdb_/structures/final_calculation_2d.sdf": "edc516a84bcc8c89a645e3ccd919b201780fb2941e7b84cd86db8fb2edc95077",
     "outputs/01_create_final_calculation_sdf_and_final_pose_pdb_/structures/final_calculation(2).sdf": "cdc25ee6cce0624ffd125b9f4a3d4178f475773567d7d85ece159600d90d7387",
     "outputs/01_create_final_calculation_sdf_and_final_pose_pdb_/structures/final_calculation_2d(2).sdf": "a9af2f0127324dd0e2219ba6642bda8db0448b41e80014a611438cddf8a1fc24",
+    "outputs/reports/phase_01_create_final_calculation_sdf_and_final_pose_pdb_.md": "0ae86aeef4752963c87730e0fabdeb1ad52162dbe83eb544c49b956d3ed4a5db",
+    "outputs/reports/phase_final_create_final_calculation_sdf_and_final_pose_pdb.md": "f21995a8960eab19bb45cfdc4c70860164d80cbb73d46303f0eae1c5119eab2d",
+    "outputs/reports/audit_final_create_final_sdf_and_pdb.md": "7b7953ff7a342e5495393fc108f93fc5f3285563f6b06522735d33a13b7e1e12",
     ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }
