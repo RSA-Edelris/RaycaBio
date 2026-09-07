@@ -25,24 +25,48 @@ OUT_FILE = BASE / "poses_all.sdf"
 docking2 = json.loads((BASE / "docking2_results.json").read_text())
 
 def split_sdf(text):
-    """Split SDF text into individual record strings (each ends just before $$$$)."""
-    records = []
+    """Split SDF text into individual record strings.
+
+    Handles gnina's embedded-$$$$ contamination: gnina writes a $$$$ inside
+    the property block (between biological tags and its own score tags), then a
+    real $$$$ at the end.  Any fragment that contains no 'M  END' has no mol
+    block and is a contaminated continuation of the previous record — it is
+    merged back rather than kept as a separate entry.
+    """
+    raw = []
     current = []
     for line in text.splitlines():
         if line.strip() == "$$$$":
             if current:
-                records.append("\n".join(current))
+                raw.append("\n".join(current))
                 current = []
         else:
             current.append(line)
+    if current:
+        raw.append("\n".join(current))
+
+    # Merge contaminated (mol-less) fragments into the preceding real record.
+    records = []
+    for frag in raw:
+        if "M  END" in frag:
+            records.append(frag)
+        else:
+            if records:
+                records[-1] = records[-1] + "\n\n" + frag
     return records
 
 def inject_tags(record_text, tags: dict) -> str:
-    """Append SD tag blocks before the trailing content of a mol record."""
+    """Append SD tag blocks to a mol record.
+
+    Normalise the record to end with exactly one blank line so the first
+    injected tag is always separated from any existing property values by
+    a blank line, as required by the SDF spec.
+    """
     tag_block = "\n".join(
         f"> <{k}>\n{v}\n" for k, v in tags.items()
     )
-    return record_text + "\n" + tag_block + "$$$$\n"
+    # SDF requires a blank line after the last property value before $$$$
+    return record_text.rstrip("\n") + "\n\n" + tag_block + "\n$$$$\n"
 
 total = 0
 with open(OUT_FILE, "w") as out:
