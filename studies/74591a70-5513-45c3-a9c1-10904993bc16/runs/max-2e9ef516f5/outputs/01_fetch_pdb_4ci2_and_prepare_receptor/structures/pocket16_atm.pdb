@@ -1,0 +1,60 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0006
+HEADER 1  - Drug Score                        : 0.0034
+HEADER 2  - Number of alpha spheres           :    56
+HEADER 3  - Mean alpha-sphere radius          : 3.8247
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4164
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 30.7857
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 542.4948
+HEADER 10 - Pocket volume (convex hull)       : 159.3757
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.5556
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.1607
+ATOM    649   CB MET B  89      67.979 152.328  11.611  0.00  0.00           C 0
+ATOM   1312  CG2 VAL B 129      65.219 150.636  14.289  0.00  0.00           C 0
+ATOM    655   SD MET B  89      68.010 149.648  12.180  0.00  0.00           S 0
+ATOM   5065   OH TYR B 357      72.668 151.884  15.274  0.57  6.43           O 0
+ATOM    648    O MET B  89      66.399 154.888  12.331  0.47  7.50           O 0
+ATOM   4075   CG ASP B 294      64.840 157.212  18.467  0.00  0.00           C 0
+ATOM   4077  OD2 ASP B 294      65.595 156.349  18.976  0.38  4.29           O 0
+ATOM   1259    O TYR B 126      60.836 155.153  15.681  0.61  6.43           O 0
+ATOM   1306   CB VAL B 129      64.184 150.799  15.411  0.00  0.00           C 0
+ATOM   1260   CB TYR B 126      61.698 153.438  13.257  0.00  0.00           C 0
+ATOM   5064   CZ TYR B 357      73.640 151.928  14.305  0.00  0.00           C 0
+ATOM   5060  CE1 TYR B 357      73.578 151.086  13.208  0.00  0.00           C 0
+ATOM   5072    O ILE B 358      73.950 156.129  13.094  0.78  2.14           O 0
+ATOM   1308  CG1 VAL B 129      64.725 150.330  16.765  0.00  0.00           C 0
+ATOM   1300    N VAL B 129      61.763 150.419  15.999  0.71  2.19           N 0
+ATOM   1280    O SER B 127      58.810 152.981  18.287  0.00  0.00           O 0
+ATOM    668  CG1 VAL B  90      70.486 157.403  12.515  0.00  0.00           C 0
+ATOM    662   CA VAL B  90      68.041 157.174  11.856  0.00  0.00           C 0
+ATOM   6085  NH1 ARG B 421      68.504 159.228  17.770  0.57  6.56           N 0
+ATOM    643    N MET B  89      68.406 153.723   9.610  0.32  2.19           N 0
+ATOM    615    O HIS B  87      70.704 151.593   7.874  0.49  9.64           O 0
+ATOM   5067    N ILE B 358      75.186 155.140  10.659  0.62  1.09           N 0
+ATOM   5056  CD1 TYR B 357      74.571 151.144  12.233  0.00  0.00           C 0
+ATOM   4072   CB ASP B 294      63.480 157.439  19.104  0.00  0.00           C 0
+ATOM   6100   OG SER B 422      72.748 155.192  19.537  0.23  7.50           O 0
+ATOM   5116  OE1 GLU B 360      70.245 159.964  15.580  0.46  5.36           O 0
+ATOM   5103    N GLU B 360      74.491 159.707  15.237  0.51  1.09           N 0
+ATOM   5088   CA HIS B 359      75.866 157.825  14.479  0.00  0.00           C 0
+ATOM    660    N VAL B  90      68.164 155.838  11.251  0.67  1.09           N 0
+ATOM   5082  CD1 ILE B 358      72.573 156.828   8.121  0.00  0.00           C 0
+ATOM    682   CB MET B  91      64.678 160.276  13.006  0.00  0.00           C 0
+ATOM   4076  OD1 ASP B 294      65.156 157.907  17.454  0.67  9.64           O 0
+ATOM   1254    N TYR B 126      61.043 155.758  12.757  0.58  1.09           N 0
+ATOM    689   CE MET B  91      62.829 160.088  15.375  0.00  0.00           C 0
+ATOM   6091    N SER B 422      71.960 157.741  20.695  0.54  1.09           N 0
+ATOM   5073   CB ILE B 358      73.823 157.221  10.263  0.00  0.00           C 0
+ATOM   6097   CB SER B 422      71.393 155.516  19.813  0.00  0.00           C 0
+ATOM    647    C MET B  89      67.325 154.806  11.527  0.00  0.00           C 0
+TER
+END

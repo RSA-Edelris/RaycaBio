@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0002
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7741
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4676
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 43.1111
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 121.7418
+HEADER 10 - Pocket volume (convex hull)       : 2.0524
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.6818
+ATOM   3842   CG PRO B 279      59.642 181.976  11.510  0.00  0.00           C 0
+ATOM   4282  CG1 ILE B 307      54.526 180.401  15.867  0.00  0.00           C 0
+ATOM   4270   CB ALA B 306      57.960 177.800  12.925  0.00  0.00           C 0
+ATOM   3391   CB ALA B 252      57.805 183.541  15.098  0.00  0.00           C 0
+ATOM   3863  CD1 ILE B 280      58.520 179.556   8.064  0.00  0.00           C 0
+ATOM   2324  CG1 VAL B 190      54.122 181.417   7.961  0.00  0.00           C 0
+ATOM   4289  CD1 ILE B 307      53.185 180.761  15.205  0.00  0.00           C 0
+ATOM   4262   OG SER B 305      53.222 177.157  14.065  0.50  1.07           O 0
+ATOM   2297    O ARG B 189      53.093 177.031  10.315  0.37  2.14           O 0
+ATOM   2337    O LEU B 191      52.263 183.453  11.035  0.54  9.64           O 0
+ATOM   3856  CG1 ILE B 280      58.633 178.102   8.458  0.00  0.00           C 0
+ATOM   2328  CG2 VAL B 190      54.757 179.150   7.157  0.00  0.00           C 0
+ATOM   2318   CA VAL B 190      52.812 179.398   8.746  0.00  0.00           C 0
+ATOM   2332    N LEU B 191      51.730 180.894  10.320  0.66  2.19           N 0
+ATOM   4264    N ALA B 306      56.080 176.288  13.267  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0165
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0455
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6803
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -2.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 189.2494
+HEADER 10 - Pocket volume (convex hull)       : 1.1509
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   4611   CB GLN B 327      72.593 150.348  29.001  0.00  0.00           C 0
+ATOM   5697  OD1 ASN B 398      75.132 150.459  25.361  0.00  0.00           O 0
+ATOM   4605    N GLN B 327      71.296 152.422  28.997  0.00  0.00           N 0
+ATOM   5698  ND2 ASN B 398      74.701 152.469  26.283  0.63  4.37           N 0
+ATOM   4595   CD LYS B 326      68.359 154.204  24.938  0.00  0.00           C 0
+ATOM   4589   CB LYS B 326      70.030 154.534  26.841  0.00  0.00           C 0
+ATOM   6096    O SER B 422      70.910 155.087  22.842  0.76  5.36           O 0
+ATOM   4592   CG LYS B 326      68.593 154.172  26.451  0.00  0.00           C 0
+ATOM   4587    C LYS B 326      70.184 153.169  28.936  0.00  0.00           C 0
+ATOM   4588    O LYS B 326      69.090 152.802  29.363  0.68  2.14           O 0
+ATOM   4607   CA GLN B 327      71.343 151.062  29.504  0.00  0.00           C 0
+ATOM   6104   CA ALA B 423      73.444 155.683  24.018  0.00  0.00           C 0
+ATOM   6100   OG SER B 422      72.748 155.192  19.537  0.23  7.50           O 0
+ATOM   5706    O HIS B 399      77.570 153.568  23.216  0.00  0.00           O 0
+ATOM   6108   CB ALA B 423      74.955 155.682  23.884  0.00  0.00           C 0
+TER
+END

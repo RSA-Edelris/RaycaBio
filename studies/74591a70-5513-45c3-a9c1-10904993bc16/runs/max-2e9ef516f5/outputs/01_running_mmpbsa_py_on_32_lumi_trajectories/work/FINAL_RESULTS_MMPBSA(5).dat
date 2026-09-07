@@ -1,0 +1,90 @@
+| Run on Sun Sep  6 23:04:09 2026
+|
+|Input file:
+|--------------------------------------------------------------
+|MM-GBSA single-trajectory
+| &general
+|  startframe=1, endframe=50, interval=1,
+| /
+| &gb
+|  igb=5, saltcon=0.10,
+| /
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Complex topology file:           /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0005_ent_ent/complex.prmtop
+|Receptor topology file:          /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0005_ent_ent/rec.prmtop
+|Ligand topology file:            /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0005_ent_ent/lig.prmtop
+|Initial mdcrd(s):                /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0005_ent_ent/md.nc
+|
+|Receptor mask:                  ":1-381"
+|Ligand mask:                    ":382"
+|Ligand residue name is "LIG"
+|
+|Calculations performed using 50.0 complex frames.
+|
+|Generalized Born ESURF calculated using 'LCPO' surface areas
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+GENERALIZED BORN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -2958.0445               39.6726              5.6106
+EEL                     -24606.6221              125.6558             17.7704
+EGB                      -5228.4113               95.9942             13.5756
+ESURF                      171.5311                4.2617              0.6027
+
+G gas                   -27564.6666              117.1599             16.5689
+G solv                   -5056.8801               97.6521             13.8101
+
+TOTAL                   -32621.5467               51.2896              7.2534
+
+
+Receptor:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -2905.2609               39.7012              5.6146
+EEL                     -24619.4030              126.2465             17.8540
+EGB                      -5232.4614               95.9900             13.5750
+ESURF                      172.5960                4.3989              0.6221
+
+G gas                   -27524.6639              117.6872             16.6435
+G solv                   -5059.8653               97.7491             13.8238
+
+TOTAL                   -32584.5292               51.3533              7.2625
+
+
+Ligand:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                     -6.7078                0.1809              0.0256
+EEL                         16.0376                0.1490              0.0211
+EGB                         -6.3585                0.1440              0.0204
+ESURF                        3.4139                0.0139              0.0020
+
+G gas                        9.3298                0.2697              0.0381
+G solv                      -2.9445                0.1397              0.0198
+
+TOTAL                        6.3852                0.3076              0.0435
+
+
+Differences (Complex - Receptor - Ligand):
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                    -46.0758                1.9744              0.2792
+EEL                         -3.2567                1.6083              0.2275
+EGB                         10.4086                0.9795              0.1385
+ESURF                       -4.4788                0.2407              0.0340
+
+DELTA G gas                -49.3325                2.5835              0.3654
+DELTA G solv                 5.9298                0.9270              0.1311
+
+DELTA TOTAL                -43.4027                2.2268              0.3149
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------

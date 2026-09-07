@@ -1,0 +1,192 @@
+=== AMBER MM-GBSA sander runs for 32 CRBN ligands ===
+Start: Mon Sep  7 01:06:04 EEST 2026
+This software collection is provided and supported by CSC.
+Run `module help Local-CSC` for more information about support.
+Not all software may be compatible with software in other stacks,
+so mix at your own risk. 
+
+Lmod is automatically replacing "craype-x86-rome" with "craype-x86-milan".
+
+
+Lmod is automatically replacing "cce/19.0.0" with "gcc-native/14.2".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.6.0" with "PrgEnv-gnu/8.6.0".
+
+
+    Amber24 (CPU-version) loaded.
+    Note:
+        * CSC has acquired a non-profit computing center license for Amber24.
+          Thus, only users from non-profit organizations are allowed to use
+          this module! By using the module you accept the terms.
+        * See the detailed license text at https://ambermd.org/GetAmber.php
+        * This module was recompiled on 2026-02-03.
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/25.03.0     2) cray-mpich/8.1.32
+
+sander: /appl/local/csc/soft/chem/amber/24-cpu/bin/sander
+Unpacked staging archive
+EDEL-CRBN-0001_ent
+EDEL-CRBN-0001_ent_ent
+EDEL-CRBN-0002_ent
+EDEL-CRBN-0002_ent_ent
+EDEL-CRBN-0003_ent
+EDEL-CRBN-0003_ent_ent
+EDEL-CRBN-0004_ent
+EDEL-CRBN-0004_ent_ent
+EDEL-CRBN-0005_ent
+EDEL-CRBN-0005_ent_ent
+=== PHASE 1: Minimization (32 parallel) ===
+Start min: Mon Sep  7 01:06:08 EEST 2026
+  Launched min for EDEL-CRBN-0001_ent (PID 246599)
+  Launched min for EDEL-CRBN-0004_ent (PID 246602)
+  Launched min for EDEL-CRBN-0004_ent_ent (PID 246605)
+  Launched min for EDEL-CRBN-0005_ent (PID 246608)
+  Launched min for EDEL-CRBN-0005_ent_ent (PID 246611)
+  Launched min for EDEL-CRBN-0006_ent (PID 246614)
+  Launched min for EDEL-CRBN-0006_ent_ent (PID 246617)
+  Launched min for EDEL-CRBN-0007_ent (PID 246620)
+  Launched min for EDEL-CRBN-0007_ent_ent (PID 246623)
+  Launched min for EDEL-CRBN-0008_ent (PID 246626)
+  Launched min for EDEL-CRBN-0008_ent_ent (PID 246629)
+  Launched min for EDEL-CRBN-0009_ent (PID 246632)
+  Launched min for EDEL-CRBN-0009_ent_ent (PID 246635)
+  Launched min for EDEL-CRBN-0010_ent (PID 246638)
+  Launched min for EDEL-CRBN-0010_ent_ent (PID 246641)
+  Launched min for EDEL-CRBN-0011_ent (PID 246644)
+  Launched min for EDEL-CRBN-0011_ent_ent (PID 246647)
+  Launched min for EDEL-CRBN-0012_ent (PID 246650)
+  Launched min for EDEL-CRBN-0012_ent_ent (PID 246653)
+  Launched min for EDEL-CRBN-0013_ent (PID 246656)
+  Launched min for EDEL-CRBN-0013_ent_ent (PID 246659)
+  Launched min for EDEL-CRBN-0014_ent (PID 246662)
+  Launched min for EDEL-CRBN-0014_ent_ent (PID 246665)
+  Launched min for EDEL-CRBN-0015_ent (PID 246668)
+  Launched min for EDEL-CRBN-0015_ent_ent (PID 246671)
+  Launched min for EDEL-CRBN-0016_ent (PID 246674)
+  Launched min for EDEL-CRBN-0016_ent_ent (PID 246677)
+  Launched min for EDEL-CRBN-0002_ent_ent (PID 246681)
+  Launched min for EDEL-CRBN-0001_ent_ent (PID 246684)
+  Launched min for EDEL-CRBN-0002_ent (PID 246687)
+  Launched min for EDEL-CRBN-0003_ent (PID 246690)
+  Launched min for EDEL-CRBN-0003_ent_ent (PID 246693)
+Waiting for all 32 minimizations...
+All min done: Mon Sep  7 01:08:18 EEST 2026
+  OK min EDEL-CRBN-0001_ent (149644 B)
+  OK min EDEL-CRBN-0004_ent (149740 B)
+  OK min EDEL-CRBN-0004_ent_ent (149740 B)
+  OK min EDEL-CRBN-0005_ent (149740 B)
+  OK min EDEL-CRBN-0005_ent_ent (149740 B)
+  OK min EDEL-CRBN-0006_ent (149788 B)
+  OK min EDEL-CRBN-0006_ent_ent (149788 B)
+  OK min EDEL-CRBN-0007_ent (149788 B)
+  OK min EDEL-CRBN-0007_ent_ent (149788 B)
+  OK min EDEL-CRBN-0008_ent (149764 B)
+  OK min EDEL-CRBN-0008_ent_ent (149764 B)
+  OK min EDEL-CRBN-0009_ent (149812 B)
+  OK min EDEL-CRBN-0009_ent_ent (149812 B)
+  OK min EDEL-CRBN-0010_ent (149836 B)
+  OK min EDEL-CRBN-0010_ent_ent (149836 B)
+  OK min EDEL-CRBN-0011_ent (149812 B)
+  OK min EDEL-CRBN-0011_ent_ent (149812 B)
+  OK min EDEL-CRBN-0012_ent (149812 B)
+  OK min EDEL-CRBN-0012_ent_ent (149812 B)
+  OK min EDEL-CRBN-0013_ent (149860 B)
+  OK min EDEL-CRBN-0013_ent_ent (149860 B)
+  OK min EDEL-CRBN-0014_ent (149860 B)
+  OK min EDEL-CRBN-0014_ent_ent (149860 B)
+  OK min EDEL-CRBN-0015_ent (149860 B)
+  OK min EDEL-CRBN-0015_ent_ent (149860 B)
+  OK min EDEL-CRBN-0016_ent (149908 B)
+  OK min EDEL-CRBN-0016_ent_ent (149908 B)
+  OK min EDEL-CRBN-0002_ent_ent (149692 B)
+  OK min EDEL-CRBN-0001_ent_ent (149644 B)
+  OK min EDEL-CRBN-0002_ent (149692 B)
+  OK min EDEL-CRBN-0003_ent (149692 B)
+  OK min EDEL-CRBN-0003_ent_ent (149692 B)
+
+=== PHASE 2: MD (32 parallel) ===
+Start MD: Mon Sep  7 01:08:18 EEST 2026
+  Launched MD for EDEL-CRBN-0001_ent (PID 246779)
+  Launched MD for EDEL-CRBN-0004_ent (PID 246781)
+  Launched MD for EDEL-CRBN-0004_ent_ent (PID 246783)
+  Launched MD for EDEL-CRBN-0005_ent (PID 246785)
+  Launched MD for EDEL-CRBN-0005_ent_ent (PID 246787)
+  Launched MD for EDEL-CRBN-0006_ent (PID 246789)
+  Launched MD for EDEL-CRBN-0006_ent_ent (PID 246791)
+  Launched MD for EDEL-CRBN-0007_ent (PID 246793)
+  Launched MD for EDEL-CRBN-0007_ent_ent (PID 246795)
+  Launched MD for EDEL-CRBN-0008_ent (PID 246797)
+  Launched MD for EDEL-CRBN-0008_ent_ent (PID 246799)
+  Launched MD for EDEL-CRBN-0009_ent (PID 246801)
+  Launched MD for EDEL-CRBN-0009_ent_ent (PID 246803)
+  Launched MD for EDEL-CRBN-0010_ent (PID 246805)
+  Launched MD for EDEL-CRBN-0010_ent_ent (PID 246807)
+  Launched MD for EDEL-CRBN-0011_ent (PID 246809)
+  Launched MD for EDEL-CRBN-0011_ent_ent (PID 246811)
+  Launched MD for EDEL-CRBN-0012_ent (PID 246813)
+  Launched MD for EDEL-CRBN-0012_ent_ent (PID 246815)
+  Launched MD for EDEL-CRBN-0013_ent (PID 246817)
+  Launched MD for EDEL-CRBN-0013_ent_ent (PID 246819)
+  Launched MD for EDEL-CRBN-0014_ent (PID 246821)
+  Launched MD for EDEL-CRBN-0014_ent_ent (PID 246823)
+  Launched MD for EDEL-CRBN-0015_ent (PID 246825)
+  Launched MD for EDEL-CRBN-0015_ent_ent (PID 246827)
+  Launched MD for EDEL-CRBN-0016_ent (PID 246829)
+  Launched MD for EDEL-CRBN-0016_ent_ent (PID 246831)
+  Launched MD for EDEL-CRBN-0002_ent_ent (PID 246833)
+  Launched MD for EDEL-CRBN-0001_ent_ent (PID 246835)
+  Launched MD for EDEL-CRBN-0002_ent (PID 246837)
+  Launched MD for EDEL-CRBN-0003_ent (PID 246839)
+  Launched MD for EDEL-CRBN-0003_ent_ent (PID 246841)
+Waiting for all 32 MD runs...
+All MD done: Mon Sep  7 01:47:27 EEST 2026
+
+=== Collecting results ===
+  OK  EDEL-CRBN-0001_ent  (3.6M)
+  OK  EDEL-CRBN-0004_ent  (3.6M)
+  OK  EDEL-CRBN-0004_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0005_ent  (3.6M)
+  OK  EDEL-CRBN-0005_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0006_ent  (3.6M)
+  OK  EDEL-CRBN-0006_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0007_ent  (3.6M)
+  OK  EDEL-CRBN-0007_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0008_ent  (3.6M)
+  OK  EDEL-CRBN-0008_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0009_ent  (3.6M)
+  OK  EDEL-CRBN-0009_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0010_ent  (3.6M)
+  OK  EDEL-CRBN-0010_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0011_ent  (3.6M)
+  OK  EDEL-CRBN-0011_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0012_ent  (3.6M)
+  OK  EDEL-CRBN-0012_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0013_ent  (3.6M)
+  OK  EDEL-CRBN-0013_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0014_ent  (3.6M)
+  OK  EDEL-CRBN-0014_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0015_ent  (3.6M)
+  OK  EDEL-CRBN-0015_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0016_ent  (3.6M)
+  OK  EDEL-CRBN-0016_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0002_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0001_ent_ent  (3.6M)
+  OK  EDEL-CRBN-0002_ent  (3.6M)
+  OK  EDEL-CRBN-0003_ent  (3.6M)
+  OK  EDEL-CRBN-0003_ent_ent  (3.6M)
+
+Results: 32/32 OK, 0 failed
+End: Mon Sep  7 01:47:29 EEST 2026
+total 32K
+-rw-rw---- 1 matimuha project_462001483 3.6M Sep  7 01:47 EDEL-CRBN-0001_ent_ent_md.nc
+-rw-rw---- 1 matimuha project_462001483 292K Sep  7 01:47 EDEL-CRBN-0001_ent_ent_md.rst7
+-rw-rw---- 1 matimuha project_462001483 3.6M Sep  7 01:47 EDEL-CRBN-0001_ent_md.nc
+-rw-rw---- 1 matimuha project_462001483 292K Sep  7 01:47 EDEL-CRBN-0001_ent_md.rst7
+-rw-rw---- 1 matimuha project_462001483 3.6M Sep  7 01:47 EDEL-CRBN-0002_ent_ent_md.nc
+-rw-rw---- 1 matimuha project_462001483 293K Sep  7 01:47 EDEL-CRBN-0002_ent_ent_md.rst7
+-rw-rw---- 1 matimuha project_462001483 3.6M Sep  7 01:47 EDEL-CRBN-0002_ent_md.nc
+-rw-rw---- 1 matimuha project_462001483 293K Sep  7 01:47 EDEL-CRBN-0002_ent_md.rst7
+-rw-rw---- 1 matimuha project_462001483 3.6M Sep  7 01:47 EDEL-CRBN-0003_ent_ent_md.nc
