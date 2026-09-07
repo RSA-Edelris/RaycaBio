@@ -1,0 +1,72 @@
+Compound_1: 1 chiral centers → 2 isomers
+  Compound_1_ent1: MMFF=189.70 kcal/mol, nHA=33
+  Compound_1_ent2: MMFF=176.50 kcal/mol, nHA=33
+Compound_4: 4 chiral centers → 16 isomers
+  Compound_4_s1: MMFF=171.66 kcal/mol, nHA=28
+  SKIP Compound_4_s2: embed failed
+  SKIP Compound_4_s3: embed failed
+  Compound_4_s4: MMFF=179.94 kcal/mol, nHA=28
+  Compound_4_s5: MMFF=163.56 kcal/mol, nHA=28
+  SKIP Compound_4_s6: embed failed
+  SKIP Compound_4_s7: embed failed
+  Compound_4_s8: MMFF=162.34 kcal/mol, nHA=28
+  Compound_4_s9: MMFF=153.09 kcal/mol, nHA=28
+  SKIP Compound_4_s10: embed failed
+  SKIP Compound_4_s11: embed failed
+  Compound_4_s12: MMFF=162.45 kcal/mol, nHA=28
+  Compound_4_s13: MMFF=197.27 kcal/mol, nHA=28
+  SKIP Compound_4_s14: embed failed
+  SKIP Compound_4_s15: embed failed
+  Compound_4_s16: MMFF=166.18 kcal/mol, nHA=28
+Compound_7: 1 chiral centers → 2 isomers
+  Compound_7_ent1: MMFF=145.43 kcal/mol, nHA=34
+  Compound_7_ent2: MMFF=148.32 kcal/mol, nHA=34
+Compound_8: 1 chiral centers → 2 isomers
+  Compound_8_ent1: MMFF=133.79 kcal/mol, nHA=28
+  Compound_8_ent2: MMFF=109.58 kcal/mol, nHA=28
+Compound_9: 1 chiral centers → 2 isomers
+  Compound_9_ent1: MMFF=165.18 kcal/mol, nHA=33
+  Compound_9_ent2: MMFF=152.43 kcal/mol, nHA=33
+Compound_10: 1 chiral centers → 2 isomers
+  Compound_10_ent1: MMFF=144.25 kcal/mol, nHA=37
+  Compound_10_ent2: MMFF=145.09 kcal/mol, nHA=37
+Compound_11: 1 chiral centers → 2 isomers
+  Compound_11_ent1: MMFF=162.96 kcal/mol, nHA=35
+  Compound_11_ent2: MMFF=152.43 kcal/mol, nHA=35
+Compound_12: 1 chiral centers → 2 isomers
+  Compound_12_ent1: MMFF=156.55 kcal/mol, nHA=38
+  Compound_12_ent2: MMFF=147.33 kcal/mol, nHA=38
+
+Stage 1: 22 compounds in CRBN_enantio2_stage1.sdf (112.9 KB)
+obabel protonation OK, properties preserved → CRBN_ID_enantio_2.sdf
+
+Final: 124.2 KB
+Final compound count: 22
+
+=== SUMMARY ===
+Name                           Parent          nHA  MMFF(kcal/mol)   EC50(µM)
+─────────────────────────────────────────────────────────────────────────────
+Compound_1_ent1                Compound 1       33          189.70       49.5
+Compound_1_ent2                Compound 1       33          176.50       49.5
+Compound_4_s1                  Compound 4       28          171.66       11.8
+Compound_4_s4                  Compound 4       28          179.94       11.8
+Compound_4_s5                  Compound 4       28          163.56       11.8
+Compound_4_s8                  Compound 4       28          162.34       11.8
+Compound_4_s9                  Compound 4       28          153.09       11.8
+Compound_4_s12                 Compound 4       28          162.45       11.8
+Compound_4_s13                 Compound 4       28          197.27       11.8
+Compound_4_s16                 Compound 4       28          166.18       11.8
+Compound_7_ent1                Compound 7       34          145.43        4.1
+Compound_7_ent2                Compound 7       34          148.32        4.1
+Compound_8_ent1                Compound 8       28          133.79        6.8
+Compound_8_ent2                Compound 8       28          109.58        6.8
+Compound_9_ent1                Compound 9       33          165.18       54.0
+Compound_9_ent2                Compound 9       33          152.43       54.0
+Compound_10_ent1               Compound 10      37          144.25       14.3
+Compound_10_ent2               Compound 10      37          145.09       14.3
+Compound_11_ent1               Compound 11      35          162.97       37.7
+Compound_11_ent2               Compound 11      35          152.43       37.7
+Compound_12_ent1               Compound 12      38          156.55       61.9
+Compound_12_ent2               Compound 12      38          147.33       61.9
+
+Total: 22 compounds → CRBN_ID_enantio_2.sdf

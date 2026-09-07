@@ -1,0 +1,36 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+c2-c1-os   70.990     179.370   same as c2-c1-o , penalty score=  5.5
+c1-n -c2   68.100     118.880   same as c1-n -ca, penalty score=  2.8
+c1-c -ns   68.130     115.100   same as cg-c -ns, penalty score=  0.5
+c1-c2-cl   81.490     124.620   same as c1-c2-f , penalty score=  5.3
+
+DIHE
+n -c -ns-c    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+n -c -ns-hn   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+c1-c -ns-c    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+o -c -ns-c    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+o -c -ns-hn   1    2.500       180.000          -2.000      same as o -c -n -hn
+o -c -ns-hn   1    2.000         0.000           1.000      same as o -c -n -hn, penalty score=  0.0
+c1-c -ns-hn   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+
+IMPROPER
+c1-c3-c2-ce        10.5          180.0         2.0          Same as X -X -cc-X , penalty score= 40.3 (use general term))
+c1-c1-ce-c2        10.5          180.0         2.0          Same as X -X -cc-X , penalty score= 37.0 (use general term))
+c1-c2-c2-os        10.5          180.0         2.0          Same as X -X -cc-X , penalty score= 40.3 (use general term))
+c1-c2-c2-n         10.5          180.0         2.0          Same as X -X -cc-X , penalty score= 40.3 (use general term))
+c -c1-n -c2         1.1          180.0         2.0          Using the default value
+n -ns-c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c -c -ns-hn         1.1          180.0         2.0          Same as X -X -n -hn, penalty score=  6.0 (use general term))
+c1-ns-c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c1-c2-c2-cl        10.5          180.0         2.0          Same as X -X -cc-X , penalty score= 40.3 (use general term))
+c2-ce-c2-f         10.5          180.0         2.0          Same as X -X -cc-X , penalty score= 40.3 (use general term))
+
+NONBON
+
+
+

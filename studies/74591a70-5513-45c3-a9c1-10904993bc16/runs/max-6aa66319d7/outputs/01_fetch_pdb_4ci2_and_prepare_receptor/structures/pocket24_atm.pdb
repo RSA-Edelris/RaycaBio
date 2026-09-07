@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0691
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2177
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5618
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 66.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 330.3725
+HEADER 10 - Pocket volume (convex hull)       : 6.9196
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.8182
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   3371   OH TYR B 250      49.358 178.921  24.286  0.00  0.00           O 0
+ATOM   3370   CZ TYR B 250      49.955 179.755  23.373  0.00  0.00           C 0
+ATOM   3219  NE1 TRP B 242      42.896 184.056  25.383  0.00  0.00           N 0
+ATOM   3366  CE1 TYR B 250      50.149 181.078  23.725  0.00  0.00           C 0
+ATOM   3297  CD2 LEU B 246      47.233 184.255  26.673  0.00  0.00           C 0
+ATOM   3293  CD1 LEU B 246      49.255 183.110  27.269  0.00  0.00           C 0
+ATOM   3224  CZ2 TRP B 242      42.577 182.951  27.622  0.00  0.00           C 0
+ATOM   3228  CH2 TRP B 242      42.925 183.072  28.953  0.00  0.00           C 0
+ATOM   3216  CD1 TRP B 242      43.574 185.176  24.956  0.00  0.00           C 0
+ATOM   3226  CZ3 TRP B 242      43.711 184.135  29.410  0.00  0.00           C 0
+ATOM   3221  CE2 TRP B 242      43.073 183.916  26.736  0.00  0.00           C 0
+ATOM   3315  CE1 TYR B 247      46.754 187.234  21.735  0.00  0.00           C 0
+ATOM   3362  CD1 TYR B 250      50.758 181.952  22.826  0.00  0.00           C 0
+ATOM   3311  CD1 TYR B 247      48.144 187.250  21.730  0.00  0.00           C 0
+ATOM   3291   CG LEU B 246      48.685 184.327  26.601  0.00  0.00           C 0
+ATOM   2386  CG2 THR B 194      48.538 185.673  18.865  0.00  0.00           C 0
+TER
+END
