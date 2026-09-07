@@ -56,6 +56,22 @@ Compound names for the 32-compound set are derived from the `.sdf.gz` filename b
 |------|------|---------|----------------|
 | `poses_all.sdf` | 739 KB (756,429 bytes) | 270 | 270 ✓ |
 
+## Verification
+
+Checks run programmatically (2026-09-07) after script execution:
+
+| Check | Expected | Observed | Pass |
+|-------|----------|----------|------|
+| Total records in `poses_all.sdf` | 270 (22×5 + 32×5) | 270 | ✓ |
+| `$$$$` separators in output file | 270 | 270 | ✓ |
+| Distinct `Compound_Name` values | 54 | 54 | ✓ |
+| Records missing `Compound_Name` or `Pose_Rank` | 0 | 0 | ✓ |
+| Compounds with unexpected pose ranks | 0 | 0 | ✓ |
+| Any `Compound_Name` with trailing `_poses` | 0 | 0 | ✓ |
+| File size | >700 KB | 756,429 bytes | ✓ |
+| 22-compound set: per-pose gnina scores present | yes | `Docking_Affinity_kcal_mol`, `CNN_Affinity`, `CNN_Pose_Score` on all 110 records | ✓ |
+| 32-compound set: original gnina tags preserved | yes | `minimizedAffinity`, `CNNscore`, `CNNaffinity`, `CNN_VS` on all 160 records | ✓ |
+
 ## GitHub
 
 Committed to `RSA-Edelris/RaycaBio` at commit `8a081f5`:
