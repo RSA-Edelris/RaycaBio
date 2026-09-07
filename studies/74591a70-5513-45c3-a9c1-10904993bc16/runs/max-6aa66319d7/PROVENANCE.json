@@ -1,7 +1,7 @@
 {
   "study_id": "74591a70-5513-45c3-a9c1-10904993bc16",
   "run_id": "max-6aa66319d7",
-  "published_at": "2026-09-07T09:20:12Z",
+  "published_at": "2026-09-07T09:43:15Z",
   "review_state": {},
   "is_reviewed": false,
   "tool_versions": [],
@@ -21083,6 +21083,83 @@
       "committed": true
     },
     {
+      "path": "04_task_bpf1n94ud/source/143_path.py",
+      "sha256": "b12414d49345ed99d72e0da0f8f9faf7fb65f7985a29aca8e4243b3e2eb578d3",
+      "size": 2953,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/source/144_get_actual_dg_values_task_level_file_checks.py",
+      "sha256": "3d84efd905305bc76fc874c0c8f9bc3e44a4ce69ba9232c7a65d8c1aac455b22",
+      "size": 1585,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/source/145_data_items.py",
+      "sha256": "4752cc36e97bd741dbd4d014bd88cbc52fda6ddf867ab9db4265153d8a5a1c03",
+      "size": 407,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/reports/audit_phase_01_stereoenumeration(2).md",
+      "sha256": "6fe18fc666247de080f2f5f1e5392da8356f454f290ea45c4551e1a44c3f7611",
+      "size": 2616,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "41dc1ec004144dcf8c605df44e3fdf88",
+      "step": "edit",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/reports/audit_phase_02_docking(2).md",
+      "sha256": "0131f1d4f093ffac6c99368fae17ccd73ce59f187a3ccfc38a161b2f61a85e50",
+      "size": 2879,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "b9fcc45ecee54439998679edcb3ef36a",
+      "step": "edit",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/reports/audit_phase_03_mmgbsa_interactions_report(2).md",
+      "sha256": "d91d8896fdbf297f9dbeef912a842b5db18939fc31fc0bfa62fe565f917eecdd",
+      "size": 3856,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "802039f1e4eb449fbf81f663bc5d4ce1",
+      "step": "edit",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/reports/audit_tasks_bt3i0n9lx_bvh8nqsvc_bk04326pc_be46qtrvc(2).md",
+      "sha256": "3dd358fdbc336c67124687c0e41a2a64d9be4d04cc7dec6597bc692499ef6fda",
+      "size": 5308,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "f517092965dd4cd0851fc7e5e926f19e",
+      "step": "edit",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
       "path": "prep_enantio2.py",
       "size": 6116,
       "kind": "code",
@@ -21202,6 +21279,13 @@
       "committed": true
     },
     {
+      "path": "source/143_path.py",
+      "size": 2953,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
       "path": "source/084_build_exact_directory_list_same_convention_pipeline.py",
       "size": 500,
       "kind": "code",
@@ -21316,6 +21400,13 @@
     {
       "path": "source/088_locate_amberhome_should_be_conda_env_root.py",
       "size": 1352,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/144_get_actual_dg_values_task_level_file_checks.py",
+      "size": 1585,
       "kind": "code",
       "source": "workspace",
       "committed": true
@@ -22028,6 +22119,13 @@
       "committed": true
     },
     {
+      "path": "source/145_data_items.py",
+      "size": 407,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
       "path": "source/116_path.py",
       "size": 704,
       "kind": "code",
@@ -22151,7 +22249,7 @@
     "session_id": "74591a70-5513-45c3-a9c1-10904993bc16",
     "run_id": "max-6aa66319d7",
     "outcome": "",
-    "pushed_at": "2026-09-07T09:20:12Z"
+    "pushed_at": "2026-09-07T09:43:15Z"
   },
   "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
   "file_digests": {
@@ -22322,6 +22420,9 @@
     "scripts/03_run_mm_gbsa_on_best_docking_poses_and_write_fina/source/140_path.py": "51304056ece6e2dba3f1a9237479cd723c9b31a4980dbfa3118d80b54825a38b",
     "scripts/03_run_mm_gbsa_on_best_docking_poses_and_write_fina/source/141_path.py": "b6bddfcc3f351f3e865c63b069cccdbcdf4092e4f33c0d07c894a0570bb983a7",
     "scripts/03_run_mm_gbsa_on_best_docking_poses_and_write_fina/source/142_build_annotated_sdf_via_subprocess_needs_venv_python.py": "148a4d4bc64f97df51e14a7ecd324423fd327fa33ffb29965298e4afdfaeeea9",
+    "scripts/04_task_bpf1n94ud/source/143_path.py": "b12414d49345ed99d72e0da0f8f9faf7fb65f7985a29aca8e4243b3e2eb578d3",
+    "scripts/04_task_bpf1n94ud/source/144_get_actual_dg_values_task_level_file_checks.py": "3d84efd905305bc76fc874c0c8f9bc3e44a4ce69ba9232c7a65d8c1aac455b22",
+    "scripts/04_task_bpf1n94ud/source/145_data_items.py": "4752cc36e97bd741dbd4d014bd88cbc52fda6ddf867ab9db4265153d8a5a1c03",
     "scripts/prep_enantio2.py": "f8389fa05f07168c9ea0c545c2cef8e0cefa3b4af26fdd7e6ad2bc89af88c902",
     "scripts/run_mmgbsa2.py": "747b8c970fc5418c1e5be7058465f9b7fe34e88f21458c70a10d5d851830222c",
     "scripts/run_interactions.py": "6419100f1d75f42d5a62f8316302b4834913daf71ce02367a856ef9d78b13e0c",
@@ -22339,6 +22440,7 @@
     "scripts/source/017_open.py": "1ca34889fb983126efdfbae1a6531d941ca8ae426255c786a247b07713d556a4",
     "scripts/source/024_run_aidd_tool.py": "65dcd2cbdc69de4654f4cc8710976871018be6af74228a20ddeb73436b02964b",
     "scripts/source/127_check_if_prolif_mdanalysis_available.py": "d24afbb8a6a1c103488aa1bff1ab370bcfe2bc228dfc624fdde840441028df51",
+    "scripts/source/143_path.py": "b12414d49345ed99d72e0da0f8f9faf7fb65f7985a29aca8e4243b3e2eb578d3",
     "scripts/source/084_build_exact_directory_list_same_convention_pipeline.py": "0b8829c90cd6ac25139035957d26882bfc9c606c9e389a3b9d103d5381049190",
     "scripts/source/074_atomic_numbers_electron_counting.py": "968f02e54f16cd99478c14be61a924c11b4475ca8312398ecc7026cd17f876f2",
     "scripts/source/090_amber_env.py": "42ddb320e4f9ea48eb7a30a4804016eeebddad5dfda1d4d1a8b02118cf23e33a",
@@ -22356,6 +22458,7 @@
     "scripts/source/111_allchem_chem_sdmolsupplier_path_base_out_sdf_v2000.py": "187db917fb73fd989302eb147e3436a38940f4a3b63dccc96dcdf221c9a82917",
     "scripts/source/075_check_first_30_lines_one_sdf_see_if_h_atoms_explicit.py": "77ac1526b629d99cb8061cabc556edf23a8212dd0f574bebfa8fd6c503b81589",
     "scripts/source/088_locate_amberhome_should_be_conda_env_root.py": "d049f496c2cd7b10cf575493d129bac2be9596b75d8c5c30a3f27453ce7ce232",
+    "scripts/source/144_get_actual_dg_values_task_level_file_checks.py": "3d84efd905305bc76fc874c0c8f9bc3e44a4ce69ba9232c7a65d8c1aac455b22",
     "scripts/source/030_run_aidd_tool.py": "090c1a29ea41f6eba7f3b741024e72bb97f8f0a542eab1cf64442d327a386dc1",
     "scripts/source/125_check_if_ambertools_mmpbsa_py_available_locally.py": "da0ea3e9208d5666d26ec95fda35a81932dffe06c636e7d7603b8e5c3e6a7cba",
     "scripts/source/060_os_makedirs.py": "da08b35002dfe9b67662fd3c7af867fb819996b8ef0653236d8b54dbe71a5ef7",
@@ -22457,6 +22560,7 @@
     "scripts/source/113_print.py": "20e207e6b630efc560196bf7e7cc0074e9e6c45e24286e9f7f7abd7f1669c1d5",
     "scripts/source/087_amber_env.py": "55fc68e05f423e9a24a221999fae1c79e66811f91e56089e317fae8a5c3127b8",
     "scripts/source/009_parse_fpocket_info_txt.py": "4afd5faff98d83424e1c57dfc4f9552c2778cbab4ad4f73287d88e15078b9c57",
+    "scripts/source/145_data_items.py": "4752cc36e97bd741dbd4d014bd88cbc52fda6ddf867ab9db4265153d8a5a1c03",
     "scripts/source/116_path.py": "a316fa479eb5188ef3a19e10fd3b66a904760da25c61766252de02f4ec01883d",
     "scripts/source/043_run_aidd_tool.py": "d85ac8f643259a0396b33804b62b2367fb3b426fe2daa849b9183157b9497e58",
     "scripts/source/079_remove_am1_bcc_mol2_topology_edel_crbn_0005_ent_redo.py": "5327fd695bffba1aee11ff2fdc2a8c4fd84261fd97c8df6e6dbe77d08eef3898",
@@ -24150,6 +24254,10 @@
     "outputs/04_task_bpf1n94ud/reports/audit_phase_02_docking.md": "fd236f2a3e0e9e6b8031d48fdda7d9ac2215ced72933864ec187ed3b5a57ca7e",
     "outputs/04_task_bpf1n94ud/reports/audit_phase_03_mmgbsa_interactions_report.md": "e0d0f790f6ca720689313f3e081c71ee4ff9915d74531642c1dbc1f22517ba19",
     "outputs/04_task_bpf1n94ud/reports/audit_tasks_bt3i0n9lx_bvh8nqsvc_bk04326pc_be46qtrvc.md": "184f0f20b795890783091499f9b237270d6cb826a524983de849c1f15869ec0f",
+    "outputs/04_task_bpf1n94ud/reports/audit_phase_01_stereoenumeration(2).md": "6fe18fc666247de080f2f5f1e5392da8356f454f290ea45c4551e1a44c3f7611",
+    "outputs/04_task_bpf1n94ud/reports/audit_phase_02_docking(2).md": "0131f1d4f093ffac6c99368fae17ccd73ce59f187a3ccfc38a161b2f61a85e50",
+    "outputs/04_task_bpf1n94ud/reports/audit_phase_03_mmgbsa_interactions_report(2).md": "d91d8896fdbf297f9dbeef912a842b5db18939fc31fc0bfa62fe565f917eecdd",
+    "outputs/04_task_bpf1n94ud/reports/audit_tasks_bt3i0n9lx_bvh8nqsvc_bk04326pc_be46qtrvc(2).md": "3dd358fdbc336c67124687c0e41a2a64d9be4d04cc7dec6597bc692499ef6fda",
     ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }

@@ -5,7 +5,7 @@
 ## Run Identity
 
 - Run ID: `max-6aa66319d7`
-- Published: 2026-09-07T09:20:12Z
+- Published: 2026-09-07T09:43:15Z
 - Review: not reviewed
 
 ## Tools and Environment
@@ -1288,9 +1288,13 @@ Files included in this repository:
 - `outputs/04_mm_gbsa_on_best_docking_poses/structures/EDEL-CRBN-0016_pose1.sdf` (4050 bytes)
 - `outputs/04_mm_gbsa_on_best_docking_poses/work/all_contacts.json` (77226 bytes)
 - `outputs/04_mm_gbsa_on_best_docking_poses/work/interaction_freq.json` (1050 bytes)
+- `outputs/04_task_bpf1n94ud/reports/audit_phase_01_stereoenumeration(2).md` (2616 bytes)
 - `outputs/04_task_bpf1n94ud/reports/audit_phase_01_stereoenumeration.md` (1741 bytes)
+- `outputs/04_task_bpf1n94ud/reports/audit_phase_02_docking(2).md` (2879 bytes)
 - `outputs/04_task_bpf1n94ud/reports/audit_phase_02_docking.md` (2124 bytes)
+- `outputs/04_task_bpf1n94ud/reports/audit_phase_03_mmgbsa_interactions_report(2).md` (3856 bytes)
 - `outputs/04_task_bpf1n94ud/reports/audit_phase_03_mmgbsa_interactions_report.md` (2743 bytes)
+- `outputs/04_task_bpf1n94ud/reports/audit_tasks_bt3i0n9lx_bvh8nqsvc_bk04326pc_be46qtrvc(2).md` (5308 bytes)
 - `outputs/04_task_bpf1n94ud/reports/audit_tasks_bt3i0n9lx_bvh8nqsvc_bk04326pc_be46qtrvc.md` (3953 bytes)
 - `outputs/04_task_bpf1n94ud/reports/phase_03_run_mm_gbsa_on_best_docking_poses_and_write_fina.md` (98420 bytes)
 - `outputs/05_interaction_analysis_and_report/reports/phase_04_mm_gbsa_on_best_docking_poses.md` (36385 bytes)
@@ -1865,6 +1869,9 @@ Large files referenced by digest (not committed):
 - `scripts/04_mm_gbsa_on_best_docking_poses/source/058_sys_path_insert.py`
 - `scripts/04_mm_gbsa_on_best_docking_poses/source/059_sys_path_insert.py`
 - `scripts/04_mm_gbsa_on_best_docking_poses/source/interaction_utils.py`
+- `scripts/04_task_bpf1n94ud/source/143_path.py`
+- `scripts/04_task_bpf1n94ud/source/144_get_actual_dg_values_task_level_file_checks.py`
+- `scripts/04_task_bpf1n94ud/source/145_data_items.py`
 - `scripts/4CI2_receptor_noh_out/4CI2_receptor_noh_PYMOL.sh`
 - `scripts/4CI2_receptor_noh_out/4CI2_receptor_noh_VMD.sh`
 - `scripts/interaction_utils.py`
@@ -2018,6 +2025,9 @@ Large files referenced by digest (not committed):
 - `scripts/source/140_path.py`
 - `scripts/source/141_path.py`
 - `scripts/source/142_build_annotated_sdf_via_subprocess_needs_venv_python.py`
+- `scripts/source/143_path.py`
+- `scripts/source/144_get_actual_dg_values_task_level_file_checks.py`
+- `scripts/source/145_data_items.py`
 
 ## Inputs
 
