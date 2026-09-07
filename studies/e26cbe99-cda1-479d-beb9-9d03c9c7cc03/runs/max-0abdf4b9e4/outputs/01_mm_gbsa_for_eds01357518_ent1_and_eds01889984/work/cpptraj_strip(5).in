@@ -1,0 +1,5 @@
+parm /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/md_EDS01889984/complex.prmtop
+trajin /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/npt_prod.6304913.xtc
+strip :WAT,Cl-
+trajout /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/md_EDS01889984/prod_nowater.nc netcdf
+run

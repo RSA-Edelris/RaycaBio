@@ -1,0 +1,9 @@
+source leaprc.gaff2
+source leaprc.water.tip3p
+loadamberparams /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/md_EDS01806218_ent1/ligand.frcmod
+LIG = loadmol2 /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/md_EDS01806218_ent1/ligand.mol2
+solvateBox LIG TIP3PBOX 12.0
+addIons2 LIG Na+ 0.15
+addIons2 LIG Cl- 0.15
+saveamberparm LIG /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/md_EDS01806218_ent1/abfe_solv/lig_solv.prmtop /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/md_EDS01806218_ent1/abfe_solv/lig_solv.inpcrd
+quit

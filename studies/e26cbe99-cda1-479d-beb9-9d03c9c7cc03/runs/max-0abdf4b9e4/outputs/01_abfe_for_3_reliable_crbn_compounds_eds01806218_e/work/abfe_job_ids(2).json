@@ -1,0 +1,21 @@
+{
+  "attempt": 2,
+  "note": "Resubmission after RAYCA_INPUTS fix — files staged flat at session root with compound-prefixed names; scripts reference by basename only",
+  "complex_EDS01806218_ent1": "6324741",
+  "complex_EDS01806218_ent2": "6324752",
+  "complex_EDS01889984":      "6324773",
+  "solvent_EDS01806218_ent1": "6324783",
+  "solvent_EDS01806218_ent2": "6324800",
+  "solvent_EDS01889984":      "6324817",
+  "md_EDS01357518_ent2":      "6324829",
+  "failed_attempt_1": {
+    "complex_EDS01806218_ent1": "6324320",
+    "complex_EDS01806218_ent2": "6324332",
+    "complex_EDS01889984":      "6324347",
+    "solvent_EDS01806218_ent1": "6324357",
+    "solvent_EDS01806218_ent2": "6324401",
+    "solvent_EDS01889984":      "6324414",
+    "md_EDS01357518_ent2":      "6324421",
+    "failure_reason": "RAYCA_INPUTS unbound — scripts used $RAYCA_INPUTS/md_NAME/ prefix; platform does not set this variable when inputs contain subdirectory paths"
+  }
+}

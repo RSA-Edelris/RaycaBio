@@ -1,0 +1,20 @@
+
+import subprocess
+
+print("=== Step 2: MMPBSA.py (no -sp) ===")
+r = subprocess.run(
+    [f"{AMBERHOME}/bin/MMPBSA.py", "-O",
+     "-i",  f"{MD}/mmpbsa.in",
+     "-o",  f"{MD}/mmpbsa_results.dat",
+     "-do", f"{MD}/mmpbsa_decomp.dat",
+     "-cp", f"{MD}/complex_nowater.prmtop",
+     "-rp", f"{MD}/receptor.prmtop",
+     "-lp", f"{MD}/ligand.prmtop",
+     "-y",  f"{MD}/prod_nowater.nc"],
+    capture_output=True, text=True, timeout=1800, env=env
+)
+print(r.stdout[-5000:] if len(r.stdout) > 5000 else r.stdout)
+if r.returncode != 0:
+    print("STDERR:", r.stderr[-2000:])
+    raise RuntimeError(f"MMPBSA.py failed (rc={r.returncode})")
+print("Return code:", r.returncode)

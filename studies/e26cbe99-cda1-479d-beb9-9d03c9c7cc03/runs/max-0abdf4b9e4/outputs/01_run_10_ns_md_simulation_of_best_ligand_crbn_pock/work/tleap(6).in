@@ -1,0 +1,8 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+LIG = loadmol2 /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/mmgbsa_EDS01889984/lig.mol2
+loadamberparams /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/mmgbsa_EDS01889984/lig.frcmod
+REC = loadpdb /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/md_EDS01806218_ent2/receptor_tleap.pdb
+complex = combine { REC LIG }
+saveamberparm complex /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/mmgbsa_EDS01889984/complex.prmtop /home/ubuntu/rayca-sessions/e26cbe99-cda1-479d-beb9-9d03c9c7cc03-d43a861c8a85/mmgbsa_EDS01889984/complex.inpcrd
+quit

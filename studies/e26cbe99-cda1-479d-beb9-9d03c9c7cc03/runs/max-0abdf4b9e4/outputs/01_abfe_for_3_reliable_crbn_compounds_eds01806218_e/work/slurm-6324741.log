@@ -1,0 +1,98 @@
+=== ABFE complex leg: EDS01806218_ent1 ===
+--- Complex window 00 ---
+                      :-) GROMACS - gmx grompp, 2026.1 (-:
+
+Executable:   /projects/u6sp/software-aarch64/gromacs-2026.1-mpi/bin/gmx_mpi
+Data prefix:  /projects/u6sp/software-aarch64/gromacs-2026.1-mpi
+Working dir:  /lus/lfs1aip2/scratch/u6sp/hpcuser.u6sp/rayca/max-b07b85181c
+Command line:
+  gmx_mpi grompp -f win00.mdp -c start.gro -p complex.top -n index.ndx -o win00/fep.tpr -maxwarn 20
+
+
+NOTE 1 [file win00.mdp, line 55]:
+  For proper sampling of the (nearly) decoupled state, stochastic dynamics
+  should be used
+
+
+WARNING 1 [file win00.mdp]:
+  You are generating velocities so I am assuming you are equilibrating a
+  system. You are using Parrinello-Rahman pressure coupling, but this can
+  be unstable for equilibration. If your system crashes, try equilibrating
+  first with Berendsen pressure coupling. If you are not equilibrating the
+  system, you can probably ignore this warning.
+
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 2 [file complex.top, line 25840]:
+  System has non-zero total charge: -0.001999
+  Total charge should normally be an integer. See
+  https://manual.gromacs.org/current/user-guide/floating-point.html
+  for discussion on how close it should be to an integer.
+
+
+
+
+WARNING 2 [file complex.top, line 25840]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+Setting the LD random seed to -136368233
+
+Generated 1431 of the 1431 non-bonded parameter combinations
+
+Generated 1431 of the 1431 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'LIG'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'Cl-'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+turning H bonds into constraints...
+
+Coupling 1 copies of molecule type 'LIG'
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmüller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. (2014)
+https://doi.org/10.1021/ct400626b
+-------- -------- --- Thank You --- -------- --------
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2026.1
+Source file: src/gromacs/gmxpreprocess/convparm.cpp (line 653)
+
+Fatal error:
+The intermolecular_interaction can not contain chemically bonding interactions
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+Velocities were taken from a Maxwell distribution at 300 K
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+RAYCA: the job stopped at line 38 with exit 1
+RAYCA: the command was: $GMX grompp -f win${w}.mdp -c start.gro -p complex.top -n index.ndx -o win${w}/fep.tpr -maxwarn 20
+RAYCA: if that command is allowed to fail, end it with || true

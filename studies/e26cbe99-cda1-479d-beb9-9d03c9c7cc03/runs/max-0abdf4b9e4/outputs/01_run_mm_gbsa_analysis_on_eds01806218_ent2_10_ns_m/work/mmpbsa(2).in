@@ -1,0 +1,12 @@
+Per-residue MM-GBSA for CRBN pocket + EDS01806218_ent2
+&general
+  startframe = 200,
+  endframe   = 1000,
+  interval   = 4,
+  verbose    = 2,
+  keep_files = 0,
+/
+&gb
+  igb     = 5,
+  saltcon = 0.15,
+/

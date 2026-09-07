@@ -1,0 +1,12 @@
+Per-residue MM-GBSA for CRBN pocket + EDS01806218_ent2
+&general
+  startframe = 200,        ! skip first 2 ns (1 ns eq + 1 ns warmup)
+  endframe   = 1000,       ! last frame (10 ns, 1000 frames at 10 ps/frame)
+  interval   = 4,          ! every 4th frame -> 200 frames analyzed
+  verbose    = 2,          ! print all energies
+  keep_files = 0,
+/
+&gb
+  igb      = 5,            ! OBC2 (Onufriev-Bashford-Case) GB model
+  saltcon  = 0.15,         ! 150 mM NaCl
+/

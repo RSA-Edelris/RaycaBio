@@ -1,0 +1,1243 @@
+# Study: e26cbe99-cda1-479d-beb9-9d03c9c7cc03
+
+> WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.
+
+## Run Identity
+
+- Run ID: `max-0abdf4b9e4`
+- Published: 2026-09-07T06:46:48Z
+- Review: not reviewed
+
+## Tools and Environment
+
+- No tool version information recorded.
+
+## Outputs
+
+Files included in this repository:
+
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/structures/npt_prod_EDS01357518_ent2.gro` (2018094 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_complex_abfe(2).top` (1307374 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win00(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win00(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win01(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win01(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win02(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win02(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win03(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win03(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win04(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win04(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win05(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win05(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win06(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win06(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win07(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win07(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win08(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win08(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win09(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win09(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win10(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win10(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win11(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win11(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win12(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win12(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win13(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win13(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win14(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win14(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win15(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win15(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win16(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_cplx_win16(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win00(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win00(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win01(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win01(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win02(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win02(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win03(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win03(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win04(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win04(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win05(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win05(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win06(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win06(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win07(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win07(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win08(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win08(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win09(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win09(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win10(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win10(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win11(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win11(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win12(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win12(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win13(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win13(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win14(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win14(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win15(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win15(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win16(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent1_solv_win16(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_complex_abfe(2).top` (1307366 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win00(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win00(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win01(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win01(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win02(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win02(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win03(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win03(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win04(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win04(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win05(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win05(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win06(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win06(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win07(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win07(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win08(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win08(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win09(2).mdp` (1565 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win09(3).mdp` (1566 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win10(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win10(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win11(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win11(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win12(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win12(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win13(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win13(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win14(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win14(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win15(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win15(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win16(2).mdp` (1567 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_cplx_win16(3).mdp` (1568 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win00(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win00(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win01(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win01(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win02(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win02(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win03(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win03(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win04(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win04(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win05(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win05(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win06(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win06(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win07(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win07(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win08(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win08(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win09(2).mdp` (1534 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win09(3).mdp` (1535 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win10(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win10(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win11(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win11(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win12(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win12(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win13(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win13(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win14(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win14(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win15(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win15(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win16(2).mdp` (1536 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01806218_ent2_solv_win16(3).mdp` (1537 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_complex_abfe(2).top` (1306203 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win00(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win00(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win01(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win01(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win02(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win02(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win03(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win03(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win04(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win04(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win05(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win05(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win06(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win06(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win07(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win07(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win08(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win08(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win09(2).mdp` (1560 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win09(3).mdp` (1561 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win10(2).mdp` (1562 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win10(3).mdp` (1563 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win11(2).mdp` (1562 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win11(3).mdp` (1563 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win12(2).mdp` (1562 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win12(3).mdp` (1563 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win13(2).mdp` (1562 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win13(3).mdp` (1563 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win14(2).mdp` (1562 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win14(3).mdp` (1563 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win15(2).mdp` (1562 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win15(3).mdp` (1563 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win16(2).mdp` (1562 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_cplx_win16(3).mdp` (1563 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win00(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win00(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win01(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win01(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win02(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win02(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win03(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win03(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win04(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win04(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win05(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win05(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win06(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win06(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win07(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win07(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win08(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win08(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win09(2).mdp` (1529 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win09(3).mdp` (1530 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win10(2).mdp` (1531 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win10(3).mdp` (1532 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win11(2).mdp` (1531 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win11(3).mdp` (1532 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win12(2).mdp` (1531 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win12(3).mdp` (1532 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win13(2).mdp` (1531 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win13(3).mdp` (1532 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win14(2).mdp` (1531 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win14(3).mdp` (1532 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win15(2).mdp` (1531 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win15(3).mdp` (1532 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win16(2).mdp` (1531 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/EDS01889984_solv_win16(3).mdp` (1532 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/abfe_job_ids(2).json` (956 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01806218_ent1_win00_dhdl.xvg` (1722799 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01806218_ent1_win01_dhdl.xvg` (1756280 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01806218_ent1_win02_dhdl.xvg` (1669944 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01806218_ent1_win03_dhdl.xvg` (1676946 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01806218_ent2_win00_dhdl.xvg` (1741801 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01806218_ent2_win01_dhdl.xvg` (1663894 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01806218_ent2_win02_dhdl.xvg` (1669603 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01806218_ent2_win03_dhdl.xvg` (1677028 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01889984_win00_dhdl.xvg` (1659627 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01889984_win01_dhdl.xvg` (1664110 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01889984_win02_dhdl.xvg` (1669802 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/complex_EDS01889984_win03_dhdl.xvg` (1677042 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/npt_prod_EDS01357518_ent2.edr` (685524 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324741.log` (3665 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324752.log` (2715 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324773.log` (3661 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324783.6324783.log` (302751 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324783.log` (282734 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324800.6324783.log` (310437 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324800.log` (241103 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324817.6324800-2.log` (226718 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324817.6324800.log` (165357 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324817.6324817.log` (232785 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324817.log` (38 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324829.6324741.log` (1044480 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324829.6324829.log` (3131020 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6324829.log` (459579 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325310.6324332.log` (1565675 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325310.6324741.log` (874181 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325310.6324783.log` (1817616 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325310.6324800.log` (1946144 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325310.6324817.log` (2130120 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325310.log` (319280 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325329.6324332.log` (1378354 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325329.6324741.log` (702954 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325329.6324783.log` (1641616 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325329.6324800.log` (1754008 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325329.6324817.log` (1929649 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325329.log` (300875 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325334.6324332.log` (1341584 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325334.6324741.log` (677107 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325334.6324783.log` (1603128 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325334.6324800.log` (1723129 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325334.6324817.log` (1898391 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325334.log` (263419 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325340.6324332.log` (2064079 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325340.6324741.log` (1109614 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325340.6324783.log` (2436762 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325340.6324800.log` (2611200 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325340.6324817.log` (2862433 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325340.log` (522240 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325348.6324332.log` (2467296 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325348.6324741.log` (1153130 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325348.6324783.log` (2611200 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325348.6324800.log` (2904803 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325348.6324817.log` (3133440 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/slurm-6325348.log` (714674 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent1_win00_dhdl.xvg` (1723521 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent1_win01_dhdl.xvg` (1756697 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent1_win02_dhdl.xvg` (1740683 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent1_win03_dhdl.xvg` (1708200 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent1_win04_dhdl.xvg` (1661827 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent2_win00_dhdl.xvg` (1741828 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent2_win01_dhdl.xvg` (1758834 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent2_win02_dhdl.xvg` (1741619 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent2_win03_dhdl.xvg` (1708587 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent2_win04_dhdl.xvg` (1661756 bytes)
+- `outputs/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/work/solvent_EDS01806218_ent2_win05_dhdl.xvg` (1668728 bytes)
+- `outputs/01_add_crystal_ligand_lvy_to_docking_viewer/reports/docking_viewer(3).html` (285018 bytes)
+- `outputs/01_add_crystal_ligand_lvy_to_docking_viewer/structures/crystal_lvy.pdb` (1543 bytes)
+- `outputs/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/reports/audit_add_interactions.md` (3001 bytes)
+- `outputs/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/reports/docking_viewer(6).html` (299148 bytes)
+- `outputs/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/reports/phase_01_add_interaction_lines_hbond_pistack.md` (3712 bytes)
+- `outputs/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/reports/phase_02_task_a509223b32b97a0c2.md` (3599 bytes)
+- `outputs/01_build_interactive_docking_viewer_html/reports/docking_viewer(2).html` (282171 bytes)
+- `outputs/01_build_interactive_docking_viewer_html/reports/docking_viewer.html` (282404 bytes)
+- `outputs/01_generate_enantiomers_and_3d_conformers_for_enant/structures/enantio_structure.sdf` (21726 bytes)
+- `outputs/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/structures/npt_prod_EDS01889984.gro` (2017059 bytes)
+- `outputs/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/work/cpptraj_strip(4).in` (372 bytes)
+- `outputs/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/work/cpptraj_strip(5).in` (362 bytes)
+- `outputs/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/work/mmpbsa_results(2).dat` (6069 bytes)
+- `outputs/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/work/mmpbsa_results(3).dat` (6049 bytes)
+- `outputs/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/work/npt_prod_EDS01889984.edr` (685524 bytes)
+- `outputs/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/work/slurm-6306623.log` (2656671 bytes)
+- `outputs/01_phase_1_protein_preparation_4ci2/inputs/PB-20260903-4CI2_raw.pdb` (1931202 bytes)
+- `outputs/01_phase_1_protein_preparation_4ci2/results/protonation-state-results-2.json` (721 bytes)
+- `outputs/01_phase_1_protein_preparation_4ci2/results/protonation-state-results-3.json` (751 bytes)
+- `outputs/01_phase_1_protein_preparation_4ci2/results/protonation-state-results-4.json` (751 bytes)
+- `outputs/01_phase_1_protein_preparation_4ci2/results/protonation-state-results-5.json` (667 bytes)
+- `outputs/01_phase_1_protein_preparation_4ci2/results/protonation-state-results.json` (715 bytes)
+- `outputs/01_phase_1_protein_preparation_4ci2/structures/PB-20260903-4CI2_receptor.pdb` (1941749 bytes)
+- `outputs/01_phase_1_protein_preparation_4ci2/structures/PB-20260903-4CI2_receptor_noH.pdb` (973232 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/abfe_start(2).gro` (1316444 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/abfe_start(3).gro` (1315499 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/abfe_start.gro` (1315904 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/lig_solv(2).gro` (216799 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/lig_solv(2).inpcrd` (175868 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/lig_solv(2).prmtop` (800903 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/lig_solv(3).gro` (220849 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/lig_solv(3).inpcrd` (179153 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/lig_solv(3).prmtop` (817306 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/lig_solv.gro` (218149 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/lig_solv.inpcrd` (176963 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/structures/lig_solv.prmtop` (805683 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/tables/138_get_timing_info_successful_md_run.csv` (274 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/abfe_job_ids.json` (274 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/complex_abfe(2).top` (1307366 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/complex_abfe(3).top` (1306203 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/complex_abfe.top` (1307374 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/leap(16).log` (11401 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/leap(17).log` (11402 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/leap(18).log` (10513 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/lig_solv(2).top` (35343 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/lig_solv(3).top` (34174 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/lig_solv.top` (35345 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/slurm-6324320.log` (126 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/slurm-6324332.log` (126 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/slurm-6324347.log` (121 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/slurm-6324357.log` (126 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/slurm-6324401.log` (126 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/slurm-6324414.log` (121 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/slurm-6324421.log` (245 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/tleap_solv(2).in` (643 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/tleap_solv(3).in` (623 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/tleap_solv.in` (643 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win00(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win00(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win00(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win00(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win00(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win00(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win00(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win00(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win00.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win01(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win01(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win01(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win01(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win01(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win01(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win01(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win01(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win01.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win02(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win02(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win02(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win02(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win02(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win02(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win02(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win02(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win02.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win03(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win03(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win03(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win03(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win03(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win03(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win03(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win03(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win03.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win04(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win04(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win04(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win04(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win04(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win04(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win04(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win04(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win04.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win05(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win05(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win05(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win05(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win05(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win05(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win05(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win05(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win05.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win06(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win06(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win06(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win06(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win06(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win06(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win06(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win06(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win06.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win07(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win07(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win07(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win07(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win07(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win07(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win07(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win07(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win07.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win08(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win08(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win08(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win08(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win08(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win08(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win08(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win08(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win08.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win09(2).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win09(3).mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win09(4).mdp` (1558 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win09(5).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win09(6).mdp` (1553 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win09(7).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win09(8).mdp` (1534 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win09(9).mdp` (1529 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win09.mdp` (1565 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win10(2).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win10(3).mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win10(4).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win10(5).mdp` (1562 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win10(6).mdp` (1555 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win10(7).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win10(8).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win10(9).mdp` (1531 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win10.mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win11(2).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win11(3).mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win11(4).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win11(5).mdp` (1562 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win11(6).mdp` (1555 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win11(7).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win11(8).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win11(9).mdp` (1531 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win11.mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win12(2).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win12(3).mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win12(4).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win12(5).mdp` (1562 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win12(6).mdp` (1555 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win12(7).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win12(8).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win12(9).mdp` (1531 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win12.mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win13(2).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win13(3).mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win13(4).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win13(5).mdp` (1562 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win13(6).mdp` (1555 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win13(7).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win13(8).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win13(9).mdp` (1531 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win13.mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win14(2).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win14(3).mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win14(4).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win14(5).mdp` (1562 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win14(6).mdp` (1555 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win14(7).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win14(8).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win14(9).mdp` (1531 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win14.mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win15(2).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win15(3).mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win15(4).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win15(5).mdp` (1562 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win15(6).mdp` (1555 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win15(7).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win15(8).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win15(9).mdp` (1531 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win15.mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win16(2).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win16(3).mdp` (1567 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win16(4).mdp` (1560 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win16(5).mdp` (1562 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win16(6).mdp` (1555 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win16(7).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win16(8).mdp` (1536 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win16(9).mdp` (1531 bytes)
+- `outputs/01_plan_and_run_abfe_for_all_5_crbn_compounds/work/win16.mdp` (1567 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/inputs/reference(2).frc` (499002 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/inputs/reference(3).frc` (499002 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/inputs/reference(4).frc` (499002 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/inputs/reference(5).frc` (498962 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/inputs/reference.frc` (499002 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/reports/phase_md_10ns_EDS01806218_ent2(2).md` (7757 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/reports/phase_md_10ns_EDS01806218_ent2.md` (6369 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(10).prmtop` (1051102 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(11).prmtop` (1054097 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(2).inpcrd` (84919 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(2).prmtop` (1049720 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(3).inpcrd` (84919 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(3).prmtop` (1049720 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(4).inpcrd` (84919 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(4).prmtop` (1051102 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(5).inpcrd` (84919 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(5).prmtop` (1051102 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(6).inpcrd` (84919 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(6).prmtop` (1054097 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(7).prmtop` (1049720 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(8).prmtop` (1049720 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex(9).prmtop` (1051102 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex.gro` (1316464 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex.inpcrd` (1067828 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex.prmtop` (5343967 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex_nowater.prmtop` (1048667 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/complex_solvated.pdb` (2373942 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(10).prmtop` (53726 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(11).prmtop` (49269 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(12).prmtop` (49269 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(13).prmtop` (49269 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(14).prmtop` (50493 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(15).prmtop` (50493 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(16).prmtop` (53726 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(2).mol2` (6714 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(2).prmtop` (49269 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(3).mol2` (6762 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(3).prmtop` (50493 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(4).mol2` (6762 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(4).prmtop` (50493 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(5).mol2` (6738 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(5).prmtop` (53726 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(6).prmtop` (49269 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(7).prmtop` (49269 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(8).prmtop` (50493 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig(9).prmtop` (50493 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig.mol2` (6714 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig.prmtop` (49269 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig_h(2).sdf` (5195 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig_h(3).sdf` (5221 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig_h(4).sdf` (5221 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig_h(5).sdf` (5203 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/lig_h.sdf` (5195 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/ligand.mol2` (6762 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/ligand.prmtop` (53296 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/ligand_best.sdf` (3292 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/ligand_h.sdf` (5221 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(10).prmtop` (1019703 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(11).prmtop` (1016949 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(12).prmtop` (1016949 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(13).prmtop` (1016949 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(14).prmtop` (1016900 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(15).prmtop` (1016900 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(16).prmtop` (1019703 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(2).prmtop` (1016949 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(3).prmtop` (1016900 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(4).prmtop` (1016900 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(5).prmtop` (1019703 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(6).prmtop` (1016949 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(7).prmtop` (1016949 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(8).prmtop` (1016900 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec(9).prmtop` (1016900 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/rec.prmtop` (1016949 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/receptor.prmtop` (1019703 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/receptor_tleap.pdb` (92371 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/sqm(2).pdb` (4819 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/sqm(3).pdb` (4819 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/sqm(4).pdb` (4819 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/sqm(5).pdb` (4819 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/sqm(6).pdb` (4819 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/structures/sqm.pdb` (4819 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/tables/089_open.csv` (250 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/tables/090_os_makedirs.csv` (270 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/complex.top` (1306693 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single(10).in` (367 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single(2).in` (378 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single(3).in` (378 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single(4).in` (378 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single(5).in` (363 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single(6).in` (382 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single(7).in` (382 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single(8).in` (382 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single(9).in` (382 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_single.in` (378 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/cpptraj_strip.in` (436 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/em.mdp` (301 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/em.tpr` (943340 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/index(2).ndx` (857279 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/index.ndx` (691725 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(10).log` (31090 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(11).log` (29266 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(2).log` (14632 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(3).log` (14632 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(4).log` (15514 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(5).log` (15514 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(6).log` (14602 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(7).log` (29326 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(8).log` (29326 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap(9).log` (31090 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/leap.log` (27903 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/lig(3).frcmod` (5770 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/lig(5).frcmod` (5122 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/lig.frcmod` (4842 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/ligand.frcmod` (5770 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/mdout.mdp` (11656 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/mmgbsa_result(2).dat` (5961 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/mmgbsa_result(3).dat` (5961 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/mmgbsa_result(4).dat` (5961 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/mmgbsa_result(5).dat` (5941 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/mmgbsa_result.dat` (5961 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/mmpbsa.in` (460 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/mmpbsa_single(6).in` (87 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/mmpbsa_single.in` (122 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/npt_eq.mdp` (787 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/prod.mdp` (770 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/single(2).nc` (28332 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/single(3).nc` (28332 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/single(4).nc` (28332 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/single(5).nc` (28332 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/single.nc` (28332 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(2).in` (3426 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(2).out` (16696 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(3).in` (3426 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(3).out` (16757 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(4).in` (3426 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(4).out` (15781 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(5).in` (3426 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(5).out` (16147 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(6).in` (3426 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm(6).out` (16391 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm.in` (3426 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/sqm.out` (15705 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/test_cpptraj.in` (262 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap(2).in` (726 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap(3).in` (726 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap(4).in` (726 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap(5).in` (726 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap(6).in` (706 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap.in` (1000 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap_mbondi2(2).in` (754 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap_mbondi2(3).in` (754 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap_mbondi2(4).in` (754 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap_mbondi2(5).in` (734 bytes)
+- `outputs/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/work/tleap_mbondi2.in` (754 bytes)
+- `outputs/01_run_33_missing_abfe_lambda_windows_on_isambard/inputs/abfe_missing_inputs.tar.gz` (2727600 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/reports/audit_md_mmpbsa_4compounds_prep.md` (3878 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(10).inpcrd` (1067061 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(12).prmtop` (5339238 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(13).prmtop` (5341625 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(14).prmtop` (5342057 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(15).prmtop` (5343809 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(2).gro` (1315519 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(3).gro` (1316194 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(4).gro` (1315924 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(5).gro` (1315519 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(7).inpcrd` (1067061 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(8).inpcrd` (1067609 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex(9).inpcrd` (1067390 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex_nowater(2).prmtop` (1047284 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex_nowater(3).prmtop` (1047284 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex_nowater(4).prmtop` (1048667 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex_nowater(5).prmtop` (1051857 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex_solvated(2).pdb` (2372234 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex_solvated(3).pdb` (2373454 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex_solvated(4).pdb` (2372966 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/complex_solvated(5).pdb` (2372234 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand(2).mol2` (6714 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand(2).prmtop` (52071 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand(3).mol2` (6714 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand(3).prmtop` (52071 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand(4).mol2` (6762 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand(4).prmtop` (53296 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand(5).mol2` (6738 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand(5).prmtop` (56724 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand_h(2).sdf` (5195 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand_h(3).sdf` (5195 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand_h(4).sdf` (5221 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/ligand_h(5).sdf` (5203 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/receptor(2).prmtop` (1019751 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/receptor(3).prmtop` (1019751 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/receptor(4).prmtop` (1019703 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/receptor(5).prmtop` (1022701 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/sqm(10).pdb` (4819 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/sqm(7).pdb` (4819 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/sqm(8).pdb` (4819 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/structures/sqm(9).pdb` (4819 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/complex(2).top` (1303584 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/complex(3).top` (1303586 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/complex(4).top` (1306695 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/complex(5).top` (1305524 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/em(2).tpr` (941404 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/em(3).tpr` (941584 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/em(4).tpr` (943148 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/em(5).tpr` (944304 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/index(3).ndx` (691221 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/index(4).ndx` (691581 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/index(5).ndx` (691437 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/index(7).ndx` (856649 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/index(8).ndx` (857099 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/index(9).ndx` (856919 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/leap(12).log` (26929 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/leap(13).log` (26829 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/leap(14).log` (27715 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/leap(15).log` (26793 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/ligand(2).frcmod` (4842 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/ligand(4).frcmod` (5122 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/mdout(2).mdp` (11633 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/mmpbsa(3).in` (181 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/sqm(10).in` (3426 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/sqm(10).out` (16269 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/sqm(7).in` (3426 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/sqm(7).out` (16635 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/sqm(8).in` (3426 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/sqm(8).out` (16757 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/sqm(9).in` (3426 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/sqm(9).out` (15781 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/tleap(10).in` (975 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/tleap(7).in` (1000 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/tleap(8).in` (1000 bytes)
+- `outputs/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/work/tleap(9).in` (1000 bytes)
+- `outputs/01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m/work/_MMPBSA_gb.mdin` (72 bytes)
+- `outputs/01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m/work/mmpbsa(2).in` (200 bytes)
+- `outputs/01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m/work/mmpbsa_results.dat` (6088 bytes)
+- `outputs/01_strip_and_run_mm_gbsa_for_eds01806218_ent1/work/cpptraj_strip(6).in` (377 bytes)
+- `outputs/01_strip_and_run_mm_gbsa_for_eds01806218_ent1/work/cpptraj_strip(7).in` (386 bytes)
+- `outputs/01_strip_and_run_mm_gbsa_for_eds01806218_ent1/work/mmpbsa_results(4).dat` (6069 bytes)
+- `outputs/02_eds01357518_ent2_had_no_valid_trajectory_job_630/reports/audit_mmgbsa_phase_reports_2026-09-04(2).md` (4832 bytes)
+- `outputs/02_eds01357518_ent2_had_no_valid_trajectory_job_630/reports/audit_mmgbsa_phase_reports_2026-09-04.md` (3119 bytes)
+- `outputs/02_eds01357518_ent2_had_no_valid_trajectory_job_630/reports/phase_03_write_phase_report_for_all_five_mm_gbsa_results.md` (3954 bytes)
+- `outputs/02_eds01357518_ent2_had_no_valid_trajectory_job_630/reports/phase_mmgbsa_EDS01806218_ent1(2).md` (8360 bytes)
+- `outputs/02_eds01357518_ent2_had_no_valid_trajectory_job_630/reports/phase_mmgbsa_EDS01806218_ent1.md` (5684 bytes)
+- `outputs/02_eds01357518_ent2_had_no_valid_trajectory_job_630/work/slurm-6321629.log` (120 bytes)
+- `outputs/02_phase_2_ligand_preparation/reports/phase_01_phase_1_protein_preparation_4ci2.md` (4270 bytes)
+- `outputs/02_strip_and_run_mm_gbsa_for_eds01357518_ent2/reports/phase_01_strip_and_run_mm_gbsa_for_eds01806218_ent1.md` (3544 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/reports/phase_02_phase_2_ligand_preparation.md` (4351 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/PB-20260903-4CI2_receptor_trimmed.pdb` (183401 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/PB-20260903-4CI2_receptor_trimmed_noH.pdb` (92519 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/docked_EDS01357518_ent2.sdf.gz` (2916 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/docked_EDS01806218_ent1.sdf.gz` (2907 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/docked_EDS01806218_ent2.sdf.gz` (2924 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/docked_EDS01889984.sdf.gz` (2978 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/gnina_docked.sdf.gz` (2945 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/lig_EDS01357518_ent1.sdf` (4085 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/lig_EDS01357518_ent2.sdf` (4081 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/lig_EDS01806218_ent1.sdf` (4140 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/lig_EDS01806218_ent2.sdf` (4147 bytes)
+- `outputs/03_phase_3_docking_with_gnina_gpu/structures/lig_EDS01889984.sdf` (5273 bytes)
+- `outputs/03_update_viewer_with_dynamic_per_ligand_contact_re/reports/docking_viewer(5).html` (292856 bytes)
+- `outputs/03_update_viewer_with_dynamic_per_ligand_contact_re/reports/phase_02_task_a8485ebdc3d70decb.md` (2611 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/reports/phase_03_phase_3_docking_with_gnina_gpu.md` (6959 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/PB-20260903-4CI2_receptor_trimmed_capped.pdb` (183617 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/PB-20260903-4CI2_receptor_trimmed_fixed.pdb` (183374 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/PB-20260903-4CI2_receptor_trimmed_noH_fixed.pdb` (92492 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/complex_EDS01357518_ent1.pdb` (186307 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/complex_EDS01357518_ent2.pdb` (186307 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/complex_EDS01806218_ent1.pdb` (186307 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/complex_EDS01806218_ent2.pdb` (186307 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/complex_EDS01889984.pdb` (186307 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/lig_pose_EDS01357518_ent1.pdb` (6999 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/lig_pose_EDS01357518_ent2.pdb` (6999 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/lig_pose_EDS01806218_ent1.pdb` (7067 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/lig_pose_EDS01806218_ent2.pdb` (7067 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/lig_pose_EDS01889984.pdb` (7033 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/poses_EDS01357518_ent1.sdf` (16330 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/poses_EDS01357518_ent2.sdf` (16330 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/poses_EDS01806218_ent1.sdf` (16465 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/poses_EDS01806218_ent2.sdf` (16465 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/structures/poses_EDS01889984.sdf` (16350 bytes)
+- `outputs/04_phase_4_mm_gbsa_free_binding_energies/tables/029_wrapper.csv` (265 bytes)
+- `outputs/05_phase_5_report/reports/phase_04_phase_4_mm_gbsa_free_binding_energies.md` (11155 bytes)
+- `outputs/05_phase_5_report/work/final_results.json` (711 bytes)
+- `outputs/reports/abfe_missing_windows_phase.md` (2980 bytes)
+- `outputs/reports/abfe_missing_windows_status.md` (1236 bytes)
+- `outputs/reports/abfe_phase_report.md` (4357 bytes)
+- `outputs/reports/abfe_prep_phase_report.md` (4609 bytes)
+- `outputs/reports/audit_add_crystal_lvy(2).md` (10570 bytes)
+- `outputs/reports/audit_add_crystal_lvy(3).md` (10566 bytes)
+- `outputs/reports/audit_add_crystal_lvy.md` (5168 bytes)
+- `outputs/reports/audit_all_phases.md` (5377 bytes)
+- `outputs/reports/audit_md_mmpbsa_EDS01806218_ent2(2).md` (3060 bytes)
+- `outputs/reports/audit_md_mmpbsa_EDS01806218_ent2.md` (2178 bytes)
+- `outputs/reports/docking_viewer(4).html` (286393 bytes)
+- `outputs/reports/phase_01_add_crystal_ligand_lvy_to_docking_viewer.md` (2323 bytes)
+- `outputs/reports/phase_01_add_interaction_lines_h_bonds_pi_stacking_to_vie.md` (3882 bytes)
+- `outputs/reports/phase_01_build_interactive_docking_viewer_html.md` (2434 bytes)
+- `outputs/reports/phase_01_convert_mm_gbsa_g_to_apparent_ki_and_report_ic50.md` (2659 bytes)
+- `outputs/reports/phase_01_generate_enantiomers_and_3d_conformers_for_enant.md` (2346 bytes)
+- `outputs/reports/phase_01_protein_preparation_4ci2_document.md` (4129 bytes)
+- `outputs/reports/phase_01_resubmit_md_runs_for_eds01357518_ent2_and_eds018.md` (59144 bytes)
+- `outputs/reports/phase_01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m.md` (3514 bytes)
+- `outputs/reports/phase_01_write_md_phase_report_for_eds01357518_ent1_job_6.md` (2452 bytes)
+- `outputs/reports/phase_02_task_a39d4f764a9b440e4.md` (2408 bytes)
+- `outputs/reports/phase_02_task_a677e1aeee10c0fc5.md` (2493 bytes)
+- `outputs/reports/phase_03_task_a3ba35eec6910be35.md` (3839 bytes)
+- `outputs/reports/phase_03_update_viewer_with_dynamic_per_ligand_contact_re.md` (3368 bytes)
+- `outputs/reports/phase_04_docking_and_binding_energies_final_report.md` (10228 bytes)
+- `outputs/reports/phase_05_binding_free_energy_summary.md` (4900 bytes)
+- `outputs/reports/phase_05_phase_5_report.md` (11568 bytes)
+- `outputs/reports/phase_enantiomer_conformers.md` (3287 bytes)
+- `outputs/reports/phase_md_EDS01357518_ent1.md` (3359 bytes)
+- `outputs/reports/phase_md_EDS01806218_ent1.md` (5942 bytes)
+- `outputs/reports/phase_md_EDS01889984.md` (4990 bytes)
+- `outputs/reports/phase_md_mmpbsa_4compounds_prep.md` (5119 bytes)
+- `outputs/reports/phase_md_mmpbsa_EDS01806218_ent2(2).md` (5932 bytes)
+- `outputs/reports/phase_md_mmpbsa_EDS01806218_ent2.md` (5708 bytes)
+- `outputs/reports/phase_md_resubmit_EDS01357518_ent2_EDS01806218_ent1(2).md` (4576 bytes)
+- `outputs/reports/phase_md_resubmit_EDS01357518_ent2_EDS01806218_ent1.md` (3561 bytes)
+- `outputs/reports/phase_mmgbsa_EDS01357518_ent1_EDS01889984(2).md` (7534 bytes)
+- `outputs/reports/phase_mmgbsa_EDS01357518_ent1_EDS01889984.md` (6133 bytes)
+- `outputs/reports/phase_mmgbsa_apparent_ki_ic50_context(2).md` (4294 bytes)
+- `outputs/reports/phase_mmgbsa_apparent_ki_ic50_context.md` (4287 bytes)
+- `outputs/structures/em.6300385.gro` (1315491 bytes)
+- `outputs/structures/em.6304913.gro` (1315491 bytes)
+- `outputs/structures/em.6309346.gro` (1315896 bytes)
+- `outputs/structures/em.gro` (1316436 bytes)
+- `outputs/structures/em_EDS01806218_ent1.gro` (1315896 bytes)
+- `outputs/structures/npt_eq.6300385.gro` (2017059 bytes)
+- `outputs/structures/npt_eq.6304913.gro` (2017059 bytes)
+- `outputs/structures/npt_eq.6309346.gro` (2017680 bytes)
+- `outputs/structures/npt_eq.gro` (2018508 bytes)
+- `outputs/structures/npt_eq_EDS01806218_ent1.gro` (2017680 bytes)
+- `outputs/structures/npt_prod.6300385.gro` (2017059 bytes)
+- `outputs/structures/npt_prod.6304913.gro` (2017059 bytes)
+- `outputs/structures/npt_prod.6309346.gro` (2017680 bytes)
+- `outputs/structures/npt_prod.gro` (2018508 bytes)
+- `outputs/structures/npt_prod_EDS01806218_ent1.gro` (2017680 bytes)
+- `outputs/uploads/enantio.sdf` (6058 bytes)
+- `outputs/work/all_metrics.jsonl` (14099 bytes)
+- `outputs/work/complex_EDS01806218_ent1_win04_dhdl.xvg` (1684436 bytes)
+- `outputs/work/complex_EDS01806218_ent1_win05_dhdl.xvg` (1690618 bytes)
+- `outputs/work/complex_EDS01806218_ent1_win06_dhdl.xvg` (1692773 bytes)
+- `outputs/work/complex_EDS01806218_ent1_win07_dhdl.xvg` (1682830 bytes)
+- `outputs/work/complex_EDS01806218_ent1_win08_dhdl.xvg` (1663273 bytes)
+- `outputs/work/complex_EDS01806218_ent1_win09_dhdl.xvg` (1665005 bytes)
+- `outputs/work/complex_EDS01806218_ent1_win10_dhdl.xvg` (1690515 bytes)
+- `outputs/work/complex_EDS01806218_ent1_win11_dhdl.xvg` (1738089 bytes)
+- `outputs/work/complex_EDS01806218_ent2_win04_dhdl.xvg` (1684477 bytes)
+- `outputs/work/complex_EDS01806218_ent2_win05_dhdl.xvg` (1690726 bytes)
+- `outputs/work/complex_EDS01806218_ent2_win06_dhdl.xvg` (1693175 bytes)
+- `outputs/work/complex_EDS01806218_ent2_win07_dhdl.xvg` (1682512 bytes)
+- `outputs/work/complex_EDS01806218_ent2_win08_dhdl.xvg` (1662031 bytes)
+- `outputs/work/complex_EDS01806218_ent2_win09_dhdl.xvg` (1667006 bytes)
+- `outputs/work/complex_EDS01806218_ent2_win10_dhdl.xvg` (1689459 bytes)
+- `outputs/work/complex_EDS01806218_ent2_win11_dhdl.xvg` (1733999 bytes)
+- `outputs/work/complex_EDS01889984_win04_dhdl.xvg` (1684503 bytes)
+- `outputs/work/complex_EDS01889984_win05_dhdl.xvg` (1690716 bytes)
+- `outputs/work/complex_EDS01889984_win06_dhdl.xvg` (1693634 bytes)
+- `outputs/work/complex_EDS01889984_win07_dhdl.xvg` (1681385 bytes)
+- `outputs/work/complex_EDS01889984_win08_dhdl.xvg` (1663662 bytes)
+- `outputs/work/complex_EDS01889984_win09_dhdl.xvg` (1666750 bytes)
+- `outputs/work/complex_EDS01889984_win10_dhdl.xvg` (1688751 bytes)
+- `outputs/work/complex_EDS01889984_win11_dhdl.xvg` (1733634 bytes)
+- `outputs/work/cpptraj_strip(2).in` (420 bytes)
+- `outputs/work/cpptraj_strip(3).in` (347 bytes)
+- `outputs/work/npt_prod.6300385.edr` (685524 bytes)
+- `outputs/work/npt_prod.6304913.edr` (685524 bytes)
+- `outputs/work/npt_prod.6309346.edr` (685524 bytes)
+- `outputs/work/npt_prod.edr` (685524 bytes)
+- `outputs/work/npt_prod_EDS01806218_ent1.edr` (685524 bytes)
+- `outputs/work/slurm-6284357.log` (4023 bytes)
+- `outputs/work/slurm-6292928.log` (3519 bytes)
+- `outputs/work/slurm-6293949.log` (2168 bytes)
+- `outputs/work/slurm-6294042.log` (3933 bytes)
+- `outputs/work/slurm-6294174.log` (2900234 bytes)
+- `outputs/work/slurm-6300385.log` (3056492 bytes)
+- `outputs/work/slurm-6300401.log` (3066676 bytes)
+- `outputs/work/slurm-6300420.log` (3108527 bytes)
+- `outputs/work/slurm-6300478.log` (2822405 bytes)
+- `outputs/work/slurm-6304901.log` (358631 bytes)
+- `outputs/work/slurm-6304910.6304901-2.log` (3075332 bytes)
+- `outputs/work/slurm-6304910.6304901.log` (522240 bytes)
+- `outputs/work/slurm-6304910.log` (409497 bytes)
+- `outputs/work/slurm-6304913.6304901-2.log` (3125228 bytes)
+- `outputs/work/slurm-6304913.6304901.log` (1029359 bytes)
+- `outputs/work/slurm-6304913.log` (458798 bytes)
+- `outputs/work/slurm-6307560.log` (301 bytes)
+- `outputs/work/slurm-6307571.log` (301 bytes)
+- `outputs/work/slurm-6309346.log` (3167387 bytes)
+- `outputs/work/slurm-6309364.log` (3044427 bytes)
+- `outputs/work/slurm-6310382.log` (2207 bytes)
+- `outputs/work/slurm-6310384.log` (14222 bytes)
+- `outputs/work/slurm-6319835.log` (3041792 bytes)
+- `outputs/work/slurm-6325310.6325348.log` (5614734 bytes)
+- `outputs/work/slurm-6325329.6325348.log` (5267967 bytes)
+- `outputs/work/slurm-6325334.6325348.log` (5286904 bytes)
+- `outputs/work/slurm-6325340.6325348.log` (7677677 bytes)
+- `outputs/work/slurm-6325348.6325348.log` (7722855 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win05_dhdl.xvg` (1668827 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win06_dhdl.xvg` (1673090 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win07_dhdl.xvg` (1674316 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win08_dhdl.xvg` (1673729 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win09_dhdl.xvg` (1672244 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win10_dhdl.xvg` (1671008 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win11_dhdl.xvg` (1695353 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win12_dhdl.xvg` (1817984 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win13_dhdl.xvg` (1830936 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win14_dhdl.xvg` (1826882 bytes)
+- `outputs/work/solvent_EDS01806218_ent1_win15_dhdl.xvg` (1819725 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win06_dhdl.xvg` (1673390 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win07_dhdl.xvg` (1674385 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win08_dhdl.xvg` (1673461 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win09_dhdl.xvg` (1672192 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win10_dhdl.xvg` (1671294 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win11_dhdl.xvg` (1696500 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win12_dhdl.xvg` (1817478 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win13_dhdl.xvg` (1829565 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win14_dhdl.xvg` (1826369 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win15_dhdl.xvg` (1819791 bytes)
+- `outputs/work/solvent_EDS01806218_ent2_win16_dhdl.xvg` (1814260 bytes)
+
+## Scripts
+
+- `scripts/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/source/143_os_makedirs.py`
+- `scripts/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/source/144_sorted.py`
+- `scripts/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/source/145_range.py`
+- `scripts/01_abfe_for_3_reliable_crbn_compounds_eds01806218_e/source/146_range.py`
+- `scripts/01_add_crystal_ligand_lvy_to_docking_viewer/source/048_open.py`
+- `scripts/01_add_crystal_ligand_lvy_to_docking_viewer/source/049_js_str.py`
+- `scripts/01_add_crystal_ligand_lvy_to_docking_viewer/source/050_open.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/058_atoms.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/059_ring_centroid_normal.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/060_crystal_lvy_interactions.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/061_build_interactions_js_constant.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/062_open.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/063_find_end_rebuildscene_look_final_render_closing.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/064_find_actual_btn_crystal_button_html_not_comment.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/065_js_str.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/066_verify_each_insertion_point_unique.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/067_h2_replace.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/068_open.py`
+- `scripts/01_add_interaction_lines_h_bonds_pi_stacking_to_vie/source/069_lines.py`
+- `scripts/01_build_interactive_docking_viewer_html/source/042_open.py`
+- `scripts/01_build_interactive_docking_viewer_html/source/043_open.py`
+- `scripts/01_build_interactive_docking_viewer_html/source/044_js_str.py`
+- `scripts/01_build_interactive_docking_viewer_html/source/045_fix_two_issues_generated_html_1_addlabel_must_use_3.py`
+- `scripts/01_convert_mm_gbsa_g_to_apparent_ki_and_report_ic50/source/123_print.py`
+- `scripts/01_generate_enantiomers_and_3d_conformers_for_enant/source/001_chem_sdmolsupplier.py`
+- `scripts/01_generate_enantiomers_and_3d_conformers_for_enant/source/002_create_enantiomer.py`
+- `scripts/01_generate_enantiomers_and_3d_conformers_for_enant/source/003_create_enantiomer.py`
+- `scripts/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/source/113_open.py`
+- `scripts/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/source/114_run_mmpbsa.py`
+- `scripts/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/source/115_find_where_mmpbsa_py_lives_infer_amberhome.py`
+- `scripts/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/source/116_os_environ_copy.py`
+- `scripts/01_mm_gbsa_for_eds01357518_ent1_and_eds01889984/source/117_os_path_exists.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/inputs/008_re_parse_remark_465_directly_raw_pdb_lines.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/005_download_pdb_4ci2_inspect.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/006_extract_lvy_lenalidomide_coordinates_pocket_centre.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/007_confirm_all_missing_residues_his_tag_linker_there.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/009_full_missing_residue_list_chain_b.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/010_phase_1_launch_pdbfixer.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/011_phase_1_pdbfixer_process.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/012_1_strip_h_receptor_fpocket.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/013_fpocket.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/014_pocket_characterisation_crystal_structure_pocket.py`
+- `scripts/01_phase_1_protein_preparation_4ci2/source/015_protonate_each_ligand_ph_7_4_via_dimorphite_dl.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/124_compounds_items.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/125_compounds_items.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/126_compounds_items.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/127_dict.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/128_step_3_convert_solvent_leg_prmtop_gromacs_top_gro.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/129_step_3_convert_solvent_leg_prmtop_gromacs_via.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/130_system.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/131_print.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/132_build_complex_script.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/133_range.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/134_sorted.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/135_sorted.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/136_find_mdrun_command_line_successful_log.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/137_get_timing_info_successful_md_run.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/138_record_job_ids.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/139_check_alchemlyb_version_api_before_writing_analysis.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/140_check_what_s_available_free_energy_analysis.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/141_sandbox_python_different_python_amber_env_check.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/142_check_alchemlyb_2_5_0_api_mbar.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/abfe_mbar_analysis.py`
+- `scripts/01_plan_and_run_abfe_for_all_5_crbn_compounds/source/abfe_parmed_conv.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/inputs/076_write_tleap_input_script.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/inputs/086_mmpbsa_input_file.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/070_importlib_import_module.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/071_subprocess_run.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/072_check_ambertools_executables_available.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/073_os_makedirs.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/074_add_explicit_hydrogens_write_proper_3d_sdf.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/075_parmchk2_generate_missing_gaff2_parameters.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/077_convert_amber_topology_gromacs.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/078_write_standalone_parmed_conversion_script.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/079_write_gromacs_mdp_files.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/080_create_custom_index_protein_lig_water_ions.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/081_verify_all_files_stage_exist_get_sizes.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/082_check_analysis_tools_post_md_mm_gbsa.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/083_check_what_cpptraj_supports_mmpbsa.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/084_run_ante_mmpbsa_py_create_stripped_prmtop_files_s.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/085_set_amberhome_conda_env_root.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/087_ai_hpc.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/088_open.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/089_os_makedirs.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/090_subprocess_run.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/091_subprocess_run.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/092_subprocess_run.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/093_open.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/094_print.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/095_open.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/096_subprocess_run.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/097_open.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/098_os_remove.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/099_os_remove.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/100_present.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/101_open.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/102_open.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/103_open.py`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/run_mmpbsa.sh`
+- `scripts/01_run_10_ns_md_simulation_of_best_ligand_crbn_pock/source/run_parmed.py`
+- `scripts/01_run_33_missing_abfe_lambda_windows_on_isambard/source/run_abfe_missing(2).sh`
+- `scripts/01_run_33_missing_abfe_lambda_windows_on_isambard/source/run_abfe_missing.sh`
+- `scripts/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/source/110_os_makedirs.py`
+- `scripts/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/source/111_subprocess_run.py`
+- `scripts/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/source/112_rebuild_correct_index_files_all_4_compounds_groups_1.py`
+- `scripts/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/source/run_parmed(2).py`
+- `scripts/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/source/run_parmed(3).py`
+- `scripts/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/source/run_parmed(4).py`
+- `scripts/01_run_md_mm_gbsa_on_eds01357518_ent1_eds01357518_e/source/run_parmed(5).py`
+- `scripts/01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m/source/104_print.py`
+- `scripts/01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m/source/105_print.py`
+- `scripts/01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m/source/106_print.py`
+- `scripts/01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m/source/107_print.py`
+- `scripts/01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m/source/108_open.py`
+- `scripts/01_run_mm_gbsa_analysis_on_eds01806218_ent2_10_ns_m/source/109_open.py`
+- `scripts/01_strip_and_run_mm_gbsa_for_eds01806218_ent1/source/118_compounds_items.py`
+- `scripts/01_strip_and_run_mm_gbsa_for_eds01806218_ent1/source/119_open.py`
+- `scripts/01_strip_and_run_mm_gbsa_for_eds01806218_ent1/source/120_root.py`
+- `scripts/01_strip_and_run_mm_gbsa_for_eds01806218_ent1/source/121_os_environ_copy.py`
+- `scripts/01_strip_and_run_mm_gbsa_for_eds01806218_ent1/source/122_open.py`
+- `scripts/03_phase_3_docking_with_gnina_gpu/source/016_split_enantio_structure_sdf_into_per_ligand_sdf.py`
+- `scripts/03_phase_3_docking_with_gnina_gpu/source/017_trim_receptor_residues_within_20_pocket_centre.py`
+- `scripts/03_phase_3_docking_with_gnina_gpu/source/018_dock_all_5_ligands_gnina_gpu_top_5_poses_each.py`
+- `scripts/03_phase_3_docking_with_gnina_gpu/source/019_check_gnina_vina_binaries_path.py`
+- `scripts/03_phase_3_docking_with_gnina_gpu/source/020_check_converters.py`
+- `scripts/03_phase_3_docking_with_gnina_gpu/source/021_inspect_r_gnina_result_dict.py`
+- `scripts/03_phase_3_docking_with_gnina_gpu/source/022_read_gnina_gz.py`
+- `scripts/03_update_viewer_with_dynamic_per_ligand_contact_re/source/052_build_contacts_js_object.py`
+- `scripts/03_update_viewer_with_dynamic_per_ligand_contact_re/source/053_open.py`
+- `scripts/03_update_viewer_with_dynamic_per_ligand_contact_re/source/054_os_path_getsize.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/023_write_combined_poses_sdf_best_pose_complex_pdb_per.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/024_test_openmmforcefields_gaff2_rdkit.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/025_print.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/026_test_gafftemplategenerator_rdkit_mol.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/027_check_antechamber.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/028_wrapper.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/029_redefine_wrapper_cannot_persist_across_calls.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/030_fix_trimmed_receptor_pdb_remove_ter_records_have_no.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/031_helpers.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/032_init.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/033_print.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/034_init.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/035_init.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/036_init.py`
+- `scripts/04_phase_4_mm_gbsa_free_binding_energies/source/037_generate_protein_ligand_complex_pdb_files_5_best.py`
+- `scripts/05_phase_5_report/source/038_compute_key_contacts_residues_within_4_5_each_best.py`
+- `scripts/05_phase_5_report/source/039_build_concise_summary_dict_report_writer.py`
+- `scripts/05_phase_5_report/source/040_close_phase_5_final_report_document.py`
+- `scripts/abfe_mbar_analysis.py`
+- `scripts/abfe_parmed_conv.py`
+- `scripts/md_EDS01357518_ent1/run_parmed.py`
+- `scripts/md_EDS01357518_ent2/run_parmed.py`
+- `scripts/md_EDS01806218_ent1/run_parmed.py`
+- `scripts/md_EDS01806218_ent2/run_mmpbsa.sh`
+- `scripts/md_EDS01806218_ent2/run_parmed.py`
+- `scripts/md_EDS01889984/run_parmed.py`
+- `scripts/run_abfe_missing.sh`
+- `scripts/source/001_chem_sdmolsupplier.py`
+- `scripts/source/002_create_enantiomer.py`
+- `scripts/source/003_create_enantiomer.py`
+- `scripts/source/004_center.py`
+- `scripts/source/005_download_pdb_4ci2_inspect.py`
+- `scripts/source/006_extract_lvy_lenalidomide_coordinates_pocket_centre.py`
+- `scripts/source/007_confirm_all_missing_residues_his_tag_linker_there.py`
+- `scripts/source/008_re_parse_remark_465_directly_raw_pdb_lines.py`
+- `scripts/source/009_full_missing_residue_list_chain_b.py`
+- `scripts/source/010_phase_1_launch_pdbfixer.py`
+- `scripts/source/011_phase_1_pdbfixer_process.py`
+- `scripts/source/012_1_strip_h_receptor_fpocket.py`
+- `scripts/source/013_fpocket.py`
+- `scripts/source/014_pocket_characterisation_crystal_structure_pocket.py`
+- `scripts/source/015_protonate_each_ligand_ph_7_4_via_dimorphite_dl.py`
+- `scripts/source/016_split_enantio_structure_sdf_into_per_ligand_sdf.py`
+- `scripts/source/017_trim_receptor_residues_within_20_pocket_centre.py`
+- `scripts/source/018_dock_all_5_ligands_gnina_gpu_top_5_poses_each.py`
+- `scripts/source/019_check_gnina_vina_binaries_path.py`
+- `scripts/source/020_check_converters.py`
+- `scripts/source/021_inspect_r_gnina_result_dict.py`
+- `scripts/source/022_read_gnina_gz.py`
+- `scripts/source/023_write_combined_poses_sdf_best_pose_complex_pdb_per.py`
+- `scripts/source/024_test_openmmforcefields_gaff2_rdkit.py`
+- `scripts/source/025_print.py`
+- `scripts/source/026_test_gafftemplategenerator_rdkit_mol.py`
+- `scripts/source/027_check_antechamber.py`
+- `scripts/source/028_wrapper.py`
+- `scripts/source/029_redefine_wrapper_cannot_persist_across_calls.py`
+- `scripts/source/030_fix_trimmed_receptor_pdb_remove_ter_records_have_no.py`
+- `scripts/source/031_helpers.py`
+- `scripts/source/032_init.py`
+- `scripts/source/033_print.py`
+- `scripts/source/034_init.py`
+- `scripts/source/035_init.py`
+- `scripts/source/036_init.py`
+- `scripts/source/037_generate_protein_ligand_complex_pdb_files_5_best.py`
+- `scripts/source/038_compute_key_contacts_residues_within_4_5_each_best.py`
+- `scripts/source/039_build_concise_summary_dict_report_writer.py`
+- `scripts/source/040_close_phase_5_final_report_document.py`
+- `scripts/source/041_phase_1_audit_protein_preparation.py`
+- `scripts/source/042_open.py`
+- `scripts/source/043_open.py`
+- `scripts/source/044_js_str.py`
+- `scripts/source/045_fix_two_issues_generated_html_1_addlabel_must_use_3.py`
+- `scripts/source/046_os_path_getsize.py`
+- `scripts/source/047_crbn.py`
+- `scripts/source/048_open.py`
+- `scripts/source/049_js_str.py`
+- `scripts/source/050_open.py`
+- `scripts/source/051_open.py`
+- `scripts/source/052_build_contacts_js_object.py`
+- `scripts/source/053_open.py`
+- `scripts/source/054_os_path_getsize.py`
+- `scripts/source/055_audit_add_crystal_ligand_lvy_docking_viewer_phase.py`
+- `scripts/source/056_audit_independent_auditor_subagent_phase_task.py`
+- `scripts/source/057_open.py`
+- `scripts/source/058_atoms.py`
+- `scripts/source/059_ring_centroid_normal.py`
+- `scripts/source/060_crystal_lvy_interactions.py`
+- `scripts/source/061_build_interactions_js_constant.py`
+- `scripts/source/062_open.py`
+- `scripts/source/063_find_end_rebuildscene_look_final_render_closing.py`
+- `scripts/source/064_find_actual_btn_crystal_button_html_not_comment.py`
+- `scripts/source/065_js_str.py`
+- `scripts/source/066_verify_each_insertion_point_unique.py`
+- `scripts/source/067_h2_replace.py`
+- `scripts/source/068_open.py`
+- `scripts/source/069_lines.py`
+- `scripts/source/070_importlib_import_module.py`
+- `scripts/source/071_subprocess_run.py`
+- `scripts/source/072_check_ambertools_executables_available.py`
+- `scripts/source/073_os_makedirs.py`
+- `scripts/source/074_add_explicit_hydrogens_write_proper_3d_sdf.py`
+- `scripts/source/075_parmchk2_generate_missing_gaff2_parameters.py`
+- `scripts/source/076_write_tleap_input_script.py`
+- `scripts/source/077_convert_amber_topology_gromacs.py`
+- `scripts/source/078_write_standalone_parmed_conversion_script.py`
+- `scripts/source/079_write_gromacs_mdp_files.py`
+- `scripts/source/080_create_custom_index_protein_lig_water_ions.py`
+- `scripts/source/081_verify_all_files_stage_exist_get_sizes.py`
+- `scripts/source/082_check_analysis_tools_post_md_mm_gbsa.py`
+- `scripts/source/083_check_what_cpptraj_supports_mmpbsa.py`
+- `scripts/source/084_run_ante_mmpbsa_py_create_stripped_prmtop_files_s.py`
+- `scripts/source/085_set_amberhome_conda_env_root.py`
+- `scripts/source/086_mmpbsa_input_file.py`
+- `scripts/source/087_ai_hpc.py`
+- `scripts/source/088_open.py`
+- `scripts/source/089_os_makedirs.py`
+- `scripts/source/090_subprocess_run.py`
+- `scripts/source/091_subprocess_run.py`
+- `scripts/source/092_subprocess_run.py`
+- `scripts/source/093_open.py`
+- `scripts/source/094_print.py`
+- `scripts/source/095_open.py`
+- `scripts/source/096_subprocess_run.py`
+- `scripts/source/097_open.py`
+- `scripts/source/098_os_remove.py`
+- `scripts/source/099_os_remove.py`
+- `scripts/source/100_present.py`
+- `scripts/source/101_open.py`
+- `scripts/source/102_open.py`
+- `scripts/source/103_open.py`
+- `scripts/source/104_print.py`
+- `scripts/source/105_print.py`
+- `scripts/source/106_print.py`
+- `scripts/source/107_print.py`
+- `scripts/source/108_open.py`
+- `scripts/source/109_open.py`
+- `scripts/source/110_os_makedirs.py`
+- `scripts/source/111_subprocess_run.py`
+- `scripts/source/112_rebuild_correct_index_files_all_4_compounds_groups_1.py`
+- `scripts/source/113_open.py`
+- `scripts/source/114_run_mmpbsa.py`
+- `scripts/source/115_find_where_mmpbsa_py_lives_infer_amberhome.py`
+- `scripts/source/116_os_environ_copy.py`
+- `scripts/source/117_os_path_exists.py`
+- `scripts/source/118_compounds_items.py`
+- `scripts/source/119_open.py`
+- `scripts/source/120_root.py`
+- `scripts/source/121_os_environ_copy.py`
+- `scripts/source/122_open.py`
+- `scripts/source/123_print.py`
+- `scripts/source/124_compounds_items.py`
+- `scripts/source/125_compounds_items.py`
+- `scripts/source/126_compounds_items.py`
+- `scripts/source/127_dict.py`
+- `scripts/source/128_step_3_convert_solvent_leg_prmtop_gromacs_top_gro.py`
+- `scripts/source/129_step_3_convert_solvent_leg_prmtop_gromacs_via.py`
+- `scripts/source/130_system.py`
+- `scripts/source/131_print.py`
+- `scripts/source/132_build_complex_script.py`
+- `scripts/source/133_range.py`
+- `scripts/source/134_sorted.py`
+- `scripts/source/135_sorted.py`
+- `scripts/source/136_find_mdrun_command_line_successful_log.py`
+- `scripts/source/137_get_timing_info_successful_md_run.py`
+- `scripts/source/138_record_job_ids.py`
+- `scripts/source/139_check_alchemlyb_version_api_before_writing_analysis.py`
+- `scripts/source/140_check_what_s_available_free_energy_analysis.py`
+- `scripts/source/141_sandbox_python_different_python_amber_env_check.py`
+- `scripts/source/142_check_alchemlyb_2_5_0_api_mbar.py`
+- `scripts/source/143_os_makedirs.py`
+- `scripts/source/144_sorted.py`
+- `scripts/source/145_range.py`
+- `scripts/source/146_range.py`
+
+## Inputs
+
+- No inputs recorded.
+
+## Limitations and Caveats
+
+- This study has not been reviewed. The results are raw model output.
+- Reproducibility depends on the availability of the tool images listed above.
+
+## Provenance
+
+Full provenance chain is in `PROVENANCE.json`. It includes: which operations were model-generated, which were reviewed, by whom, and what was approved.

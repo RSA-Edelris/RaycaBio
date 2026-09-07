@@ -1,0 +1,89 @@
+=== PB-20260903-CRBN-EDS01806218ent2 MD run (absolute mpirun) ===
+GROMACS: /projects/u6sp/software-aarch64/gromacs-2026.1-mpi/bin/gmx_mpi
+MPIRUN:  /tools/brics/apps/linux-sles15-neoverse_v2/gcc-12.3.0/openmpi-4.1.7-gha3th46s7fr2ht3icsuhthmysvvlpgh/bin/mpirun
+--- Energy minimisation ---
+                      :-) GROMACS - gmx grompp, 2026.1 (-:
+
+Executable:   /projects/u6sp/software-aarch64/gromacs-2026.1-mpi/bin/gmx_mpi
+Data prefix:  /projects/u6sp/software-aarch64/gromacs-2026.1-mpi
+Working dir:  /lus/lfs1aip2/scratch/u6sp/hpcuser.u6sp/rayca/max-a0354f2da3
+Command line:
+  gmx_mpi grompp -f em.mdp -c complex.gro -p complex.top -n index.ndx -o em.tpr -maxwarn 5
+
+Ignoring obsolete mdp entry 'ns_type'
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 60834.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+WARNING 1 [file em.mdp]:
+  The largest distance between excluded atoms is 2.781 nm between atom 623
+  and 644, which is larger than the cut-off distance. This will lead to
+  missing long-range corrections in the forces and energies. If you expect
+  that minimization will bring such distances within the cut-off, you can
+  ignore this warning.
+
+
+There was 1 WARNING
+
+GROMACS reminds you: "Shit Happens" (Pulp Fiction)
+
+Setting the LD random seed to -67702850
+
+Generated 1378 of the 1378 non-bonded parameter combinations
+
+Generated 1378 of the 1378 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+Excluding 3 bonded neighbours molecule type 'LIG'
+
+Excluding 3 bonded neighbours molecule type 'Cl-'
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+The largest distance between excluded atoms is 2.781 nm between atom 623 and 644
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x56x72, spacing 0.120 0.117 0.109
+
+Estimate for the relative computational load of the PME mesh part: 0.24
+
+This run will generate roughly 2 Mb of data
+                      :-) GROMACS - gmx mdrun, 2026.1 (-:
+
+Executable:   /projects/u6sp/software-aarch64/gromacs-2026.1-mpi/bin/gmx_mpi
+Data prefix:  /projects/u6sp/software-aarch64/gromacs-2026.1-mpi
+Working dir:  /lus/lfs1aip2/scratch/u6sp/hpcuser.u6sp/rayca/max-a0354f2da3
+Command line:
+  gmx_mpi mdrun -v -deffnm em -ntomp 8 -nb gpu -pme gpu
+
+There are multiple SIMD instruction sets that are supported by all nodes but
+the best cannot be determined. Check the install guide SIMD Support section
+for recommendations for your particular case.
+SIMD instructions selected at compile time: ARM_SVE
+Reading file em.tpr, VERSION 2026.1 (single precision)
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.1
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 511)
+Function:    bool gmx::decideWhetherToUseGpusForPme(bool, TaskTarget, TaskTarget, const std::vector<int>&, const t_inputrec&, int, int, bool)
+
+Inconsistency in user input:
+Cannot compute PME interactions on a GPU, because:
+  PME GPU does not support:
+    Non-dynamical integrator (use md, sd, etc).
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+RAYCA: the job stopped at line 29 with exit 1
+RAYCA: the command was: $MPIRUN -n 1 $GMX mdrun -v -deffnm em -ntomp 8 -nb gpu -pme gpu 2>&1
+RAYCA: if that command is allowed to fail, end it with || true

@@ -1,0 +1,16 @@
+{
+ "summary": "Dimorphite-DL enumerated 4 protonation-state variant(s) for SMILES COc1cscc1C(=O)N1CCC(c2nc(N3CCCNC(=O)C3)nc3c2ccn3C)CC1 over pH [6.4, 8.4] (centre 7.4, precision 1).",
+ "input_smiles": "COc1cscc1C(=O)N1CCC(c2nc(N3CCCNC(=O)C3)nc3c2ccn3C)CC1",
+ "protonated_smiles": [
+  "COc1cscc1C(=O)N1CCC(c2[nH+]c(N3CCC[N-]C(=O)C3)nc3c2ccn3C)CC1",
+  "COc1cscc1C(=O)N1CCC(c2[nH+]c(N3CCC[N-]C(=O)C3)[nH+]c3c2ccn3C)CC1",
+  "COc1cscc1C(=O)N1CCC(c2nc(N3CCC[N-]C(=O)C3)nc3c2ccn3C)CC1",
+  "COc1cscc1C(=O)N1CCC(c2nc(N3CCC[N-]C(=O)C3)[nH+]c3c2ccn3C)CC1"
+ ],
+ "num_variants": 4,
+ "pH": 7.4,
+ "ph_min": 6.4,
+ "ph_max": 8.4,
+ "precision": 1.0,
+ "dimorphite_dl_version": "2.0.2"
+}

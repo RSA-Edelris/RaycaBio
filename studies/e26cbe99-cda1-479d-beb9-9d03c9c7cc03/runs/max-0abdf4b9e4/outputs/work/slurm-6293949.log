@@ -1,0 +1,54 @@
+=== PB-20260903-CRBN-EDS01806218ent2 MD run (mpirun launcher) ===
+GROMACS: /projects/u6sp/software-aarch64/gromacs-2026.1-mpi/bin/gmx_mpi
+--- Energy minimisation ---
+                      :-) GROMACS - gmx grompp, 2026.1 (-:
+
+Executable:   /projects/u6sp/software-aarch64/gromacs-2026.1-mpi/bin/gmx_mpi
+Data prefix:  /projects/u6sp/software-aarch64/gromacs-2026.1-mpi
+Working dir:  /lus/lfs1aip2/scratch/u6sp/hpcuser.u6sp/rayca/max-2ce5c5038d
+Command line:
+  gmx_mpi grompp -f em.mdp -c complex.gro -p complex.top -n index.ndx -o em.tpr -maxwarn 5
+
+Ignoring obsolete mdp entry 'ns_type'
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 60834.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+WARNING 1 [file em.mdp]:
+  The largest distance between excluded atoms is 2.781 nm between atom 623
+  and 644, which is larger than the cut-off distance. This will lead to
+  missing long-range corrections in the forces and energies. If you expect
+  that minimization will bring such distances within the cut-off, you can
+  ignore this warning.
+
+
+There was 1 WARNING
+
+GROMACS reminds you: "I Do It All the Time" (Magnapop)
+
+Setting the LD random seed to -421531905
+
+Generated 1378 of the 1378 non-bonded parameter combinations
+
+Generated 1378 of the 1378 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+Excluding 3 bonded neighbours molecule type 'LIG'
+
+Excluding 3 bonded neighbours molecule type 'Cl-'
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+The largest distance between excluded atoms is 2.781 nm between atom 623 and 644
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x56x72, spacing 0.120 0.117 0.109
+
+Estimate for the relative computational load of the PME mesh part: 0.24
+
+This run will generate roughly 2 Mb of data
+/var/spool/slurmd/job6293949/slurm_script: line 27: mpirun: command not found
+
+RAYCA: the job stopped at line 27 with exit 127
+RAYCA: the command was: mpirun -n 1 $GMX mdrun -v -deffnm em -ntomp 8 -nb gpu -pme gpu 2>&1
+RAYCA: if that command is allowed to fail, end it with || true

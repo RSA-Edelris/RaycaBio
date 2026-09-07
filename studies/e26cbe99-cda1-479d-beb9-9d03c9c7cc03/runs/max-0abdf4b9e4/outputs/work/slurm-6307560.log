@@ -1,0 +1,6 @@
+=== CRBN-EDS01357518_ent2 MD re-run ===
+cp: cannot stat '/rayca_inputs/md_EDS01357518_ent2/*': No such file or directory
+
+RAYCA: the job stopped at line 26 with exit 1
+RAYCA: the command was: cp /rayca_inputs/md_EDS01357518_ent2/* $WDIR/
+RAYCA: if that command is allowed to fail, end it with || true

@@ -1,0 +1,54 @@
+; ABFE FEP  compound=EDS01806218_ent2  leg=solvent  window=15
+; lambda: coul=1.00  vdw=0.95
+integrator           = md
+nsteps               = 750000
+dt                   = 0.002
+nstxout-compressed   = 5000
+nstenergy            = 500
+nstlog               = 5000
+nstdhdl              = 100
+
+cutoff-scheme        = Verlet
+nstlist              = 10
+coulombtype          = PME
+rcoulomb             = 1.2
+rvdw                 = 1.2
+pbc                  = xyz
+DispCorr             = EnerPres
+
+tcoupl               = V-rescale
+tc-grps              = System
+tau_t                = 0.1
+ref_t                = 300
+
+pcoupl               = Parrinello-Rahman
+pcoupltype           = isotropic
+tau_p                = 2.0
+ref_p                = 1.0
+compressibility      = 4.5e-5
+
+constraints          = h-bonds
+constraint_algorithm = LINCS
+lincs_iter           = 1
+lincs_order          = 4
+
+gen_vel              = yes
+gen_temp             = 300
+gen_seed             = 157
+continuation         = no
+
+; FEP settings
+free-energy          = yes
+couple-moltype       = LIG
+couple-lambda0       = vdw-q
+couple-lambda1       = none
+couple-intramol      = no
+init-lambda-state    = 15
+coul-lambdas         = 0.00 0.25 0.50 0.75 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00
+vdw-lambdas          = 0.00 0.00 0.00 0.00 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.85 0.90 0.95 1.00
+sc-alpha             = 0.5
+sc-power             = 1
+sc-sigma             = 0.3
+sc-coul              = no
+calc-lambda-neighbors = -1
+dhdl-print-energy    = total
