@@ -1,7 +1,7 @@
 {
   "study_id": "74591a70-5513-45c3-a9c1-10904993bc16",
   "run_id": "max-8e6bace49c",
-  "published_at": "2026-09-07T10:54:16Z",
+  "published_at": "2026-09-07T11:05:26Z",
   "review_state": {},
   "is_reviewed": false,
   "tool_versions": [],
@@ -21435,6 +21435,17 @@
       "committed": true
     },
     {
+      "path": "reports/phase_create_final_calculation_sdf_and_final_pose_pdb.md",
+      "sha256": "684c59e868a4b22badae7cb7d881de54fcb4b277afaddf8953e3d10fdb662eab",
+      "size": 2456,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
       "path": "prep_enantio2.py",
       "size": 6116,
       "kind": "code",
@@ -22601,7 +22612,7 @@
     "session_id": "74591a70-5513-45c3-a9c1-10904993bc16",
     "run_id": "max-8e6bace49c",
     "outcome": "",
-    "pushed_at": "2026-09-07T10:54:16Z"
+    "pushed_at": "2026-09-07T11:05:26Z"
   },
   "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
   "file_digests": {
@@ -24646,6 +24657,7 @@
     "outputs/reports/phase_01_create_final_calculation_sdf_and_final_pose_pdb_.md": "0ae86aeef4752963c87730e0fabdeb1ad52162dbe83eb544c49b956d3ed4a5db",
     "outputs/reports/phase_final_create_final_calculation_sdf_and_final_pose_pdb.md": "f21995a8960eab19bb45cfdc4c70860164d80cbb73d46303f0eae1c5119eab2d",
     "outputs/reports/audit_final_create_final_sdf_and_pdb.md": "7b7953ff7a342e5495393fc108f93fc5f3285563f6b06522735d33a13b7e1e12",
+    "outputs/reports/phase_create_final_calculation_sdf_and_final_pose_pdb.md": "684c59e868a4b22badae7cb7d881de54fcb4b277afaddf8953e3d10fdb662eab",
     ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }

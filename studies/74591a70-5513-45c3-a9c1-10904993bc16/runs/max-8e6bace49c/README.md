@@ -5,7 +5,7 @@
 ## Run Identity
 
 - Run ID: `max-8e6bace49c`
-- Published: 2026-09-07T10:54:16Z
+- Published: 2026-09-07T11:05:26Z
 - Review: not reviewed
 
 ## Tools and Environment
@@ -1328,6 +1328,7 @@ Files included in this repository:
 - `outputs/reports/phase_03_mmgbsa_interactions_report_document.md` (5584 bytes)
 - `outputs/reports/phase_04_annotated_sdf_and_github_push(2).md` (4522 bytes)
 - `outputs/reports/phase_04_annotated_sdf_and_github_push.md` (3070 bytes)
+- `outputs/reports/phase_create_final_calculation_sdf_and_final_pose_pdb.md` (2456 bytes)
 - `outputs/reports/phase_final_create_final_calculation_sdf_and_final_pose_pdb.md` (5426 bytes)
 - `outputs/reports/phase_report_enantiomers_3d_conformers.md` (2811 bytes)
 - `outputs/reports/report(2).md` (6437 bytes)
