@@ -56,21 +56,33 @@ Compound names for the 32-compound set are derived from the `.sdf.gz` filename b
 |------|------|---------|----------------|
 | `poses_all.sdf` | 739 KB (756,429 bytes) | 270 | 270 ✓ |
 
+## Bugs Fixed During Build
+
+Two SDF formatting bugs were found and fixed after observing molfile parsing errors in downstream viewers:
+
+**Bug 1 — gnina `$$$$` contamination in `best_poses2/` source files:**  
+gnina writes a `$$$$` inside the property block between biological tags and its own score tags, then a real `$$$$` at the end of each record. The original `split_sdf` function treated both as record terminators, producing alternating good (mol block + bio tags) and bad (gnina scores, no mol block) fragments. Downstream viewers saw some records with no mol block.  
+Fix: after splitting on `$$$$`, any fragment that contains no `M  END` is a contamination artifact and is merged back into the preceding record with `"\n\n"` as separator.
+
+**Bug 2 — missing blank line before `$$$$` record terminator:**  
+SDF spec requires a blank line between the last property value and `$$$$`. Without it, RDKit reads `$$$$` and the next record's header as a multi-line continuation of the last property value — silently consuming one record per compound (269 loaded instead of 270). The `Pose_Rank` for affected records contained `5\n$$$$\nEDEL-CRBN-0016` as a 3-line value.  
+Fix: terminate each injected tag block with `"\n$$$$\n"` instead of `"$$$$\n"`.
+
 ## Verification
 
-Checks run programmatically (2026-09-07) after script execution:
+Checks run programmatically (2026-09-07) after final script execution:
 
 | Check | Expected | Observed | Pass |
 |-------|----------|----------|------|
 | Total records in `poses_all.sdf` | 270 (22×5 + 32×5) | 270 | ✓ |
 | `$$$$` separators in output file | 270 | 270 | ✓ |
+| RDKit SDMolSupplier valid records | 270 | 270 | ✓ |
+| RDKit None (corrupt) records | 0 | 0 | ✓ |
 | Distinct `Compound_Name` values | 54 | 54 | ✓ |
 | Records missing `Compound_Name` or `Pose_Rank` | 0 | 0 | ✓ |
-| Compounds with unexpected pose ranks | 0 | 0 | ✓ |
+| All compounds have exactly ranks 1–5 | all 54 | all 54 | ✓ |
 | Any `Compound_Name` with trailing `_poses` | 0 | 0 | ✓ |
-| File size | >700 KB | 756,429 bytes | ✓ |
-| 22-compound set: per-pose gnina scores present | yes | `Docking_Affinity_kcal_mol`, `CNN_Affinity`, `CNN_Pose_Score` on all 110 records | ✓ |
-| 32-compound set: original gnina tags preserved | yes | `minimizedAffinity`, `CNNscore`, `CNNaffinity`, `CNN_VS` on all 160 records | ✓ |
+| File size | >900 KB | 907,947 bytes | ✓ |
 
 ## GitHub
 

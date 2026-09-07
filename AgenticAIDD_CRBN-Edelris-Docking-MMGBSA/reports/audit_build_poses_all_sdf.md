@@ -21,16 +21,25 @@ The file was assembled by parsing SDF records as raw text (splitting on `$$$$`) 
 - When RDKit re-writes such records via SDWriter, each record is split into two (valid + corrupt), doubling the record count
 - Raw-text injection preserves original 3D coordinates and mol block geometry exactly
 
+## Bugs Fixed
+
+Two SDF formatting bugs were found by observing molfile parsing errors in downstream viewers and corrected before the final file was produced:
+
+1. **gnina `$$$$` contamination** — gnina embeds a `$$$$` between biological tags and its own score tags. Fixed in `split_sdf`: fragments without `M  END` merged back into preceding record.
+2. **Missing blank line before `$$$$`** — SDF requires blank line between last property value and `$$$$`. Without it RDKit reads the next record's header as a property continuation, losing one record. Fixed by terminating tag blocks with `"\n$$$$\n"`.
+
 ## Verification
 
-Checks run programmatically (2026-09-07) via `build_poses_all.py` + inline verification code:
+Checks run programmatically (2026-09-07) via `build_poses_all.py` + inline RDKit verification:
 
 ### Record count
 
 | Check | Expected | Observed | Pass |
 |-------|----------|----------|------|
 | Total records (270 = 22×5 + 32×5) | 270 | 270 | ✓ |
-| $$$$ separators in output file | 270 | 270 | ✓ |
+| `$$$$` separators in output file | 270 | 270 | ✓ |
+| RDKit SDMolSupplier valid records | 270 | 270 | ✓ |
+| RDKit None (corrupt) records | 0 | 0 | ✓ |
 | 22-compound set records | 110 | 110 | ✓ |
 | 32-compound set records | 160 | 160 | ✓ |
 
@@ -80,8 +89,10 @@ Checks run programmatically (2026-09-07) via `build_poses_all.py` + inline verif
 
 `build_poses_all.py` — session workspace, raw-text SDF assembly, no RDKit mol re-write.
 
+| File size | >900 KB | 907,947 bytes | ✓ |
+
 ## GitHub
 
-Committed to `RSA-Edelris/RaycaBio` at commit `8a081f5`:
+Committed to `RSA-Edelris/RaycaBio` at commit `c3aea61` (fixed version):
 - `AgenticAIDD_CRBN-Edelris-Docking-MMGBSA/results/poses_all.sdf`
 - `AgenticAIDD_CRBN-Edelris-Docking-MMGBSA/scripts/build_poses_all.py`
