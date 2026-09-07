@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0326
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8379
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6240
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 15.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.3533
+HEADER 10 - Pocket volume (convex hull)       : 7.8268
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   1639  OE1 GLN B 149      84.747 148.305 -11.405  0.00  0.00           O 0
+ATOM   1684    C GLY B 152      83.799 144.020  -6.005  0.00  0.00           C 0
+ATOM   1685    O GLY B 152      82.946 143.324  -6.547  0.00  0.00           O 0
+ATOM   1681   CA GLY B 152      85.222 143.549  -6.004  0.00  0.00           C 0
+ATOM   1635   CG GLN B 149      83.820 148.922  -9.325  0.00  0.00           C 0
+ATOM   1679    N GLY B 152      86.147 144.417  -5.299  0.42  6.56           N 0
+ATOM   1630    C GLN B 149      85.888 150.090  -6.823  0.00  0.00           C 0
+ATOM   1632   CB GLN B 149      84.619 150.162  -9.008  0.00  0.00           C 0
+ATOM   1631    O GLN B 149      86.937 150.717  -7.011  0.50  5.36           O 0
+ATOM   1638   CD GLN B 149      83.765 148.706 -10.788  0.00  0.00           C 0
+ATOM   1714   CG GLU B 154      79.705 148.084  -9.062  0.00  0.00           C 0
+ATOM   1640  NE2 GLN B 149      82.610 148.963 -11.363  0.58  4.37           N 0
+ATOM   1690    C ILE B 153      82.012 147.138  -5.934  0.00  0.00           C 0
+ATOM   1643    N GLU B 150      85.778 149.127  -5.945  0.85  1.09           N 0
+ATOM   1645   CA GLU B 150      86.885 148.692  -5.129  0.00  0.00           C 0
+ATOM   1647    C GLU B 150      86.527 147.375  -4.524  0.00  0.00           C 0
+ATOM   1658    N TYR B 151      87.530 146.596  -4.158  0.74  2.19           N 0
+TER
+END

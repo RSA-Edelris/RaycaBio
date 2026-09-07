@@ -1,0 +1,49 @@
+{
+  "summary": "gnina (dock) produced 5 pose(s). Top CNN pose score=0.8931. Top CNN affinity (pK)=6.387. Top empirical affinity=-7.35 kcal/mol.",
+  "mode": "dock",
+  "poses": [
+    {
+      "rank": 1,
+      "affinity": -7.35,
+      "intramol": -0.92,
+      "cnn_pose_score": 0.8931,
+      "cnn_affinity": 6.387
+    },
+    {
+      "rank": 2,
+      "affinity": -7.94,
+      "intramol": 1.31,
+      "cnn_pose_score": 0.8628,
+      "cnn_affinity": 6.106
+    },
+    {
+      "rank": 3,
+      "affinity": -7.55,
+      "intramol": 1.41,
+      "cnn_pose_score": 0.7445,
+      "cnn_affinity": 6.425
+    },
+    {
+      "rank": 4,
+      "affinity": -7.6,
+      "intramol": -0.22,
+      "cnn_pose_score": 0.6758,
+      "cnn_affinity": 6.142
+    },
+    {
+      "rank": 5,
+      "affinity": -7.37,
+      "intramol": 1.29,
+      "cnn_pose_score": 0.6679,
+      "cnn_affinity": 6.216
+    }
+  ],
+  "num_poses": 5,
+  "best_cnn_pose_score": 0.8931,
+  "best_cnn_affinity": 6.387,
+  "best_affinity_kcal_mol": -7.35,
+  "gpu_used": true,
+  "receptor": "/work/4CI2_receptor_for_docking.pdb",
+  "ligand": "/work/ligands/lig5.sdf",
+  "output_file": "/work/gnina_work_lig5/gnina_docked.sdf.gz"
+}

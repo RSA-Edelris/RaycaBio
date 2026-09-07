@@ -1,0 +1,4 @@
+source leaprc.protein.ff14SB
+rec = loadpdb /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa2/receptor_amber.pdb
+saveamberparm rec /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa2/receptor.prmtop /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa2/receptor.inpcrd
+quit

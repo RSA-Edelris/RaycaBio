@@ -1,0 +1,739 @@
+  OK   EDEL-CRBN-0001                  ΔG =   -42.02 ± 1.24 kcal/mol
+  OK   EDEL-CRBN-0004                  ΔG =   -37.48 ± 0.39 kcal/mol
+  OK   EDEL-CRBN-0004_ent              ΔG =   -36.69 ± 0.42 kcal/mol
+  OK   EDEL-CRBN-0005                  ΔG =   -41.83 ± 0.39 kcal/mol
+  OK   EDEL-CRBN-0005_ent              ΔG =   -43.40 ± 0.31 kcal/mol
+  OK   EDEL-CRBN-0006                  ΔG =   -39.63 ± 0.29 kcal/mol
+  OK   EDEL-CRBN-0006_ent              ΔG =   -24.93 ± 0.44 kcal/mol
+  OK   EDEL-CRBN-0007                  ΔG =   -29.43 ± 0.93 kcal/mol
+  OK   EDEL-CRBN-0007_ent              ΔG =   -38.38 ± 0.34 kcal/mol
+  OK   EDEL-CRBN-0008                  ΔG =   -35.66 ± 0.31 kcal/mol
+  FAIL EDEL-CRBN-0008_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0008_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0008_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0008_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0008_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0008_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0008_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0009: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0009_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0009_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0010: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0010_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0010_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0011: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0011_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0011_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0012: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0012_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0012_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0013: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0013_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0013_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0014: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0014_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0014_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0015: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0015_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0015_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0016: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0016_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0016_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0002_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0001_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0001_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0001_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0001_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0001_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0001_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0001_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0002: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0002_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0003: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+  FAIL EDEL-CRBN-0003_ent: FAILED: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py -O -i /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent_ent/mmgbsa.in -o /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent_ent/FINAL_RESULTS_MMPBSA.dat -cp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent_ent/complex.prmtop -rp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent_ent/rec.prmtop -lp /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent_ent/lig.prmtop -y /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0003_ent_ent/md.nc
+STDOUT: Loading and checking parameter files for compatibility...
+cpptraj found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/cpptraj
+mmpbsa_py_energy found! Using /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+Preparing trajectories for simulation...
+50 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/mmpbsa_py_energy
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+STDERR:   File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/MMPBSA.py", line 101, in <module>
+    app.run_mmpbsa() # for membrane runs by automatically setting the membrane thickness and location.
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/main.py", line 226, in run_mmpbsa
+    self.calc_list.run(rank, self.stdout)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 81, in run
+    calc.setup()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/rayca-runtime/.mamba/envs/rayca/lib/python3.14/site-packages/MMPBSA_mods/calculation.py", line 243, in setup
+    raise IOError("Input file (%s) doesn't exist" % self.input_file)
+OSError: Input file (_MMPBSA_gb.mdin) doesn't exist
+
+Fatal Error! 
+All files have been retained for your error investigation: 
+You should begin by examining the output files of the first failed calculation.
+Consult the "Temporary Files" subsection of the MMPBSA.py chapter in the
+manual for file naming conventions.
+
+
+Done: 10 OK, 0 skipped (no traj), 22 failed
+Results saved to /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/mmgbsa_results.json

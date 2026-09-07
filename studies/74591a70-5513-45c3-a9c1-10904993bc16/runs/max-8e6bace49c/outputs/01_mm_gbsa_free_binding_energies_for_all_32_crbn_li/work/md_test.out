@@ -1,0 +1,229 @@
+
+          -------------------------------------------------------
+          Amber 26 SANDER                              2026
+          -------------------------------------------------------
+
+| Run on 09/06/2026 at 22:07:21
+
+|   Executable path: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/sander
+| Working directory: /home/ubuntu/rayca-sessions/74591a70-5513-45c3-a9c1-10904993bc16-aa94c8cd626e/mmgbsa/EDEL-CRBN-0001_ent
+|          Hostname: Unknown
+  [-O]verwriting output
+
+File Assignments:
+|  MDIN: md_test.in                                                            
+| MDOUT: md_test.out                                                           
+|INPCRD: min.rst7                                                              
+|  PARM: complex.prmtop                                                        
+|RESTRT: md_test.rst7                                                          
+|  REFC: refc                                                                  
+| MDVEL: mdvel                                                                 
+| MDFRC: mdfrc                                                                 
+|  MDEN: mden                                                                  
+| MDCRD: md_test.nc                                                            
+|MDINFO: mdinfo                                                                
+|  MTMD: mtmd                                                                  
+|INPDIP: inpdip                                                                
+|RSTDIP: rstdip                                                                
+|INPTRA: inptraj                                                               
+
+
+ Here is the input file:
+
+NVT test MD 2 frames                                                           
+ &cntrl                                                                        
+  imin=0, nstlim=400, dt=0.002,                                                
+  ntb=0, cut=12.0, rgbmax=12.0,                                                
+  igb=5, saltcon=0.10,                                                         
+  tempi=300.0, temp0=300.0,                                                    
+  ntt=3, gamma_ln=2.0,                                                         
+  ntc=2, ntf=2,                                                                
+  ntpr=200, ntwx=200,                                                          
+  ioutfm=1,                                                                    
+ /                                                                             
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+| Flags:                                                                        
+| New format PARM file being parsed.
+| Version =    1.000 Date = 09/06/26 Time = 21:55:56
+ NATOM  =    6216 NTYPES =      24 NBONH =    3088 MBONA  =    3210
+ NTHETH =    7011 MTHETA =    4352 NPHIH =   14278 MPHIA  =   13689
+ NHPARM =       0 NPARM  =       0 NNB   =   34355 NRES   =     382
+ NBONA  =    3210 NTHETA =    4352 NPHIA =   13689 NUMBND =      82
+ NUMANG =     186 NPTRA  =     198 NATYP =      45 NPHB   =       0
+ IFBOX  =       0 NMXRS  =      28 IFCAP =       0 NEXTRA =       0
+ NCOPY  =       0
+
+ Implicit solvent radii are modified Bondi radii (mbondi)                                                   
+
+|     Memory Use     Allocated
+|     Real              957230
+|     Hollerith          19032
+|     Integer           368992
+|     Max Pairs              1
+|     nblistReal             0
+|     nblist Int             0
+|       Total             8994 kbytes
+
+| Note: 1-4 EEL scale factors are being read from the topology file.
+
+| Note: 1-4 VDW scale factors are being read from the topology file.
+| Duplicated    0 dihedrals
+| Duplicated    0 dihedrals
+
+--------------------------------------------------------------------------------
+   2.  CONTROL  DATA  FOR  THE  RUN
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+
+General flags:
+     imin    =       0, nmropt  =       0
+
+Nature and format of input:
+     ntx     =       1, irest   =       0, ntrx    =       1
+
+Nature and format of output:
+     ntxo    =       2, ntpr    =     200, ntrx    =       1, ntwr    =     400
+     iwrap   =       0, ntwx    =     200, ntwv    =       0, ntwe    =       0
+     ioutfm  =       1, ntwprt  =       0, idecomp =       0, rbornstat=      0
+
+Potential function:
+     ntf     =       2, ntb     =       0, igb     =       5, nsnb    =      25
+     ipol    =       0, gbsa    =       0, iesp    =       0
+     dielc   =   1.00000, cut     =  12.00000, intdiel =   1.00000
+     saltcon =   0.10000, offset  =   0.09000, gbalpha=    1.00000
+     gbbeta  =   0.80000, gbgamma =   4.85000, surften =   0.00500
+     rdt     =   0.00000, rgbmax  =  12.00000  extdiel =  78.50000
+     alpb  =        0
+
+Frozen or restrained atoms:
+     ibelly  =       0, ntr     =       0
+
+Molecular dynamics:
+     nstlim  =       400, nscm    =      1000, nrespa  =         1
+     t       =   0.00000, dt      =   0.00200, vlimit  =  20.00000
+
+Langevin dynamics temperature regulation:
+     ig      =   71277
+     temp0   = 300.00000, tempi   = 300.00000, gamma_ln=   2.00000
+
+SHAKE:
+     ntc     =       2, jfastw  =       0
+     tol     =   0.00001
+|  INFO: Old style inpcrd file read
+
+
+--------------------------------------------------------------------------------
+   3.  ATOMIC COORDINATES AND VELOCITIES
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+ begin time read from input coords =     0.000 ps
+
+ Number of triangulated 3-point waters found:        0
+
+--------------------------------------------------------------------------------
+   4.  RESULTS
+--------------------------------------------------------------------------------
+
+|  # of SOLUTE  degrees of freedom (RNDFP):   15560.
+|  # of SOLVENT degrees of freedom (RNDFS):       0.
+|  NDFMIN =   15560.     NUM_NOSHAKE =      0     CORRECTED RNDFP =   15560.
+|  TOTAL # of degrees of freedom (RNDF) =   15560.
+
+ NSTEP =        0   TIME(PS) =       0.000  TEMP(K) =   361.10  PRESS =     0.0
+ Etot   =     -6889.6880  EKtot   =      5582.7626  EPtot      =    -12472.4507
+ BOND   =       263.0157  ANGLE   =      1162.9084  DIHED      =      4558.9647
+ 1-4 NB =      1302.6711  1-4 EEL =     13703.0158  VDWAALS    =     -3318.0091
+ EELEC  =    -24370.1660  EGB     =     -5774.8513  RESTRAINT  =         0.0000
+ ------------------------------------------------------------------------------
+
+
+ NSTEP =      200   TIME(PS) =       0.400  TEMP(K) =   243.52  PRESS =     0.0
+ Etot   =     -5300.9108  EKtot   =      3764.8398  EPtot      =     -9065.7506
+ BOND   =      1038.0396  ANGLE   =      2995.0726  DIHED      =      4976.8281
+ 1-4 NB =      1414.2133  1-4 EEL =     13604.4263  VDWAALS    =     -3108.1162
+ EELEC  =    -23387.4620  EGB     =     -6598.7523  RESTRAINT  =         0.0000
+ ------------------------------------------------------------------------------
+
+
+ NSTEP =      400   TIME(PS) =       0.800  TEMP(K) =   270.99  PRESS =     0.0
+ Etot   =     -4308.1668  EKtot   =      4189.5650  EPtot      =     -8497.7318
+ BOND   =      1191.4116  ANGLE   =      3363.3228  DIHED      =      4996.0520
+ 1-4 NB =      1395.4426  1-4 EEL =     13549.3782  VDWAALS    =     -2983.2669
+ EELEC  =    -25631.5058  EGB     =     -4378.5664  RESTRAINT  =         0.0000
+ ------------------------------------------------------------------------------
+
+
+      A V E R A G E S   O V E R     400 S T E P S
+
+
+ NSTEP =      400   TIME(PS) =       0.800  TEMP(K) =   232.38  PRESS =     0.0
+ Etot   =     -5530.6808  EKtot   =      3592.7516  EPtot      =     -9123.4324
+ BOND   =      1042.0279  ANGLE   =      2947.4621  DIHED      =      4968.6904
+ 1-4 NB =      1398.4526  1-4 EEL =     13607.5326  VDWAALS    =     -3109.4570
+ EELEC  =    -24364.9284  EGB     =     -5613.2127  RESTRAINT  =         0.0000
+ ------------------------------------------------------------------------------
+
+
+      R M S  F L U C T U A T I O N S
+
+
+ NSTEP =      400   TIME(PS) =       0.800  TEMP(K) =    32.98  PRESS =     0.0
+ Etot   =       955.2990  EKtot   =       509.8409  EPtot      =       495.2473
+ BOND   =       133.9105  ANGLE   =       292.8713  DIHED      =        42.5480
+ 1-4 NB =        13.8018  1-4 EEL =        46.9342  VDWAALS    =        60.9563
+ EELEC  =       775.2173  EGB     =       765.6096  RESTRAINT  =         0.0000
+ ------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+   5.  TIMINGS
+--------------------------------------------------------------------------------
+
+|    Read coords time           0.01 ( 0.01% of Total)
+|                Calc gb radii             29.72 (24.13% of Gen B)
+|                Calc gb diag              58.13 (47.21% of Gen B)
+|                Calc gb off-diag          35.28 (28.65% of Gen B)
+|                Other                      0.01 ( 0.01% of Gen B)
+|             Gen Born time            123.13 (100.0% of Nonbo)
+|          Nonbond force            123.13 (98.63% of Force)
+|          Bond/Angle/Dihedral        1.71 ( 1.37% of Force)
+|          Other                      0.01 ( 0.01% of Force)
+|       Force time               124.84 (99.15% of Runmd)
+|       Shake time                 0.07 ( 0.05% of Runmd)
+|       Verlet update time         0.99 ( 0.79% of Runmd)
+|       Other                      0.01 ( 0.01% of Runmd)
+|    Runmd Time               125.91 (100.0% of Total)
+|    Other                      0.08 ( 0.06% of Total)
+| Total time               126.00 (100.0% of ALL  )
+
+| Number of list builds   :          0
+
+| Highest rstack allocated:          0
+| Highest istack allocated:          0
+
+| Final Performance Info:
+| -----------------------------------------------------
+| Average timings for all steps:
+|     Elapsed(s) =     125.91 Per Step(ms) =     314.78
+|         ns/day =       0.55   seconds/ns =  157389.50
+| -----------------------------------------------------
+
+|           Job began  at 22:07:21.544  on 09/06/2026
+|           Setup done at 22:07:21.629  on 09/06/2026
+|           Run   done at 22:09:27.540  on 09/06/2026
+|     wallclock() was called    9633 times
+
+|3D-RISM memory allocation summary
+|Type          Maximum        Current   
+|Integer       0.00000 GB     0.00000 GB
+|Real          0.00000 GB     0.00000 GB
+|Logical       0.00000 GB     0.00000 GB
+|Character     0.00000 GB     0.00000 GB
+|---------------------------------------
+|Total         0.00000 GB     0.00000 GB

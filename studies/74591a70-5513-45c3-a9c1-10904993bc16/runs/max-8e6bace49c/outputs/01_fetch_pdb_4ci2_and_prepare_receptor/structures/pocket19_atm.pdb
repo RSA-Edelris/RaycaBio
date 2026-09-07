@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0217
+HEADER 1  - Drug Score                        : 0.0063
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.9001
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5080
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 31.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.2224
+HEADER 10 - Pocket volume (convex hull)       : 8.3861
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   4433  OD2 ASP B 315      57.625 170.769  27.661  0.18  8.57           O 0
+ATOM   4496   CD LYS B 319      60.067 169.149  31.186  0.00  0.00           C 0
+ATOM   4502   NZ LYS B 319      57.620 168.640  31.271  0.65  8.75           N 0
+ATOM   4099  CD1 LEU B 296      59.516 164.370  24.402  0.00  0.00           C 0
+ATOM   4442  CG1 ILE B 316      61.907 168.733  24.511  0.00  0.00           C 0
+ATOM   4103  CD2 LEU B 296      61.890 164.966  24.767  0.00  0.00           C 0
+ATOM   4490   CB LYS B 319      62.587 169.510  31.098  0.00  0.00           C 0
+ATOM   4436   CA ILE B 316      62.786 170.396  26.266  0.00  0.00           C 0
+ATOM   4439    O ILE B 316      64.559 170.542  27.838  0.00  0.00           O 0
+ATOM   4445  CG2 ILE B 316      64.419 169.185  24.688  0.00  0.00           C 0
+ATOM   4046  CG2 ILE B 292      65.528 165.724  23.964  0.00  0.00           C 0
+ATOM   4512   CB CYS B 320      67.646 169.511  28.516  0.00  0.00           C 0
+ATOM   4515   SG CYS B 320      68.762 168.373  27.619  0.00  0.00           S 0
+ATOM   6155   CB PRO B 426      66.978 163.531  28.439  0.00  0.00           C 0
+ATOM   4489    O LYS B 319      65.436 168.815  32.319  0.60  3.21           O 0
+ATOM   6154    O PRO B 426      67.286 163.510  31.473  0.17  5.36           O 0
+ATOM   4488    C LYS B 319      65.114 169.536  31.373  0.00  0.00           C 0
+ATOM   4508   CA CYS B 320      67.153 169.028  29.892  0.00  0.00           C 0
+ATOM   4506    N CYS B 320      65.852 169.659  30.224  0.00  0.00           N 0
+TER
+END
