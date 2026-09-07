@@ -5,7 +5,7 @@
 ## Run Identity
 
 - Run ID: `max-6aa66319d7`
-- Published: 2026-09-07T09:00:03Z
+- Published: 2026-09-07T09:20:12Z
 - Review: not reviewed
 
 ## Tools and Environment
@@ -1288,6 +1288,11 @@ Files included in this repository:
 - `outputs/04_mm_gbsa_on_best_docking_poses/structures/EDEL-CRBN-0016_pose1.sdf` (4050 bytes)
 - `outputs/04_mm_gbsa_on_best_docking_poses/work/all_contacts.json` (77226 bytes)
 - `outputs/04_mm_gbsa_on_best_docking_poses/work/interaction_freq.json` (1050 bytes)
+- `outputs/04_task_bpf1n94ud/reports/audit_phase_01_stereoenumeration.md` (1741 bytes)
+- `outputs/04_task_bpf1n94ud/reports/audit_phase_02_docking.md` (2124 bytes)
+- `outputs/04_task_bpf1n94ud/reports/audit_phase_03_mmgbsa_interactions_report.md` (2743 bytes)
+- `outputs/04_task_bpf1n94ud/reports/audit_tasks_bt3i0n9lx_bvh8nqsvc_bk04326pc_be46qtrvc.md` (3953 bytes)
+- `outputs/04_task_bpf1n94ud/reports/phase_03_run_mm_gbsa_on_best_docking_poses_and_write_fina.md` (98420 bytes)
 - `outputs/05_interaction_analysis_and_report/reports/phase_04_mm_gbsa_on_best_docking_poses.md` (36385 bytes)
 - `outputs/06_task_bsax0ys95/reports/4CI2_receptor_noh_info(2).txt` (21815 bytes)
 - `outputs/06_task_bsax0ys95/reports/4CI2_receptor_noh_info(3).txt` (21792 bytes)
@@ -1307,6 +1312,9 @@ Files included in this repository:
 - `outputs/reports/phase_01_generate_enantiomers_and_3d_conformers_for_crbn_(2).md` (4715 bytes)
 - `outputs/reports/phase_01_generate_enantiomers_and_3d_conformers_for_crbn_(3).md` (5342 bytes)
 - `outputs/reports/phase_01_generate_enantiomers_and_3d_conformers_for_crbn_.md` (2106 bytes)
+- `outputs/reports/phase_01_prepare_crbn_id_enantio_2_document.md` (4245 bytes)
+- `outputs/reports/phase_02_dock_crbn_id_enantio_2_document.md` (4378 bytes)
+- `outputs/reports/phase_03_mmgbsa_interactions_report_document.md` (5584 bytes)
 - `outputs/reports/phase_04_annotated_sdf_and_github_push(2).md` (4522 bytes)
 - `outputs/reports/phase_04_annotated_sdf_and_github_push.md` (3070 bytes)
 - `outputs/reports/phase_report_enantiomers_3d_conformers.md` (2811 bytes)

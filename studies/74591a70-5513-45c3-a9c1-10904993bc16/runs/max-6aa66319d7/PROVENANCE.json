@@ -1,7 +1,7 @@
 {
   "study_id": "74591a70-5513-45c3-a9c1-10904993bc16",
   "run_id": "max-6aa66319d7",
-  "published_at": "2026-09-07T09:00:03Z",
+  "published_at": "2026-09-07T09:20:12Z",
   "review_state": {},
   "is_reviewed": false,
   "tool_versions": [],
@@ -20995,6 +20995,94 @@
       "committed": true
     },
     {
+      "path": "04_task_bpf1n94ud/reports/phase_03_run_mm_gbsa_on_best_docking_poses_and_write_fina.md",
+      "sha256": "2b61e64439b18ffea9dee2640cc6b092954a138da8c34fe6514f0198b08f3472",
+      "size": 98420,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_prepare_crbn_id_enantio_2_document.md",
+      "sha256": "e4e3930675553d780111ead1b238a510c877d20305a9b47778a59550c5a3c12a",
+      "size": 4245,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_02_dock_crbn_id_enantio_2_document.md",
+      "sha256": "126558ee295fd030a6a629769708f625e20252832f76b60b557c20a502746f56",
+      "size": 4378,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_03_mmgbsa_interactions_report_document.md",
+      "sha256": "efa346d6bef6d1b5e0d123b592f0544d027160d966db7e996da689238df1dae2",
+      "size": 5584,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/reports/audit_phase_01_stereoenumeration.md",
+      "sha256": "fa2d31c0f5154fa6ccc102176d5fc279d9fc02c6284ecd59c2456308cf8424e6",
+      "size": 1741,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/reports/audit_phase_02_docking.md",
+      "sha256": "fd236f2a3e0e9e6b8031d48fdda7d9ac2215ced72933864ec187ed3b5a57ca7e",
+      "size": 2124,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/reports/audit_phase_03_mmgbsa_interactions_report.md",
+      "sha256": "e0d0f790f6ca720689313f3e081c71ee4ff9915d74531642c1dbc1f22517ba19",
+      "size": 2743,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
+      "path": "04_task_bpf1n94ud/reports/audit_tasks_bt3i0n9lx_bvh8nqsvc_bk04326pc_be46qtrvc.md",
+      "sha256": "184f0f20b795890783091499f9b237270d6cb826a524983de849c1f15869ec0f",
+      "size": 3953,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-6aa66319d7",
+      "committed": true
+    },
+    {
       "path": "prep_enantio2.py",
       "size": 6116,
       "kind": "code",
@@ -22063,7 +22151,7 @@
     "session_id": "74591a70-5513-45c3-a9c1-10904993bc16",
     "run_id": "max-6aa66319d7",
     "outcome": "",
-    "pushed_at": "2026-09-07T09:00:03Z"
+    "pushed_at": "2026-09-07T09:20:12Z"
   },
   "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
   "file_digests": {
@@ -24054,6 +24142,14 @@
     "outputs/03_run_mm_gbsa_on_best_docking_poses_and_write_fina/work/interaction_fingerprints.json": "bf80f91a8c83deea50e62c32e8b9597d18299711c8e60e2c872e1328f958a3f7",
     "outputs/03_run_mm_gbsa_on_best_docking_poses_and_write_fina/structures/CRBN_ID_enantio2_docking_GBSA.sdf": "bf643b8a096144a45346415fc5b7ca5632d5a0957ad69c8a0c2be6eb957a65e3",
     "outputs/reports/CRBN_docking_mmgbsa_report.md": "ebd90e6ae6daae98d70a03d28887bb178c3e22ccd798e3013f7b5175892c6e7f",
+    "outputs/04_task_bpf1n94ud/reports/phase_03_run_mm_gbsa_on_best_docking_poses_and_write_fina.md": "2b61e64439b18ffea9dee2640cc6b092954a138da8c34fe6514f0198b08f3472",
+    "outputs/reports/phase_01_prepare_crbn_id_enantio_2_document.md": "e4e3930675553d780111ead1b238a510c877d20305a9b47778a59550c5a3c12a",
+    "outputs/reports/phase_02_dock_crbn_id_enantio_2_document.md": "126558ee295fd030a6a629769708f625e20252832f76b60b557c20a502746f56",
+    "outputs/reports/phase_03_mmgbsa_interactions_report_document.md": "efa346d6bef6d1b5e0d123b592f0544d027160d966db7e996da689238df1dae2",
+    "outputs/04_task_bpf1n94ud/reports/audit_phase_01_stereoenumeration.md": "fa2d31c0f5154fa6ccc102176d5fc279d9fc02c6284ecd59c2456308cf8424e6",
+    "outputs/04_task_bpf1n94ud/reports/audit_phase_02_docking.md": "fd236f2a3e0e9e6b8031d48fdda7d9ac2215ced72933864ec187ed3b5a57ca7e",
+    "outputs/04_task_bpf1n94ud/reports/audit_phase_03_mmgbsa_interactions_report.md": "e0d0f790f6ca720689313f3e081c71ee4ff9915d74531642c1dbc1f22517ba19",
+    "outputs/04_task_bpf1n94ud/reports/audit_tasks_bt3i0n9lx_bvh8nqsvc_bk04326pc_be46qtrvc.md": "184f0f20b795890783091499f9b237270d6cb826a524983de849c1f15869ec0f",
     ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }
