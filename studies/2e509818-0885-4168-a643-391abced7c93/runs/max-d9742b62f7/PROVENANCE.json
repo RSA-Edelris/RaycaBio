@@ -1,7 +1,7 @@
 {
   "study_id": "2e509818-0885-4168-a643-391abced7c93",
   "run_id": "max-d9742b62f7",
-  "published_at": "2026-09-08T11:28:31Z",
+  "published_at": "2026-09-08T11:38:15Z",
   "review_state": {},
   "is_reviewed": false,
   "tool_versions": [],
@@ -172,8 +172,140 @@
       "committed": true
     },
     {
+      "path": "reports/phase_01_push_results_to_github_rsa_edelris_raycabio.md",
+      "sha256": "dad45de8a85ec25fe77499db9156fb78402ed12e1362807b1dc60c0b5298de3d",
+      "size": 3479,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "reports/audit_push_phase.md",
+      "sha256": "958b716a2145a8223b31e7212ba0628b2083bc359ac9dadcccab19f1736e574f",
+      "size": 9514,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_02_task_aa9710b78af61356c.md",
+      "sha256": "a229985cbc1a35c4ad0629871b1cc31b02d043ac96ba9d4ce9536df665f9195a",
+      "size": 1879,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "agent",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "source/adme_models(2).py",
+      "sha256": "a4a13b418e7800225ec33fae2c6eed6fce2c66703b88b05e3a56c6062d05aff3",
+      "size": 6544,
+      "kind": "code",
+      "version": 2,
+      "supersedes": "dd4e1570ecbf4d788be98b747770003d",
+      "step": "edit",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "source/adme_models(3).py",
+      "sha256": "0fd2903411295d90ad92b4a40403bcc5e8a17e8a0ab912e1ae348542de11c92f",
+      "size": 6527,
+      "kind": "code",
+      "version": 3,
+      "supersedes": "04d9e62a70e94cf39478ad477239792a",
+      "step": "edit",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "source/adme_models(4).py",
+      "sha256": "8c22d26b35f16aa6b3f86c134dd9f259b1af0ae4627e283b93d3860c3bbd812f",
+      "size": 6561,
+      "kind": "code",
+      "version": 4,
+      "supersedes": "cc7514b8d80e4210a37ddf86be8ac175",
+      "step": "edit",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "source/adme_models(5).py",
+      "sha256": "bd8cccd528c7eeb7e4639c2a766ff02296655f36fa3a8dfa9895fe7efe7f78ef",
+      "size": 6655,
+      "kind": "code",
+      "version": 5,
+      "supersedes": "235f5c3bc97a4c97baecbc6f2e2a4e46",
+      "step": "edit",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "reports/adme_scoring_report(2).md",
+      "sha256": "9273849b10becff31e1cba7bd0aeb298d74a90b6ccc46f024666d806062c7676",
+      "size": 9890,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "680687102cdd4f429b73a9b930bdfed5",
+      "step": "edit",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "source/010_reload_fixed_adme_models_module_disk.py",
+      "sha256": "5c8ce77aebf9d98b25528e9763abec1a8c62ee3b06d4695d520ddd4998a524e0",
+      "size": 2183,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "source/011_warnings_filterwarnings.py",
+      "sha256": "ec60d33f5b8ef9d48b2181336f56c35d534247978f9cea6e9088a49a2d0290c0",
+      "size": 3806,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "structures/results(2).sdf",
+      "sha256": "1519aadf868665968c8fb9d8273bffc3486d757a3450a495642cd0975a5368e6",
+      "size": 401910,
+      "kind": "molecules",
+      "version": 2,
+      "supersedes": "02c61f9362cf4c37b328464c7cc6ccfb",
+      "step": "run python",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
+      "path": "source/012_re_apply_mpo_same_functions_redefined_here_since.py",
+      "sha256": "363e1da89727cc8903bec02ec0842f4f96e04c931e3fc2ac8a29ed3ab365888f",
+      "size": 5518,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d9742b62f7",
+      "committed": true
+    },
+    {
       "path": "adme_models.py",
-      "size": 6250,
+      "size": 6655,
       "kind": "code",
       "source": "workspace",
       "committed": true
@@ -246,7 +378,7 @@
     "session_id": "2e509818-0885-4168-a643-391abced7c93",
     "run_id": "max-d9742b62f7",
     "outcome": "",
-    "pushed_at": "2026-09-08T11:28:31Z"
+    "pushed_at": "2026-09-08T11:38:15Z"
   },
   "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
   "file_digests": {
@@ -260,7 +392,14 @@
     "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/007_sdwriter.py": "d4e5e3c57a112e1e8e4d2ba63f36b441ea880d187eeb25a3a68a9f7c1927bc71",
     "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/008_full_tabular_report.py": "e7d4197feed9fbb693718fc248c84a60701d04b0eb9475733a344e3c97719b83",
     "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/009_print.py": "7f6c86432733ec68ae3c4d814370877f5fdd8c6fc7884acd189208acdf0071e2",
-    "scripts/adme_models.py": "88e240ee2cb09c1e7f876129089d4e7074d714f2b69088512906ee317bb6bed2",
+    "scripts/source/adme_models(2).py": "a4a13b418e7800225ec33fae2c6eed6fce2c66703b88b05e3a56c6062d05aff3",
+    "scripts/source/adme_models(3).py": "0fd2903411295d90ad92b4a40403bcc5e8a17e8a0ab912e1ae348542de11c92f",
+    "scripts/source/adme_models(4).py": "8c22d26b35f16aa6b3f86c134dd9f259b1af0ae4627e283b93d3860c3bbd812f",
+    "scripts/source/adme_models(5).py": "bd8cccd528c7eeb7e4639c2a766ff02296655f36fa3a8dfa9895fe7efe7f78ef",
+    "scripts/source/010_reload_fixed_adme_models_module_disk.py": "5c8ce77aebf9d98b25528e9763abec1a8c62ee3b06d4695d520ddd4998a524e0",
+    "scripts/source/011_warnings_filterwarnings.py": "ec60d33f5b8ef9d48b2181336f56c35d534247978f9cea6e9088a49a2d0290c0",
+    "scripts/source/012_re_apply_mpo_same_functions_redefined_here_since.py": "363e1da89727cc8903bec02ec0842f4f96e04c931e3fc2ac8a29ed3ab365888f",
+    "scripts/adme_models.py": "bd8cccd528c7eeb7e4639c2a766ff02296655f36fa3a8dfa9895fe7efe7f78ef",
     "scripts/source/007_sdwriter.py": "d4e5e3c57a112e1e8e4d2ba63f36b441ea880d187eeb25a3a68a9f7c1927bc71",
     "scripts/source/001_step_0_imports.py": "5f43fd966409d5902cf0cc8848c02453c20df1014c8f99ac9a1f63078241a153",
     "scripts/source/008_full_tabular_report.py": "e7d4197feed9fbb693718fc248c84a60701d04b0eb9475733a344e3c97719b83",
@@ -275,6 +414,11 @@
     "outputs/01_amide_enumeration_adme_scoring_top_96_export/structures/results.sdf": "da0ab9755dbd95da492f639f50c5a96c3acd1af58c0d8d7dbd5a5e64fca625db",
     "outputs/reports/phase_01_amide_enumeration_adme_scoring_top_96_export.md": "3a828985ff085e9afc6fd961cae69e09ac3a077afcbe913b0b26314d9bf2f979",
     "outputs/reports/adme_scoring_report.md": "12c8d172268b46e153119998247a7431fbe81876b229d9d16a4365766d0b8c6f",
+    "outputs/reports/phase_01_push_results_to_github_rsa_edelris_raycabio.md": "dad45de8a85ec25fe77499db9156fb78402ed12e1362807b1dc60c0b5298de3d",
+    "outputs/reports/audit_push_phase.md": "958b716a2145a8223b31e7212ba0628b2083bc359ac9dadcccab19f1736e574f",
+    "outputs/reports/phase_02_task_aa9710b78af61356c.md": "a229985cbc1a35c4ad0629871b1cc31b02d043ac96ba9d4ce9536df665f9195a",
+    "outputs/reports/adme_scoring_report(2).md": "9273849b10becff31e1cba7bd0aeb298d74a90b6ccc46f024666d806062c7676",
+    "outputs/structures/results(2).sdf": "1519aadf868665968c8fb9d8273bffc3486d757a3450a495642cd0975a5368e6",
     ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }

@@ -57,7 +57,6 @@ LABILE_PATS = [
     (Chem.MolFromSmarts("[CH3]c"),                       "Ar-CH3: CYP soft spot"),
     (Chem.MolFromSmarts("[NX3;H0;!$(NC=O)](C)(C)C"),    "tert-amine: CYP"),
     (Chem.MolFromSmarts("[NH2]c"),                       "Ar-NH2: N-hydroxylation"),
-    (Chem.MolFromSmarts("c1cccc(C(F)(F)F)c1"),          "Ar-CF3: oxidative metabolite risk"),
 ]
 
 def pred_met_stability(mol, d):
@@ -129,7 +128,7 @@ HERG_BASIC  = Chem.MolFromSmarts("[N;!$(NC=O);!a]")
 
 def pred_herg(mol, d):
     cyc = HERG_CYCLIC and mol.HasSubstructMatch(HERG_CYCLIC)
-    bas = bool(HERG_BASIC and mol.HasSubstructMatch(HERG_BASIC))
+    bas = (HERG_BASIC  and mol.HasSubstructMatch(HERG_BASIC)) or d["n_basic_n"]>0
     if cyc and d["clogp"]>3.5 and d["n_ar_rings"]>=1:
         risk = "High"
     elif bas and d["clogp"]>2.0:
@@ -137,4 +136,4 @@ def pred_herg(mol, d):
     else:
         risk = "Low"
     return dict(herg_risk=risk, herg_ad=True,
-                herg_model="Structural-alert + cLogP heuristic (thresholds from general hERG SAR literature; ±1 class)")
+                herg_model="Structural-alert + cLogP (Redfern-2003 anchor; ±1 class)")

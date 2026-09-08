@@ -57,7 +57,6 @@ LABILE_PATS = [
     (Chem.MolFromSmarts("[CH3]c"),                       "Ar-CH3: CYP soft spot"),
     (Chem.MolFromSmarts("[NX3;H0;!$(NC=O)](C)(C)C"),    "tert-amine: CYP"),
     (Chem.MolFromSmarts("[NH2]c"),                       "Ar-NH2: N-hydroxylation"),
-    (Chem.MolFromSmarts("c1cccc(C(F)(F)F)c1"),          "Ar-CF3: oxidative metabolite risk"),
 ]
 
 def pred_met_stability(mol, d):

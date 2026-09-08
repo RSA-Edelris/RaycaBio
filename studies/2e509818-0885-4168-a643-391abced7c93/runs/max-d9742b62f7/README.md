@@ -5,7 +5,7 @@
 ## Run Identity
 
 - Run ID: `max-d9742b62f7`
-- Published: 2026-09-08T11:28:31Z
+- Published: 2026-09-08T11:38:15Z
 - Review: not reviewed
 
 ## Tools and Environment
@@ -17,8 +17,13 @@
 Files included in this repository:
 
 - `outputs/01_amide_enumeration_adme_scoring_top_96_export/structures/results.sdf` (398722 bytes)
+- `outputs/reports/adme_scoring_report(2).md` (9890 bytes)
 - `outputs/reports/adme_scoring_report.md` (9890 bytes)
+- `outputs/reports/audit_push_phase.md` (9514 bytes)
 - `outputs/reports/phase_01_amide_enumeration_adme_scoring_top_96_export.md` (3217 bytes)
+- `outputs/reports/phase_01_push_results_to_github_rsa_edelris_raycabio.md` (3479 bytes)
+- `outputs/reports/phase_02_task_aa9710b78af61356c.md` (1879 bytes)
+- `outputs/structures/results(2).sdf` (401910 bytes)
 - `outputs/uploads/acid.sdf` (437001 bytes)
 - `outputs/uploads/amine.mol` (1280 bytes)
 
@@ -44,6 +49,13 @@ Files included in this repository:
 - `scripts/source/007_sdwriter.py`
 - `scripts/source/008_full_tabular_report.py`
 - `scripts/source/009_print.py`
+- `scripts/source/010_reload_fixed_adme_models_module_disk.py`
+- `scripts/source/011_warnings_filterwarnings.py`
+- `scripts/source/012_re_apply_mpo_same_functions_redefined_here_since.py`
+- `scripts/source/adme_models(2).py`
+- `scripts/source/adme_models(3).py`
+- `scripts/source/adme_models(4).py`
+- `scripts/source/adme_models(5).py`
 
 ## Inputs
 
