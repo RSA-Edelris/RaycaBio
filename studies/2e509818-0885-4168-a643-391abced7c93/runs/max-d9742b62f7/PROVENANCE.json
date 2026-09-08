@@ -1,0 +1,280 @@
+{
+  "study_id": "2e509818-0885-4168-a643-391abced7c93",
+  "run_id": "max-d9742b62f7",
+  "published_at": "2026-09-08T11:28:31Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "uploads/acid.sdf",
+      "sha256": "fcc9354d47e811f58e649fe0ef42795f36165aa79dc1fe48c672585665ebd101",
+      "size": 437001,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "uploads/amine.mol",
+      "sha256": "a74dbd3c2dbc451339a2915a68712d0ee7872d3f5ce30f50690adf84caefac6b",
+      "size": 1280,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/001_step_0_imports.py",
+      "sha256": "5f43fd966409d5902cf0cc8848c02453c20df1014c8f99ac9a1f63078241a153",
+      "size": 1256,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/002_amidation_aliphatic_nh_not_amide_not_aromatic_cooh.py",
+      "sha256": "c0881b74a76884b1ca93da236a250122ed79477eace0003d1fef8ca7fff857c4",
+      "size": 1626,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/003_adme_descriptor_model_functions.py",
+      "sha256": "60e3c068125d2766781ddd4be28e06e780acbc1bbdb0b9ec4340ba8dbb5d6418",
+      "size": 9746,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/adme_models.py",
+      "sha256": "88e240ee2cb09c1e7f876129089d4e7074d714f2b69088512906ee317bb6bed2",
+      "size": 6250,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/004_write_all_adme_functions_module_file_they_persist.py",
+      "sha256": "36188cbc065d5f58d008baa3f87f029e68f647a64b6325998c52e7eb5230195a",
+      "size": 7120,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/005_re_import_adme_models_persisted_disk.py",
+      "sha256": "e5feafc06b4c97788d9c0ee0962411924c22c1e15f6ce3a9f6e73f442633ba8b",
+      "size": 2399,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/006_mpo_desirability_functions_rationale_weights_ppi.py",
+      "sha256": "4b878c7f6cb525ae21a0a390f66917e7d56d26a1ef176c0e09943c7050fa9b12",
+      "size": 4984,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/structures/results.sdf",
+      "sha256": "da0ab9755dbd95da492f639f50c5a96c3acd1af58c0d8d7dbd5a5e64fca625db",
+      "size": 398722,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/007_sdwriter.py",
+      "sha256": "d4e5e3c57a112e1e8e4d2ba63f36b441ea880d187eeb25a3a68a9f7c1927bc71",
+      "size": 3006,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/008_full_tabular_report.py",
+      "sha256": "e7d4197feed9fbb693718fc248c84a60701d04b0eb9475733a344e3c97719b83",
+      "size": 1175,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "01_amide_enumeration_adme_scoring_top_96_export/source/009_print.py",
+      "sha256": "7f6c86432733ec68ae3c4d814370877f5fdd8c6fc7884acd189208acdf0071e2",
+      "size": 3658,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_amide_enumeration_adme_scoring_top_96_export.md",
+      "sha256": "3a828985ff085e9afc6fd961cae69e09ac3a077afcbe913b0b26314d9bf2f979",
+      "size": 3217,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-75fb5f3a44",
+      "committed": true
+    },
+    {
+      "path": "reports/adme_scoring_report.md",
+      "sha256": "12c8d172268b46e153119998247a7431fbe81876b229d9d16a4365766d0b8c6f",
+      "size": 9890,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "adme_models.py",
+      "size": 6250,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/007_sdwriter.py",
+      "size": 3006,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/001_step_0_imports.py",
+      "size": 1256,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/008_full_tabular_report.py",
+      "size": 1175,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/006_mpo_desirability_functions_rationale_weights_ppi.py",
+      "size": 4984,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/002_amidation_aliphatic_nh_not_amide_not_aromatic_cooh.py",
+      "size": 1626,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/009_print.py",
+      "size": 3658,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/005_re_import_adme_models_persisted_disk.py",
+      "size": 2399,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/004_write_all_adme_functions_module_file_they_persist.py",
+      "size": 7120,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/003_adme_descriptor_model_functions.py",
+      "size": 9746,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "2e509818-0885-4168-a643-391abced7c93",
+    "run_id": "max-d9742b62f7",
+    "outcome": "",
+    "pushed_at": "2026-09-08T11:28:31Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/001_step_0_imports.py": "5f43fd966409d5902cf0cc8848c02453c20df1014c8f99ac9a1f63078241a153",
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/002_amidation_aliphatic_nh_not_amide_not_aromatic_cooh.py": "c0881b74a76884b1ca93da236a250122ed79477eace0003d1fef8ca7fff857c4",
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/003_adme_descriptor_model_functions.py": "60e3c068125d2766781ddd4be28e06e780acbc1bbdb0b9ec4340ba8dbb5d6418",
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/adme_models.py": "88e240ee2cb09c1e7f876129089d4e7074d714f2b69088512906ee317bb6bed2",
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/004_write_all_adme_functions_module_file_they_persist.py": "36188cbc065d5f58d008baa3f87f029e68f647a64b6325998c52e7eb5230195a",
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/005_re_import_adme_models_persisted_disk.py": "e5feafc06b4c97788d9c0ee0962411924c22c1e15f6ce3a9f6e73f442633ba8b",
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/006_mpo_desirability_functions_rationale_weights_ppi.py": "4b878c7f6cb525ae21a0a390f66917e7d56d26a1ef176c0e09943c7050fa9b12",
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/007_sdwriter.py": "d4e5e3c57a112e1e8e4d2ba63f36b441ea880d187eeb25a3a68a9f7c1927bc71",
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/008_full_tabular_report.py": "e7d4197feed9fbb693718fc248c84a60701d04b0eb9475733a344e3c97719b83",
+    "scripts/01_amide_enumeration_adme_scoring_top_96_export/source/009_print.py": "7f6c86432733ec68ae3c4d814370877f5fdd8c6fc7884acd189208acdf0071e2",
+    "scripts/adme_models.py": "88e240ee2cb09c1e7f876129089d4e7074d714f2b69088512906ee317bb6bed2",
+    "scripts/source/007_sdwriter.py": "d4e5e3c57a112e1e8e4d2ba63f36b441ea880d187eeb25a3a68a9f7c1927bc71",
+    "scripts/source/001_step_0_imports.py": "5f43fd966409d5902cf0cc8848c02453c20df1014c8f99ac9a1f63078241a153",
+    "scripts/source/008_full_tabular_report.py": "e7d4197feed9fbb693718fc248c84a60701d04b0eb9475733a344e3c97719b83",
+    "scripts/source/006_mpo_desirability_functions_rationale_weights_ppi.py": "4b878c7f6cb525ae21a0a390f66917e7d56d26a1ef176c0e09943c7050fa9b12",
+    "scripts/source/002_amidation_aliphatic_nh_not_amide_not_aromatic_cooh.py": "c0881b74a76884b1ca93da236a250122ed79477eace0003d1fef8ca7fff857c4",
+    "scripts/source/009_print.py": "7f6c86432733ec68ae3c4d814370877f5fdd8c6fc7884acd189208acdf0071e2",
+    "scripts/source/005_re_import_adme_models_persisted_disk.py": "e5feafc06b4c97788d9c0ee0962411924c22c1e15f6ce3a9f6e73f442633ba8b",
+    "scripts/source/004_write_all_adme_functions_module_file_they_persist.py": "36188cbc065d5f58d008baa3f87f029e68f647a64b6325998c52e7eb5230195a",
+    "scripts/source/003_adme_descriptor_model_functions.py": "60e3c068125d2766781ddd4be28e06e780acbc1bbdb0b9ec4340ba8dbb5d6418",
+    "outputs/uploads/acid.sdf": "fcc9354d47e811f58e649fe0ef42795f36165aa79dc1fe48c672585665ebd101",
+    "outputs/uploads/amine.mol": "a74dbd3c2dbc451339a2915a68712d0ee7872d3f5ce30f50690adf84caefac6b",
+    "outputs/01_amide_enumeration_adme_scoring_top_96_export/structures/results.sdf": "da0ab9755dbd95da492f639f50c5a96c3acd1af58c0d8d7dbd5a5e64fca625db",
+    "outputs/reports/phase_01_amide_enumeration_adme_scoring_top_96_export.md": "3a828985ff085e9afc6fd961cae69e09ac3a077afcbe913b0b26314d9bf2f979",
+    "outputs/reports/adme_scoring_report.md": "12c8d172268b46e153119998247a7431fbe81876b229d9d16a4365766d0b8c6f",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
