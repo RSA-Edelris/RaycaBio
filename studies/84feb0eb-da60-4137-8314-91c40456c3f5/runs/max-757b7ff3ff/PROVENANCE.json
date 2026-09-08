@@ -1,0 +1,44 @@
+{
+  "study_id": "84feb0eb-da60-4137-8314-91c40456c3f5",
+  "run_id": "max-757b7ff3ff",
+  "published_at": "2026-09-08T13:25:12Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "uploads/bromo.mol",
+      "sha256": "1bc949b7c4b5008f606979e97a1e0c3663221d522c10c736c2efd2adeeb821fa",
+      "size": 1271,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "uploads/amine.mol",
+      "sha256": "4776e9abcc23975e39d148feb65d562c2ff74a94ba022f047a13a5ca60aee102",
+      "size": 883,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "",
+      "run_id": "",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "84feb0eb-da60-4137-8314-91c40456c3f5",
+    "run_id": "max-757b7ff3ff",
+    "outcome": "",
+    "pushed_at": "2026-09-08T13:25:12Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "outputs/uploads/bromo.mol": "1bc949b7c4b5008f606979e97a1e0c3663221d522c10c736c2efd2adeeb821fa",
+    "outputs/uploads/amine.mol": "4776e9abcc23975e39d148feb65d562c2ff74a94ba022f047a13a5ca60aee102",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
