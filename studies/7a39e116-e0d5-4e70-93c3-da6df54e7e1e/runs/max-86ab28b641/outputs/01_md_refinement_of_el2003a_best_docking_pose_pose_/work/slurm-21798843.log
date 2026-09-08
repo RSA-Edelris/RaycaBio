@@ -1,0 +1,429 @@
+This software collection is provided and supported by CSC.
+Run `module help Local-CSC` for more information about support.
+Not all software may be compatible with software in other stacks,
+so mix at your own risk. 
+
+Lmod is automatically replacing "craype-x86-rome" with "craype-x86-milan".
+
+
+Lmod is automatically replacing "craype-x86-milan" with "craype-x86-trento".
+
+
+Lmod is automatically replacing "craype-accel-host" with
+"craype-accel-amd-gfx90a".
+
+
+Lmod is automatically replacing "cce/19.0.0" with "gcc-native/14.2".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.6.0" with "PrgEnv-gnu/8.6.0".
+
+
+    Amber24 (GPU-version) loaded.
+    Note:
+        * CSC has acquired a non-profit computing center license for Amber24.
+          Thus, only users from non-profit organizations are allowed to use
+          this module! By using the module you accept the terms.
+        * See the detailed license text at https://ambermd.org/GetAmber.php
+        * This module was recompiled on 2026-02-04.
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/25.03.0     2) cray-mpich/8.1.32
+
+=== Mon Sep  7 19:50:47 EEST 2026: EL2003A Amber MD refinement (CPU pmemd.MPI) ===
+node=nid001160  SLURM_NTASKS=?  SLURM_CPUS_ON_NODE=128
+Using N_MPI=128
+--- antechamber GAFF2 ---
+Info: The atom type is set to gaff2; the options available to the -at flag are
+      gaff, gaff2, amber, bcc, abcg2, and sybyl.
+
+Warning: The assigned bond types may be wrong, please :
+(1) double check the structure (the connectivity) and/or 
+(2) adjust atom valence penalty parameters in APS.DAT, and/or 
+(3) increase PSCUTOFF in define.h and recompile bondtype.c
+    (be cautious, using a large value of PSCUTOFF (>100) will 
+    significantly increase the computation time).
+
+Ligand parameterized
+--- pdb4amber ---
+/var/spool/slurmd/job21798843/slurm_script: line 56: pdb4amber: command not found
+pdb4amber non-zero, using grep fallback
+--- tleap ---
+-I: Adding /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/prep to search path.
+-I: Adding /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/lib to search path.
+-I: Adding /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/parm to search path.
+-I: Adding /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/cmd to search path.
+-f: Source tleap_all.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap_all.in
+----- Source: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/lib/amino12.lib
+Loading library: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/lib/aminoct12.lib
+Loading library: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/lib/aminont12.lib
+----- Source: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/cmd/leaprc.gaff2
+----- Source of /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/lib/atomic_ions.lib
+Loading library: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/lib/solvents.lib
+Loading parameters: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /appl/local/csc/soft/chem/amber/24-gpu/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./lig.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading Mol2 file: ./lig.mol2
+Reading MOLECULE named LIG
+Loading PDB file: ./receptor_amber.pdb
+Created a new atom named: HD1 within residue: .R<HIE 44>
+Created a new atom named: HD1 within residue: .R<HIE 66>
+Created a new atom named: HD1 within residue: .R<HIE 130>
+Created a new atom named: HD1 within residue: .R<HIE 145>
+Created a new atom named: HD1 within residue: .R<HIE 266>
+Created a new atom named: HD1 within residue: .R<HIE 278>
+  total atoms in file: 4693
+  Leap added 6 missing atoms according to residue templates:
+       6 H / lone pairs
+  The file contained 6 atoms not in residue templates
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Since the number of added atoms equals the number of missing atoms, it is likely
+that some atoms had incorrect names; you may want to use addPdbAtomMap to map
+these names, or change the names in the PDB file.
+
+Checking 'CPLEX'....
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+The unperturbed charge of the unit (2.999999) is not zero.
+FATAL:  Atom .R<HIE 278>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 266>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 145>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 130>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 66>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 44>.A<HD1 18> does not have a type.
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.396 angstroms between nonbonded atoms N and OXT
+-------  .R<CTHR 286>.A<N 1> and .R<CTHR 286>.A<OXT 15>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.472 angstroms between nonbonded atoms CA and OXT
+-------  .R<CTHR 286>.A<CA 3> and .R<CTHR 286>.A<OXT 15>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.215 angstroms between nonbonded atoms O and OXT
+-------  .R<CTHR 286>.A<O 14> and .R<CTHR 286>.A<OXT 15>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.191 angstroms between nonbonded atoms HD1 and ND1
+-------  .R<HIE 278>.A<HD1 18> and .R<HIE 278>.A<ND1 9>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.179 angstroms between nonbonded atoms HD1 and ND1
+-------  .R<HIE 266>.A<HD1 18> and .R<HIE 266>.A<ND1 9>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.298 angstroms between nonbonded atoms N and CB
+-------  .R<PHE 169>.A<N 1> and .R<ASN 167>.A<CB 5>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.451 angstroms between nonbonded atoms N and HB2
+-------  .R<PHE 169>.A<N 1> and .R<ASN 167>.A<HB2 6>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.349 angstroms between nonbonded atoms N and CG
+-------  .R<PHE 169>.A<N 1> and .R<ASN 167>.A<CG 8>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.138 angstroms between nonbonded atoms N and O
+-------  .R<SER 168>.A<N 1> and .R<ASN 167>.A<O 14>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.413 angstroms between nonbonded atoms CA and CB
+-------  .R<SER 168>.A<CA 3> and .R<ASN 167>.A<CB 5>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 0.755 angstroms between nonbonded atoms CA and O
+-------  .R<SER 168>.A<CA 3> and .R<ASN 167>.A<O 14>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 0.543 angstroms between nonbonded atoms C and CB
+-------  .R<SER 168>.A<C 10> and .R<ASN 167>.A<CB 5>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.095 angstroms between nonbonded atoms C and CG
+-------  .R<SER 168>.A<C 10> and .R<ASN 167>.A<CG 8>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.432 angstroms between nonbonded atoms CA and HB3
+-------  .R<ASN 167>.A<CA 3> and .R<ASN 167>.A<HB3 7>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.333 angstroms between nonbonded atoms CB and O
+-------  .R<ASN 167>.A<CB 5> and .R<ASN 167>.A<O 14>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.470 angstroms between nonbonded atoms NE and NH1
+-------  .R<ARG 165>.A<NE 14> and .R<ARG 165>.A<NH1 17>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.345 angstroms between nonbonded atoms N and O
+-------  .R<LYS 162>.A<N 1> and .R<LYS 162>.A<O 22>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.436 angstroms between nonbonded atoms CA and O
+-------  .R<GLU 160>.A<CA 3> and .R<GLU 160>.A<O 15>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.184 angstroms between nonbonded atoms OE1 and C
+-------  .R<GLU 160>.A<OE1 12> and .R<GLU 160>.A<C 14>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.448 angstroms between nonbonded atoms O and NZ
+-------  .R<GLU 160>.A<O 15> and .R<LYS 155>.A<NZ 17>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.074 angstroms between nonbonded atoms N and O
+-------  .R<SER 158>.A<N 1> and .R<LEU 157>.A<O 19>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.247 angstroms between nonbonded atoms CA and O
+-------  .R<SER 158>.A<CA 3> and .R<LEU 157>.A<O 19>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.416 angstroms between nonbonded atoms HZ1 and HZ2
+-------  .R<LYS 155>.A<HZ1 18> and .R<LYS 155>.A<HZ2 19>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.175 angstroms between nonbonded atoms HD1 and ND1
+-------  .R<HIE 145>.A<HD1 18> and .R<HIE 145>.A<ND1 9>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.183 angstroms between nonbonded atoms HD1 and ND1
+-------  .R<HIE 130>.A<HD1 18> and .R<HIE 130>.A<ND1 9>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.182 angstroms between nonbonded atoms HD1 and ND1
+-------  .R<HIE 66>.A<HD1 18> and .R<HIE 66>.A<ND1 9>
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+Close contact of 1.189 angstroms between nonbonded atoms HD1 and ND1
+-------  .R<HIE 44>.A<HD1 18> and .R<HIE 44>.A<ND1 9>
+Checking parameters for unit 'CPLEX'.
+Checking for bond parameters.
+Checking for angle parameters.
+check:  Errors:  6   Warnings: 28
+Scaling up box by a factor of 1.243156 to meet diagonal cut criterion
+  Solute vdw bounding box:              42.943 58.268 64.109
+  Total bounding box for atom centers:  93.944 93.944 93.944
+      (box expansion for 'iso' is  37.6%)
+  Solvent unit box:                     18.774 18.774 18.774
+  Volume: 427934.327 A^3 (oct)
+  Mass > 231017.168 amu,  Density > 0.896 g/cc
+      (type - hence mass - of one or more atoms could not be found)
+  Added 10968 residues.
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Warning!
+addIons: 1st Ion & target unit have charges of the same sign:
+     unit charge = 3; ion1 charge = 1;
+     can't neutralize.
+3 Cl- ions required to neutralize.
+Adding 3 counter ions to "CPLEX" using 1A grid
+Used default radius  1.50 for 6 atoms
+Grid extends from solute vdw + 2.51  to  8.51
+Resolution:      1.00 Angstrom.
+Solvent present: replacing closest with ion
+	 when steric overlaps occur
+Calculating grid charges
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-10.85, -18.47, -16.70).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-21.69, -10.80, -3.42).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-16.66, 20.15, 17.51).
+
+Done adding ions.
+Adding 30 counter ions to "CPLEX" using 1A grid
+Used default radius  1.50 for 6 atoms
+Grid extends from solute vdw + 4.30  to  10.81
+Resolution:      1.00 Angstrom.
+Solvent present: replacing closest with ion
+	 when steric overlaps occur
+Calculating grid charges
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-7.38, 25.84, -9.53).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (8.67, -13.11, -19.69).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (11.23, 14.47, -23.80).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-20.24, -20.93, 14.10).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (19.62, 25.45, 9.60).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-9.73, 22.93, 3.43).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (27.33, 17.93, 10.19).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (1.89, 32.37, -10.74).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (28.74, 0.88, -8.52).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-16.99, -25.67, 5.68).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (0.61, -11.21, 16.85).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (1.91, 14.91, -21.21).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-22.13, -17.53, 19.78).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (12.48, -2.74, -26.04).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (24.18, 18.97, -20.46).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-18.49, 23.07, 21.54).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (35.60, 15.00, 2.69).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-5.46, -0.46, -21.89).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-12.05, -0.12, 21.77).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-4.85, 26.96, 6.34).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (15.23, -15.11, -17.17).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-11.55, -21.64, 17.85).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (20.20, 25.99, -3.95).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (1.93, 4.89, 22.34).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-3.35, 28.41, -16.83).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-27.80, -9.88, -5.23).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-9.05, -34.58, -20.25).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (3.47, 24.14, 30.80).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-17.08, -37.34, 2.60).
+(Replacing solvent molecule)
+Placed Na+ in CPLEX at (-0.10, 9.64, -34.18).
+
+Done adding ions.
+Adding 30 counter ions to "CPLEX" using 1A grid
+Used default radius  1.50 for 6 atoms
+Grid extends from solute vdw + 7.89  to  14.41
+Resolution:      1.00 Angstrom.
+Solvent present: replacing closest with ion
+	 when steric overlaps occur
+Calculating grid charges
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-13.19, -14.75, 25.65).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-7.45, 6.76, 26.82).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-3.69, 6.67, -25.29).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (16.49, -20.40, -3.09).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-23.62, -6.93, -11.45).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-12.41, 29.36, 10.79).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-8.67, -28.61, 12.00).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (15.70, -13.31, -27.16).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (24.40, 31.65, 2.08).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-29.28, -11.20, 16.01).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (3.66, -3.21, 20.15).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (1.57, 25.38, -24.27).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-15.90, -32.18, -14.31).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-22.46, 7.21, 11.73).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (10.36, 31.73, -7.48).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (26.39, 10.20, 17.97).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-5.08, -9.12, -24.55).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (8.05, 28.14, 24.87).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-19.75, -25.77, 22.34).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-9.20, 35.58, -12.77).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (7.17, -31.92, -10.53).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (26.54, 25.01, -13.88).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (18.90, -10.77, 13.27).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-23.62, -29.92, 1.83).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-21.63, -3.90, 30.78).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (8.45, 14.02, -32.90).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (35.71, 7.74, -5.01).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-26.76, -16.78, -11.27).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (23.71, -19.28, -15.30).
+(Replacing solvent molecule)
+Placed Cl- in CPLEX at (-16.03, 25.59, -3.09).
+
+Done adding ions.
+Checking Unit.
+FATAL:  Atom .R<HIE 278>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 266>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 145>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 130>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 66>.A<HD1 18> does not have a type.
+FATAL:  Atom .R<HIE 44>.A<HD1 18> does not have a type.
+
+/appl/local/csc/soft/chem/amber/24-gpu/bin/teLeap: Fatal Error!
+Failed to generate parameters
+
+Exiting LEaP: Errors = 1; Warnings = 30; Notes = 0.
+
+RAYCA: the job stopped at line 86 with exit 31
+RAYCA: the command was: tee tleap.log
+RAYCA: if that command is allowed to fail, end it with || true

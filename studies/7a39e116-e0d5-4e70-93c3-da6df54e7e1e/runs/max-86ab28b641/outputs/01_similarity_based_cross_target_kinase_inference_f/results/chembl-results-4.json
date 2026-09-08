@@ -1,0 +1,12 @@
+{
+ "summary": "ChEMBL similarity search (searchBy=SMILES, threshold=0.4) on GPU: 0 hit(s) of 0 above threshold in a 38-compound ChEMBL subset.",
+ "query": {
+  "smiles": "O=C(Nc1cc(Nc2nc(NCCc3c[nH]cn3)c3nc[nH]c3n2)ccc1C(F)(F)F)N1CCCC1",
+  "mode": "SMILES",
+  "value": "O=C(Nc1cc(Nc2nc(NCCc3c[nH]cn3)c3nc[nH]c3n2)ccc1C(F)(F)F)N1CCCC1",
+  "threshold": 0.4,
+  "maxResults": 50
+ },
+ "results": [],
+ "num_results": 0
+}

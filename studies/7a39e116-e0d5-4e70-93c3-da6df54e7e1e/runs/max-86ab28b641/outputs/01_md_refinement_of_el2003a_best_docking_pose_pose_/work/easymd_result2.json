@@ -1,0 +1,25 @@
+{
+  "image_cache": {
+    "ok": true,
+    "free_before": 315.27,
+    "needed": 0.0,
+    "evicted": [],
+    "note": "already enough room"
+  },
+  "tool_id": "easy-md",
+  "image": "registry.rayca.org/rayca-tools/easy-md:latest",
+  "rc": null,
+  "gpu": true,
+  "error": "timeout",
+  "duration_s": 907.9,
+  "summary": "easy-md exceeded 900s and was abandoned. The container may still be running on the host.",
+  "staged_from_workspace": [
+    "receptor_pH74_noH.pdb",
+    "EL2003A_pose2_3D.sdf"
+  ],
+  "autonomy": {
+    "decision": "ask",
+    "reason": "step tool:easy-md is 'frontier' work, above the client's ceiling 'established'",
+    "blocking": false
+  }
+}

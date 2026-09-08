@@ -1,0 +1,10 @@
+done
+
+## Verification
+
+Purpose: confirm that the LUMI `small` CPU partition accepts jobs for project_462001483 before submitting the full Amber MD job.
+
+- Job submitted via `run_on_cluster` with `gpus=0`, `cpus=4`, `minutes=5`; script body: `echo done`.
+- SLURM job ID: **21798812**. Output log `slurm-21798812.log` collected (27 bytes), contains the single line `done`.
+- Confirms: LUMI CPU-only partition is accessible, job scheduling works, and output collection works.
+- This test was used to rule out the GPU-routing failure seen in earlier attempts (jobs that requested `gpus=1` received "Requested node configuration is not available").

@@ -1,0 +1,65 @@
+{
+  "tool_id": "gnina",
+  "image": "registry.rayca.org/rayca-tools/gnina:latest",
+  "rc": 0,
+  "gpu": true,
+  "duration_s": 190.9,
+  "files_written": [
+    "gnina_docked.sdf.gz"
+  ],
+  "staged_files": [
+    "1Z5M_receptor_pH7.4.pdb",
+    "ligand_clean_PDK1.sdf"
+  ],
+  "files_note": "These files are now in your working directory and can be opened by name: gnina_docked.sdf.gz. A container path such as /work/... is inside the container and is not readable from your sandbox.",
+  "output": {
+    "summary": "gnina (dock) produced 5 pose(s). Top CNN pose score=0.9744. Top CNN affinity (pK)=7.890. Top empirical affinity=-9.36 kcal/mol.",
+    "mode": "dock",
+    "poses": [
+      {
+        "rank": 1,
+        "affinity": -9.36,
+        "intramol": -0.04,
+        "cnn_pose_score": 0.9744,
+        "cnn_affinity": 7.89
+      },
+      {
+        "rank": 2,
+        "affinity": -9.76,
+        "intramol": -0.31,
+        "cnn_pose_score": 0.9423,
+        "cnn_affinity": 7.712
+      },
+      {
+        "rank": 3,
+        "affinity": -8.35,
+        "intramol": 0.3,
+        "cnn_pose_score": 0.8996,
+        "cnn_affinity": 7.375
+      },
+      {
+        "rank": 4,
+        "affinity": -8.3,
+        "intramol": -0.37,
+        "cnn_pose_score": 0.7282,
+        "cnn_affinity": 7.273
+      },
+      {
+        "rank": 5,
+        "affinity": -9.33,
+        "intramol": 0.09,
+        "cnn_pose_score": 0.4966,
+        "cnn_affinity": 7.025
+      }
+    ],
+    "num_poses": 5,
+    "best_cnn_pose_score": 0.9744,
+    "best_cnn_affinity": 7.89,
+    "best_affinity_kcal_mol": -9.36,
+    "gpu_used": true,
+    "receptor": "1Z5M_receptor_pH7.4.pdb",
+    "ligand": "ligand_clean_PDK1.sdf",
+    "output_file": "/work/gnina_docked.sdf.gz"
+  },
+  "summary": "gnina rc=0 (GPU) in 190.9s"
+}
