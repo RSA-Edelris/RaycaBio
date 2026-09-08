@@ -17,6 +17,7 @@ Every study this repository holds, regenerated on each push from the repository'
 | [`9dea6793-337f-42cf-8e3e-908d9d53ed0e`](studies/9dea6793-337f-42cf-8e3e-908d9d53ed0e) | 1 | recorded |
 | [`9f706d13-c84e-42fd-b664-01936080168a`](studies/9f706d13-c84e-42fd-b664-01936080168a) | 1 | recorded |
 | [`c29e716e-6774-4a9b-8ead-aba645849be4`](studies/c29e716e-6774-4a9b-8ead-aba645849be4) | 4 | recorded |
+| [`d5c028fb-e517-477c-b564-bddb7d31c1eb`](studies/d5c028fb-e517-477c-b564-bddb7d31c1eb) | 1 | recorded |
 | [`e26cbe99-cda1-479d-beb9-9d03c9c7cc03`](studies/e26cbe99-cda1-479d-beb9-9d03c9c7cc03) | 1 | recorded |
 
 _Pushed by Rayca Modulon. A run appears here whether it succeeded or failed: a failed run's code and logs are often what you most want to keep._
