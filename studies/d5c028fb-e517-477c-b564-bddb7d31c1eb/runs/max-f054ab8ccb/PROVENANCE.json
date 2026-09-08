@@ -1,0 +1,671 @@
+{
+  "study_id": "d5c028fb-e517-477c-b564-bddb7d31c1eb",
+  "run_id": "max-f054ab8ccb",
+  "published_at": "2026-09-08T15:20:55Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "uploads/ASMS.sdf",
+      "sha256": "138a90c156ba94ad4d3e7b1e1307309663519a49483762aa0d463b147f293acf",
+      "size": 53967091,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "",
+      "run_id": "",
+      "committed": false
+    },
+    {
+      "path": "uploads/CDK2-CCNE.pdb",
+      "sha256": "03723ab01213431641e4b3f45107a4f8f978ba3ba4877ad073961c4820d371e3",
+      "size": 784165,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/001_chem_sdmolsupplier.py",
+      "sha256": "4ee2b2ad8ac49ce1e9f27ab63a58c11e1954c330fb70aa917f65f09c2fe49a49",
+      "size": 2265,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/002_fix_inactive_parsing_get_active_smiles_scaffolds.py",
+      "sha256": "da1a768aa35c226f048145705e5cd002a6829a3d6e7dc31e1f3ac38567366d10",
+      "size": 987,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/003_build_mol_objects_smiles.py",
+      "sha256": "82217e9274ce52aaff0f6c0656a4b7151f795bc2a23eaa32cc6bad1edc032e9e",
+      "size": 1151,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/004_open.py",
+      "sha256": "d54a862d6357e128c0f1e87cd35f2cff8f4fdad8cc223b5f21e3d8ce9600d362",
+      "size": 2298,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/005_precise_h_bond_analysis_donor_acceptor_pairs_within.py",
+      "sha256": "959eb3c0cf466a1d7aac8f396524da9f79009e9fbc59bbf04f16a40515f66bd4",
+      "size": 2445,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/006_13_15_thn_actives_exclude_eds00492874_eds00492986.py",
+      "sha256": "350cd5b0ea67743ea31455745ec224e3f6d9732cc755119063ae88049157d387",
+      "size": 1064,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/007_explicit_designed_analogue_smiles_template_core_o_c.py",
+      "sha256": "736cf91c30b219786262690cad206e30567a9f255aa0dd23f49be931a573785a",
+      "size": 6929,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/structures/ligands_3d.sdf",
+      "sha256": "cdac8d49e0482b9a61ef11ff7ba8a87939d6ed9cb77c815a7b1e98d8b3840586",
+      "size": 280010,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/structures/receptor_stripped.pdb",
+      "sha256": "82142ae2541e8d5018d21507a1f8d6e546852f91d4cba31f6019a6f96c35a862",
+      "size": 371794,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/008_write_all_compounds_sdf_etkdg_3d_coords_includes_15.py",
+      "sha256": "09d056ac091f68a819be3a42d6d89f04f12a64929f1de741bef7cfa87e1f9bd8",
+      "size": 2525,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/009_run_aidd_tool.py",
+      "sha256": "c4910f711a0337617b93d2780b8aa3d27eaacd409c273eb573e0c99f753a3b2e",
+      "size": 1395,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/010_write_actives_only_sdf.py",
+      "sha256": "c061cd328c4afc453bfba4fe4cc974d74f416c8e6dcb544d269bca023b8730f8",
+      "size": 974,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/011_check_what_variables_available_prior_session.py",
+      "sha256": "1a887523ab2814352b1a8d3f11099f641bc275707df891b17fb2e9e162c59dac",
+      "size": 474,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/tables/013_check_results_directory_any_gnina_output.csv",
+      "sha256": "3e19b3c10f4cc016c1f5819758d7f82dc18340a6297807f17793fae1c6061e8b",
+      "size": 760,
+      "kind": "tables",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/012_check_results_directory_any_gnina_output.py",
+      "sha256": "98dda07d0415febf2aedc13ec19706d9704ae9fc2ef6dc12c8ad21714f9eaa8f",
+      "size": 331,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/013_check_structure_all_cpds.py",
+      "sha256": "d5443cf2c7d5fc6fd559620161cc5a6adda12f1a8c71c58839ba7b02c6e7dcde",
+      "size": 282,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/014_read_back_sdf_get_names.py",
+      "sha256": "3856d84aa77723a98220c7e363266f8ab9659990c055b36446b63290970fcad0",
+      "size": 402,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/structures/batch_actives.sdf",
+      "sha256": "928ed1504b26fc0591065e4ac768de84758b9ff002b8073186158d061f8aee23",
+      "size": 80220,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/structures/batch_des1.sdf",
+      "sha256": "7e626392f45c541c63b65ec34c8ae6ec2f4a5d9f3d3fe602872d73e220659f4a",
+      "size": 98545,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/structures/batch_des2.sdf",
+      "sha256": "b9b39a5435c3be6f0f20960e8eb36e7234906e025f22d32244db4411198c8602",
+      "size": 101227,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/015_list.py",
+      "sha256": "218a66190d228d14c16763343f67fdc0968d00dbbb6eda41399cdd98c9f8f1c1",
+      "size": 754,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/structures/gnina_docked.sdf.gz",
+      "sha256": "0b7cfeeafa565032d6ef9a500598feb8500beb405776175c5c1a9aaa9b886213",
+      "size": 71056,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/016_run_aidd_tool.py",
+      "sha256": "7b8a2ac454229e4b5c341d6cac082331b1ef28e207708c3b85c65d69cd69c3ce",
+      "size": 455,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/structures/gnina_docked.sdf(2).gz",
+      "sha256": "fa364e8a1600d054179607c4dffcbdcba24d8b1af653b357649edb22594bd940",
+      "size": 72106,
+      "kind": "molecules",
+      "version": 2,
+      "supersedes": "588abf69164c441d8c02c23308259517",
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/017_run_aidd_tool.py",
+      "sha256": "5e373abf1cff1287aa23421fff189ec3a3ddbceb17304ec9f5663fceeb2be5f2",
+      "size": 753,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/018_shutil_copy.py",
+      "sha256": "be91dc5591ac3dc47ea4d4ffe5ead130018391655d6d6243581e57eceda86e8e",
+      "size": 857,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/structures/des1_docked.sdf.gz",
+      "sha256": "5bb88505a4ddf509386d2c6814dfba1118a5583f425e322d45d129caf87c93c1",
+      "size": 93509,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/structures/des2_docked.sdf.gz",
+      "sha256": "9fcbe1b332df3b444af42326b8fa9d2697b184f64fb14612f9417a800ad54936",
+      "size": 94523,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/019_dict.py",
+      "sha256": "841753ad85a4f92abaf390f58df2d659b5d027612045a9af722cd102a77f421c",
+      "size": 950,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/020_parse_docked.py",
+      "sha256": "6421187669ef67d953923f700a1107fe5df7a6a03beabe8c569c6c947166c39e",
+      "size": 1479,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/021_list.py",
+      "sha256": "4241da32aa89c2223f920c5c2ab08f1c9bfc57300ffd0717e34fbb12c1c33a75",
+      "size": 2127,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/022_merge_docking_scores_adme.py",
+      "sha256": "e0e6dac6ad1256fea893b5f51a3495c1b71dc44f6d882de4cf354aaf69a07d80",
+      "size": 1084,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "01_running_stage_1_screen_triage/source/023_build_r_group_annotation_dict_source.py",
+      "sha256": "f836db89c35e57226f99285f23548151baa3c71e1cf3bb8b7b548abf106ce3e8",
+      "size": 2970,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "reports/report.md",
+      "sha256": "fe01030cc09e56e02d47ce40098d341bb1cb544efa4c32a0acd20c3df3ad4c38",
+      "size": 14851,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_hit_to_lead_cycle_triage_site_characterisation_s.md",
+      "sha256": "4ea0936061425a05116a49fe4a01b50f668784bf77998897919efd2112830627",
+      "size": 6036,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-bc05ae8ea0",
+      "committed": true
+    },
+    {
+      "path": "reports/stage1_screen_triage.md",
+      "sha256": "4ce2aef024e1698e7871ea8b53b7aa38738a331682184325a597bdbf8ae7d0cf",
+      "size": 3622,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/audit_hit_to_lead_cycle.md",
+      "sha256": "2838ca93d448a53e8f0477d2d3266ad799f1b535f3f63d23f40db208c4ac4fb2",
+      "size": 8107,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "source/008_write_all_compounds_sdf_etkdg_3d_coords_includes_15.py",
+      "size": 2525,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/012_check_results_directory_any_gnina_output.py",
+      "size": 331,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/018_shutil_copy.py",
+      "size": 857,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/010_write_actives_only_sdf.py",
+      "size": 974,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/004_open.py",
+      "size": 2298,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/003_build_mol_objects_smiles.py",
+      "size": 1151,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/002_fix_inactive_parsing_get_active_smiles_scaffolds.py",
+      "size": 987,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/022_merge_docking_scores_adme.py",
+      "size": 1084,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/006_13_15_thn_actives_exclude_eds00492874_eds00492986.py",
+      "size": 1064,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/013_check_structure_all_cpds.py",
+      "size": 282,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/016_run_aidd_tool.py",
+      "size": 455,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/015_list.py",
+      "size": 754,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/023_build_r_group_annotation_dict_source.py",
+      "size": 2970,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/011_check_what_variables_available_prior_session.py",
+      "size": 474,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/020_parse_docked.py",
+      "size": 1479,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/017_run_aidd_tool.py",
+      "size": 753,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/009_run_aidd_tool.py",
+      "size": 1395,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/005_precise_h_bond_analysis_donor_acceptor_pairs_within.py",
+      "size": 2445,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/001_chem_sdmolsupplier.py",
+      "size": 2265,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/014_read_back_sdf_get_names.py",
+      "size": 402,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/019_dict.py",
+      "size": 950,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/021_list.py",
+      "size": 2127,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/007_explicit_designed_analogue_smiles_template_core_o_c.py",
+      "size": 6929,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "d5c028fb-e517-477c-b564-bddb7d31c1eb",
+    "run_id": "max-f054ab8ccb",
+    "outcome": "",
+    "pushed_at": "2026-09-08T15:20:55Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "scripts/01_running_stage_1_screen_triage/source/001_chem_sdmolsupplier.py": "4ee2b2ad8ac49ce1e9f27ab63a58c11e1954c330fb70aa917f65f09c2fe49a49",
+    "scripts/01_running_stage_1_screen_triage/source/002_fix_inactive_parsing_get_active_smiles_scaffolds.py": "da1a768aa35c226f048145705e5cd002a6829a3d6e7dc31e1f3ac38567366d10",
+    "scripts/01_running_stage_1_screen_triage/source/003_build_mol_objects_smiles.py": "82217e9274ce52aaff0f6c0656a4b7151f795bc2a23eaa32cc6bad1edc032e9e",
+    "scripts/01_running_stage_1_screen_triage/source/004_open.py": "d54a862d6357e128c0f1e87cd35f2cff8f4fdad8cc223b5f21e3d8ce9600d362",
+    "scripts/01_running_stage_1_screen_triage/source/005_precise_h_bond_analysis_donor_acceptor_pairs_within.py": "959eb3c0cf466a1d7aac8f396524da9f79009e9fbc59bbf04f16a40515f66bd4",
+    "scripts/01_running_stage_1_screen_triage/source/006_13_15_thn_actives_exclude_eds00492874_eds00492986.py": "350cd5b0ea67743ea31455745ec224e3f6d9732cc755119063ae88049157d387",
+    "scripts/01_running_stage_1_screen_triage/source/007_explicit_designed_analogue_smiles_template_core_o_c.py": "736cf91c30b219786262690cad206e30567a9f255aa0dd23f49be931a573785a",
+    "scripts/01_running_stage_1_screen_triage/source/008_write_all_compounds_sdf_etkdg_3d_coords_includes_15.py": "09d056ac091f68a819be3a42d6d89f04f12a64929f1de741bef7cfa87e1f9bd8",
+    "scripts/01_running_stage_1_screen_triage/source/009_run_aidd_tool.py": "c4910f711a0337617b93d2780b8aa3d27eaacd409c273eb573e0c99f753a3b2e",
+    "scripts/01_running_stage_1_screen_triage/source/010_write_actives_only_sdf.py": "c061cd328c4afc453bfba4fe4cc974d74f416c8e6dcb544d269bca023b8730f8",
+    "scripts/01_running_stage_1_screen_triage/source/011_check_what_variables_available_prior_session.py": "1a887523ab2814352b1a8d3f11099f641bc275707df891b17fb2e9e162c59dac",
+    "scripts/01_running_stage_1_screen_triage/source/012_check_results_directory_any_gnina_output.py": "98dda07d0415febf2aedc13ec19706d9704ae9fc2ef6dc12c8ad21714f9eaa8f",
+    "scripts/01_running_stage_1_screen_triage/source/013_check_structure_all_cpds.py": "d5443cf2c7d5fc6fd559620161cc5a6adda12f1a8c71c58839ba7b02c6e7dcde",
+    "scripts/01_running_stage_1_screen_triage/source/014_read_back_sdf_get_names.py": "3856d84aa77723a98220c7e363266f8ab9659990c055b36446b63290970fcad0",
+    "scripts/01_running_stage_1_screen_triage/source/015_list.py": "218a66190d228d14c16763343f67fdc0968d00dbbb6eda41399cdd98c9f8f1c1",
+    "scripts/01_running_stage_1_screen_triage/source/016_run_aidd_tool.py": "7b8a2ac454229e4b5c341d6cac082331b1ef28e207708c3b85c65d69cd69c3ce",
+    "scripts/01_running_stage_1_screen_triage/source/017_run_aidd_tool.py": "5e373abf1cff1287aa23421fff189ec3a3ddbceb17304ec9f5663fceeb2be5f2",
+    "scripts/01_running_stage_1_screen_triage/source/018_shutil_copy.py": "be91dc5591ac3dc47ea4d4ffe5ead130018391655d6d6243581e57eceda86e8e",
+    "scripts/01_running_stage_1_screen_triage/source/019_dict.py": "841753ad85a4f92abaf390f58df2d659b5d027612045a9af722cd102a77f421c",
+    "scripts/01_running_stage_1_screen_triage/source/020_parse_docked.py": "6421187669ef67d953923f700a1107fe5df7a6a03beabe8c569c6c947166c39e",
+    "scripts/01_running_stage_1_screen_triage/source/021_list.py": "4241da32aa89c2223f920c5c2ab08f1c9bfc57300ffd0717e34fbb12c1c33a75",
+    "scripts/01_running_stage_1_screen_triage/source/022_merge_docking_scores_adme.py": "e0e6dac6ad1256fea893b5f51a3495c1b71dc44f6d882de4cf354aaf69a07d80",
+    "scripts/01_running_stage_1_screen_triage/source/023_build_r_group_annotation_dict_source.py": "f836db89c35e57226f99285f23548151baa3c71e1cf3bb8b7b548abf106ce3e8",
+    "scripts/source/008_write_all_compounds_sdf_etkdg_3d_coords_includes_15.py": "09d056ac091f68a819be3a42d6d89f04f12a64929f1de741bef7cfa87e1f9bd8",
+    "scripts/source/012_check_results_directory_any_gnina_output.py": "98dda07d0415febf2aedc13ec19706d9704ae9fc2ef6dc12c8ad21714f9eaa8f",
+    "scripts/source/018_shutil_copy.py": "be91dc5591ac3dc47ea4d4ffe5ead130018391655d6d6243581e57eceda86e8e",
+    "scripts/source/010_write_actives_only_sdf.py": "c061cd328c4afc453bfba4fe4cc974d74f416c8e6dcb544d269bca023b8730f8",
+    "scripts/source/004_open.py": "d54a862d6357e128c0f1e87cd35f2cff8f4fdad8cc223b5f21e3d8ce9600d362",
+    "scripts/source/003_build_mol_objects_smiles.py": "82217e9274ce52aaff0f6c0656a4b7151f795bc2a23eaa32cc6bad1edc032e9e",
+    "scripts/source/002_fix_inactive_parsing_get_active_smiles_scaffolds.py": "da1a768aa35c226f048145705e5cd002a6829a3d6e7dc31e1f3ac38567366d10",
+    "scripts/source/022_merge_docking_scores_adme.py": "e0e6dac6ad1256fea893b5f51a3495c1b71dc44f6d882de4cf354aaf69a07d80",
+    "scripts/source/006_13_15_thn_actives_exclude_eds00492874_eds00492986.py": "350cd5b0ea67743ea31455745ec224e3f6d9732cc755119063ae88049157d387",
+    "scripts/source/013_check_structure_all_cpds.py": "d5443cf2c7d5fc6fd559620161cc5a6adda12f1a8c71c58839ba7b02c6e7dcde",
+    "scripts/source/016_run_aidd_tool.py": "7b8a2ac454229e4b5c341d6cac082331b1ef28e207708c3b85c65d69cd69c3ce",
+    "scripts/source/015_list.py": "218a66190d228d14c16763343f67fdc0968d00dbbb6eda41399cdd98c9f8f1c1",
+    "scripts/source/023_build_r_group_annotation_dict_source.py": "f836db89c35e57226f99285f23548151baa3c71e1cf3bb8b7b548abf106ce3e8",
+    "scripts/source/011_check_what_variables_available_prior_session.py": "1a887523ab2814352b1a8d3f11099f641bc275707df891b17fb2e9e162c59dac",
+    "scripts/source/020_parse_docked.py": "6421187669ef67d953923f700a1107fe5df7a6a03beabe8c569c6c947166c39e",
+    "scripts/source/017_run_aidd_tool.py": "5e373abf1cff1287aa23421fff189ec3a3ddbceb17304ec9f5663fceeb2be5f2",
+    "scripts/source/009_run_aidd_tool.py": "c4910f711a0337617b93d2780b8aa3d27eaacd409c273eb573e0c99f753a3b2e",
+    "scripts/source/005_precise_h_bond_analysis_donor_acceptor_pairs_within.py": "959eb3c0cf466a1d7aac8f396524da9f79009e9fbc59bbf04f16a40515f66bd4",
+    "scripts/source/001_chem_sdmolsupplier.py": "4ee2b2ad8ac49ce1e9f27ab63a58c11e1954c330fb70aa917f65f09c2fe49a49",
+    "scripts/source/014_read_back_sdf_get_names.py": "3856d84aa77723a98220c7e363266f8ab9659990c055b36446b63290970fcad0",
+    "scripts/source/019_dict.py": "841753ad85a4f92abaf390f58df2d659b5d027612045a9af722cd102a77f421c",
+    "scripts/source/021_list.py": "4241da32aa89c2223f920c5c2ab08f1c9bfc57300ffd0717e34fbb12c1c33a75",
+    "scripts/source/007_explicit_designed_analogue_smiles_template_core_o_c.py": "736cf91c30b219786262690cad206e30567a9f255aa0dd23f49be931a573785a",
+    "outputs/uploads/CDK2-CCNE.pdb": "03723ab01213431641e4b3f45107a4f8f978ba3ba4877ad073961c4820d371e3",
+    "outputs/01_running_stage_1_screen_triage/structures/ligands_3d.sdf": "cdac8d49e0482b9a61ef11ff7ba8a87939d6ed9cb77c815a7b1e98d8b3840586",
+    "outputs/01_running_stage_1_screen_triage/structures/receptor_stripped.pdb": "82142ae2541e8d5018d21507a1f8d6e546852f91d4cba31f6019a6f96c35a862",
+    "outputs/01_running_stage_1_screen_triage/tables/013_check_results_directory_any_gnina_output.csv": "3e19b3c10f4cc016c1f5819758d7f82dc18340a6297807f17793fae1c6061e8b",
+    "outputs/01_running_stage_1_screen_triage/structures/batch_actives.sdf": "928ed1504b26fc0591065e4ac768de84758b9ff002b8073186158d061f8aee23",
+    "outputs/01_running_stage_1_screen_triage/structures/batch_des1.sdf": "7e626392f45c541c63b65ec34c8ae6ec2f4a5d9f3d3fe602872d73e220659f4a",
+    "outputs/01_running_stage_1_screen_triage/structures/batch_des2.sdf": "b9b39a5435c3be6f0f20960e8eb36e7234906e025f22d32244db4411198c8602",
+    "outputs/01_running_stage_1_screen_triage/structures/gnina_docked.sdf.gz": "0b7cfeeafa565032d6ef9a500598feb8500beb405776175c5c1a9aaa9b886213",
+    "outputs/01_running_stage_1_screen_triage/structures/gnina_docked.sdf(2).gz": "fa364e8a1600d054179607c4dffcbdcba24d8b1af653b357649edb22594bd940",
+    "outputs/01_running_stage_1_screen_triage/structures/des1_docked.sdf.gz": "5bb88505a4ddf509386d2c6814dfba1118a5583f425e322d45d129caf87c93c1",
+    "outputs/01_running_stage_1_screen_triage/structures/des2_docked.sdf.gz": "9fcbe1b332df3b444af42326b8fa9d2697b184f64fb14612f9417a800ad54936",
+    "outputs/reports/report.md": "fe01030cc09e56e02d47ce40098d341bb1cb544efa4c32a0acd20c3df3ad4c38",
+    "outputs/reports/phase_01_hit_to_lead_cycle_triage_site_characterisation_s.md": "4ea0936061425a05116a49fe4a01b50f668784bf77998897919efd2112830627",
+    "outputs/reports/stage1_screen_triage.md": "4ce2aef024e1698e7871ea8b53b7aa38738a331682184325a597bdbf8ae7d0cf",
+    "outputs/reports/audit_hit_to_lead_cycle.md": "2838ca93d448a53e8f0477d2d3266ad799f1b535f3f63d23f40db208c4ac4fb2",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
