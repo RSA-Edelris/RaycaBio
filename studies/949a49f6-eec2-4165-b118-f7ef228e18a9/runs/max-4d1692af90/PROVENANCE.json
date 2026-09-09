@@ -1,7 +1,7 @@
 {
   "study_id": "949a49f6-eec2-4165-b118-f7ef228e18a9",
   "run_id": "max-4d1692af90",
-  "published_at": "2026-09-09T07:12:37Z",
+  "published_at": "2026-09-09T07:14:14Z",
   "review_state": {},
   "is_reviewed": false,
   "tool_versions": [],
@@ -16,17 +16,41 @@
       "step": "write",
       "run_id": "max-4d1692af90",
       "committed": true
+    },
+    {
+      "path": "reports/phase_01_push_lorlatinib_synthesis_critique_to_github.md",
+      "sha256": "116dbeae5d09bffc10f7cda7f1028e74e459e8a14ca5d42ebd5ec049283ab27a",
+      "size": 1932,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-4d1692af90",
+      "committed": true
+    },
+    {
+      "path": "reports/lorlatinib_synthesis_critique(2).md",
+      "sha256": "30ee62a0079ce79b28c27b63f8bc5e2cccde7b6962f08d648d2a32e0d3e56425",
+      "size": 19856,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "7939dba1b9df4843bbdbc3d2c9175462",
+      "step": "edit",
+      "run_id": "max-4d1692af90",
+      "committed": true
     }
   ],
   "run_metadata": {
     "session_id": "949a49f6-eec2-4165-b118-f7ef228e18a9",
     "run_id": "max-4d1692af90",
     "outcome": "",
-    "pushed_at": "2026-09-09T07:12:37Z"
+    "pushed_at": "2026-09-09T07:14:14Z"
   },
   "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
   "file_digests": {
     "outputs/01_push_lorlatinib_synthesis_critique_to_github/reports/lorlatinib_synthesis_critique.md": "1c20847ff8e5715f5f0dd3c3a6106bc8f5a43821982afa40a0a5af89fc03a4f7",
+    "outputs/reports/phase_01_push_lorlatinib_synthesis_critique_to_github.md": "116dbeae5d09bffc10f7cda7f1028e74e459e8a14ca5d42ebd5ec049283ab27a",
+    "outputs/reports/lorlatinib_synthesis_critique(2).md": "30ee62a0079ce79b28c27b63f8bc5e2cccde7b6962f08d648d2a32e0d3e56425",
     ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }
