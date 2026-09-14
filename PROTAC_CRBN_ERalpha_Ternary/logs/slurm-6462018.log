@@ -1,0 +1,52 @@
+=== GPU ===
+NVIDIA GH200 120GB
+=== check venv exists ===
+/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/bin/boltz
+=== install torchmetrics (no-deps) ===
+Successfully installed torchmetrics-1.9.0
+=== install rdkit biopython gemmi modelcif omegaconf ===
+Requirement already satisfied: numpy in /usr/local/lib/python3.12/dist-packages (from rdkit) (1.26.4)
+Requirement already satisfied: Pillow in /usr/local/lib/python3.12/dist-packages (from rdkit) (11.1.0)
+Requirement already satisfied: PyYAML>=5.1.0 in /usr/local/lib/python3.12/dist-packages (from omegaconf) (6.0.2)
+Requirement already satisfied: msgpack in /usr/local/lib/python3.12/dist-packages (from ihm>=2.11->modelcif) (1.1.0)
+Successfully built antlr4-python3-runtime ihm
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+Successfully installed antlr4-python3-runtime-4.9.3 biopython-1.88 gemmi-0.7.5 ihm-2.11 modelcif-1.8 omegaconf-2.3.1 rdkit-2026.3.6
+=== install hydra-core ===
+Requirement already satisfied: omegaconf<2.4,>=2.2 in /scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages (from hydra-core) (2.3.1)
+Requirement already satisfied: antlr4-python3-runtime==4.9.* in /scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages (from hydra-core) (4.9.3)
+Requirement already satisfied: packaging in /usr/local/lib/python3.12/dist-packages (from hydra-core) (23.2)
+Requirement already satisfied: PyYAML>=5.1.0 in /usr/local/lib/python3.12/dist-packages (from omegaconf<2.4,>=2.2->hydra-core) (6.0.2)
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+Successfully installed hydra-core-1.3.6
+=== install typer rich ===
+Requirement already satisfied: typer in /usr/local/lib/python3.12/dist-packages (0.15.2)
+Requirement already satisfied: rich in /usr/local/lib/python3.12/dist-packages (13.9.4)
+Requirement already satisfied: click>=8.0.0 in /usr/local/lib/python3.12/dist-packages (from typer) (8.1.8)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.12/dist-packages (from typer) (4.12.2)
+Requirement already satisfied: shellingham>=1.3.0 in /usr/local/lib/python3.12/dist-packages (from typer) (1.5.4)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.12/dist-packages (from rich) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.12/dist-packages (from rich) (2.19.1)
+Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.12/dist-packages (from markdown-it-py>=2.2.0->rich) (0.1.2)
+=== test all imports ===
+/usr/bin/rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+OK: ['boltz', 'pytorch_lightning', 'torchmetrics', 'torch', 'einops', 'rdkit', 'Bio', 'gemmi', 'modelcif', 'hydra', 'omegaconf', 'typer', 'rich']
+MISSING: []
+cuda: True NVIDIA GH200 120GB
+=== boltz predict --help ===
+/usr/bin/rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+Traceback (most recent call last):
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/bin/boltz", line 5, in <module>
+    from boltz.main import cli
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/main.py", line 23, in <module>
+    from boltz.data.module.inference import BoltzInferenceDataModule
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/data/module/inference.py", line 11, in <module>
+    from boltz.data.feature.featurizer import BoltzFeaturizer
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/data/feature/featurizer.py", line 20, in <module>
+    from boltz.data.types import (
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/data/types.py", line 7, in <module>
+    from mashumaro.mixins.dict import DataClassDictMixin
+ModuleNotFoundError: No module named 'mashumaro'
+=== done ===

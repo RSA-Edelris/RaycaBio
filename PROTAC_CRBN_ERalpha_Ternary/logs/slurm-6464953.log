@@ -1,0 +1,127 @@
+=== GPU (host) ===
+NVIDIA GH200 120GB, 97871 MiB
+=== run boltz predict ===
+/usr/bin/rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+[rank: 0] Seed set to 42
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+100%|██████████| 1/1 [00:00<00:00,  2.26it/s]100%|██████████| 1/1 [00:00<00:00,  2.26it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Running structure prediction for 1 input.
+/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA GH200 120GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=71` in the `DataLoader` to improve performance.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/scratch/u6sp/hpcuser.u6sp/rayca/max-9e7c0c3325/boltz_run.py", line 63, in <module>
+    cli()
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/main.py", line 1329, in predict
+    trainer.predict(
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 859, in predict
+    return call._call_and_handle_interrupt(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 898, in _predict_impl
+    results = self._run(model, ckpt_path=ckpt_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 982, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 1021, in _run_stage
+    return self.predict_loop.run()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/loops/utilities.py", line 179, in _decorator
+    return loop_run(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/loops/prediction_loop.py", line 125, in run
+    self._predict_step(batch, batch_idx, dataloader_idx, dataloader_iter)
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/loops/prediction_loop.py", line 255, in _predict_step
+    predictions = call._call_strategy_hook(trainer, "predict_step", *step_args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 323, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/strategies/strategy.py", line 438, in predict_step
+    return self.lightning_module.predict_step(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/models/boltz2.py", line 1059, in predict_step
+    out = self(
+          ^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/models/boltz2.py", line 464, in forward
+    z = z + template_module(
+            ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/modules/trunkv2.py", line 498, in forward
+    v = v + self.pairformer(v, pair_mask, use_kernels=use_kernels)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/layers/pairformer.py", line 329, in forward
+    z = layer(
+        ^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/layers/pairformer.py", line 243, in forward
+    z = z + dropout * self.tri_mul_out(
+                      ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/layers/triangular_mult.py", line 92, in forward
+    return kernel_triangular_mult(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py", line 749, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/layers/triangular_mult.py", line 22, in kernel_triangular_mult
+    from cuequivariance_torch.primitives.triangle import triangle_multiplicative_update
+ModuleNotFoundError: No module named 'cuequivariance_torch'
+Predicting DataLoader 0:   0%|          | 0/1 [00:01<?, ?it/s]
+RAYCA: the job stopped at line 33 with exit 1
+RAYCA: the command was: apptainer exec --nv --bind /scratch,/projects/u6sp --env WANDB_MODE=disabled $CONTAINER $VENV/bin/python boltz_run.py predict ARV471_ERalpha_CRBN_boltz_input.yaml --out_dir $RAYCA_OUT/boltz_out --cache $CACHE --accelerator gpu --model boltz2 --diffusion_samples 3 --sampling_steps 50 --recycling_steps 3 --output_format pdb --num_workers 0 --seed 42
+RAYCA: if that command is allowed to fail, end it with || true

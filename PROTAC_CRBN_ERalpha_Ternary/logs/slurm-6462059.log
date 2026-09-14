@@ -1,0 +1,21 @@
+=== GPU ===
+NVIDIA GH200 120GB
+=== install mashumaro ===
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+Successfully installed mashumaro-3.22 typing_extensions-4.16.0
+=== boltz predict --help ===
+/usr/bin/rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+Traceback (most recent call last):
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/bin/boltz", line 5, in <module>
+    from boltz.main import cli
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/main.py", line 29, in <module>
+    from boltz.data.parse.fasta import parse_fasta
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/data/parse/fasta.py", line 7, in <module>
+    from boltz.data.parse.yaml import parse_boltz_schema
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/data/parse/yaml.py", line 6, in <module>
+    from boltz.data.parse.schema import parse_boltz_schema
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/data/parse/schema.py", line 9, in <module>
+    from chembl_structure_pipeline.exclude_flag import exclude_flag
+ModuleNotFoundError: No module named 'chembl_structure_pipeline'
+=== done ===

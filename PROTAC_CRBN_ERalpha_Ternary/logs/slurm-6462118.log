@@ -1,0 +1,27 @@
+=== GPU ===
+NVIDIA GH200 120GB
+=== install chembl_structure_pipeline ===
+Requirement already satisfied: setuptools>=46.4.0 in /usr/local/lib/python3.12/dist-packages (from chembl_structure_pipeline) (75.8.2)
+Requirement already satisfied: rdkit>=2022.09.01 in /scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages (from chembl_structure_pipeline) (2026.3.6)
+Requirement already satisfied: numpy in /usr/local/lib/python3.12/dist-packages (from rdkit>=2022.09.01->chembl_structure_pipeline) (1.26.4)
+Requirement already satisfied: Pillow in /usr/local/lib/python3.12/dist-packages (from rdkit>=2022.09.01->chembl_structure_pipeline) (11.1.0)
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+Successfully installed chembl_structure_pipeline-1.2.4
+=== boltz predict --help ===
+/usr/bin/rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+Traceback (most recent call last):
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/bin/boltz", line 5, in <module>
+    from boltz.main import cli
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/main.py", line 33, in <module>
+    from boltz.model.models.boltz1 import Boltz1
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/models/boltz1.py", line 27, in <module>
+    from boltz.model.modules.confidence import ConfidenceModule
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/modules/confidence.py", line 11, in <module>
+    from boltz.model.modules.encoders import RelativePositionEncoder
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/modules/encoders.py", line 14, in <module>
+    from boltz.model.modules.transformers import AtomTransformer
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/model/modules/transformers.py", line 3, in <module>
+    from fairscale.nn.checkpoint.checkpoint_activations import checkpoint_wrapper
+ModuleNotFoundError: No module named 'fairscale'
+=== done ===

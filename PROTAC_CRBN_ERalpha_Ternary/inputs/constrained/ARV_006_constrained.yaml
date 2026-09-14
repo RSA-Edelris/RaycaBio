@@ -1,0 +1,89 @@
+version: 1
+sequences:
+- protein:
+    id:
+    - A
+    sequence: SIKRSKKNSLALSLTADQMVSALLDAEPPILYSEYDPTRPFSEASMMGLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFVCLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKCKNVVPLSDLLLEMLDAHRLHAPTS
+    msa: empty
+- protein:
+    id:
+    - B
+    sequence: MDWSHPQFEKSAVDENLYFQGGGRMAAEEGGDGRRNMGNPPPPAPAESEEEDDNEMEVEDQDGKEAEKPNMINFDTSLPTSHMYLGSDMEEFHGRTLHDDDSCQVIPVLPHVMVMLIPGQTLPLQLFHPQEVSMVRNLIQKDRTFAVLAYSNVREREAHFGTTAEIYAYREEQEYGIETVKVKAIGRQRFKVLEIRTQSDGIQQAKVQILPERVLPSTMSAVQLQSLSRRHIFPSSKPKVWQDRAFRQWWQKYQKRKFHCASLTSWPPWLYSLYDAETLMERVKRQLHEWDENLKDESLPTNPIDFSYRVAACLPIDDALRIQLLKIGSAIQRLRCELDIMNKCTSLCCKQCQDTEITTKNEIFSLSLCGPMAAYVNPHGYIHETLTVYKACNLNLSGRPSTEHSWFPGYAWTIAQCRICGNHMGWKFTATKKDMSPQKFWGLTRSALLPRIPEAEDELGHDRSPLLCL
+    msa: empty
+- ligand:
+    id:
+    - C
+    smiles: O=C1CCC(N2Cc3cc(OCCOCCOCCOc4ccc([C@H]5c6ccc(O)cc6CC[C@H]5c5ccccc5)cc4)ccc3C2=O)C(=O)N1
+constraints:
+- pocket:
+    binder: C
+    contacts:
+    - - B
+      - 111
+    - - B
+      - 112
+    - - B
+      - 113
+    - - B
+      - 114
+    - - B
+      - 125
+    - - B
+      - 240
+    - - B
+      - 241
+    - - B
+      - 246
+    - - B
+      - 249
+    - - B
+      - 250
+    - - B
+      - 261
+    - - B
+      - 263
+    - - B
+      - 264
+    - - B
+      - 266
+    max_distance: 6.0
+- pocket:
+    binder: C
+    contacts:
+    - - A
+      - 47
+    - - A
+      - 50
+    - - A
+      - 53
+    - - A
+      - 54
+    - - A
+      - 57
+    - - A
+      - 88
+    - - A
+      - 91
+    - - A
+      - 92
+    - - A
+      - 95
+    - - A
+      - 98
+    - - A
+      - 108
+    - - A
+      - 125
+    - - A
+      - 128
+    - - A
+      - 129
+    - - A
+      - 132
+    - - A
+      - 225
+    - - A
+      - 228
+    - - A
+      - 229
+    max_distance: 6.0

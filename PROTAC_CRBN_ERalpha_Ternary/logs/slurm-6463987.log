@@ -1,0 +1,68 @@
+=== GPU (host) ===
+NVIDIA GH200 120GB, 97871 MiB
+=== run boltz predict ===
+/usr/bin/rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+[rank: 0] Seed set to 42
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+100%|██████████| 1/1 [00:00<00:00,  2.24it/s]100%|██████████| 1/1 [00:00<00:00,  2.24it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Running structure prediction for 1 input.
+/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA GH200 120GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Traceback (most recent call last):
+  File "/scratch/u6sp/hpcuser.u6sp/rayca/max-dc746a1a16/boltz_run.py", line 43, in <module>
+    cli()
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/boltz/main.py", line 1329, in predict
+    trainer.predict(
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 859, in predict
+    return call._call_and_handle_interrupt(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 898, in _predict_impl
+    results = self._run(model, ckpt_path=ckpt_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 965, in _run
+    _log_hyperparams(self)
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/loggers/utilities.py", line 100, in _log_hyperparams
+    logger.log_hyperparams(hparams_initial)
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/lightning_utilities/core/rank_zero.py", line 42, in wrapped_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/pytorch_lightning/loggers/tensorboard.py", line 182, in log_hyperparams
+    return super().log_hyperparams(params=params, metrics=metrics, step=step)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/lightning_utilities/core/rank_zero.py", line 42, in wrapped_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/u6sp/hpcuser.u6sp/boltz_predict_venv/lib/python3.12/site-packages/lightning_fabric/loggers/tensorboard.py", line 254, in log_hyperparams
+    from torch.utils.tensorboard.summary import hparams
+ModuleNotFoundError: No module named 'torch.utils.tensorboard.summary'; 'torch.utils.tensorboard' is not a package
+
+RAYCA: the job stopped at line 33 with exit 1
+RAYCA: the command was: apptainer exec --nv --bind /scratch,/projects/u6sp --env WANDB_MODE=disabled $CONTAINER $VENV/bin/python boltz_run.py predict ARV471_ERalpha_CRBN_boltz_input.yaml --out_dir $RAYCA_OUT/boltz_out --cache $CACHE --accelerator gpu --model boltz2 --diffusion_samples 3 --sampling_steps 50 --recycling_steps 3 --output_format pdb --num_workers 0 --seed 42
+RAYCA: if that command is allowed to fail, end it with || true

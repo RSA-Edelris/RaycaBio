@@ -1,0 +1,36 @@
+
+inputs = {
+    "name": "ARV471_ERalpha_CRBN_ternary",
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "SIKRSKKNSLALSLTADQMVSALLDAEPPILYSEYDPTRPFSEASMMGLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFVCLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKCKNVVPLSDLLLEMLDAHRLHAPTS"
+            }
+        },
+        {
+            "protein": {
+                "id": "B",
+                "sequence": "MDWSHPQFEKSAVDENLYFQGGGRMAAEEGGDGRRNMGNPPPPAPAESEEEDDNEMEVEDQDGKEAEKPNMINFDTSLPTSHMYLGSDMEEFHGRTLHDDDSCQVIPVLPHVMVMLIPGQTLPLQLFHPQEVSMVRNLIQKDRTFAVLAYSNVREREAHFGTTAEIYAYREEQEYGIETVKVKAIGRQRFKVLEIRTQSDGIQQAKVQILPERVLPSTMSAVQLQSLSRRHIFPSSKPKVWQDRAFRQWWQKYQKRKFHCASLTSWPPWLYSLYDAETLMERVKRQLHEWDENLKDESLPTNPIDFSYRVAACLPIDDALRIQLLKIGSAIQRLRCELDIMNKCTSLCCKQCQDTEITTKNEIFSLSLCGPMAAYVNPHGYIHETLTVYKACNLNLSGRPSTEHSWFPGYAWTIAQCRICGNHMGWKFTATKKDMSPQKFWGLTRSALLPRIPEAEDELGHDRSPLLCL"
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "smiles": "OC=1C=C2C([C@H]([C@H](CC2)C3=CC=CC=C3)C4=CC=C(C=C4)N5CCC(CN6CCN(CC6)C=7C=C8C(=CC7)C(=O)N(C8)[C@@H]9C(=O)NC(=O)CC9)CC5)=CC1"
+            }
+        }
+    ],
+    "modelSeeds": [42],
+    "seed": 42,
+    "diffusion_samples": 3,
+    "output_format": "pdb",
+    "use_msa_server": False,
+    "dialect": "alphafold3",
+    "version": 1
+}
+
+print("Dispatching protacfold (GPU, 3 poses, seed=42, no MSA)...")
+result = run_aidd_tool('protacfold', inputs, gpu=True)
+print("rc:", result.get('rc'))
+print("summary:", result.get('summary'))
