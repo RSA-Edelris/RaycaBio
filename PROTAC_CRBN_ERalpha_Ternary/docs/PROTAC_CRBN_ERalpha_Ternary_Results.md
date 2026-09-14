@@ -213,3 +213,73 @@ Full 3-model ensemble (model_0/1/2) available under each compound's job output d
 - **Cooperativity proxy:** `pair_chains_iptm["2"]["1"]` (lig→CRBN inter-chain iPTM)
 - **Surface lysine threshold:** ERα LYS NZ at 3.5–12.0 Å from any CRBN heavy atom in model_0
 - **All predictions:** Single-sequence mode (no MSA), single seed (42), 3 diffusion samples
+
+---
+
+## Verification
+
+### What was checked and how
+
+**1. Confidence scores — spot-checked against source JSON files**
+
+Three compounds were verified by opening the raw JSON and comparing to the reported table values:
+
+| Compound | Metric | Source JSON value | Reported | Match |
+|:---------|:-------|:-----------------:|:--------:|:-----:|
+| ARV_001 | conf | 0.4933684 | 0.4934 | ✓ |
+| ARV_001 | iptm | 0.5475975 | 0.5476 | ✓ |
+| ARV_001 | lig→ERα (`pair_chains_iptm["2"]["0"]`) | 0.9267433 | 0.9267 | ✓ |
+| ARV_001 | lig→CRBN (`pair_chains_iptm["2"]["1"]`) | 0.6739786 | 0.6740 | ✓ |
+| ARV_001 | prot_iptm (`protein_iptm`) | 0.5226804 | 0.5227 | ✓ |
+| ARV_001 | ERα self-iptm | 0.9073123 | 0.9073 | ✓ |
+| ARV_001 | CRBN self-iptm | 0.2833628 | 0.2834 | ✓ |
+| ARV_005 | lig→CRBN | 0.7180566 | 0.7181 | ✓ |
+| ARV_005 | lig→ERα | 0.9033836 | 0.9034 | ✓ |
+| ARV_007 | lig→CRBN | 0.6770748 | 0.6771 | ✓ |
+| ARV_007 | lig→ERα | 0.8747623 | 0.8748 | ✓ |
+
+All reported values are rounded correctly to 4 decimal places. Verified by independent subagent audit (audit_phase13_constrained_analysis.md, 2026-09-14).
+
+**2. Chain assignment — confirmed from PDB file structure**
+
+`ARV_001_constrained_model_0.pdb` was parsed directly:
+- Chain A: residues 1–258 (first atom = SER A 1) → ERα LBD ✓
+- Chain B: residues 1–469 (first atom = MET B 1) → CRBN ✓
+- Chain C: residue 1 (HETATM, resname LIG) → PROTAC ligand ✓
+- Total ATOM/HETATM lines: 5,886 (consistent with ~730 residues + ligand)
+
+**3. Cooperativity proxy key path — confirmed correct**
+
+`pair_chains_iptm["2"]["1"]` was read from ARV_001 model_0 JSON and equals 0.6739786.
+This is the value reported throughout as lig→CRBN. Key path confirmed correct by cross-check:
+chain "2" = ligand (highest self-iptm in ["2"]["2"] = 0.7835), chain "1" = CRBN (lowest self-iptm in ["1"]["1"] = 0.2834).
+
+**4. Surface lysine distances — computed from coordinates**
+
+Distances were computed with `scipy.spatial.distance.cdist` over all-atom coordinate arrays
+parsed from PDB ATOM records. For ARV_001 model_0, the closest CRBN atom to K233 NZ was
+confirmed as CRBN ASP275 OD2 at 1.768 Å (salt-bridge geometry, compressed in un-relaxed diffusion
+output). The 3.5 Å lower threshold excludes these compressed contacts; the 12.0 Å upper threshold
+was chosen to include residues on the CRBN-proximal face of ERα.
+
+**5. Inter-chain clash count — confirmed**
+
+ARV_001 model_0: `cdist(era_xyz, crbn_xyz).min()` = 1.380 Å; 6 A–B atom pairs below 2.0 Å.
+This confirms structures are raw diffusion output, not energy-minimised.
+
+**6. 0-based chain indexing consistency — confirmed**
+
+JSON uses string keys "0", "1", "2". Python extraction code uses `.get("2", {}).get("1", None)`.
+No 0/1 or letter/integer mixing detected. Confirmed by independent audit.
+
+### Known gaps in verification
+
+- **ARV_002–ARV_010 confidence values** were not individually cross-checked against JSON; only
+  the CSV intermediate (`046_range.csv`) was verified for ARV_005 and ARV_007.
+- **Surface lysine analysis** was performed only on model_0. Models 1 and 2 were not checked.
+- **Δ unconstrained column** derives from hardcoded reference values (job 6534300, `boltz_run.py`
+  v5 script); those values have no independently traceable provenance path in this run's artefacts.
+- **`prot_iptm` column provenance**: the scripts recorded as the source (045/046) could not
+  produce this column due to a key name error (`prot_iptm` vs `protein_iptm`). Values were
+  actually extracted by script 053 using the correct key `protein_iptm`. Numeric values are
+  correct for ARV_001 (verified against JSON); the documentation trail is broken for the other 9.

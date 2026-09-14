@@ -226,3 +226,57 @@ available in `boltzgen-0.3.1.sif`.
 | 6548166 | Failed | `boltz_run.py` v3; `torch.utils.tensorboard` not a package |
 | 6548227 | Failed | `boltz_run.py` v4; `_get_file_writer` missing from `_NoOpWriter` |
 | **6548359** | **Complete** | `boltz_run.py` v5 (no-op TBLogger class); all 10 compounds, 180+ output files |
+
+---
+
+## Verification
+
+### Error fixes — how each was confirmed
+
+Each `boltz_run.py` fix was verified by the outcome of the next cluster job submission.
+The fix was considered correct when the previously failing line no longer appeared in the
+Slurm log and execution advanced further into Boltz-2.
+
+| Fix | Confirmed by |
+|:----|:------------|
+| `|| true` after `nvidia-smi \| head -14` | Job 6541639 started Boltz-2 (different error) |
+| Remove self-copy `cp` line; stage via `inputs:` | Job 6547343 reached `trainer.predict()` (different error) |
+| Add `tensorboard.version` stub with `VERSION="2.17.0"` | Job 6548166 passed version check (different error) |
+| Use `_pkg_stub()` with `__path__=[]` for all parent stubs | Job 6548227 passed submodule import (different error) |
+| Replace `TensorBoardLogger` with `_NoOpTBLogger` class | Job 6548359 ran to completion; 180+ output files collected |
+
+Each job log is retained at `slurm-<jobid>.log` in the session root for reference.
+
+### Results analysis — what was verified
+
+**Confidence values**: Three compounds (ARV_001, ARV_005, ARV_007) were spot-checked by
+opening the raw JSON from job 6548359 and comparing to the reported table. All values
+matched to 4 decimal places. Full details in `PROTAC_CRBN_ERalpha_Ternary_Results.md`
+Verification section.
+
+**Chain assignment**: Confirmed from PDB file structure (ARV_001 model_0): chain A = SER 1
+through residue 258, chain B = MET 1 through residue 469, chain C = HETATM LIG 1. Matches
+the YAML input chain ordering (ERα = chain 0/A, CRBN = chain 1/B, PROTAC = chain 2/C).
+
+**Cooperativity proxy**: `pair_chains_iptm["2"]["1"]` confirmed correct by cross-checking
+chain identity from self-iptm values and reading the key path directly from ARV_001 JSON.
+
+**Independent audit**: An independent subagent (a03c0880c9efb654c) read the analysis scripts
+and source JSON without access to the analyst's reasoning. Findings (2026-09-14):
+- **VERIFIED**: All spot-checked numeric values correct; key paths correct; chain indexing consistent
+- **CRITICAL**: `prot_iptm` column documented as produced by scripts 045/046, which cannot
+  run to completion (key name error `prot_iptm` vs `protein_iptm`). Actual source is script 053.
+  Numeric values are correct for ARV_001; provenance trail is broken for the other 9.
+- **MAJOR**: `Δ unconstrained` column uses hardcoded reference values with no file-level
+  provenance; ARV_007 rank-reversal claim rests on two single-seed values; silent `None`
+  fallback in confidence_score retrieval (not triggered, but fragile).
+
+Full audit record: `audit_phase13_constrained_analysis.md`.
+
+### What was not verified
+
+- PDB coordinate geometry beyond ARV_001 clash check (no energy minimisation on any compound)
+- Model_1 and model_2 outputs (not analysed; model_0 used throughout)
+- Unconstrained lig→CRBN reference values (ARV_001–010 from job 6534300) have no
+  independently traceable source within this run's artefacts
+- Surface lysine analysis performed only on model_0 for each compound
