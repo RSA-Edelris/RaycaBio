@@ -1,0 +1,132 @@
+{
+  "study_id": "c6bff8e9-db20-41e3-b952-83c9e35071ad",
+  "run_id": "max-3c5fd2cc33",
+  "published_at": "2026-09-15T08:16:33Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "uploads/HTE_Edelris.sdf",
+      "sha256": "44b8790557d1c51d4507e083aab0142b2eb4690b271238a9f4d22bfb6be485b9",
+      "size": 137746,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "01_design_hte_campaign_for_buchwald_hartwig_aminati/source/001_matplotlib_use.py",
+      "sha256": "a24b8a8f3ee86dfe9ade5f80d3984d763327505d6023c9905eafe372466fc4a8",
+      "size": 3325,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-6bafcb969e",
+      "committed": true
+    },
+    {
+      "path": "01_design_hte_campaign_for_buchwald_hartwig_aminati/figures/HTE_platemap_round1.png",
+      "sha256": "150908050d4ccc0c48593c8f9c046b21b5b5e0fc6b1dd217fb18357940e4a1d3",
+      "size": 781132,
+      "kind": "images",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-6bafcb969e",
+      "committed": true
+    },
+    {
+      "path": "01_design_hte_campaign_for_buchwald_hartwig_aminati/source/002_plt_subplots.py",
+      "sha256": "7722c18ea85e0ad7c061a2bf1c1b97c2e118c266abe378b13f01c8fc82fe6ce9",
+      "size": 7820,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-6bafcb969e",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_design_hte_campaign_for_buchwald_hartwig_aminati.md",
+      "sha256": "6d24ea387d2590f59d9385a51e046321d2f77d0484a0a2af6bcae5de33de57c5",
+      "size": 2196,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-6bafcb969e",
+      "committed": true
+    },
+    {
+      "path": "reports/HTE_BH_campaign_design.md",
+      "sha256": "c51397d491d69835dea002feae033b9669661ed998ea2af0c46c8d5cfa47ef30",
+      "size": 9392,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/HTE_BH_results_summary.md",
+      "sha256": "ecee5a31c1422879947fa88460b4951a2a31a4fee54c8ea426ea767d0a2d0c61",
+      "size": 8656,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-7e2610cea2",
+      "committed": true
+    },
+    {
+      "path": "reports/HTE_BH_results_summary(2).md",
+      "sha256": "6eba094a5a818d34065d10fc5d45dde69194072d3bf72a6c419e502014597c6b",
+      "size": 11124,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "5e785fd2479144639229ead666705b75",
+      "step": "edit",
+      "run_id": "max-7e2610cea2",
+      "committed": true
+    },
+    {
+      "path": "source/002_plt_subplots.py",
+      "size": 7820,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/001_matplotlib_use.py",
+      "size": 3325,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "c6bff8e9-db20-41e3-b952-83c9e35071ad",
+    "run_id": "max-3c5fd2cc33",
+    "outcome": "",
+    "pushed_at": "2026-09-15T08:16:33Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "scripts/01_design_hte_campaign_for_buchwald_hartwig_aminati/source/001_matplotlib_use.py": "a24b8a8f3ee86dfe9ade5f80d3984d763327505d6023c9905eafe372466fc4a8",
+    "scripts/01_design_hte_campaign_for_buchwald_hartwig_aminati/source/002_plt_subplots.py": "7722c18ea85e0ad7c061a2bf1c1b97c2e118c266abe378b13f01c8fc82fe6ce9",
+    "scripts/source/002_plt_subplots.py": "7722c18ea85e0ad7c061a2bf1c1b97c2e118c266abe378b13f01c8fc82fe6ce9",
+    "scripts/source/001_matplotlib_use.py": "a24b8a8f3ee86dfe9ade5f80d3984d763327505d6023c9905eafe372466fc4a8",
+    "outputs/uploads/HTE_Edelris.sdf": "44b8790557d1c51d4507e083aab0142b2eb4690b271238a9f4d22bfb6be485b9",
+    "outputs/01_design_hte_campaign_for_buchwald_hartwig_aminati/figures/HTE_platemap_round1.png": "150908050d4ccc0c48593c8f9c046b21b5b5e0fc6b1dd217fb18357940e4a1d3",
+    "outputs/reports/phase_01_design_hte_campaign_for_buchwald_hartwig_aminati.md": "6d24ea387d2590f59d9385a51e046321d2f77d0484a0a2af6bcae5de33de57c5",
+    "outputs/reports/HTE_BH_campaign_design.md": "c51397d491d69835dea002feae033b9669661ed998ea2af0c46c8d5cfa47ef30",
+    "outputs/reports/HTE_BH_results_summary.md": "ecee5a31c1422879947fa88460b4951a2a31a4fee54c8ea426ea767d0a2d0c61",
+    "outputs/reports/HTE_BH_results_summary(2).md": "6eba094a5a818d34065d10fc5d45dde69194072d3bf72a6c419e502014597c6b",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
