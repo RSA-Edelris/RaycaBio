@@ -4,6 +4,6 @@
 
 | Run | Outcome | Pushed | Continues |
 | --- | --- | --- | --- |
-| [`max-3c5fd2cc33`](runs/max-3c5fd2cc33) | recorded | 2026-09-15T08:16:36Z |  |
+| [`max-3c5fd2cc33`](runs/max-3c5fd2cc33) | recorded | 2026-09-15T08:25:44Z |  |
 
 Files are laid out as `runs/<run>/scripts`, `runs/<run>/outputs` and `runs/<run>/inputs`. Anything too large for git is recorded by sha256 in the manifest rather than committed.
