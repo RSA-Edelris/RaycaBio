@@ -15,6 +15,7 @@ Every study this repository holds, regenerated on each push from the repository'
 | [`84feb0eb-da60-4137-8314-91c40456c3f5`](studies/84feb0eb-da60-4137-8314-91c40456c3f5) | 1 | recorded |
 | [`8b0911d7-7cc1-48cd-ae66-83c2c10d0be3`](studies/8b0911d7-7cc1-48cd-ae66-83c2c10d0be3) | 1 | recorded |
 | [`949a49f6-eec2-4165-b118-f7ef228e18a9`](studies/949a49f6-eec2-4165-b118-f7ef228e18a9) | 1 | recorded |
+| [`9d335ae8-a19c-4b53-89e1-813dc8783c51`](studies/9d335ae8-a19c-4b53-89e1-813dc8783c51) | 1 | recorded |
 | [`9dea6793-337f-42cf-8e3e-908d9d53ed0e`](studies/9dea6793-337f-42cf-8e3e-908d9d53ed0e) | 1 | recorded |
 | [`9f706d13-c84e-42fd-b664-01936080168a`](studies/9f706d13-c84e-42fd-b664-01936080168a) | 2 | recorded |
 | [`ac852d49-937d-4ccf-b894-872f25baae1d`](studies/ac852d49-937d-4ccf-b894-872f25baae1d) | 1 | recorded |
