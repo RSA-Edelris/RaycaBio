@@ -1,7 +1,7 @@
 {
   "study_id": "c6bff8e9-db20-41e3-b952-83c9e35071ad",
   "run_id": "max-5304dca612",
-  "published_at": "2026-09-16T06:54:15Z",
+  "published_at": "2026-09-16T06:56:09Z",
   "review_state": {},
   "is_reviewed": false,
   "tool_versions": [],
@@ -601,6 +601,39 @@
       "committed": true
     },
     {
+      "path": "reports/phase_04_push_audit_fixes_to_github.md",
+      "sha256": "59a12a0e0923de9e72daa24d204b7f57dad4bdb294155b54e51371f20beb1e27",
+      "size": 2715,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-5304dca612",
+      "committed": true
+    },
+    {
+      "path": "reports/audit_github_push_phase2(2).md",
+      "sha256": "8ef5b13eee266a028cf389531098a56e7e60be3aace02cb22cb95c161b18ae4c",
+      "size": 15087,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "384eb51a2de74c20b0d7b86249e1cfb5",
+      "step": "edit",
+      "run_id": "max-5304dca612",
+      "committed": true
+    },
+    {
+      "path": "reports/push_phase_summary2(2).md",
+      "sha256": "25a1787b970e0c004269b6b15697847542c27c0952bc19766244b74b1b0376ee",
+      "size": 3314,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "6d01583be04d4b0387c1e6921c5888b0",
+      "step": "edit",
+      "run_id": "max-5304dca612",
+      "committed": true
+    },
+    {
       "path": "generate_platemap_fresh.py",
       "size": 9386,
       "kind": "code",
@@ -682,7 +715,7 @@
     "session_id": "c6bff8e9-db20-41e3-b952-83c9e35071ad",
     "run_id": "max-5304dca612",
     "outcome": "",
-    "pushed_at": "2026-09-16T06:54:15Z"
+    "pushed_at": "2026-09-16T06:56:09Z"
   },
   "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
   "file_digests": {
@@ -751,6 +784,9 @@
     "outputs/reports/phase_02_task_adab2df3233a961eb.md": "849c113d2685c7c823e8ef9a7fccd0cca6b37b8edfd49af09b6dcf79067efbf5",
     "outputs/reports/phase_03_task_a2a41c723cb849c91.md": "0990cb859d738f5bb432ad54422f377fe85fa03a7d425057eaa713e61b85bf23",
     "outputs/reports/push_phase_summary2.md": "0910525b8ef268acf27b59dc15fd30ef5b0c987724dfa156afa0585373c5e7e5",
+    "outputs/reports/phase_04_push_audit_fixes_to_github.md": "59a12a0e0923de9e72daa24d204b7f57dad4bdb294155b54e51371f20beb1e27",
+    "outputs/reports/audit_github_push_phase2(2).md": "8ef5b13eee266a028cf389531098a56e7e60be3aace02cb22cb95c161b18ae4c",
+    "outputs/reports/push_phase_summary2(2).md": "25a1787b970e0c004269b6b15697847542c27c0952bc19766244b74b1b0376ee",
     ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }
