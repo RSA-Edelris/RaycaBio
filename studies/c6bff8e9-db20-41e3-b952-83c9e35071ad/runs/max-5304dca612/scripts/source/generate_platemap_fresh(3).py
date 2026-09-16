@@ -28,7 +28,7 @@ CATALYSTS = [
     ("BINAP Pd G3",       "BINAP",  "#06D6A0", "2151915-22-7", "bident"),  # 9
     ("cataCXium-A Pd G3", "CatA",   "#FFB703", "1651823-59-4", "alkyl"),   # 10
     ("GPhos Pd G3",       "GPG3",   "#8338EC", "2489525-82-6", "biaryl"),  # 11
-    ("PEPPSI [NHC-Pd]",   "PEPPSI", "#E76F51", "1158652-41-5", "NHC"),    # 12 ← non-phosphine ★
+    ("PEPPSI [NHC-Pd]",   "PEPSI",  "#E76F51", "1158652-41-5", "NHC"),    # 12 ← non-phosphine ★
 ]
 
 # ── 4 Bases (rows A/E=K₃PO₄, B/F=Cs₂CO₃, C/G=DBU, D/H=DIPEA) ───────────────

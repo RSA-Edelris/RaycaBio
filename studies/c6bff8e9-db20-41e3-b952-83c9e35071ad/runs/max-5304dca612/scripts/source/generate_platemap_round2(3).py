@@ -27,7 +27,7 @@ CATALYSTS = [
     ("GPhos Pd G3",         "GPG3",   "#06D6A0", "2489525-82-6", "NEW"),
     ("cataCXium-A Pd G3",   "CatG3",  "#FFB703", "1651823-59-4", "NEW"),
     ("dppf-Pd-G3",          "dppf",   "#8338EC", "1445086-28-1", "NEW"),
-    ("PEPPSI [NHC-Pd]",     "PEPPSI", "#E76F51", "1158652-41-5", "NHC"),
+    ("PEPPSI [NHC-Pd]",     "PEPSI",  "#E76F51", "1158652-41-5", "NHC"),
 ]
 
 # ── 4 Bases × 2 Solvents → 8 rows ────────────────────────────────────────────

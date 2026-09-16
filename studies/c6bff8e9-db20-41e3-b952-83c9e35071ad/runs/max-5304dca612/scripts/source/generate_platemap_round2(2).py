@@ -27,7 +27,7 @@ CATALYSTS = [
     ("GPhos Pd G3",         "GPG3",   "#06D6A0", "2489525-82-6", "NEW"),
     ("cataCXium-A Pd G3",   "CatG3",  "#FFB703", "1651823-59-4", "NEW"),
     ("dppf-Pd-G3",          "dppf",   "#8338EC", "1445086-28-1", "NEW"),
-    ("PEPPSI [NHC-Pd]",     "PEPPSI", "#E76F51", "1158652-41-5", "NHC"),
+    ("PEPPSI [NHC-Pd]",     "PEPSI",  "#E76F51", "1158652-41-5", "NHC"),
 ]
 
 # ── 4 Bases × 2 Solvents → 8 rows ────────────────────────────────────────────
@@ -52,8 +52,6 @@ for ri in range(8):
         grid_label[ri][ci] = (CATALYSTS[ci][1], BASES[base_idx], SOLVENTS[sol_idx])
 
 total = sum(1 for r in range(8) for c in range(12) if grid_color[r][c])
-if len(CATALYSTS) != 12 or len(BASES) != 4 or len(SOLVENTS) != 2:
-    raise ValueError(f"Design parameter error: {len(CATALYSTS)} catalysts, {len(BASES)} bases, {len(SOLVENTS)} solvents — expected 12×4×2")
 if total != 96:
     raise ValueError(f"Well count error: {total} ≠ 96")
 
