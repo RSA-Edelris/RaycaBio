@@ -1,0 +1,10 @@
+{
+  "name": "modulon-max",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Claude Code's agent loop driving the Rayca Modulon platform over MCP. Isolated spike.",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "0.3.238"
+  }
+}

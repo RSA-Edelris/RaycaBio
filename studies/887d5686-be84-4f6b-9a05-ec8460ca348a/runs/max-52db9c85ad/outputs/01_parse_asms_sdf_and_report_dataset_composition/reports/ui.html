@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>modulon-max</title>
+<!--
+  A reader for a TREE, not a tape.
+
+  The existing console renders a flat list ordered by a sequence number. That is the right shape for an engine that
+  runs one tool at a time, and the wrong shape here: Claude Code spawns sub-agents that do their own work, so an
+  event belongs to an agent first and to a moment second. Every card below is nested under the agent that produced
+  it, which is why there is no sequence number anywhere in this file.
+-->
+<style>
+  :root{
+    --ink:#e8e6e3; --ink-muted:#a6a29c; --ink-faint:#6f6a64;
+    --surface:#141312; --surface-raised:#1c1b19; --surface-inset:#0f0e0d;
+    --line:#2a2825; --brand:#c9a227; --ok:#7fa650; --err:#b4553f; --agent:#5b8fa8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--surface);color:var(--ink);
+       font:14px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace}
+  header{padding:12px 18px;border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:baseline}
+  header b{color:var(--brand);font-weight:600;letter-spacing:.02em}
+  header span{color:var(--ink-faint);font-size:12px}
+  main{max-width:1080px;margin:0 auto;padding:18px}
+  #composer{border:1px solid var(--line);background:var(--surface-raised);border-radius:6px;padding:12px}
+  textarea{width:100%;min-height:78px;resize:vertical;background:var(--surface-inset);color:var(--ink);
+           border:1px solid var(--line);border-radius:4px;padding:10px;font:inherit}
+  .row{display:flex;gap:14px;align-items:center;margin-top:10px;flex-wrap:wrap}
+  button{background:var(--brand);color:#141312;border:0;border-radius:4px;padding:8px 18px;
+         font:inherit;font-weight:600;cursor:pointer}
+  button:disabled{opacity:.45;cursor:default}
+  /* The team toggle. A switch the researcher can see, rather than a heuristic they cannot. */
+  .toggle{display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none;color:var(--ink-muted)}
+  .toggle input{appearance:none;width:38px;height:20px;border-radius:10px;background:var(--surface-inset);
+                border:1px solid var(--line);position:relative;cursor:pointer;transition:.15s}
+  .toggle input:checked{background:var(--agent);border-color:var(--agent)}
+  .toggle input::after{content:"";position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;
+                       background:var(--ink-muted);transition:.15s}
+  .toggle input:checked::after{left:20px;background:#fff}
+  .hint{color:var(--ink-faint);font-size:12px}
+  #feed{margin-top:18px;display:flex;flex-direction:column;gap:8px}
+  .card{border:1px solid var(--line);border-left-width:3px;border-radius:4px;
+        background:var(--surface-raised);padding:9px 12px}
+  .card .k{color:var(--ink-faint);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+  .card pre{margin:6px 0 0;white-space:pre-wrap;word-break:break-word;color:var(--ink-muted);
+            font-size:12.5px;max-height:230px;overflow:auto}
+  .say{border-left-color:var(--ink-faint)}
+  .call{border-left-color:var(--brand)}
+  .back-ok{border-left-color:var(--ok)}
+  .back-err{border-left-color:var(--err)}
+  .spawn{border-left-color:var(--agent);background:var(--surface-inset)}
+  .start,.ready,.end{border-left-color:var(--ink-faint);background:var(--surface-inset)}
+  /* Nesting is the whole point: a child agent's work sits inside its parent. */
+  .child{margin-left:26px;border-left-color:var(--agent)}
+  .verb{color:var(--brand)}
+  .who{color:var(--agent)}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:10px;padding:1px 8px;
+        font-size:11px;color:var(--ink-muted);margin-right:6px}
+  .team-list{margin-top:6px}
+  .team-list div{color:var(--ink-muted);font-size:12.5px}
+</style>
+</head>
+<body>
+<header>
+  <b>modulon-max</b>
+  <span>Claude Code's loop &middot; the Rayca platform's tools &middot; a native event tree</span>
+  <span id="status"></span>
+</header>
+
+<main>
+  <div id="composer">
+    <textarea id="task" placeholder="Ask for real work. It has your 799 tools, 92 pipelines, memory, personas and both HPC clusters."></textarea>
+    <div class="row">
+      <label class="toggle" title="Rank the 122 pharma personas against this task and let the loop delegate to them">
+        <input type="checkbox" id="team">
+        <span>Agent team</span>
+      </label>
+      <span class="hint" id="teamHint">one agent does the work</span>
+      <span style="flex:1"></span>
+      <button id="go">Run</button>
+    </div>
+  </div>
+  <div id="feed"></div>
+</main>
+
+<script>
+const feed = document.getElementById('feed');
+const status = document.getElementById('status');
+const teamBox = document.getElementById('team');
+const teamHint = document.getElementById('teamHint');
+const go = document.getElementById('go');
+
+teamBox.addEventListener('change', () => {
+  teamHint.textContent = teamBox.checked
+    ? 'personas are ranked for the task and the loop may delegate to them'
+    : 'one agent does the work';
+});
+
+const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+const brief = (o, n = 600) => {
+  try { return typeof o === 'string' ? o.slice(0, n) : JSON.stringify(o, null, 1).slice(0, n); }
+  catch { return String(o).slice(0, n); }
+};
+
+/** Cards for children are indented under their parent. Nothing is sorted; arrival order within an agent is truth. */
+const childOf = new Set();
+
+function card(cls, head, body) {
+  const d = document.createElement('div');
+  d.className = 'card ' + cls;
+  d.innerHTML = '<div class="k">' + head + '</div>' + (body ? '<pre>' + esc(body) + '</pre>' : '');
+  feed.appendChild(d);
+  window.scrollTo(0, document.body.scrollHeight);
+  return d;
+}
+
+function render(ev) {
+  if (ev.kind === 'session.start') {
+    let head = '<span class="pill">' + (ev.team ? 'agent team' : 'single agent') + '</span>'
+             + '<span class="pill">' + esc(ev.model) + '</span> run started';
+    const d = card('start', head, ev.task);
+    if (ev.team && (ev.team_members || []).length) {
+      const wrap = document.createElement('div');
+      wrap.className = 'team-list';
+      wrap.innerHTML = (ev.team_members || [])
+        .map((m) => '<div><span class="who">' + esc(m.name) + '</span> &mdash; ' + esc(m.why || '') + '</div>')
+        .join('');
+      d.appendChild(wrap);
+    }
+    return;
+  }
+  if (ev.kind === 'ready') {
+    card('ready',
+      '<span class="pill">' + (ev.platform_verbs || []).length + ' platform verbs</span>'
+      + '<span class="pill">' + (ev.own_tools || []).length + ' own tools</span>'
+      + ((ev.agents_available || []).length ? '<span class="pill">' + ev.agents_available.length + ' personas mounted</span>' : '')
+      + ' loop ready',
+      (ev.platform_verbs || []).join('  '));
+    return;
+  }
+  if (ev.kind === 'say') { card('say', 'turn ' + ev.turn + ' &middot; thinking aloud', ev.text); return; }
+  if (ev.kind === 'call') {
+    card('call', 'turn ' + ev.turn + ' &middot; calls <span class="verb">' + esc(ev.verb) + '</span>'
+      + '<span class="pill" style="margin-left:8px">' + esc(ev.origin) + '</span>', brief(ev.input));
+    return;
+  }
+  if (ev.kind === 'back') {
+    card(ev.ok ? 'back-ok' : 'back-err',
+      (ev.ok ? 'returned' : 'REFUSED') + ' from <span class="verb">' + esc(ev.verb) + '</span>', brief(ev.output, 1400));
+    return;
+  }
+  if (ev.kind === 'spawn') {
+    childOf.add(ev.child);
+    card('spawn child', 'delegates to <span class="who">' + esc(ev.agent_type) + '</span>', ev.assignment);
+    return;
+  }
+  if (ev.kind === 'child.done') {
+    card('child ' + (ev.ok ? 'back-ok' : 'back-err'),
+      (ev.ok ? 'member reported' : 'member failed'), brief(ev.summary, 2000));
+    return;
+  }
+  // A MEMBER'S OWN WORK, NESTED UNDER IT. This is the half the flat tape could never show: not just who was
+  // delegated to, but what they actually did and whether they used the platform or went to the web.
+  if (ev.kind === 'member.say') {
+    card('child say', '<span class="who">' + esc((ev.child || '').slice(0, 8)) + '</span> reasoning', ev.text);
+    return;
+  }
+  if (ev.kind === 'member.call') {
+    card('child call', '<span class="who">' + esc((ev.child || '').slice(0, 8)) + '</span> calls <span class="verb">'
+      + esc(ev.verb) + '</span><span class="pill" style="margin-left:8px">' + esc(ev.origin) + '</span>',
+      brief(ev.input, 400));
+    return;
+  }
+  if (ev.kind === 'member.done') {
+    card('child back-ok', '<span class="who">' + esc((ev.child || '').slice(0, 8))
+      + '</span> finished after ' + ev.turns + ' messages', '');
+    return;
+  }
+  if (ev.kind === 'member.timeout') {
+    card('child back-err', 'members still working when the wait budget ran out', ev.detail);
+    return;
+  }
+  if (ev.kind === 'session.end') {
+    status.textContent = '';
+    go.disabled = false;
+    card('end',
+      '<span class="pill">' + ev.turns + ' turns</span><span class="pill">'
+      + (ev.ms / 1000).toFixed(1) + 's</span><span class="pill">$' + Number(ev.cost || 0).toFixed(4) + '</span>'
+      + (ev.error ? ' ended with an error' : ' answer'),
+      ev.answer || ev.detail || '');
+    return;
+  }
+  card('say', esc(ev.kind), brief(ev));
+}
+
+go.addEventListener('click', async () => {
+  const task = document.getElementById('task').value.trim();
+  if (!task) return;
+  go.disabled = true;
+  status.textContent = 'running';
+  feed.innerHTML = '';
+  childOf.clear();
+  const r = await fetch('/max/run', {
+    method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ task, team: teamBox.checked }),
+  }).then((x) => x.json());
+  if (!r.run) { status.textContent = 'failed to start'; go.disabled = false; return; }
+  const es = new EventSource('/max/stream/' + r.run);
+  es.onmessage = (m) => { try { render(JSON.parse(m.data)); } catch { /* ignore a partial frame */ } };
+  es.onerror = () => { es.close(); go.disabled = false; status.textContent = ''; };
+});
+</script>
+
+<!--
+  VERIFICATION
+  ============
+  This file is a browser-side event-stream renderer for the modulon-max loop. It contains no
+  computed scientific results and makes no quantitative claims. The verification note below
+  therefore addresses code correctness, not numerical reproducibility.
+
+  What this file does (verifiable by reading the script block above):
+    - Connects to /max/run (POST) to start a run and receives a run ID.
+    - Opens a Server-Sent Events stream at /max/stream/{run_id}.
+    - Renders each SSE event as a typed card using the render() function.
+    - Supported event kinds: session.start, ready, say, call, back, spawn, child.done,
+      member.say, member.call, member.done, member.timeout, session.end, and a catch-all.
+    - No data is stored, transformed, or transmitted beyond the SSE stream.
+
+  What is NOT verified here:
+    - The correctness of the server-side /max/run and /max/stream endpoints.
+    - Whether all SSE event kinds actually fired during any given run.
+    - Browser compatibility beyond modern evergreen browsers (no polyfills included).
+-->
+</body>
+</html>
