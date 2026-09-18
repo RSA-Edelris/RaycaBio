@@ -1,0 +1,40 @@
+AMBER CPU available
+
+=== VERIFICATION (LUMI amber/24-cpu probe, job 22074955) ===
+Cluster: LUMI (lumi.csc.fi), project_462001483, small/standard partition
+Date: 2026-09-15
+
+Module load sequence that works:
+  module load Local-CSC
+  module load amber/24-cpu
+
+All required tools confirmed present via a second probe (job 22075097,
+output in probe.22075097.txt in this directory):
+  antechamber  /appl/local/csc/soft/chem/amber/24-cpu/bin/antechamber
+  parmchk2     /appl/local/csc/soft/chem/amber/24-cpu/bin/parmchk2
+  tleap        /appl/local/csc/soft/chem/amber/24-cpu/bin/tleap
+  pmemd.MPI    /appl/local/csc/soft/chem/amber/24-cpu/bin/pmemd.MPI
+  cpptraj      /appl/local/csc/soft/chem/amber/24-cpu/bin/cpptraj
+  sander       /appl/local/csc/soft/chem/amber/24-cpu/bin/sander
+
+MPI environment: Cray MPICH 8.1.32 (cray-mpich/8.1.32), loaded as
+  dependency of amber/24-cpu. Launcher is srun (not mpirun — mpirun is
+  not on PATH on LUMI compute nodes). pmemd.MPI confirmed MPI-linked by
+  its MPI_Abort message on zero-argument invocation.
+
+GPU jobs: GPU requests (gpus=1..8) all rejected by LUMI scheduler with
+  "Requested node configuration is not available." Root cause: the
+  platform connector submits --gres=gpu:<N> (generic) but LUMI requires
+  --gres=gpu:mi250:<N>. GPU MD is therefore not available through this
+  platform connector; CPU-only AMBER (amber/24-cpu, pmemd.MPI) is the
+  confirmed working path.
+
+Wall-time cap: 4200 min (70 h) rejected; 2880 min (48 h) accepted.
+  The QOS limit is somewhere between 70 h and 72 h (partition max).
+  Use ≤ 2880 min for safe submission.
+
+Production MD job submitted: LUMI job 22075127
+  cpus=128, gpus=0, minutes=2880
+  9 systems in parallel, 13 MPI ranks each (srun --ntasks=13 --overcommit)
+  Protocol: mini(5000 steps) + NVT(500 ps) + NPT(1 ns) + 3×5 ns production
+  Expected wall time: 36–42 h based on ~11 ns/day at 13 CPUs for ~75k atoms

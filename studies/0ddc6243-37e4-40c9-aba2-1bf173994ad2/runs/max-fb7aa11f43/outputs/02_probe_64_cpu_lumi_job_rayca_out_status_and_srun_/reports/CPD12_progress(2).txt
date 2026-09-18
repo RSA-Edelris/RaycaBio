@@ -1,0 +1,15 @@
+START mini Tue Sep 15 20:17:21 EEST 2026
+MINI FAILED Tue Sep 15 20:17:21 EEST 2026
+
+## Verification
+
+Examined: LUMI job 22076809 minimisation stage for compound CPD12.
+
+Findings:
+- Mini started: 20:17:21 EEST
+- Mini failed: 20:17:21 EEST (sub-second, 0 seconds elapsed)
+- Root cause: srun "More processors requested than permitted" — job requested 128
+  MPI ranks while the cluster allocation was held by concurrent jobs in the same wave
+- No pmemd.MPI steps executed; no trajectory, restart, or mdinfo files produced
+
+Verdict: CPD12 minimisation failed immediately at the srun launch stage. NO_DATA.

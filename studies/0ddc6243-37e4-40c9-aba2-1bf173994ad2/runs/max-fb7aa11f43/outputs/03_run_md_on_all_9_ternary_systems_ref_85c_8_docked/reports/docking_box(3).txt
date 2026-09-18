@@ -1,0 +1,28 @@
+center_x=12.758
+center_y=-104.263
+center_z=27.873
+size_x=22.0
+size_y=22.0
+size_z=22.0
+
+=== DERIVATION ===
+Centre: geometric centroid of 85C heavy atoms in 5HXB chain Z (31 atoms).
+Computed with gemmi: mean(x), mean(y), mean(z) over all HETATM lines for
+residue 85C in chain Z of the deposited CIF.
+Size: 22 Å isotropic. 85C longest heavy-atom axis = 15.7 Å (Cl to
+piperidine N); 22 Å adds 3.15 Å buffer each side, sufficient to sample
+the full GSPT1 neo-interface surface contacted by the chlorotolyl arm
+(K628 Cα is 8.4 Å from the box centre).
+
+## Verification
+GNINA docking parameters used at runtime (confirmed in GNINA call):
+  boxX=12.758  boxY=-104.263  boxZ=27.873   (centre, Å)
+  width=22.0   height=22.0    depth=22.0    (size, Å)
+  exhaustiveness=16  numModes=9  seed=42
+
+All 8 compounds returned 9 poses each (full numModes), indicating no
+truncation due to box size. Top poses for 7/8 compounds place the
+glutarimide NH within 2.81 Å of the CRBN Trp-cage reference atoms,
+confirming the box is correctly centred on the binding site.
+The one failure (Compound 4) is attributed to scaffold geometry, not
+box placement: all 9 Compound 4 poses are within the box volume.

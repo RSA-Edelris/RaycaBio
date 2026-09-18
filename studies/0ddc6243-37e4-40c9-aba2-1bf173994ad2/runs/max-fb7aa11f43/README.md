@@ -1,0 +1,492 @@
+# Study: 0ddc6243-37e4-40c9-aba2-1bf173994ad2
+
+> WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.
+
+## Run Identity
+
+- Run ID: `max-fb7aa11f43`
+- Published: 2026-09-18T08:30:48Z
+- Review: not reviewed
+
+## Tools and Environment
+
+- No tool version information recorded.
+
+## Outputs
+
+Files included in this repository:
+
+- `outputs/01_analyse_amber_md_outputs_from_lumi_job_22076592/reports/progress.txt` (591 bytes)
+- `outputs/01_analyse_amber_md_outputs_from_lumi_job_22076592/reports/run_start.txt` (231 bytes)
+- `outputs/01_analyse_amber_md_outputs_from_lumi_job_22076592/reports/summary_table.txt` (405 bytes)
+- `outputs/01_analyse_amber_md_outputs_from_lumi_job_22076592/tables/094_set.csv` (534 bytes)
+- `outputs/01_analyse_amber_md_outputs_from_lumi_job_22076592/work/mini.22076601.in` (188 bytes)
+- `outputs/01_analyse_amber_md_outputs_from_lumi_job_22076592/work/npt.22076601.in` (311 bytes)
+- `outputs/01_analyse_amber_md_outputs_from_lumi_job_22076592/work/nvt.22076601.in` (305 bytes)
+- `outputs/01_analyse_amber_md_outputs_from_lumi_job_22076592/work/prod.22076601.in` (238 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/reports/docking_box.txt` (86 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/reports/receptor_prep_choices.txt` (1617 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/85C_crystal.pdb` (2754 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/gnina_docked.sdf.gz` (5725 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_00_Compound_1.sdf` (2169 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_00_Compound_1_poses.sdf` (29268 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_01_Compound_4.sdf` (1968 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_01_Compound_4_poses.sdf` (27144 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_02_Compound_7.sdf` (2236 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_02_Compound_7_poses.sdf` (30740 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_03_Compound_8.sdf` (1909 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_03_Compound_8_poses.sdf` (26253 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_04_Compound_9.sdf` (2190 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_04_Compound_9_poses.sdf` (30025 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_05_Compound_10.sdf` (2407 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_05_Compound_10_poses.sdf` (33143 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_06_Compound_11.sdf` (2305 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_06_Compound_11_poses.sdf` (31645 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_07_Compound_12.sdf` (2464 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/lig_07_Compound_12_poses.sdf` (33901 bytes)
+- `outputs/01_characterise_5hxb_crystal_structure_and_85c_bind/structures/receptor_CRBN_GSPT1.pdb` (630828 bytes)
+- `outputs/01_compare_boltz_2_ternary_models_to_crystal_struct/structures/5HXB.cif` (4550897 bytes)
+- `outputs/01_fix_srun_mpi_task_allocation_bug_cpus_per_task_1/reports/CPD11_progress.txt` (83 bytes)
+- `outputs/01_fix_srun_mpi_task_allocation_bug_cpus_per_task_1/reports/phase_01_write_md_pipeline_status_report_for_job_22076601(2).md` (3946 bytes)
+- `outputs/01_fix_srun_mpi_task_allocation_bug_cpus_per_task_1/reports/phase_02_fix_srun_mpi_allocation_bug_and_resubmit_amber_m.md` (1982 bytes)
+- `outputs/01_fix_srun_mpi_task_allocation_bug_cpus_per_task_1/reports/phase_03_task_a051ff18497058b45.md` (2226 bytes)
+- `outputs/01_fix_srun_mpi_task_allocation_bug_cpus_per_task_1/reports/phase_04_resubmit_amber_md_with_autoimage_fix_crit_1_from.md` (2673 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/inputs/boltz_input(2).yaml` (170 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/inputs/boltz_input(3).yaml` (729 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/inputs/boltz_input(4).yaml` (479 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/inputs/boltz_input(5).yaml` (272 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/inputs/boltz_input.yaml` (820 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/gspt1_crbn_glue.yaml` (832 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/gspt1_crbn_molecular_glue_ternary.yaml` (838 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/tables/005_walk_protacfold_out_directory.csv` (953 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/tables/015_find_any_log_files_written_latest_boltz_run.csv` (2596 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/work/gspt1_crbn_molecular_glue_ternary.json` (1049 bytes)
+- `outputs/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/work/prediction.log` (7043 bytes)
+- `outputs/01_resubmit_corrected_amber_md_job_with_rayca_out_s/reports/jobA_log.txt` (2578 bytes)
+- `outputs/01_resubmit_corrected_amber_md_job_with_rayca_out_s/reports/phase_02_submit_corrected_amber_md_job_to_lumi_with_rayca.md` (2622 bytes)
+- `outputs/01_resubmit_corrected_amber_md_job_with_rayca_out_s/work/analysis_A.tar.gz` (234 bytes)
+- `outputs/01_resubmit_corrected_amber_md_job_with_rayca_out_s/work/mdlogs_A.tar.gz` (45 bytes)
+- `outputs/01_resubmit_corrected_amber_md_job_with_rayca_out_s/work/npt(2).in` (302 bytes)
+- `outputs/01_resubmit_corrected_amber_md_job_with_rayca_out_s/work/nvt(2).in` (295 bytes)
+- `outputs/01_resubmit_corrected_amber_md_job_with_rayca_out_s/work/slurm-22076592.log` (470 bytes)
+- `outputs/01_resubmit_corrected_amber_md_job_with_rayca_out_s/work/slurm-22076604.log` (2059 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/inputs/with_inputs.txt` (24 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/CPD4_progress.txt` (83 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/CPD7_progress(3).txt` (339 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/CPD8_progress.txt` (83 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/audit_job_22076435_recovery(2).md` (4132 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/audit_job_22076601_lumi_md_submission.md` (10872 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/audit_job_22076601_md_submission.md` (7665 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/audit_phase_12_md_status_report_job22076601.md` (4630 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/audit_phase_fix_srun_mpi_lumi.md` (16354 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/phase_02_submit_9_parallel_per_compound_amber_md_jobs_to_.md` (2553 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/phase_03_task_a58516521db4eaa91.md` (5717 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/progress(2).txt` (1067 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/run_start(2).txt` (654 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/reports/summary_table(2).txt` (774 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/mini(2).in` (184 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/npt(3).in` (285 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/nvt(3).in` (278 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/prod(4).in` (228 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/progress(2).log` (56 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/progress(3).log` (185 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/slurm-22076619.log` (1828 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/slurm-22076694.log` (1042 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/slurm-22076847.log` (1550 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/slurm-22076849.log` (1547 bytes)
+- `outputs/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/work/slurm-22076855.log` (1548 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/reports/nested.txt` (12 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/reports/probe.22075097.txt` (2056 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/reports/probe.22076465.txt` (41 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/reports/step1_before.txt` (505 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/reports/toplevel.txt` (15 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/CPD1.inpcrd` (4646434 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/CPD10.inpcrd` (4645667 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/CPD11.inpcrd` (4645704 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/CPD12.inpcrd` (4646105 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/CPD4.inpcrd` (4636615 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/CPD7.inpcrd` (4645740 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/CPD8.inpcrd` (4645850 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/CPD9.inpcrd` (4645886 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/REF_85C.inpcrd` (4646580 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/structures/system.inpcrd` (4645120 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/tables/052_subprocess_run.csv` (202 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/tables/060_pathlib_path.csv` (282 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/work/nested_archive.tar.gz` (292 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/work/progress.log` (98 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/work/slurm-22076275.log` (1741 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/work/slurm-22076331.log` (1725 bytes)
+- `outputs/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/work/slurm-22076500.log` (948 bytes)
+- `outputs/02_prepare_receptor_and_dock_crbn_lig_results_2_sdf/reports/phase_01_characterise_5hxb_crystal_structure_and_85c_bind.md` (6853 bytes)
+- `outputs/02_probe_64_cpu_lumi_job_rayca_out_status_and_srun_/reports/CPD10_progress.txt` (83 bytes)
+- `outputs/02_probe_64_cpu_lumi_job_rayca_out_status_and_srun_/reports/CPD12_progress(2).txt` (603 bytes)
+- `outputs/02_probe_64_cpu_lumi_job_rayca_out_status_and_srun_/reports/phase_03_resubmit_md_with_set_e_and_srun_ntasks_fix.md` (2174 bytes)
+- `outputs/02_probe_64_cpu_lumi_job_rayca_out_status_and_srun_/work/slurm-22076714.log` (1042 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/structures/CPD10_h.sdf` (5940 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/structures/CPD11_h.sdf` (5524 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/structures/CPD12_h.sdf` (6190 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/structures/CPD1_h.sdf` (5924 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/structures/CPD4_h.sdf` (4775 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/structures/CPD7_h.sdf` (5838 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/structures/CPD8_h.sdf` (4593 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/structures/CPD9_h.sdf` (5677 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/structures/REF_85C_h.sdf` (6092 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/work/equil(2).in` (320 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/work/equil.in` (328 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/work/heat.in` (289 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/work/min.in` (209 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/work/prod(2).in` (248 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/work/prod.in` (249 bytes)
+- `outputs/02_run_antechamber_tleap_locally_stage_topologies_t/work/slurm-22076021.log` (1174 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/inputs/phase_03_run_md_on_docked_compounds_and_85c_reference_in_ternary.md` (7371 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/audit_phase_01_characterise_5hxb_crystal_structure_and_85c_bind(2).md` (5297 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/audit_phase_01_characterise_5hxb_crystal_structure_and_85c_bind.md` (4167 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/audit_phase_02_prepare_receptor_and_dock_crbn_lig_results_2_sdf(2).md` (6253 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/audit_phase_02_prepare_receptor_and_dock_crbn_lig_results_2_sdf.md` (4937 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/docking_box(2).txt` (1193 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/docking_box(3).txt` (1188 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/phase_04_task_4.md` (9836 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/probe(2).txt` (1907 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/probe(3).txt` (1905 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/receptor_prep_choices(2).txt` (3385 bytes)
+- `outputs/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/reports/receptor_prep_choices(3).txt` (3380 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/reports/phase_02_prepare_receptor_and_dock_crbn_lig_results_2_sdf.md` (7077 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/reports/probe.txt` (20 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/CPD10_top.sdf` (3782 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/CPD11_top.sdf` (3615 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/CPD12_top.sdf` (3866 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/CPD1_top.sdf` (3351 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/CPD4_top.sdf` (3115 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/CPD7_top.sdf` (3514 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/CPD8_top.sdf` (3016 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/CPD9_top.sdf` (3436 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/REF_85C_top.sdf` (2689 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/receptor_amber.pdb` (630828 bytes)
+- `outputs/03_run_md_on_docked_compounds_and_85c_reference_in_/structures/receptor_nozn.pdb` (630747 bytes)
+- `outputs/reports/5hxb_comparison_gspt1_crbn_glue_boltz2.md` (5268 bytes)
+- `outputs/reports/CPD12_progress.txt` (83 bytes)
+- `outputs/reports/CPD1_progress(3).txt` (591 bytes)
+- `outputs/reports/CPD1_progress.txt` (83 bytes)
+- `outputs/reports/CPD7_progress.txt` (83 bytes)
+- `outputs/reports/CPD9_progress(3).txt` (601 bytes)
+- `outputs/reports/CPD9_progress.txt` (83 bytes)
+- `outputs/reports/REF_85C_progress.txt` (83 bytes)
+- `outputs/reports/audit_job_22076435_recovery.md` (3353 bytes)
+- `outputs/reports/audit_phase_01_convert_gspt1_crbn_glue_predictions_to_pdb.md` (1430 bytes)
+- `outputs/reports/audit_phase_01_lumi_amber_cpu_probe.md` (2160 bytes)
+- `outputs/reports/audit_phase_02_antechamber_tleap_local.md` (2951 bytes)
+- `outputs/reports/audit_phase_03_compare_boltz2_vs_5hxb.md` (1703 bytes)
+- `outputs/reports/audit_phase_04_lumi_amber_cpu_probe.md` (1634 bytes)
+- `outputs/reports/audit_phase_05_antechamber_tleap_staging.md` (4003 bytes)
+- `outputs/reports/audit_phase_12_md_status_report_job22076601(2).md` (4699 bytes)
+- `outputs/reports/audit_phase_12_md_status_report_job22076601(3).md` (4727 bytes)
+- `outputs/reports/audit_phase_12_md_status_report_job22076601(4).md` (4968 bytes)
+- `outputs/reports/audit_phase_12_md_status_report_job22076601(5).md` (5023 bytes)
+- `outputs/reports/audit_phase_analyse_22076592.md` (1999 bytes)
+- `outputs/reports/audit_phase_fix_srun_mpi_and_autoimage.md` (3918 bytes)
+- `outputs/reports/audit_phase_submit_9_parallel_md_jobs.md` (19970 bytes)
+- `outputs/reports/audit_subagent_phase12_md_status_report.md` (10436 bytes)
+- `outputs/reports/fix_probe.txt` (521 bytes)
+- `outputs/reports/gspt1_crbn_glue_boltz2_analysis.md` (5279 bytes)
+- `outputs/reports/jobB_log(2).txt` (3311 bytes)
+- `outputs/reports/jobB_log(3).txt` (3311 bytes)
+- `outputs/reports/jobB_log.txt` (2410 bytes)
+- `outputs/reports/phase1_gspt1_crbn_ternary_boltz2_setup.md` (7505 bytes)
+- `outputs/reports/phase_01_analyse_amber_md_outputs_from_lumi_job_22076592.md` (2918 bytes)
+- `outputs/reports/phase_01_compare_boltz_2_ternary_models_to_crystal_struct.md` (2974 bytes)
+- `outputs/reports/phase_01_convert_gspt1_crbn_glue_predictions_to_pdb.md` (2645 bytes)
+- `outputs/reports/phase_01_probe_lumi_amber_24_cpu_module_availability.md` (1864 bytes)
+- `outputs/reports/phase_01_task_18.md` (42147 bytes)
+- `outputs/reports/phase_01_task_a2c30abbc7431958f.md` (1776 bytes)
+- `outputs/reports/phase_01_write_md_pipeline_status_report_for_job_22076601.md` (2440 bytes)
+- `outputs/reports/phase_02_analyse_gspt1_crbn_glue_ternary_poses.md` (2535 bytes)
+- `outputs/reports/phase_02_analyse_gspt1_crbn_glue_ternary_poses_and_write_.md` (3682 bytes)
+- `outputs/reports/phase_02_parallel_per_compound_approach_attempted_but_job.md` (4610 bytes)
+- `outputs/reports/phase_02_run_antechamber_tleap_locally_stage_topologies_t(2).md` (8219 bytes)
+- `outputs/reports/phase_02_run_antechamber_tleap_locally_stage_topologies_t.md` (6932 bytes)
+- `outputs/reports/phase_03_compare_boltz2_vs_5hxb.md` (2440 bytes)
+- `outputs/reports/phase_04_run_9_parallel_per_compound_amber_md_jobs_on_lum.md` (3901 bytes)
+- `outputs/reports/phase_05_local_param_and_tleap.md` (6110 bytes)
+- `outputs/reports/phase_05_submit_amber_md_job_a_ref_85c_cpd1_pre_staged_to.md` (4134 bytes)
+- `outputs/reports/phase_06_lumi_srun_fix_and_resubmit.md` (3098 bytes)
+- `outputs/reports/phase_06_submit_amber_md_job_b_cpd8_cpd9_pre_staged_topol.md` (4226 bytes)
+- `outputs/reports/phase_08_done_srun_ntasks_128_cpus_per_task_1_fix_and_res.md` (4948 bytes)
+- `outputs/reports/recovery_audit_job_22076147_srun_step_failure.md` (2116 bytes)
+- `outputs/reports/recovery_audit_job_22076694.md` (1643 bytes)
+- `outputs/reports/recovery_audit_md_srun_mpi.md` (1950 bytes)
+- `outputs/reports/report(2).md` (4782 bytes)
+- `outputs/reports/report.md` (11689 bytes)
+- `outputs/reports/task_summary.txt` (375 bytes)
+- `outputs/structures/gspt1_crbn_glue_0.cif` (421593 bytes)
+- `outputs/structures/gspt1_crbn_glue_0.pdb` (395442 bytes)
+- `outputs/structures/gspt1_crbn_glue_1.cif` (422245 bytes)
+- `outputs/structures/gspt1_crbn_glue_1.pdb` (395442 bytes)
+- `outputs/structures/gspt1_crbn_glue_2.cif` (421664 bytes)
+- `outputs/structures/gspt1_crbn_glue_2.pdb` (395442 bytes)
+- `outputs/structures/heat.rst7` (6109616 bytes)
+- `outputs/structures/min.rst7` (3055228 bytes)
+- `outputs/tables/096_find_slurm_log_22076694.csv` (1564 bytes)
+- `outputs/uploads/CRBN_lig_results_2.sdf` (17656 bytes)
+- `outputs/work/CPD10_rep1.log` (399 bytes)
+- `outputs/work/CPD11_rep1.log` (399 bytes)
+- `outputs/work/CPD12_rep1.log` (399 bytes)
+- `outputs/work/CPD1_rep1.log` (398 bytes)
+- `outputs/work/CPD4_rep1.log` (398 bytes)
+- `outputs/work/CPD7_rep1.log` (398 bytes)
+- `outputs/work/CPD8_rep1.log` (398 bytes)
+- `outputs/work/CPD9_rep1.log` (398 bytes)
+- `outputs/work/REF_85C_rep1.log` (401 bytes)
+- `outputs/work/analysis_B.tar.gz` (234 bytes)
+- `outputs/work/equil.mdinfo` (1277 bytes)
+- `outputs/work/equil.out` (19389 bytes)
+- `outputs/work/gspt1_crbn_glue_0.npz` (1131 bytes)
+- `outputs/work/heat.mdinfo` (1117 bytes)
+- `outputs/work/heat.out` (40760 bytes)
+- `outputs/work/logfile` (8266 bytes)
+- `outputs/work/logfile(2)` (210462 bytes)
+- `outputs/work/min(2).mdinfo` (409 bytes)
+- `outputs/work/min(2).out` (19130 bytes)
+- `outputs/work/min.mdinfo` (409 bytes)
+- `outputs/work/min.out` (12183 bytes)
+- `outputs/work/mini.in` (184 bytes)
+- `outputs/work/npt.in` (300 bytes)
+- `outputs/work/nvt.in` (295 bytes)
+- `outputs/work/prediction(2).log` (2402 bytes)
+- `outputs/work/prod(3).in` (234 bytes)
+- `outputs/work/slurm-22075127.log` (31749 bytes)
+- `outputs/work/slurm-22076147.log` (2189 bytes)
+- `outputs/work/slurm-22076611.log` (1042 bytes)
+- `outputs/work/slurm-22076621.log` (1042 bytes)
+- `outputs/work/slurm-22076643.log` (1042 bytes)
+- `outputs/work/slurm-22076647.log` (1042 bytes)
+- `outputs/work/slurm-22076673.log` (39313 bytes)
+- `outputs/work/slurm-22076698.log` (1042 bytes)
+- `outputs/work/slurm-22076727.log` (84 bytes)
+- `outputs/work/slurm-22076729.log` (1042 bytes)
+- `outputs/work/slurm-22076809.log` (1042 bytes)
+- `outputs/work/slurm-22076857.log` (1188 bytes)
+- `outputs/work/slurm-22076930.log` (25174 bytes)
+- `outputs/work/slurm-6566458.log` (7589 bytes)
+- `outputs/work/slurm-6567207.log` (2466 bytes)
+
+## Scripts
+
+- `scripts/01_analyse_amber_md_outputs_from_lumi_job_22076592/source/093_set.py`
+- `scripts/01_analyse_amber_md_outputs_from_lumi_job_22076592/source/094_open.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/030_step_1_read_sdf_inspect_compounds.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/031_5hxb_crystal_characterisation_resolution_space_group.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/032_missing_residues_full_contact_analysis_bridging.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/033_per_atom_contact_mapping_bsa_waters_pocket_sub_sites.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/034_bsa_proxy_waters_pocket_unoccupied_subsites.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/035_receptor_preparation_extract_crbn_gspt1_add_h_define.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/036_os_makedirs.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/037_recompute_lig_z_still_scope.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/038_split_8_compound_sdf_into_individual_files_gnina.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/039_lig_fname_replace.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/040_inspect_actual_structure_one_result.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/041_os_makedirs.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/042_gemmi_read_structure.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/043_min_dist.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/044_min_dist.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/045_min_dist.py`
+- `scripts/01_characterise_5hxb_crystal_structure_and_85c_bind/source/046_min_dist.py`
+- `scripts/01_compare_boltz_2_ternary_models_to_crystal_struct/source/023_os_path_exists.py`
+- `scripts/01_compare_boltz_2_ternary_models_to_crystal_struct/source/024_identify_ligand_chain_assignments_5hxb.py`
+- `scripts/01_compare_boltz_2_ternary_models_to_crystal_struct/source/025_sequence_based_c_superposition_5hxb_vs_boltz_2.py`
+- `scripts/01_compare_boltz_2_ternary_models_to_crystal_struct/source/026_1_crystal_5hxb_ligand_85c_contacts_crbn_gspt1_2_crbn.py`
+- `scripts/01_compare_boltz_2_ternary_models_to_crystal_struct/source/027_map_5hxb_gspt1_seqids_our_boltz_2_residue_numbers.py`
+- `scripts/01_compare_boltz_2_ternary_models_to_crystal_struct/source/028_final_check_crystal_bridging_residues_near_boltz_2.py`
+- `scripts/01_compare_boltz_2_ternary_models_to_crystal_struct/source/029_get_chain_atoms.py`
+- `scripts/01_fix_srun_mpi_task_allocation_bug_cpus_per_task_1/source/092_glob_glob.py`
+- `scripts/01_fix_srun_mpi_task_allocation_bug_cpus_per_task_1/source/095_find_slurm_log_22076694.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/inputs/008_read_generated_boltz_yaml_input_json_check_exactly.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/001_run_aidd_tool.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/002_find_written_files.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/003_print.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/004_walk_protacfold_out_directory.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/005_read_hparams.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/006_move_failed_run_aside_tool_gets_clean_output_dir.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/007_walk_new_protacfold_out.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/009_clear_output_previous_protacfold_attempt.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/010_quick_smoke_test_single_small_protein_small_ligand.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/011_run_aidd_tool.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/012_test_2_proteins_only_no_ligand.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/013_test_crbn_alone_406_residues_failing_size.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/014_find_any_log_files_written_latest_boltz_run.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/015_read_confidence_json.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/016_clean_up_stale_boltz_out_ensure_fresh_run.py`
+- `scripts/01_model_gspt1_crbn_glue_ternary_complex_using_bolt/source/predict_ternary.py`
+- `scripts/01_resubmit_corrected_amber_md_job_with_rayca_out_s/source/097_print.py`
+- `scripts/01_resubmit_corrected_amber_md_job_with_rayca_out_s/source/102_1_percent_complete.py`
+- `scripts/01_resubmit_corrected_amber_md_job_with_rayca_out_s/source/analyze.py`
+- `scripts/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/source/098_os_walk.py`
+- `scripts/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/source/099_failure.py`
+- `scripts/01_run_9_parallel_per_compound_amber_md_jobs_on_lum/source/100_completed.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/051_subprocess_run.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/056_wait_remaining_3_processes.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/057_pathlib_path.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/058_pathlib_path.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/081_pathlib_path.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/086_pathlib_path.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/088_pathlib_path.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/089_pathlib_path.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/090_pathlib_path.py`
+- `scripts/01_run_md_on_all_9_ternary_systems_ref_85c_8_compou/source/091_pathlib_path.py`
+- `scripts/01_run_sequential_amber_md_on_9_ternary_systems_on_/source/087_pathlib_path.py`
+- `scripts/02_analyse_gspt1_crbn_glue_ternary_poses_and_write_/source/017_range.py`
+- `scripts/02_analyse_gspt1_crbn_glue_ternary_poses_and_write_/source/018_inspect_mol_type_distribution_check_token_counts.py`
+- `scripts/02_analyse_gspt1_crbn_glue_ternary_poses_and_write_/source/019_parse_pdb.py`
+- `scripts/02_analyse_gspt1_crbn_glue_ternary_poses_and_write_/source/020_compute_plddt_b_factors_interface_contacts_ligand.py`
+- `scripts/02_analyse_gspt1_crbn_glue_ternary_poses_and_write_/source/021_identify_interface_residues_name_number_ligand.py`
+- `scripts/02_analyse_gspt1_crbn_glue_ternary_poses_and_write_/source/022_per_model_detailed_analysis_interface_ligand_pocket.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/053_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/054_run_all_9_antechamber_jobs_parallel.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/059_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/060_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/061_kill_stuck_cpd12_process.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/062_time_time.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/063_check_cpd1_failure.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/064_check_cpd1_directory.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/065_cpd1_convert_existing_bcc_ac_file_directly_mol2.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/066_fix_mol2_coords.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/067_fix_mol2_coords.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/068_parmchk2_all_9_ligands.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/069_systems_dir_mkdir.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/070_check_cpd7_frcmod_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/071_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/072_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/073_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/074_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/075_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/076_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/077_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/078_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/079_pathlib_path.py`
+- `scripts/02_run_antechamber_tleap_locally_stage_topologies_t/source/080_pathlib_path.py`
+- `scripts/03_run_md_on_all_9_ternary_systems_ref_85c_8_docked/source/055_time_time.py`
+- `scripts/03_run_md_on_docked_compounds_and_85c_reference_in_/source/047_pre_process_receptor_amber_rename_his_hie_hid_based.py`
+- `scripts/03_run_md_on_docked_compounds_and_85c_reference_in_/source/048_os_makedirs.py`
+- `scripts/03_run_md_on_docked_compounds_and_85c_reference_in_/source/049_inspect_receptor_pdb_identify_zn_position_residue.py`
+- `scripts/03_run_md_on_docked_compounds_and_85c_reference_in_/source/050_1_remove_zn_receptor_write_clean_version.py`
+- `scripts/amber_md_B/analyze.py`
+- `scripts/job-22076592/amber_md_A/analyze.py`
+- `scripts/job-6566458/predict_ternary.py`
+- `scripts/job-6567207/predict_ternary.py`
+- `scripts/predict_ternary.py`
+- `scripts/source/001_run_aidd_tool.py`
+- `scripts/source/002_find_written_files.py`
+- `scripts/source/003_print.py`
+- `scripts/source/004_walk_protacfold_out_directory.py`
+- `scripts/source/005_read_hparams.py`
+- `scripts/source/006_move_failed_run_aside_tool_gets_clean_output_dir.py`
+- `scripts/source/007_walk_new_protacfold_out.py`
+- `scripts/source/008_read_generated_boltz_yaml_input_json_check_exactly.py`
+- `scripts/source/009_clear_output_previous_protacfold_attempt.py`
+- `scripts/source/010_quick_smoke_test_single_small_protein_small_ligand.py`
+- `scripts/source/011_run_aidd_tool.py`
+- `scripts/source/012_test_2_proteins_only_no_ligand.py`
+- `scripts/source/013_test_crbn_alone_406_residues_failing_size.py`
+- `scripts/source/014_find_any_log_files_written_latest_boltz_run.py`
+- `scripts/source/015_read_confidence_json.py`
+- `scripts/source/016_clean_up_stale_boltz_out_ensure_fresh_run.py`
+- `scripts/source/017_range.py`
+- `scripts/source/018_inspect_mol_type_distribution_check_token_counts.py`
+- `scripts/source/019_parse_pdb.py`
+- `scripts/source/020_compute_plddt_b_factors_interface_contacts_ligand.py`
+- `scripts/source/021_identify_interface_residues_name_number_ligand.py`
+- `scripts/source/022_per_model_detailed_analysis_interface_ligand_pocket.py`
+- `scripts/source/023_os_path_exists.py`
+- `scripts/source/024_identify_ligand_chain_assignments_5hxb.py`
+- `scripts/source/025_sequence_based_c_superposition_5hxb_vs_boltz_2.py`
+- `scripts/source/026_1_crystal_5hxb_ligand_85c_contacts_crbn_gspt1_2_crbn.py`
+- `scripts/source/027_map_5hxb_gspt1_seqids_our_boltz_2_residue_numbers.py`
+- `scripts/source/028_final_check_crystal_bridging_residues_near_boltz_2.py`
+- `scripts/source/029_get_chain_atoms.py`
+- `scripts/source/030_step_1_read_sdf_inspect_compounds.py`
+- `scripts/source/031_5hxb_crystal_characterisation_resolution_space_group.py`
+- `scripts/source/032_missing_residues_full_contact_analysis_bridging.py`
+- `scripts/source/033_per_atom_contact_mapping_bsa_waters_pocket_sub_sites.py`
+- `scripts/source/034_bsa_proxy_waters_pocket_unoccupied_subsites.py`
+- `scripts/source/035_receptor_preparation_extract_crbn_gspt1_add_h_define.py`
+- `scripts/source/036_os_makedirs.py`
+- `scripts/source/037_recompute_lig_z_still_scope.py`
+- `scripts/source/038_split_8_compound_sdf_into_individual_files_gnina.py`
+- `scripts/source/039_lig_fname_replace.py`
+- `scripts/source/040_inspect_actual_structure_one_result.py`
+- `scripts/source/041_os_makedirs.py`
+- `scripts/source/042_gemmi_read_structure.py`
+- `scripts/source/043_min_dist.py`
+- `scripts/source/044_min_dist.py`
+- `scripts/source/045_min_dist.py`
+- `scripts/source/046_min_dist.py`
+- `scripts/source/047_pre_process_receptor_amber_rename_his_hie_hid_based.py`
+- `scripts/source/048_os_makedirs.py`
+- `scripts/source/049_inspect_receptor_pdb_identify_zn_position_residue.py`
+- `scripts/source/050_1_remove_zn_receptor_write_clean_version.py`
+- `scripts/source/051_subprocess_run.py`
+- `scripts/source/052_pathlib_path.py`
+- `scripts/source/053_pathlib_path.py`
+- `scripts/source/054_run_all_9_antechamber_jobs_parallel.py`
+- `scripts/source/055_time_time.py`
+- `scripts/source/056_wait_remaining_3_processes.py`
+- `scripts/source/057_pathlib_path.py`
+- `scripts/source/058_pathlib_path.py`
+- `scripts/source/059_pathlib_path.py`
+- `scripts/source/060_pathlib_path.py`
+- `scripts/source/061_kill_stuck_cpd12_process.py`
+- `scripts/source/062_time_time.py`
+- `scripts/source/063_check_cpd1_failure.py`
+- `scripts/source/064_check_cpd1_directory.py`
+- `scripts/source/065_cpd1_convert_existing_bcc_ac_file_directly_mol2.py`
+- `scripts/source/066_fix_mol2_coords.py`
+- `scripts/source/067_fix_mol2_coords.py`
+- `scripts/source/068_parmchk2_all_9_ligands.py`
+- `scripts/source/069_systems_dir_mkdir.py`
+- `scripts/source/070_check_cpd7_frcmod_path.py`
+- `scripts/source/071_pathlib_path.py`
+- `scripts/source/072_pathlib_path.py`
+- `scripts/source/073_pathlib_path.py`
+- `scripts/source/074_pathlib_path.py`
+- `scripts/source/075_pathlib_path.py`
+- `scripts/source/076_pathlib_path.py`
+- `scripts/source/077_pathlib_path.py`
+- `scripts/source/078_pathlib_path.py`
+- `scripts/source/079_pathlib_path.py`
+- `scripts/source/080_pathlib_path.py`
+- `scripts/source/081_pathlib_path.py`
+- `scripts/source/082_pathlib_path.py`
+- `scripts/source/083_find_log_files_were_collected.py`
+- `scripts/source/084_pathlib_path.py`
+- `scripts/source/085_confirm_tarball_still_staging_area.py`
+- `scripts/source/086_pathlib_path.py`
+- `scripts/source/087_pathlib_path.py`
+- `scripts/source/088_pathlib_path.py`
+- `scripts/source/089_pathlib_path.py`
+- `scripts/source/090_pathlib_path.py`
+- `scripts/source/091_pathlib_path.py`
+- `scripts/source/092_glob_glob.py`
+- `scripts/source/093_set.py`
+- `scripts/source/094_open.py`
+- `scripts/source/095_find_slurm_log_22076694.py`
+- `scripts/source/096_print.py`
+- `scripts/source/097_print.py`
+- `scripts/source/098_os_walk.py`
+- `scripts/source/099_failure.py`
+- `scripts/source/100_completed.py`
+- `scripts/source/101_read_prod_local_tarball_copy.py`
+- `scripts/source/102_1_percent_complete.py`
+- `scripts/source/analyze(2).py`
+- `scripts/source/predict_ternary(2).py`
+
+## Inputs
+
+- No inputs recorded.
+
+## Limitations and Caveats
+
+- This study has not been reviewed. The results are raw model output.
+- Reproducibility depends on the availability of the tool images listed above.
+
+## Provenance
+
+Full provenance chain is in `PROVENANCE.json`. It includes: which operations were model-generated, which were reviewed, by whom, and what was approved.

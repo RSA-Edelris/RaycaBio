@@ -1,0 +1,21 @@
+
+=== MD SUMMARY TABLE ===
+Compound     LigRMSD(A)       W380_dist        K628_dist        PPI_COM          Verdict
+----------------------------------------------------------------------------------------
+REF_85C      NO_DATA
+CPD1         NO_DATA
+CPD4         NO_DATA
+CPD7         NO_DATA
+CPD8         NO_DATA
+CPD9         NO_DATA
+CPD10        NO_DATA
+CPD11        NO_DATA
+CPD12        NO_DATA
+=== END ===
+
+
+=== VERIFICATION ===
+All NO_DATA entries confirmed — no cpptraj .dat files were produced by job 22076601 because
+every pmemd.MPI step failed with "More processors requested than permitted". These are not
+partial results: zero trajectory frames exist for any compound from this job. Replacement
+job 22076673 is running and will populate these metrics when complete.

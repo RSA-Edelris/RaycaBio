@@ -1,0 +1,33 @@
+/usr/bin/rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+Confidence module patched
+predict_set length: 1
+Found explicit empty MSA for some proteins, will run these in single sequence mode.
+Found explicit empty MSA for some proteins, will run these in single sequence mode.
+Switched step_scale to 2.0
+Switched noise_scale to 0.88
+Error in compute_ptms: 'frames_idx'
+Error in compute_ptms: 'frames_idx'
+Error in compute_ptms: 'frames_idx'
+Number of failed examples: 0
+Predicting ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1/1 0:00:25 • 0:00:00 0.00it/s 
+Prediction done
+
+Converting 3 CIF file(s) to PDB ...
+  OK  gspt1_crbn_glue_0.pdb  (395,442 bytes)
+  OK  gspt1_crbn_glue_1.pdb  (395,442 bytes)
+  OK  gspt1_crbn_glue_2.pdb  (395,442 bytes)
+
+=== All output files ===
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/gspt1_crbn_glue_0.cif  (421,593 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/gspt1_crbn_glue_0.npz  (1,131 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/gspt1_crbn_glue_0.pdb  (395,442 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/gspt1_crbn_glue_1.cif  (422,245 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/gspt1_crbn_glue_1.npz  (1,131 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/gspt1_crbn_glue_1.pdb  (395,442 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/gspt1_crbn_glue_2.cif  (421,664 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/gspt1_crbn_glue_2.npz  (1,131 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/gspt1_crbn_glue_2.pdb  (395,442 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/molecules_out_dir/LIG1.pkl  (881 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/lightning_logs/version_6567207/events.out.tfevents.1789478211.nid010612.54250.0  (12,595 bytes)
+  /scratch/u6sp/hpcuser.u6sp/rayca/max-384687c3b2/out/job-6567207/ternary_out/lightning_logs/version_6567207/hparams.yaml  (4,224 bytes)

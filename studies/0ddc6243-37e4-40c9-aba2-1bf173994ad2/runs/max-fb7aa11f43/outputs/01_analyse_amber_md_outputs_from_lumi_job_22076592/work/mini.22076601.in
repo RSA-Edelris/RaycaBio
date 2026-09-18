@@ -1,0 +1,8 @@
+Minimisation restrained heavy atoms
+ &cntrl
+  imin=1, maxcyc=5000, ncyc=2500,
+  ntb=1, ntp=0,
+  ntr=1, restraint_wt=10.0,
+  restraintmask='!:WAT,Na+,Cl- & !@H=',
+  ntpr=500, ntwr=5000,
+ /

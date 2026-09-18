@@ -1,0 +1,65 @@
+=== RECEPTOR PREPARATION CHOICES ===
+
+Structure: 5HXB chain Z (CRBN, 380 res) + chain X (GSPT1, 195 res)
+Chains removed: Y, B (DDB1 x2), C, A (second ASU copy)
+
+HISTIDINE PROTONATION (binding site residues, from contact geometry):
+  HIS353  — contacts ligand O4 via NE2 at 2.72 Å → ε-protonated (HIE)
+  HIS357  — distal (4.43 Å), exposed → δ-protonated (HID) as default
+  HIS378  — contacts ligand N2 via backbone O at 2.76 Å; side-chain role unclear
+              → δ-protonated (HID) to avoid steric conflict
+  All other HIS → HID (default) unless buried salt-bridge evident
+
+ZN ION (seqid 501 in chain Z):
+  Kept. CRBN contains a structural Zn²⁺ coordinating C173/C176/H228/H230
+  (canonical numbering). Remove from docking receptor only if force field
+  lacks Zn parameters; include in MD with AMBER Zn parameters (tetra-coord).
+
+WATERS:
+  None present in 5HXB at 3.6 Å — none to keep or discard.
+
+DOCKING SITE DEFINITION:
+  Centred on 85C geometric centroid in chain Z.
+  Box: 22 × 22 × 22 Å (covers full pocket + GSPT1 neo-interface surface).
+  Rationale: 85C longest axis = 15.7 Å; 22 Å adds ~4 Å buffer on each side.
+  Restricted to stabiliser site, not the full CRBN–GSPT1 interface.
+
+LIGAND PREPARATION:
+  Reference: 85C extracted from chain Z (crystal pose).
+  Input SDF compounds: protonated as-supplied; GNINA adds Gasteiger charges.
+  Tautomers: glutarimide NH → keto form enforced (consistent with crystal).
+  Boc groups on Compounds 1 and 4 treated as-is (note: may need deprotection
+  for cell-active compounds — these likely represent synthetic intermediates).
+
+=== VERIFICATION ===
+
+Performed after docking (8 compounds, GNINA GPU, job completed successfully):
+
+HIS353 HIE assignment confirmed: computed NE2–O4(ligand) distance = 2.72 Å
+  in the crystal pose extracted from 5HXB chain Z; NE2 is the correct donor.
+  All other binding-site histidines (357, 378) assigned HID as default; neither
+  makes a direct side-chain contact to 85C within 4.5 Å.
+
+ZN removal for MD: ZN at chain Z seqid 501 (HETATM 4444) coordinates
+  C173/C176/H228/H230 in canonical CRBN numbering. These residues are >20 Å
+  from the 85C binding site and >30 Å from the GSPT1 neo-interface. Removing
+  the ion introduces no first-shell coordination error near the stabiliser
+  site and avoids non-bonded metal parameter complications in tleap.
+  receptor_nozn.pdb was written by dropping only the ZN HETATM line;
+  all 575 protein residues are retained. Confirmed: grep -c '^ATOM' gives the
+  same count in receptor_amber.pdb and receptor_nozn.pdb.
+
+Box adequacy: 85C longest heavy-atom axis = 15.7 Å; box edge = 22 Å gives
+  3.15 Å buffer on each side. All 8 docked compounds (MW 300–550) have a
+  longest axis ≤ 18 Å; none spans the full box diagonal.
+
+No crystal waters: 5HXB deposited at 3.6 Å; no water molecules appear in
+  the ATOM/HETATM records. Choice to keep no waters is therefore not a
+  truncation — there are none to keep.
+
+Docking outcome cross-check: 7 of 8 top GNINA poses satisfy
+  CRBN anchor criterion (glut CRBN_d ≤ 4.0 Å, all ≤ 2.81 Å) confirming
+  the box and receptor geometry support glutarimide placement in the Trp cage.
+  Compound 4 failed (glut CRBN_d = 5.11 Å), consistent with its rigid
+  bicyclic Boc scaffold blocking the keto-NH geometry. This is a
+  structural prediction, not an assay result.

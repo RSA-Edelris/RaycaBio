@@ -1,0 +1,27 @@
+>>> START REF_85C Tue Sep 15 20:06:37 EEST 2026
+MINI_FAIL REF_85C
+>>> START CPD1 Tue Sep 15 20:06:37 EEST 2026
+MINI_FAIL CPD1
+>>> START CPD4 Tue Sep 15 20:06:37 EEST 2026
+MINI_FAIL CPD4
+>>> START CPD7 Tue Sep 15 20:06:37 EEST 2026
+MINI_FAIL CPD7
+>>> START CPD8 Tue Sep 15 20:06:37 EEST 2026
+MINI_FAIL CPD8
+>>> START CPD9 Tue Sep 15 20:06:37 EEST 2026
+MINI_FAIL CPD9
+>>> START CPD10 Tue Sep 15 20:06:37 EEST 2026
+MINI_FAIL CPD10
+>>> START CPD11 Tue Sep 15 20:06:37 EEST 2026
+MINI_FAIL CPD11
+>>> START CPD12 Tue Sep 15 20:06:37 EEST 2026
+MINI_FAIL CPD12
+all_done=Tue Sep 15 20:06:48 EEST 2026
+
+
+=== VERIFICATION ===
+Checked: all 9 systems show MINI_FAIL. Root cause confirmed as srun step-creation failure
+(job 22076601, script had srun -n 128 without --cpus-per-task=1 override). No MD data
+produced. Superseded by job 22076673 which has both fixes applied and is currently running
+(REF_85C step 2/4 active as of 2026-09-15 ~20:18 EEST). Verified: this file was written by
+the analysis pass on job 22076601 outputs. Contents match slurm-22076611.log (srun rejection).

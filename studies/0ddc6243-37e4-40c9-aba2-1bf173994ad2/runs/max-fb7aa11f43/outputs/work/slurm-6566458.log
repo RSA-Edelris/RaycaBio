@@ -1,0 +1,165 @@
+=== Starting Boltz-2 ternary prediction ===
+Checkpoint: /projects/u6sp/containers/boltzgen_weights/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltz2_conf_final.ckpt
+YAML: /scratch/u6sp/hpcuser.u6sp/rayca/max-f59f475cd3/out/job-6566458/gspt1_crbn_glue.yaml
+Output: /scratch/u6sp/hpcuser.u6sp/rayca/max-f59f475cd3/out/job-6566458/ternary_out
+/usr/bin/rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+rm: cannot remove '/usr/local/cuda/compat/lib': Read-only file system
+=== Config ===
+_target_: boltzgen.task.predict.predict.Predict
+data:
+  _target_: boltzgen.task.predict.data_from_yaml.FromYamlDataModule
+  cfg:
+    _target_: boltzgen.task.predict.data_from_yaml.DataConfig
+    tokenizer:
+      _target_: boltzgen.data.tokenize.tokenizer.Tokenizer
+      atomize_modified_residues: false
+    featurizer:
+      _target_: boltzgen.data.feature.featurizer.Featurizer
+    moldir: /projects/u6sp/containers/boltzgen_weights/datasets--boltzgen--inference-data/snapshots/c3d36fd276e9caf098c75d4113c6d5eb320b1a4c/mols.zip
+    yaml_path: /scratch/u6sp/hpcuser.u6sp/rayca/max-f59f475cd3/out/job-6566458/gspt1_crbn_glue.yaml
+    output_dir: /scratch/u6sp/hpcuser.u6sp/rayca/max-f59f475cd3/out/job-6566458/ternary_out
+    diffusion_samples: 3
+    backbone_only: false
+    atom14: true
+    atom37: false
+    disulfide_prob: 1.0
+    disulfide_on: true
+    multiplicity: 1
+    design: true
+  batch_size: 1
+  num_workers: 4
+  pin_memory: true
+writer:
+  _target_: boltzgen.task.predict.writer.DesignWriter
+  output_dir: ${output}
+  res_atoms_only: false
+  atom14: ${data.cfg.atom14}
+  atom37: ${data.cfg.atom37}
+  backbone_only: ${data.cfg.backbone_only}
+  write_native: false
+trainer:
+  accelerator: gpu
+  devices: 1
+  precision: bf16-mixed
+name: gspt1_crbn_glue
+output: /scratch/u6sp/hpcuser.u6sp/rayca/max-f59f475cd3/out/job-6566458/ternary_out
+checkpoint: /projects/u6sp/containers/boltzgen_weights/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltz2_conf_final.ckpt
+matmul_precision: high
+recycling_steps: 3
+sampling_steps: 200
+diffusion_samples: 3
+compile_pairformer: false
+compile_structure: false
+override:
+  masker_args:
+    mask: true
+    mask_backbone: true
+  validators: null
+  step_scale_schedule:
+  - step_scale: 1.8
+    period: 0.25
+  - step_scale: 2.0
+    period: 0.25
+  - step_scale: 1.8
+    period: 0.25
+  - step_scale: 2.0
+    period: 0.25
+  noise_scale_schedule:
+  - noise_scale: 0.95
+    period: 0.25
+  - noise_scale: 0.88
+    period: 0.25
+  - noise_scale: 0.95
+    period: 0.25
+  - noise_scale: 0.88
+    period: 0.25
+  diffusion_process_args:
+    sigma_min: 0.0004
+    sigma_max: 160.0
+    sigma_data: 16.0
+    rho: 7
+    P_mean: -1.2
+    P_std: 1.5
+    gamma_0: 0.8
+    gamma_min: 1.0
+    noise_scale: null
+    step_scale: null
+    mse_rotational_alignment: true
+    coordinate_augmentation: true
+    alignment_reverse_diff: true
+    synchronize_sigmas: false
+    sampling_schedule: dilated
+    time_dilation: 2.667
+    time_dilation_start: 0.6
+    time_dilation_end: 0.8
+
+=== Instantiating task ===
+=== predict_set length: 1 ===
+=== Running Boltz-2 prediction ===
+Switched step_scale to 2.0
+Switched noise_scale to 0.88
+Error in compute_ptms: 'frames_idx'
+Error in compute_ptms: 'frames_idx'
+Error in compute_ptms: 'frames_idx'
+Predicting                                      0/1 0:00:24 • -:--:-- 0.00it/s 
+Found explicit empty MSA for some proteins, will run these in single sequence mode.
+Found explicit empty MSA for some proteins, will run these in single sequence mode.
+Traceback (most recent call last):
+  File "/scratch/u6sp/hpcuser.u6sp/rayca/max-f59f475cd3/out/job-6566458/predict_ternary.py", line 63, in <module>
+    task.run()
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/boltzgen/task/predict/predict.py", line 191, in run
+    self.lightning_trainer.predict(
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 941, in predict
+    return call._call_and_handle_interrupt(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 49, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 990, in _predict_impl
+    results = self._run(model, ckpt_path=ckpt_path, weights_only=weights_only)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 1079, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 1118, in _run_stage
+    return self.predict_loop.run()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/loops/utilities.py", line 179, in _decorator
+    return loop_run(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/loops/prediction_loop.py", line 125, in run
+    self._predict_step(batch, batch_idx, dataloader_idx, dataloader_iter)
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/loops/prediction_loop.py", line 255, in _predict_step
+    predictions = call._call_strategy_hook(trainer, "predict_step", *step_args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 329, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/pytorch_lightning/strategies/strategy.py", line 438, in predict_step
+    return self.lightning_module.predict_step(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/boltzgen/model/models/boltz.py", line 1281, in predict_step
+    out = self(
+          ^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/boltzgen/model/models/boltz.py", line 739, in forward
+    self.confidence_module(
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/venv/lib/python3.12/site-packages/boltzgen/model/modules/confidence.py", line 148, in forward
+    for chain_idx2 in out_dicts[0][key][chain_idx1]:
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: tensors used as indices must be long, int, byte or bool tensors
+
+RAYCA: the job stopped at line 138 with exit 1
+RAYCA: the command was: tee "${RAYCA_OUT}/prediction.log"
+RAYCA: if that command is allowed to fail, end it with || true

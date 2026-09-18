@@ -1,0 +1,6 @@
+START CPD4 Tue Sep 15 19:33:39 EEST 2026
+srun: error: Unable to create step for job 22076147: More processors requested than permitted
+
+RAYCA: the job stopped at line 65 with exit 1
+RAYCA: the command was: srun -n $N_MPI "$PMEMD" -O -i min.in -p system.prmtop -c system.inpcrd -ref system.inpcrd -o min.out -r min.rst7 -inf min.mdinfo
+RAYCA: if that command is allowed to fail, end it with || true

@@ -1,0 +1,12 @@
+job_start=Tue Sep 15 20:06:34 EEST 2026
+RESULTS=/scratch/project_462001483/rayca/max-243812cde4/out/job-22076601
+pmemd=/appl/local/csc/soft/chem/amber/24-cpu/bin/pmemd.MPI
+cpptraj=/appl/local/csc/soft/chem/amber/24-cpu/bin/cpptraj
+
+
+=== VERIFICATION ===
+Checked: RESULTS path points to max-243812cde4/out/job-22076601. Confirmed module loads
+completed (pmemd and cpptraj paths are valid amber/24-cpu paths). RESULTS was captured before
+module loads in this script — capture was correct. However, pmemd.MPI srun calls used
+-n 128 without --cpus-per-task=1, so all srun steps failed. The RESULTS path itself was
+never written to because no MD completed.

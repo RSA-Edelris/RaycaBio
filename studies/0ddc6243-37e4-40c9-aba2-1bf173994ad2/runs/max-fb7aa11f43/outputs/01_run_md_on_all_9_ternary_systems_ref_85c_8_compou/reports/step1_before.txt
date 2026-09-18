@@ -1,0 +1,5 @@
+BEFORE_MODULES: RAYCA_OUT=[/scratch/project_462001483/rayca/max-f288f18e91/out/job-22076500]
+AFTER_Local-CSC: RAYCA_OUT=[/scratch/project_462001483/rayca/max-f288f18e91/out/job-22076500]
+AFTER_amber_24cpu: RAYCA_OUT=[/scratch/project_462001483/rayca/max-f288f18e91/out/job-22076500]
+AFTER_ALL_MODULES: RAYCA_OUT=[/scratch/project_462001483/rayca/max-f288f18e91/out/job-22076500] SAVED=[/scratch/project_462001483/rayca/max-f288f18e91/out/job-22076500]
+/appl/local/csc/soft/chem/amber/24-cpu/bin/pmemd.MPI

@@ -1,0 +1,66 @@
+This software collection is provided and supported by CSC.
+Run `module help Local-CSC` for more information about support.
+Not all software may be compatible with software in other stacks,
+so mix at your own risk. 
+
+Lmod is automatically replacing "craype-x86-rome" with "craype-x86-milan".
+
+
+Lmod is automatically replacing "cce/19.0.0" with "gcc-native/14.2".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.6.0" with "PrgEnv-gnu/8.6.0".
+
+
+    Amber24 (CPU-version) loaded.
+    Note:
+        * CSC has acquired a non-profit computing center license for Amber24.
+          Thus, only users from non-profit organizations are allowed to use
+          this module! By using the module you accept the terms.
+        * See the detailed license text at https://ambermd.org/GetAmber.php
+        * This module was recompiled on 2026-02-03.
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/25.03.0     2) cray-mpich/8.1.32
+
+pmemd.MPI : /appl/local/csc/soft/chem/amber/24-cpu/bin/pmemd.MPI
+cpptraj   : /appl/local/csc/soft/chem/amber/24-cpu/bin/cpptraj
+INIT_DIR  : /scratch/project_462001483/rayca/max-0fcb897abb
+RAYCA_OUT : /scratch/project_462001483/rayca/max-0fcb897abb/out/job-22076147
+Nodes     : 1
+Cores/node: 128
+Tue Sep 15 19:33:35 EEST 2026
+Tarball extracted at Tue Sep 15 19:33:37 EEST 2026
+/scratch/project_462001483/rayca/max-0fcb897abb/out/job-22076147/md_runs/inputs/:
+equil.in
+heat.in
+min.in
+prod.in
+
+/scratch/project_462001483/rayca/max-0fcb897abb/out/job-22076147/md_runs/systems/:
+CPD1
+CPD10
+CPD11
+CPD12
+CPD4
+CPD7
+CPD8
+CPD9
+REF_85C
+Launched 9 tasks, waiting...
+All tasks done. Failed: 9  Time: Tue Sep 15 19:33:42 EEST 2026
+Starting cpptraj analysis...
+SKIP cpptraj (no traj): REF_85C
+SKIP cpptraj (no traj): CPD1
+SKIP cpptraj (no traj): CPD4
+SKIP cpptraj (no traj): CPD7
+SKIP cpptraj (no traj): CPD8
+SKIP cpptraj (no traj): CPD9
+SKIP cpptraj (no traj): CPD10
+SKIP cpptraj (no traj): CPD11
+SKIP cpptraj (no traj): CPD12
+=== JOB COMPLETE Tue Sep 15 19:33:42 EEST 2026 ===
+Files staged to RAYCA_OUT:
+-rw-rw---- 1 matimuha project_462001483 375 Sep 15 19:33 /scratch/project_462001483/rayca/max-0fcb897abb/out/job-22076147/task_summary.txt
+(none yet)
