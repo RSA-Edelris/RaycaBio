@@ -1,0 +1,299 @@
+{
+  "study_id": "a15a0dd1-6e21-4a08-9938-aca20555ef3d",
+  "run_id": "max-f12e0b1080",
+  "published_at": "2026-09-18T09:39:47Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/001_os_path_join.py",
+      "sha256": "70c2dd09608b3db92f262f5246bb75bce4e0b8326a3f773c9e3a92e0d2dde5b1",
+      "size": 689,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/structures/2O98.pdb",
+      "sha256": "8a9c673563e31038ae944dc5627b6aa5259e29b386236182b56f9d52e909a4d1",
+      "size": 453114,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/structures/6H0F.pdb",
+      "sha256": "00a2d6648ee4a6c8be305309956075e10f3b1138d9841bb8fd2c8a5a0300398d",
+      "size": 12761631,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": false
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/002_parse_crystallographic_metadata_pdb_headers.py",
+      "sha256": "12943fda190fbc05a6ccff8703c87bb8efe11535a932366bd6da31f372d8099d",
+      "size": 4553,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/003_verify_r_factors_reading_remark_3_verbatim_parse.py",
+      "sha256": "2d73c36995af2a78021f57807f3ca5136a8e8c9f9773f1f4634f4249b2f61bb4",
+      "size": 2664,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/004_understand_chain_assignments_run_distance_based.py",
+      "sha256": "02ce266436c60b73256aaca9f7488679e0d59fc6b9f444532d08841c96686255",
+      "size": 1945,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/005_full_contact_map_ligand_vs_each_protein_chain.py",
+      "sha256": "98a14f9b3418bbe2739bfffe09cfe12bcf1c3115f475249099058fd92139d40e",
+      "size": 4997,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/006_2o98_contact_analysis_fsc_vs_14_3_3_chain_h_atpase.py",
+      "sha256": "df21e6ed1ead06e6b15bd516ce5666cbe7f9814c213bf14444e74282b1468fcd",
+      "size": 3897,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/007_bridging_2o98_bsa_simplified_sasa_water_bridges_both.py",
+      "sha256": "b1656faad7777516515fed4aa32f92e16950131557e8e711fefbaa9431387790",
+      "size": 5017,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/008_sasa_based_bsa_bridging_water_analysis.py",
+      "sha256": "1d527bcfe348b06bdb34fd300c4ca8e18783030fde91a8a0460b778436b87074",
+      "size": 5048,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/009_corrected_sasa_compute_per_atom_areas_full_context.py",
+      "sha256": "a06afbb25839ff9b97b176a219ac67007411fcb68798aca11c215c49301f0ad7",
+      "size": 4568,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/010_water_analysis_bridging_conserved_candidate_vs.py",
+      "sha256": "a604b33dc933d3308b80693aceed30f57fceeb6b0556dd80298a1c89e3643609",
+      "size": 5418,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "01_characterise_stabiliser_binding_sites_for_6h0f_a/source/011_unoccupied_subsite_detection_grid_based_void_mapping.py",
+      "sha256": "b2745f5eff2a9bf994dbed4d9b42043e88ec255f2c9a2c8a380bae621d6a1c8f",
+      "size": 6239,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "reports/report.md",
+      "sha256": "27d3bf0e49f8d2ad4e91de1b65b545803acd0c3b998779da4a13535618c68b50",
+      "size": 28557,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_characterise_stabiliser_binding_sites_for_6h0f_a.md",
+      "sha256": "8f640af2af90ddde55531ff4bfa6f58e4dec70a825d5d67ee938cec04ad15601",
+      "size": 3725,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-58b660f780",
+      "committed": true
+    },
+    {
+      "path": "reports/audit.md",
+      "sha256": "e85e246f984a74a3ed6711113646ca49da6c15908a2c0242b88272cdcd232a01",
+      "size": 10320,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "source/009_corrected_sasa_compute_per_atom_areas_full_context.py",
+      "size": 4568,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/007_bridging_2o98_bsa_simplified_sasa_water_bridges_both.py",
+      "size": 5017,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/005_full_contact_map_ligand_vs_each_protein_chain.py",
+      "size": 4997,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/008_sasa_based_bsa_bridging_water_analysis.py",
+      "size": 5048,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/003_verify_r_factors_reading_remark_3_verbatim_parse.py",
+      "size": 2664,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/001_os_path_join.py",
+      "size": 689,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/010_water_analysis_bridging_conserved_candidate_vs.py",
+      "size": 5418,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/011_unoccupied_subsite_detection_grid_based_void_mapping.py",
+      "size": 6239,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/006_2o98_contact_analysis_fsc_vs_14_3_3_chain_h_atpase.py",
+      "size": 3897,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/004_understand_chain_assignments_run_distance_based.py",
+      "size": 1945,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/002_parse_crystallographic_metadata_pdb_headers.py",
+      "size": 4553,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "a15a0dd1-6e21-4a08-9938-aca20555ef3d",
+    "run_id": "max-f12e0b1080",
+    "outcome": "",
+    "pushed_at": "2026-09-18T09:39:47Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/001_os_path_join.py": "70c2dd09608b3db92f262f5246bb75bce4e0b8326a3f773c9e3a92e0d2dde5b1",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/002_parse_crystallographic_metadata_pdb_headers.py": "12943fda190fbc05a6ccff8703c87bb8efe11535a932366bd6da31f372d8099d",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/003_verify_r_factors_reading_remark_3_verbatim_parse.py": "2d73c36995af2a78021f57807f3ca5136a8e8c9f9773f1f4634f4249b2f61bb4",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/004_understand_chain_assignments_run_distance_based.py": "02ce266436c60b73256aaca9f7488679e0d59fc6b9f444532d08841c96686255",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/005_full_contact_map_ligand_vs_each_protein_chain.py": "98a14f9b3418bbe2739bfffe09cfe12bcf1c3115f475249099058fd92139d40e",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/006_2o98_contact_analysis_fsc_vs_14_3_3_chain_h_atpase.py": "df21e6ed1ead06e6b15bd516ce5666cbe7f9814c213bf14444e74282b1468fcd",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/007_bridging_2o98_bsa_simplified_sasa_water_bridges_both.py": "b1656faad7777516515fed4aa32f92e16950131557e8e711fefbaa9431387790",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/008_sasa_based_bsa_bridging_water_analysis.py": "1d527bcfe348b06bdb34fd300c4ca8e18783030fde91a8a0460b778436b87074",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/009_corrected_sasa_compute_per_atom_areas_full_context.py": "a06afbb25839ff9b97b176a219ac67007411fcb68798aca11c215c49301f0ad7",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/010_water_analysis_bridging_conserved_candidate_vs.py": "a604b33dc933d3308b80693aceed30f57fceeb6b0556dd80298a1c89e3643609",
+    "scripts/01_characterise_stabiliser_binding_sites_for_6h0f_a/source/011_unoccupied_subsite_detection_grid_based_void_mapping.py": "b2745f5eff2a9bf994dbed4d9b42043e88ec255f2c9a2c8a380bae621d6a1c8f",
+    "scripts/source/009_corrected_sasa_compute_per_atom_areas_full_context.py": "a06afbb25839ff9b97b176a219ac67007411fcb68798aca11c215c49301f0ad7",
+    "scripts/source/007_bridging_2o98_bsa_simplified_sasa_water_bridges_both.py": "b1656faad7777516515fed4aa32f92e16950131557e8e711fefbaa9431387790",
+    "scripts/source/005_full_contact_map_ligand_vs_each_protein_chain.py": "98a14f9b3418bbe2739bfffe09cfe12bcf1c3115f475249099058fd92139d40e",
+    "scripts/source/008_sasa_based_bsa_bridging_water_analysis.py": "1d527bcfe348b06bdb34fd300c4ca8e18783030fde91a8a0460b778436b87074",
+    "scripts/source/003_verify_r_factors_reading_remark_3_verbatim_parse.py": "2d73c36995af2a78021f57807f3ca5136a8e8c9f9773f1f4634f4249b2f61bb4",
+    "scripts/source/001_os_path_join.py": "70c2dd09608b3db92f262f5246bb75bce4e0b8326a3f773c9e3a92e0d2dde5b1",
+    "scripts/source/010_water_analysis_bridging_conserved_candidate_vs.py": "a604b33dc933d3308b80693aceed30f57fceeb6b0556dd80298a1c89e3643609",
+    "scripts/source/011_unoccupied_subsite_detection_grid_based_void_mapping.py": "b2745f5eff2a9bf994dbed4d9b42043e88ec255f2c9a2c8a380bae621d6a1c8f",
+    "scripts/source/006_2o98_contact_analysis_fsc_vs_14_3_3_chain_h_atpase.py": "df21e6ed1ead06e6b15bd516ce5666cbe7f9814c213bf14444e74282b1468fcd",
+    "scripts/source/004_understand_chain_assignments_run_distance_based.py": "02ce266436c60b73256aaca9f7488679e0d59fc6b9f444532d08841c96686255",
+    "scripts/source/002_parse_crystallographic_metadata_pdb_headers.py": "12943fda190fbc05a6ccff8703c87bb8efe11535a932366bd6da31f372d8099d",
+    "outputs/01_characterise_stabiliser_binding_sites_for_6h0f_a/structures/2O98.pdb": "8a9c673563e31038ae944dc5627b6aa5259e29b386236182b56f9d52e909a4d1",
+    "outputs/reports/report.md": "27d3bf0e49f8d2ad4e91de1b65b545803acd0c3b998779da4a13535618c68b50",
+    "outputs/reports/phase_01_characterise_stabiliser_binding_sites_for_6h0f_a.md": "8f640af2af90ddde55531ff4bfa6f58e4dec70a825d5d67ee938cec04ad15601",
+    "outputs/reports/audit.md": "e85e246f984a74a3ed6711113646ca49da6c15908a2c0242b88272cdcd232a01",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
