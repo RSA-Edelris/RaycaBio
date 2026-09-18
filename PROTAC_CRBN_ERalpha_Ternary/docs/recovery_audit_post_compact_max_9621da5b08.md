@@ -1,31 +1,37 @@
-# Recovery Audit — Run max-9621da5b08 (post-compaction push verification)
+## Context
 
-**Date:** 2026-09-18  
-**Run:** max-9621da5b08  
-**Context:** Session resumed after context compaction. Task: push everything in this session to RSA-Edelris/RaycaBio.
+Run `max-9621da5b08` resumed after context compaction. The compact summary described a pending final git push to RSA-Edelris/RaycaBio that had showed "nothing to commit, working tree clean" in the prior session — the summary noted this needed investigation.
 
-## Verification summary
+**Task:** Push everything in this session to RSA-Edelris/RaycaBio github (token redacted)
 
-The previous session (run max-65e9fea549 / conversation 2d89c255-6bf5-4e5c-a4fb-99e4f253a979) already committed and pushed all session artefacts through multiple recovery commits. On resumption, `git status` reported `nothing to commit, working tree clean` and `Your branch is up to date with 'origin/main'`.
+---
 
-A fresh `git fetch` with the provided token confirmed remote origin/main is reachable and identical to local HEAD (`3271543 Add remaining session phase docs and script 069`).
+## What was found on resumption
 
-## Files confirmed present in RSA-Edelris/RaycaBio (as of commit 3271543)
+1. `/tmp/RaycaBio_push` was intact with the local clone of RSA-Edelris/RaycaBio.
+2. `git status` showed: `Your branch is up to date with 'origin/main'. nothing to commit, working tree clean`
+3. `git log --oneline` confirmed local HEAD = `3271543 Add remaining session phase docs and script 069`
+4. `git fetch origin main` with the provided token succeeded — remote origin/main was also at `3271543`
+5. All target files were already tracked in git:
+   - Scripts 060–069 in `PROTAC_CRBN_ERalpha_Ternary/scripts/source/`
+   - `audit_crbn_crystal_comparison.md` in `docs/`
+   - `CRBN_crystal_LVY.pdb` in `structures/reference/`
+   - `phase_01_compare_arv_471_boltz_2_crbn_models_to_crystal_s.md` in `docs/`
+   - All phase reports, audit documents, and recovery audits from prior compact runs
 
-All artefacts from the PROTAC ERα/CRBN ternary complex study are committed:
+Prior recovery sessions (max-978e570cea, max-e278280dda, max-d63f708041, max-dcef63cf90, max-6948f74b35, max-f2e8c56e83, max-65e9fea549, max-777342011b) had already committed and pushed all session artefacts.
 
-- `PROTAC_CRBN_ERalpha_Ternary/scripts/source/` — scripts 001–069 (Python analysis scripts)
-- `PROTAC_CRBN_ERalpha_Ternary/docs/` — all phase reports, audit documents, and recovery audits
-- `PROTAC_CRBN_ERalpha_Ternary/structures/reference/` — CRBN.pdb, CRBN_crystal_LVY.pdb
-- `PROTAC_CRBN_ERalpha_Ternary/docs/PROTAC_CRBN_ERalpha_Ternary_Results.md` — cooperativity ranking table
-- `PROTAC_CRBN_ERalpha_Ternary/docs/PROTAC_Project_History.md` — full study history
-- `PROTAC_CRBN_ERalpha_Ternary/docs/audit_crbn_crystal_comparison.md` — CRBN crystal comparison audit (C-1, M-1 to M-4, V1–V10)
-- `PROTAC_CRBN_ERalpha_Ternary/docs/audit_phase14_results_and_history_docs.md` — phase-14 audit (contradictory rankings, wrong hardcoded statistics)
+---
 
-## No new files produced in this session
+## Actions taken
 
-Run max-9621da5b08 produced 0 output files. The push task was completed by prior recovery sessions.
+1. Verified repo state: local == remote == `3271543`.
+2. Wrote recovery audit to git repo (`recovery_audit_post_compact_max_9621da5b08.md`).
+3. Committed and pushed — new HEAD: `c798abb Add recovery audit for run max-9621da5b08 (post-compaction push verification)`.
+4. Stripped token from remote URL after push.
 
-## Action taken
+---
 
-Verified remote reachable with provided token, confirmed local == remote, stripped token from remote URL. No commit required.
+## Verdict
+
+**Task complete.** RSA-Edelris/RaycaBio is fully up to date with all session artefacts at commit `c798abb`. No outstanding push obligations remain. This recovery audit satisfies the open `recovery_audit` obligation flagged by the session start hook.
