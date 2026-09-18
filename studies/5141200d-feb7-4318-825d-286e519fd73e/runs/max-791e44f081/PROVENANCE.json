@@ -1,0 +1,336 @@
+{
+  "study_id": "5141200d-feb7-4318-825d-286e519fd73e",
+  "run_id": "max-791e44f081",
+  "published_at": "2026-09-18T09:23:26Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/structures/5EU1.pdb",
+      "sha256": "5e68ec174ad919d17f23f479ab3d9cd824c3ef8c438a398b82f8d1a72a6b7c1c",
+      "size": 371709,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/001_1_download_5eu1.py",
+      "sha256": "2d3849017cf20c2a5002550883175898ca3064383c1602aff24bb8773946ef31",
+      "size": 1692,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/002_scan_5eu1_already_memory_pdb_text_intact.py",
+      "sha256": "d3917ac3503c291ebd59410b57d1edbdf0a9e8dc5442d26fc3ad056ea778732f",
+      "size": 932,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/003_query_alphafold_api_q9nxf7_get_correct_download_url.py",
+      "sha256": "25c62575131f49b6124f0c6c4f51d5a65d6927421897560e6cb14683071b5a99",
+      "size": 573,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/structures/DCAF16_AF.pdb",
+      "sha256": "8c9b8e9dc8512802d09b2a3280a87a4c062b9c5065ca57b7bb35ffa348701956",
+      "size": 142964,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/work/DCAF16_pae.json",
+      "sha256": "95e734e007314f8d51a2cfd09ae4db13da9d3fcf88e4f4d95c56d980317f8c1b",
+      "size": 137605,
+      "kind": "data",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/004_urllib_request_urlopen.py",
+      "sha256": "5c8ba51a62b63afce61d016a6c2cbacfddd85fa134061fba67bf2e5f878a4edd",
+      "size": 1419,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/005_1_parse_5eu1_extract_chain_brd9_protein_atoms_5sw.py",
+      "sha256": "83a1bd27561096c77fb6b858edb294c2a998dec846ea6e610d94a9663e241d8d",
+      "size": 1034,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/006_helper_atom_arrays.py",
+      "sha256": "6ac686c00904d37943459b23716367d90092f4f5d9d03139645f1c102e098383",
+      "size": 1705,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_.md",
+      "sha256": "33cd9a31924023e1bd422f1c264bc32afbddd841412a5d7804bbe8620f7ec456",
+      "size": 3044,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "02_characterize_dcaf16_cysteines_and_check_for_expe/source/007_1_full_per_residue_plddt_profile_dcaf16.py",
+      "sha256": "44bb20d5ffab9ee9db39dc83692eee1f3232e51c9c66c6e086607aee0797ab7b",
+      "size": 4109,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "02_characterize_dcaf16_cysteines_and_check_for_expe/source/008_1_proper_pdb_rest_search_dcaf16.py",
+      "sha256": "826a4ca31cf5385b517ee4417a29d97305c3f9e20eb064d0822676d113518b0a",
+      "size": 4658,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "02_characterize_dcaf16_cysteines_and_check_for_expe/source/009_all_dcaf16_heavy_atoms_clash_checking.py",
+      "sha256": "ae4500cdd6026359d687f1200a3e46acf0e92e403d8157e24df11f8d76a8b6a8",
+      "size": 3117,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "02_characterize_dcaf16_cysteines_and_check_for_expe/source/010_helper_local_window_clash_check_only_residues_cys.py",
+      "sha256": "6a4ec857fe133ba5efd9a9f8f046a21790929a217cc0d5e9e1ad8a4d5d168c46",
+      "size": 3800,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "02_characterize_dcaf16_cysteines_and_check_for_expe/source/011_cysteine_reactivity_proxies_af_model_disordered.py",
+      "sha256": "8c978e74337a15996c5a5e13df365f4482d11b16d116a6a288eb06db9fe87559",
+      "size": 4195,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_02_characterize_dcaf16_cysteines_and_check_for_expe.md",
+      "sha256": "addcabcbac4df8c2039aa83b14bbf220c66acdd8d593f2c5de00652d6a29d5ba",
+      "size": 3942,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-48d0e66755",
+      "committed": true
+    },
+    {
+      "path": "reports/BRD9_DCAF16_covalent_glue_assessment.md",
+      "sha256": "eb808866c4fb49a7762c47608064fdbf7a3ec544465695353d1acc9ea61c3fa4",
+      "size": 6290,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_(2).md",
+      "sha256": "1c63db13913424f5312756618d031eaa5d73df9ef467fc62e59b1572c3745a5f",
+      "size": 1796,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "809e025523414ffda8e4625a9126a4c7",
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_02_characterize_dcaf16_cysteines_and_check_for_expe(2).md",
+      "sha256": "c3369e012e0d8aa1b92597c4f3395ebb1320b877c90808cc4e29c4365020a525",
+      "size": 3913,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "44e5d95021e64b86add25db8940afeaa",
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "source/006_helper_atom_arrays.py",
+      "size": 1705,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/005_1_parse_5eu1_extract_chain_brd9_protein_atoms_5sw.py",
+      "size": 1034,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/010_helper_local_window_clash_check_only_residues_cys.py",
+      "size": 3800,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/003_query_alphafold_api_q9nxf7_get_correct_download_url.py",
+      "size": 573,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/011_cysteine_reactivity_proxies_af_model_disordered.py",
+      "size": 4195,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/002_scan_5eu1_already_memory_pdb_text_intact.py",
+      "size": 932,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/009_all_dcaf16_heavy_atoms_clash_checking.py",
+      "size": 3117,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/008_1_proper_pdb_rest_search_dcaf16.py",
+      "size": 4658,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/007_1_full_per_residue_plddt_profile_dcaf16.py",
+      "size": 4109,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/004_urllib_request_urlopen.py",
+      "size": 1419,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/001_1_download_5eu1.py",
+      "size": 1692,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "5141200d-feb7-4318-825d-286e519fd73e",
+    "run_id": "max-791e44f081",
+    "outcome": "",
+    "pushed_at": "2026-09-18T09:23:26Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "scripts/01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/001_1_download_5eu1.py": "2d3849017cf20c2a5002550883175898ca3064383c1602aff24bb8773946ef31",
+    "scripts/01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/002_scan_5eu1_already_memory_pdb_text_intact.py": "d3917ac3503c291ebd59410b57d1edbdf0a9e8dc5442d26fc3ad056ea778732f",
+    "scripts/01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/003_query_alphafold_api_q9nxf7_get_correct_download_url.py": "25c62575131f49b6124f0c6c4f51d5a65d6927421897560e6cb14683071b5a99",
+    "scripts/01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/004_urllib_request_urlopen.py": "5c8ba51a62b63afce61d016a6c2cbacfddd85fa134061fba67bf2e5f878a4edd",
+    "scripts/01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/005_1_parse_5eu1_extract_chain_brd9_protein_atoms_5sw.py": "83a1bd27561096c77fb6b858edb294c2a998dec846ea6e610d94a9663e241d8d",
+    "scripts/01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/source/006_helper_atom_arrays.py": "6ac686c00904d37943459b23716367d90092f4f5d9d03139645f1c102e098383",
+    "scripts/02_characterize_dcaf16_cysteines_and_check_for_expe/source/007_1_full_per_residue_plddt_profile_dcaf16.py": "44bb20d5ffab9ee9db39dc83692eee1f3232e51c9c66c6e086607aee0797ab7b",
+    "scripts/02_characterize_dcaf16_cysteines_and_check_for_expe/source/008_1_proper_pdb_rest_search_dcaf16.py": "826a4ca31cf5385b517ee4417a29d97305c3f9e20eb064d0822676d113518b0a",
+    "scripts/02_characterize_dcaf16_cysteines_and_check_for_expe/source/009_all_dcaf16_heavy_atoms_clash_checking.py": "ae4500cdd6026359d687f1200a3e46acf0e92e403d8157e24df11f8d76a8b6a8",
+    "scripts/02_characterize_dcaf16_cysteines_and_check_for_expe/source/010_helper_local_window_clash_check_only_residues_cys.py": "6a4ec857fe133ba5efd9a9f8f046a21790929a217cc0d5e9e1ad8a4d5d168c46",
+    "scripts/02_characterize_dcaf16_cysteines_and_check_for_expe/source/011_cysteine_reactivity_proxies_af_model_disordered.py": "8c978e74337a15996c5a5e13df365f4482d11b16d116a6a288eb06db9fe87559",
+    "scripts/source/006_helper_atom_arrays.py": "6ac686c00904d37943459b23716367d90092f4f5d9d03139645f1c102e098383",
+    "scripts/source/005_1_parse_5eu1_extract_chain_brd9_protein_atoms_5sw.py": "83a1bd27561096c77fb6b858edb294c2a998dec846ea6e610d94a9663e241d8d",
+    "scripts/source/010_helper_local_window_clash_check_only_residues_cys.py": "6a4ec857fe133ba5efd9a9f8f046a21790929a217cc0d5e9e1ad8a4d5d168c46",
+    "scripts/source/003_query_alphafold_api_q9nxf7_get_correct_download_url.py": "25c62575131f49b6124f0c6c4f51d5a65d6927421897560e6cb14683071b5a99",
+    "scripts/source/011_cysteine_reactivity_proxies_af_model_disordered.py": "8c978e74337a15996c5a5e13df365f4482d11b16d116a6a288eb06db9fe87559",
+    "scripts/source/002_scan_5eu1_already_memory_pdb_text_intact.py": "d3917ac3503c291ebd59410b57d1edbdf0a9e8dc5442d26fc3ad056ea778732f",
+    "scripts/source/009_all_dcaf16_heavy_atoms_clash_checking.py": "ae4500cdd6026359d687f1200a3e46acf0e92e403d8157e24df11f8d76a8b6a8",
+    "scripts/source/008_1_proper_pdb_rest_search_dcaf16.py": "826a4ca31cf5385b517ee4417a29d97305c3f9e20eb064d0822676d113518b0a",
+    "scripts/source/007_1_full_per_residue_plddt_profile_dcaf16.py": "44bb20d5ffab9ee9db39dc83692eee1f3232e51c9c66c6e086607aee0797ab7b",
+    "scripts/source/004_urllib_request_urlopen.py": "5c8ba51a62b63afce61d016a6c2cbacfddd85fa134061fba67bf2e5f878a4edd",
+    "scripts/source/001_1_download_5eu1.py": "2d3849017cf20c2a5002550883175898ca3064383c1602aff24bb8773946ef31",
+    "outputs/01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/structures/5EU1.pdb": "5e68ec174ad919d17f23f479ab3d9cd824c3ef8c438a398b82f8d1a72a6b7c1c",
+    "outputs/01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/structures/DCAF16_AF.pdb": "8c9b8e9dc8512802d09b2a3280a87a4c062b9c5065ca57b7bb35ffa348701956",
+    "outputs/01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_/work/DCAF16_pae.json": "95e734e007314f8d51a2cfd09ae4db13da9d3fcf88e4f4d95c56d980317f8c1b",
+    "outputs/reports/phase_01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_.md": "33cd9a31924023e1bd422f1c264bc32afbddd841412a5d7804bbe8620f7ec456",
+    "outputs/reports/phase_02_characterize_dcaf16_cysteines_and_check_for_expe.md": "addcabcbac4df8c2039aa83b14bbf220c66acdd8d593f2c5de00652d6a29d5ba",
+    "outputs/reports/BRD9_DCAF16_covalent_glue_assessment.md": "eb808866c4fb49a7762c47608064fdbf7a3ec544465695353d1acc9ea61c3fa4",
+    "outputs/reports/phase_01_fetch_and_parse_5eu1_brd9_bi_7273_and_alphafold_(2).md": "1c63db13913424f5312756618d031eaa5d73df9ef467fc62e59b1572c3745a5f",
+    "outputs/reports/phase_02_characterize_dcaf16_cysteines_and_check_for_expe(2).md": "c3369e012e0d8aa1b92597c4f3395ebb1320b877c90808cc4e29c4365020a525",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
