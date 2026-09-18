@@ -1,0 +1,392 @@
+{
+  "study_id": "3b880217-99c4-4294-a3df-2be89f5ef52c",
+  "run_id": "max-192cd8ac01",
+  "published_at": "2026-09-18T09:23:52Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "01_fetch_and_characterize_5mw2_bcl6_btb_and_brd4_bd/source/001_warnings_filterwarnings.py",
+      "sha256": "b6dbc4b236c4df207db293376d52e468d8798f5cc8a93dd406affd8fcd562d91",
+      "size": 1220,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "02_calculate_bcl6_btb_surface_accessibility_and_ide/reports/phase_01_fetch_and_characterize_5mw2_bcl6_btb_and_brd4_bd.md",
+      "sha256": "aac70a85a57da2d7f2d04a87e3091e04184061f43ef6cad588b01e6cfa7f939e",
+      "size": 2028,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "02_calculate_bcl6_btb_surface_accessibility_and_ide/source/002_bcl6_btb_5mw2_surface_residue_analysis.py",
+      "sha256": "a789a94197d1d314e3768beb275d158bc1de9ae76eb37e630a15c4fafeb19abb",
+      "size": 1998,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "03_characterize_brd4_bd1_pocket_geometry_and_define/reports/phase_02_calculate_bcl6_btb_surface_accessibility_and_ide.md",
+      "sha256": "d120b7ff5f1f94f6a2996705bc492e3b5557d11d5dde0768c0a1a1f5aef21dab",
+      "size": 2381,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "03_characterize_brd4_bd1_pocket_geometry_and_define/work/geom.pkl",
+      "sha256": "54d99ada850623f3a3d31bcf23210f4884261b9317c78fd08ecb54e341554ba4",
+      "size": 2299,
+      "kind": "data",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "03_characterize_brd4_bd1_pocket_geometry_and_define/source/003_brd4_bd1_pocket_geometry_3p5o.py",
+      "sha256": "3b9b4bfc84804813e110e3e26d7d7627f8d90ba980fb32e0ea7b2c36d966c69c",
+      "size": 3478,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "04_model_heterobifunctional_ternary_complex_and_com/reports/phase_03_characterize_brd4_bd1_pocket_geometry_and_define.md",
+      "sha256": "5bb03d5f0731ca2b591f092ba173eba108cd50abfac257f85f2f41257c5a7ed1",
+      "size": 2734,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "04_model_heterobifunctional_ternary_complex_and_com/work/geom(2).pkl",
+      "sha256": "a4d336d52997f75d105852dcdfe0f2b50c56c4d19b9e4ef05c5769b325aa3063",
+      "size": 3177,
+      "kind": "data",
+      "version": 2,
+      "supersedes": "8d7a195b026f42479dda130bb823f6a5",
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "04_model_heterobifunctional_ternary_complex_and_com/source/004_reload_geometry.py",
+      "sha256": "24a8dee7d0ebb7665ddb8a44b84c1394e0fc2b3096dafcb49f8229d9bdae0e1c",
+      "size": 4630,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "04_model_heterobifunctional_ternary_complex_and_com/work/geom(3).pkl",
+      "sha256": "7ba3a929f0ec4a652dd914feb4a0b37bb66c3f5537445746f06584ef55bad889",
+      "size": 3571,
+      "kind": "data",
+      "version": 3,
+      "supersedes": "3687bcaa0f464f3cba7b982e9fc5be3e",
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "04_model_heterobifunctional_ternary_complex_and_com/source/005_helpers.py",
+      "sha256": "f89fab7018609a6580a36d7dd680d6cd2feb982d54d7b2541c1a0af197e46846",
+      "size": 4873,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "04_model_heterobifunctional_ternary_complex_and_com/source/006_rot_v1_v2.py",
+      "sha256": "f3adbac0a443be9576b77c71c4513fb5a833e7af824d82e934b90cbd49e838f8",
+      "size": 5238,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "05_quantify_protac_degrader_geometry_and_compare_to/reports/phase_04_model_heterobifunctional_ternary_complex_and_com.md",
+      "sha256": "7040f1d9a5a67621dd32789eed348e05d14110317d7c59abb90c04bc3dcfa199",
+      "size": 3497,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "05_quantify_protac_degrader_geometry_and_compare_to/source/007_fetch_vhl_based_protac_ternary_complex_6boy_6boy.py",
+      "sha256": "8bbf7d2ab602aac837c3ca70374f70350c7c5c06eb1c9300e9ff7b84ecf05b85",
+      "size": 1076,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "05_quantify_protac_degrader_geometry_and_compare_to/source/008_identify_chains_6boy.py",
+      "sha256": "1466ff0a8794bf0b5092ad094f78530f463d04b31c3bb1b5063247ebc3ba91df",
+      "size": 4511,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "05_quantify_protac_degrader_geometry_and_compare_to/source/009_final_comparative_geometry_analysis_arm_1_brd4_bd1.py",
+      "sha256": "60ec03838fb5cc6ccfcb3f68cb6816558283e313e4feb3e97d3148eccf72f0d7",
+      "size": 7133,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_05_quantify_protac_degrader_geometry_and_compare_to.md",
+      "sha256": "854816584bc7a403198167b0bd7b8ae9922cecef8fbd0a66e859780ee177e90c",
+      "size": 4103,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "reports/bcl6_brd4_ternary_geometry_report.md",
+      "sha256": "d401d8bc1abfa21ca0cd07701cee6766a308b18bae4f71ba89d144529a80b5a4",
+      "size": 7339,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_fetch_and_characterize_5mw2_bcl6_btb_and_brd4_bd(2).md",
+      "sha256": "46d0ef643eb9d0f577a88c3dd0f1024f8bd5ac841d48a533e793d6c5465bd00a",
+      "size": 4055,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "dcb8be511739480cbed14e4ed7f003c3",
+      "step": "write",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_02_calculate_bcl6_btb_surface_accessibility_and_ide(2).md",
+      "sha256": "64bebeed3a016cb3705d3f15098400c21e431d02aacd3933e9aaa6a6afe89a40",
+      "size": 4405,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "4d96d4c901134722851edd88271c2409",
+      "step": "write",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_03_characterize_brd4_bd1_pocket_geometry_and_define(2).md",
+      "sha256": "4ac7ed912555509cacbcc8fa163274d07aae5af00ab74f6d1cd963ec89c5b8e1",
+      "size": 5645,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "1274f7a7611147b3a19419f8ff45b7e8",
+      "step": "write",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_04_model_heterobifunctional_ternary_complex_and_com(2).md",
+      "sha256": "b5c6ec096369fc86c48aca1c40deb94274b0d176a6a194ec165477f991c83691",
+      "size": 6821,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "dbafe5d17ae74adb91b5fa644c736d3a",
+      "step": "write",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_05_quantify_protac_degrader_geometry_and_compare_to(2).md",
+      "sha256": "687ed13a24f1863e5250ab838259439e960d2f74ef5950255025b769bbe8a089",
+      "size": 7218,
+      "kind": "documents",
+      "version": 2,
+      "supersedes": "b96f1007217b4c4b951e6dc9583a8cc9",
+      "step": "write",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "reports/recovery_audit.md",
+      "sha256": "02098aabf2e44cbb2d09054246eaec4b24f4ecf4d99e5a21431dd1e261a08578",
+      "size": 3893,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-d4c4d49754",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_fetch_and_characterize_5mw2_bcl6_btb_and_brd4_bd_audit.md",
+      "sha256": "f46a6fee57f940e54457263fc93b2edbdf0b7e2b9caa691dd2780cfaf7d2bd9f",
+      "size": 3004,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "source/009_final_comparative_geometry_analysis_arm_1_brd4_bd1.py",
+      "size": 7133,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/006_rot_v1_v2.py",
+      "size": 5238,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/004_reload_geometry.py",
+      "size": 4630,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/008_identify_chains_6boy.py",
+      "size": 4511,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/002_bcl6_btb_5mw2_surface_residue_analysis.py",
+      "size": 1998,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/001_warnings_filterwarnings.py",
+      "size": 1220,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/005_helpers.py",
+      "size": 4873,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/003_brd4_bd1_pocket_geometry_3p5o.py",
+      "size": 3478,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/007_fetch_vhl_based_protac_ternary_complex_6boy_6boy.py",
+      "size": 1076,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "3b880217-99c4-4294-a3df-2be89f5ef52c",
+    "run_id": "max-192cd8ac01",
+    "outcome": "",
+    "pushed_at": "2026-09-18T09:23:52Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "scripts/01_fetch_and_characterize_5mw2_bcl6_btb_and_brd4_bd/source/001_warnings_filterwarnings.py": "b6dbc4b236c4df207db293376d52e468d8798f5cc8a93dd406affd8fcd562d91",
+    "scripts/02_calculate_bcl6_btb_surface_accessibility_and_ide/source/002_bcl6_btb_5mw2_surface_residue_analysis.py": "a789a94197d1d314e3768beb275d158bc1de9ae76eb37e630a15c4fafeb19abb",
+    "scripts/03_characterize_brd4_bd1_pocket_geometry_and_define/source/003_brd4_bd1_pocket_geometry_3p5o.py": "3b9b4bfc84804813e110e3e26d7d7627f8d90ba980fb32e0ea7b2c36d966c69c",
+    "scripts/04_model_heterobifunctional_ternary_complex_and_com/source/004_reload_geometry.py": "24a8dee7d0ebb7665ddb8a44b84c1394e0fc2b3096dafcb49f8229d9bdae0e1c",
+    "scripts/04_model_heterobifunctional_ternary_complex_and_com/source/005_helpers.py": "f89fab7018609a6580a36d7dd680d6cd2feb982d54d7b2541c1a0af197e46846",
+    "scripts/04_model_heterobifunctional_ternary_complex_and_com/source/006_rot_v1_v2.py": "f3adbac0a443be9576b77c71c4513fb5a833e7af824d82e934b90cbd49e838f8",
+    "scripts/05_quantify_protac_degrader_geometry_and_compare_to/source/007_fetch_vhl_based_protac_ternary_complex_6boy_6boy.py": "8bbf7d2ab602aac837c3ca70374f70350c7c5c06eb1c9300e9ff7b84ecf05b85",
+    "scripts/05_quantify_protac_degrader_geometry_and_compare_to/source/008_identify_chains_6boy.py": "1466ff0a8794bf0b5092ad094f78530f463d04b31c3bb1b5063247ebc3ba91df",
+    "scripts/05_quantify_protac_degrader_geometry_and_compare_to/source/009_final_comparative_geometry_analysis_arm_1_brd4_bd1.py": "60ec03838fb5cc6ccfcb3f68cb6816558283e313e4feb3e97d3148eccf72f0d7",
+    "scripts/source/009_final_comparative_geometry_analysis_arm_1_brd4_bd1.py": "60ec03838fb5cc6ccfcb3f68cb6816558283e313e4feb3e97d3148eccf72f0d7",
+    "scripts/source/006_rot_v1_v2.py": "f3adbac0a443be9576b77c71c4513fb5a833e7af824d82e934b90cbd49e838f8",
+    "scripts/source/004_reload_geometry.py": "24a8dee7d0ebb7665ddb8a44b84c1394e0fc2b3096dafcb49f8229d9bdae0e1c",
+    "scripts/source/008_identify_chains_6boy.py": "1466ff0a8794bf0b5092ad094f78530f463d04b31c3bb1b5063247ebc3ba91df",
+    "scripts/source/002_bcl6_btb_5mw2_surface_residue_analysis.py": "a789a94197d1d314e3768beb275d158bc1de9ae76eb37e630a15c4fafeb19abb",
+    "scripts/source/001_warnings_filterwarnings.py": "b6dbc4b236c4df207db293376d52e468d8798f5cc8a93dd406affd8fcd562d91",
+    "scripts/source/005_helpers.py": "f89fab7018609a6580a36d7dd680d6cd2feb982d54d7b2541c1a0af197e46846",
+    "scripts/source/003_brd4_bd1_pocket_geometry_3p5o.py": "3b9b4bfc84804813e110e3e26d7d7627f8d90ba980fb32e0ea7b2c36d966c69c",
+    "scripts/source/007_fetch_vhl_based_protac_ternary_complex_6boy_6boy.py": "8bbf7d2ab602aac837c3ca70374f70350c7c5c06eb1c9300e9ff7b84ecf05b85",
+    "outputs/02_calculate_bcl6_btb_surface_accessibility_and_ide/reports/phase_01_fetch_and_characterize_5mw2_bcl6_btb_and_brd4_bd.md": "aac70a85a57da2d7f2d04a87e3091e04184061f43ef6cad588b01e6cfa7f939e",
+    "outputs/03_characterize_brd4_bd1_pocket_geometry_and_define/reports/phase_02_calculate_bcl6_btb_surface_accessibility_and_ide.md": "d120b7ff5f1f94f6a2996705bc492e3b5557d11d5dde0768c0a1a1f5aef21dab",
+    "outputs/03_characterize_brd4_bd1_pocket_geometry_and_define/work/geom.pkl": "54d99ada850623f3a3d31bcf23210f4884261b9317c78fd08ecb54e341554ba4",
+    "outputs/04_model_heterobifunctional_ternary_complex_and_com/reports/phase_03_characterize_brd4_bd1_pocket_geometry_and_define.md": "5bb03d5f0731ca2b591f092ba173eba108cd50abfac257f85f2f41257c5a7ed1",
+    "outputs/04_model_heterobifunctional_ternary_complex_and_com/work/geom(2).pkl": "a4d336d52997f75d105852dcdfe0f2b50c56c4d19b9e4ef05c5769b325aa3063",
+    "outputs/04_model_heterobifunctional_ternary_complex_and_com/work/geom(3).pkl": "7ba3a929f0ec4a652dd914feb4a0b37bb66c3f5537445746f06584ef55bad889",
+    "outputs/05_quantify_protac_degrader_geometry_and_compare_to/reports/phase_04_model_heterobifunctional_ternary_complex_and_com.md": "7040f1d9a5a67621dd32789eed348e05d14110317d7c59abb90c04bc3dcfa199",
+    "outputs/reports/phase_05_quantify_protac_degrader_geometry_and_compare_to.md": "854816584bc7a403198167b0bd7b8ae9922cecef8fbd0a66e859780ee177e90c",
+    "outputs/reports/bcl6_brd4_ternary_geometry_report.md": "d401d8bc1abfa21ca0cd07701cee6766a308b18bae4f71ba89d144529a80b5a4",
+    "outputs/reports/phase_01_fetch_and_characterize_5mw2_bcl6_btb_and_brd4_bd(2).md": "46d0ef643eb9d0f577a88c3dd0f1024f8bd5ac841d48a533e793d6c5465bd00a",
+    "outputs/reports/phase_02_calculate_bcl6_btb_surface_accessibility_and_ide(2).md": "64bebeed3a016cb3705d3f15098400c21e431d02aacd3933e9aaa6a6afe89a40",
+    "outputs/reports/phase_03_characterize_brd4_bd1_pocket_geometry_and_define(2).md": "4ac7ed912555509cacbcc8fa163274d07aae5af00ab74f6d1cd963ec89c5b8e1",
+    "outputs/reports/phase_04_model_heterobifunctional_ternary_complex_and_com(2).md": "b5c6ec096369fc86c48aca1c40deb94274b0d176a6a194ec165477f991c83691",
+    "outputs/reports/phase_05_quantify_protac_degrader_geometry_and_compare_to(2).md": "687ed13a24f1863e5250ab838259439e960d2f74ef5950255025b769bbe8a089",
+    "outputs/reports/recovery_audit.md": "02098aabf2e44cbb2d09054246eaec4b24f4ecf4d99e5a21431dd1e261a08578",
+    "outputs/reports/phase_01_fetch_and_characterize_5mw2_bcl6_btb_and_brd4_bd_audit.md": "f46a6fee57f940e54457263fc93b2edbdf0b7e2b9caa691dd2780cfaf7d2bd9f",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
