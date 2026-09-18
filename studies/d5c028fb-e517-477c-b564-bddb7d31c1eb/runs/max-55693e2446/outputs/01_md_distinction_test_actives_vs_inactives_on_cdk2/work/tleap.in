@@ -1,0 +1,10 @@
+
+verbosity 1
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+mods = loadamberparams EDS00495858_AC.frcmod
+MOL = loadmol2 EDS00495858_gas_gaff2.mol2
+check MOL
+saveamberparm MOL EDS00495858_AC.prmtop EDS00495858_AC.inpcrd
+saveoff MOL EDS00495858_AC.lib
+quit

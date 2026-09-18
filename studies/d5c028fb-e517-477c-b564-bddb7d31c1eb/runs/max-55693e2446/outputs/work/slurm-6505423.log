@@ -1,0 +1,133 @@
+Job dir: /scratch/u6sp/hpcuser.u6sp/rayca/max-197f97fe7e
+Scratch: /scratch/u6sp/hpcuser.u6sp/md_cdk2_244322
+GMXLIB: /projects/u6sp/software-aarch64/gromacs-2026.1-mpi/share/gromacs/top
+GMX:                        :-) GROMACS - gmx_mpi, 2026.1 (-:
+ions_tip3p.itp: OK
+=== EDS00495858 replica 1 (seed 1001) ===
+Note that major changes are planned in future for editconf, to improve usability and utility.
+Read 9297 atoms
+Volume: 338.076 nm^3, corresponds to roughly 152100 electrons
+No velocities found
+    system size :  6.980  7.951  6.092 (nm)
+    diameter    :  8.398               (nm)
+    center      :  2.650  0.625 -1.832 (nm)
+    box vectors :  6.980  7.951  6.092 (nm)
+    box angles  :  90.00  90.00  90.00 (degrees)
+    box volume  : 338.08               (nm^3)
+    shift       :  5.449  7.474  5.649 (nm)
+new center      :  8.099  8.099  3.818 (nm)
+new box vectors : 10.798 10.798 10.798 (nm)
+new box angles  :  60.00  60.00  90.00 (degrees)
+new box volume  : 890.31               (nm^3)
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary. Note, that this functionality may
+         be removed in a future GROMACS version. Please, consider
+         using another file format for your input.
+
+         The atomic radii are set according to:
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. (1964)
+https://doi.org/10.1021/j100785a001
+-------- -------- --- Thank You --- -------- --------
+
+Generating solvent configuration
+Will generate new solvent configuration of 6x6x5 boxes
+Solvent box contains 98568 atoms in 32856 residues
+Removed 10848 solvent atoms due to solvent-solvent overlap
+Removed 8637 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms): 26361 residues
+Generated solvent containing 79083 atoms in 26361 residues
+Writing generated configuration to solv.gro
+
+Output configuration contains 88380 atoms in 26928 residues
+Volume                 :     890.306 (nm^3)
+Density                :      1016.9 (g/l)
+Number of solvent molecules:  26361   
+
+Processing topology
+
+Back Off! I just backed up topol.top to ./#topol.top.1#
+Adding line for 26361 solvent molecules with resname (SOL) to topology file (topol.top)
+Ignoring obsolete mdp entry 'ns_type'
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 1 [file topol.top, line 684]:
+  System has non-zero total charge: -4.000000
+  Total charge should normally be an integer. See
+  https://manual.gromacs.org/current/user-guide/floating-point.html
+  for discussion on how close it should be to an integer.
+
+
+
+
+WARNING 1 [file topol.top, line 684]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+Setting the LD random seed to -404815883
+
+Generated 75855 of the 75855 non-bonded parameter combinations
+
+Generated 75855 of the 75855 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'EDS00495858'
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_B'
+
+Excluding 3 bonded neighbours molecule type 'EDS00495858'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+To match AMBER LEaP ordering, reordered 70 and kept 1754 Per. Imp. Dih. ordered as encountered (19 Per. Imp. Dih. types total)
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmüller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. (2014)
+https://doi.org/10.1021/ct400626b
+-------- -------- --- Thank You --- -------- --------
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2026.1
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 750)
+
+Fatal error:
+number of coordinates in coordinate file (solv.gro, 88380)
+             does not match topology (topol.top, 88443)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+RAYCA: the job stopped at line 22 with exit 1
+RAYCA: the command was: bash run_md.sh
+RAYCA: if that command is allowed to fail, end it with || true

@@ -1,0 +1,5 @@
+source leaprc.gaff2
+LIG = loadmol2 EDS00441134.mol2
+loadamberparams EDS00441134.frcmod
+saveamberparm LIG EDS00441134.prmtop EDS00441134.inpcrd
+quit

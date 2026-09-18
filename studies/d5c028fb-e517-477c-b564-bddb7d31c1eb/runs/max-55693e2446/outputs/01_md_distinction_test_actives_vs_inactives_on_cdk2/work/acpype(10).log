@@ -1,0 +1,44 @@
+============================================================================
+| ACPYPE: AnteChamber PYthon Parser interfacE v. 2023.10.27 (c) 2026 AWSdS |
+============================================================================
+DEBUG: CLI: -i EDS00495858_fixed.sdf -b EDS00495858 -n 0 -c gas -a gaff2 -o gmx
+DEBUG: Python Version 3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]
+DEBUG: Max execution time tolerance is 3h
+DEBUG: /home/ubuntu/rayca-runtime/.venv/lib/python3.12/site-packages/acpype/amber_linux/bin/antechamber -dr no -i EDS00495858_fixed.sdf -fi sdf -o tmp -fo ac -pf y
+DEBUG: 
+Welcome to antechamber 22.0: molecular input file processor.
+
+Info: The atom type is set to gaff; the options available to the -at flag are
+ gaff, gaff2, amber, bcc, and sybyl.
+
+
+DEBUG: setResNameCheckCoords done
+DEBUG: Net charge drift '0.000000'
+==> ... charge set to 0
+==> Executing Antechamber...
+DEBUG: /home/ubuntu/rayca-runtime/.venv/lib/python3.12/site-packages/acpype/amber_linux/bin/antechamber -dr no -i EDS00495858_fixed.sdf -fi sdf -o EDS00495858_gas_gaff2.mol2 -fo mol2 -c gas -nc 0 -m 1 -s 2 -df 2 -at gaff2 -pf n 
+DEBUG: No file left to be removed
+==> * Antechamber OK *
+DEBUG: /home/ubuntu/rayca-runtime/.venv/lib/python3.12/site-packages/acpype/amber_linux/bin/parmchk2 -i EDS00495858_gas_gaff2.mol2 -f mol2 -o EDS00495858_AC.frcmod -s 2
+==> * Parmchk OK *
+DEBUG: No crd or prm files left to be removed
+==> Executing Tleap...
+DEBUG: /home/ubuntu/rayca-runtime/.venv/lib/python3.12/site-packages/acpype/amber_linux/bin/tleap -f tleap.in
+DEBUG: ++++++++++start_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: 
+DEBUG: ++++++++++end_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ERROR: ++++++++++start_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ERROR: /home/ubuntu/rayca-runtime/.venv/lib/python3.12/site-packages/acpype/amber_linux/bin/teLeap: error while loading shared libraries: libmfhdf.so.0: cannot open shared object file: No such file or directory
+ERROR: ++++++++++end_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ERROR: Tleap failed
+==> Removing temporary files...
+ERROR: ACPYPE FAILED: [Errno 2] No such file or directory: 'EDS00495858_AC.prmtop'
+Traceback (most recent call last):
+  File "/home/ubuntu/rayca-runtime/.venv/lib/python3.12/site-packages/acpype/cli.py", line 138, in init_main
+    molecule.createMolTopol()
+  File "/home/ubuntu/rayca-runtime/.venv/lib/python3.12/site-packages/acpype/topol.py", line 1115, in createMolTopol
+    self.topFileData = open(self.acTopFileName).readlines()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'EDS00495858_AC.prmtop'
+Total time of execution: less than a second
+DEBUG: No tmp folder left to be removed

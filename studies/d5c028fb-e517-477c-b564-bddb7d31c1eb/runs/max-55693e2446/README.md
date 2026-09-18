@@ -1,0 +1,543 @@
+# Study: d5c028fb-e517-477c-b564-bddb7d31c1eb
+
+> WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.
+
+## Run Identity
+
+- Run ID: `max-55693e2446`
+- Published: 2026-09-18T09:21:28Z
+- Review: not reviewed
+
+## Tools and Environment
+
+- No tool version information recorded.
+
+## Outputs
+
+Files included in this repository:
+
+- `outputs/01_analyse_md_results_and_write_phase_report/reports/042_md_phase_writeup(11).md` (32585 bytes)
+- `outputs/01_analyse_md_results_and_write_phase_report/reports/042_md_phase_writeup(12).md` (37216 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/reports/042_md_phase_writeup(2).md` (16772 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/reports/042_md_phase_writeup.md` (13005 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(2).AC` (3368 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(2).AC0` (3368 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(3).AC` (3144 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(3).AC0` (3144 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(4).AC` (3256 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(4).AC0` (3256 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(5).AC` (4711 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(5).AC0` (4711 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(6).AC` (4487 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(6).AC0` (4487 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(7).AC` (8296 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(7).AC0` (8296 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(8).AC` (7254 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC(8).AC0` (7254 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC.AC` (4677 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_AC.AC0` (4677 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_BOND_TYPE(5).AC0` (4711 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_BOND_TYPE(7).AC0` (8296 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_BOND_TYPE(8).AC0` (7254 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/ANTECHAMBER_GAS_AT.AC` (7254 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00441134(2).mol2` (5312 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00441134(2).prmtop` (33703 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00441134.gro` (2282 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00441134.inpcrd` (1763 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00441134.mol2` (5312 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00441134.prmtop` (33703 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00441134_clean.sdf` (4312 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00441134_fixed.sdf` (4312 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00441134_pose.sdf` (2735 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00444974(2).mol2` (5418 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00444974(2).prmtop` (33335 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00444974.gro` (2327 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00444974.inpcrd` (1800 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00444974.mol2` (5418 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00444974.prmtop` (33335 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00444974_clean.sdf` (4424 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00444974_fixed.sdf` (4424 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00444974_pose.sdf` (2598 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00445742(2).mol2` (5736 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00445742(2).prmtop` (34883 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00445742.gro` (2462 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00445742.inpcrd` (1909 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00445742.mol2` (5736 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00445742.prmtop` (34883 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00445742_clean.sdf` (4645 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00445742_fixed.sdf` (4645 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00445742_pose.sdf` (2653 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00480994.gro` (3362 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00480994.inpcrd` (2639 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00480994.mol2` (7928 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00480994.prmtop` (44375 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00480994_clean.sdf` (6373 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00480994_fixed.sdf` (6373 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00480994_pose.sdf` (3717 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00481054(2).mol2` (7398 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00481054(2).prmtop` (42276 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00481054.gro` (3137 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00481054.inpcrd` (2457 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00481054.mol2` (7398 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00481054.prmtop` (42276 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00481054_clean.sdf` (5928 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00481054_fixed.sdf` (5928 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00481054_pose.sdf` (3521 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858(2).mol2` (6950 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858(2).prmtop` (41277 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858(3).prmtop` (41277 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858.gro` (2957 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858.inpcrd` (2311 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858.prmtop` (41277 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858_bcc.mol2` (6950 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858_clean.sdf` (5611 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858_fixed.sdf` (5611 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858_gas_gaff2.mol2` (6950 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/EDS00495858_pose.sdf` (3702 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/gnina_docked.sdf(4).gz` (13301 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/inactives_for_dock.sdf` (12448 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/protein.gro` (415626 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/protein_fixed.pdb` (371713 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/protein_hid.pdb` (371794 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/sqm(2).pdb` (3792 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/sqm(3).pdb` (3871 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/sqm(4).pdb` (4108 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/sqm(5).pdb` (5293 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/sqm(6).pdb` (4977 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/structures/sqm.pdb` (4977 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/ATOMTYPE(2).INF` (5592 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/ATOMTYPE(3).INF` (5292 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/ATOMTYPE(4).INF` (5444 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/ATOMTYPE(5).INF` (8166 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/ATOMTYPE(6).INF` (8026 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/ATOMTYPE(7).INF` (17661 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/ATOMTYPE(8).INF` (15236 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/ATOMTYPE.INF` (7364 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00441134.frcmod` (4283 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00441134.itp` (33324 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00441134_acpype.log` (3133 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00441134_antechamber.log` (3110 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00441134_atomtypes.itp` (1361 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00441134_complex.top` (1165 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00441134_mol.itp` (31919 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00441134_prep.log` (2864 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00441134_topol.top` (34042 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00444974.frcmod` (4099 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00444974.itp` (34267 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00444974_acpype.log` (3014 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00444974_antechamber.log` (3110 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00444974_atomtypes.itp` (1273 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00444974_complex.top` (1163 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00444974_mol.itp` (32950 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00444974_prep.log` (2864 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00444974_topol.top` (34983 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00445742.frcmod` (4081 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00445742.itp` (36504 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00445742_acpype.log` (3014 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00445742_antechamber.log` (3110 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00445742_atomtypes.itp` (1273 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00445742_complex.top` (1165 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00445742_mol.itp` (35187 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00445742_prep.log` (2864 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00445742_topol.top` (37222 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00480994.frcmod` (6108 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00480994.itp` (51129 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00480994_acpype.log` (3014 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00480994_antechamber.log` (689 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00480994_atomtypes.itp` (1625 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00480994_complex.top` (1163 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00480994_mol.itp` (49460 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00480994_prep.log` (2864 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00480994_topol.top` (51845 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00481054.frcmod` (5787 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00481054.itp` (48472 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00481054_acpype.log` (3133 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00481054_antechamber.log` (3110 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00481054_atomtypes.itp` (1625 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00481054_complex.top` (1165 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00481054_mol.itp` (46803 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00481054_prep.log` (2864 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00481054_topol.top` (49190 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858.frcmod` (4654 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858.itp` (44505 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858_AC.frcmod` (4445 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858_acpype.log` (3189 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858_antechamber.log` (3110 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858_atomtypes.itp` (1713 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858_complex.top` (1163 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858_mol.itp` (42748 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858_prep.log` (2864 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/EDS00495858_topol.top` (45221 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(10).log` (2820 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(11).log` (2916 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(2).log` (4559 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(3).log` (4440 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(4).log` (4440 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(5).log` (4440 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(6).log` (4559 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(7).log` (4671 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(8).log` (4469 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype(9).log` (4565 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/acpype.log` (4671 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/em.mdp` (232 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(10).log` (3886 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(11).log` (7772 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(12).log` (11658 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(2).log` (3886 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(3).log` (3886 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(4).log` (3886 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(5).log` (3886 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(6).log` (7772 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(7).log` (7772 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(8).log` (7772 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap(9).log` (7772 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/leap.log` (3886 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/md(2).mdp` (665 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/md(3).mdp` (737 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/md.mdp` (721 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/npt(2).mdp` (680 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/npt.mdp` (726 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/nvt(2).mdp` (616 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/nvt.mdp` (645 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/posre_EDS00441134.itp` (954 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/posre_EDS00444974.itp` (954 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/posre_EDS00445742.itp` (985 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/posre_EDS00480994.itp` (1357 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/posre_EDS00481054.itp` (1295 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/posre_EDS00495858.itp` (1357 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein(2).top` (1335 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein.top` (0 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein_Protein_chain_A(2).itp` (1345247 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein_Protein_chain_A(3).itp` (1345249 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein_Protein_chain_A.itp` (1345254 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein_Protein_chain_B(2).itp` (1204827 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein_Protein_chain_B(3).itp` (1207507 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein_Protein_chain_B.itp` (1204834 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein_posre_Protein_chain_A.itp` (74797 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein_posre_Protein_chain_B(2).itp` (68039 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/protein_posre_Protein_chain_B.itp` (67884 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(10).in` (2778 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(11).in` (2940 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(12).in` (3750 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(2).in` (1698 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(2).out` (7870 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(3).in` (1590 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(3).out` (18073 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(4).in` (1644 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(4).out` (15493 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(5).in` (2292 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(5).out` (14613 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(6).in` (2184 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(6).out` (15857 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(7).in` (4020 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(7).out` (9108 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(8).in` (3534 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(8).out` (18154 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(9).in` (2724 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm(9).out` (17710 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm.in` (2292 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/sqm.out` (796 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/tleap(2).in` (148 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/tleap.in` (257 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/tleap_EDS00441134.in` (148 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/tleap_EDS00444974.in` (148 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/tleap_EDS00445742.in` (148 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/tleap_EDS00480994.in` (148 bytes)
+- `outputs/01_md_distinction_test_actives_vs_inactives_on_cdk2/work/tleap_EDS00481054.in` (148 bytes)
+- `outputs/01_resubmit_fixed_md_job_to_isambard/reports/042_md_phase_writeup(3).md` (16992 bytes)
+- `outputs/01_resubmit_fixed_md_job_to_isambard/reports/042_md_phase_writeup(4).md` (19348 bytes)
+- `outputs/01_resubmit_fixed_md_job_to_isambard/reports/042_md_phase_writeup(5).md` (19616 bytes)
+- `outputs/01_resubmit_fixed_md_job_to_isambard/reports/042_md_phase_writeup(6).md` (22033 bytes)
+- `outputs/01_running_stage_1_screen_triage/structures/batch_actives.sdf` (80220 bytes)
+- `outputs/01_running_stage_1_screen_triage/structures/batch_des1.sdf` (98545 bytes)
+- `outputs/01_running_stage_1_screen_triage/structures/batch_des2.sdf` (101227 bytes)
+- `outputs/01_running_stage_1_screen_triage/structures/des1_docked.sdf.gz` (93509 bytes)
+- `outputs/01_running_stage_1_screen_triage/structures/des2_docked.sdf.gz` (94523 bytes)
+- `outputs/01_running_stage_1_screen_triage/structures/gnina_docked.sdf(2).gz` (72106 bytes)
+- `outputs/01_running_stage_1_screen_triage/structures/gnina_docked.sdf.gz` (71056 bytes)
+- `outputs/01_running_stage_1_screen_triage/structures/ligands_3d.sdf` (280010 bytes)
+- `outputs/01_running_stage_1_screen_triage/structures/receptor_stripped.pdb` (371794 bytes)
+- `outputs/01_running_stage_1_screen_triage/tables/013_check_results_directory_any_gnina_output.csv` (760 bytes)
+- `outputs/01_submit_v4_fixed_md_job_to_isambard/reports/042_md_phase_writeup(7).md` (22296 bytes)
+- `outputs/01_submit_v4_fixed_md_job_to_isambard/reports/042_md_phase_writeup(8).md` (26023 bytes)
+- `outputs/01_submit_v4_fixed_md_job_to_isambard/reports/042_md_phase_writeup(9).md` (26072 bytes)
+- `outputs/reports/042_md_phase_writeup(10).md` (30445 bytes)
+- `outputs/reports/042_md_phase_writeup(13).md` (37872 bytes)
+- `outputs/reports/042_md_phase_writeup(14).md` (38385 bytes)
+- `outputs/reports/043_md_results_report.md` (8504 bytes)
+- `outputs/reports/audit_hit_to_lead_cycle.md` (8107 bytes)
+- `outputs/reports/audit_md_submission_phase.md` (11689 bytes)
+- `outputs/reports/audit_push_to_github.md` (6552 bytes)
+- `outputs/reports/phase_01_analyse_md_results_and_write_phase_report.md` (9375 bytes)
+- `outputs/reports/phase_01_hit_to_lead_cycle_triage_site_characterisation_s.md` (6036 bytes)
+- `outputs/reports/phase_01_push_results_to_github.md` (5928 bytes)
+- `outputs/reports/phase_01_submit_cdk2_ccne_md_pilot_to_isambard.md` (39602 bytes)
+- `outputs/reports/phase_01_submit_v4_fixed_md_job_to_isambard.md` (2267 bytes)
+- `outputs/reports/phase_02_task_a33eac48ec6ea18f7.md` (2014 bytes)
+- `outputs/reports/phase_02_task_abc1271c7918709fa.md` (1862 bytes)
+- `outputs/reports/report.md` (14851 bytes)
+- `outputs/reports/stage1_screen_triage.md` (3622 bytes)
+- `outputs/tables/md_results.6505423.csv` (107 bytes)
+- `outputs/tables/md_results.6510625.csv` (1205 bytes)
+- `outputs/tables/md_results.csv` (791 bytes)
+- `outputs/uploads/CDK2-CCNE.pdb` (784165 bytes)
+- `outputs/work/EDS00441134_topol(2).top` (34048 bytes)
+- `outputs/work/EDS00441134_topol(3).top` (33964 bytes)
+- `outputs/work/EDS00444974_topol(2).top` (34989 bytes)
+- `outputs/work/EDS00444974_topol(3).top` (34905 bytes)
+- `outputs/work/EDS00445742_topol(2).top` (37228 bytes)
+- `outputs/work/EDS00445742_topol(3).top` (37144 bytes)
+- `outputs/work/EDS00480994_topol(2).top` (51851 bytes)
+- `outputs/work/EDS00480994_topol(3).top` (51767 bytes)
+- `outputs/work/EDS00481054_topol(2).top` (49196 bytes)
+- `outputs/work/EDS00481054_topol(3).top` (49112 bytes)
+- `outputs/work/EDS00495858_topol(2).top` (45227 bytes)
+- `outputs/work/EDS00495858_topol(3).top` (45143 bytes)
+- `outputs/work/em(10).log` (1486587 bytes)
+- `outputs/work/em(11).log` (1739984 bytes)
+- `outputs/work/em(12).log` (1479178 bytes)
+- `outputs/work/em(13).log` (1283136 bytes)
+- `outputs/work/em(14).log` (1550510 bytes)
+- `outputs/work/em(15).log` (1385072 bytes)
+- `outputs/work/em(16).log` (2115334 bytes)
+- `outputs/work/em(17).log` (1892711 bytes)
+- `outputs/work/em(18).log` (1144450 bytes)
+- `outputs/work/em(2).log` (1559666 bytes)
+- `outputs/work/em(3).log` (1570211 bytes)
+- `outputs/work/em(4).log` (1354225 bytes)
+- `outputs/work/em(5).log` (1052996 bytes)
+- `outputs/work/em(6).log` (1925799 bytes)
+- `outputs/work/em(7).log` (1224938 bytes)
+- `outputs/work/em(8).log` (1713295 bytes)
+- `outputs/work/em(9).log` (1230662 bytes)
+- `outputs/work/em.log` (1360129 bytes)
+- `outputs/work/md(10).log` (600586 bytes)
+- `outputs/work/md(11).log` (600586 bytes)
+- `outputs/work/md(12).log` (600588 bytes)
+- `outputs/work/md(13).log` (600587 bytes)
+- `outputs/work/md(14).log` (600584 bytes)
+- `outputs/work/md(15).log` (600589 bytes)
+- `outputs/work/md(16).log` (600588 bytes)
+- `outputs/work/md(17).log` (600588 bytes)
+- `outputs/work/md(18).log` (600587 bytes)
+- `outputs/work/md(2).log` (600588 bytes)
+- `outputs/work/md(3).log` (600587 bytes)
+- `outputs/work/md(4).log` (600588 bytes)
+- `outputs/work/md(5).log` (600588 bytes)
+- `outputs/work/md(6).log` (600588 bytes)
+- `outputs/work/md(7).log` (600432 bytes)
+- `outputs/work/md(8).log` (600822 bytes)
+- `outputs/work/md(9).log` (600587 bytes)
+- `outputs/work/md.log` (600588 bytes)
+- `outputs/work/mindist_chains(10).xvg` (27846 bytes)
+- `outputs/work/mindist_chains(11).xvg` (27814 bytes)
+- `outputs/work/mindist_chains(12).xvg` (27815 bytes)
+- `outputs/work/mindist_chains(13).xvg` (27860 bytes)
+- `outputs/work/mindist_chains(14).xvg` (27814 bytes)
+- `outputs/work/mindist_chains(15).xvg` (27843 bytes)
+- `outputs/work/mindist_chains(16).xvg` (27838 bytes)
+- `outputs/work/mindist_chains(17).xvg` (27850 bytes)
+- `outputs/work/mindist_chains(18).xvg` (27850 bytes)
+- `outputs/work/mindist_chains(2).xvg` (27850 bytes)
+- `outputs/work/mindist_chains(3).xvg` (27845 bytes)
+- `outputs/work/mindist_chains(4).xvg` (27824 bytes)
+- `outputs/work/mindist_chains(5).xvg` (27850 bytes)
+- `outputs/work/mindist_chains(6).xvg` (27814 bytes)
+- `outputs/work/mindist_chains(7).xvg` (27850 bytes)
+- `outputs/work/mindist_chains(8).xvg` (27824 bytes)
+- `outputs/work/mindist_chains(9).xvg` (27845 bytes)
+- `outputs/work/mindist_chains.xvg` (27838 bytes)
+- `outputs/work/rmsd_lig(10).xvg` (26696 bytes)
+- `outputs/work/rmsd_lig(11).xvg` (26696 bytes)
+- `outputs/work/rmsd_lig(12).xvg` (26682 bytes)
+- `outputs/work/rmsd_lig(13).xvg` (26684 bytes)
+- `outputs/work/rmsd_lig(14).xvg` (26697 bytes)
+- `outputs/work/rmsd_lig(15).xvg` (26682 bytes)
+- `outputs/work/rmsd_lig(16).xvg` (26682 bytes)
+- `outputs/work/rmsd_lig(17).xvg` (26683 bytes)
+- `outputs/work/rmsd_lig(18).xvg` (26667 bytes)
+- `outputs/work/rmsd_lig(2).xvg` (26690 bytes)
+- `outputs/work/rmsd_lig(3).xvg` (26699 bytes)
+- `outputs/work/rmsd_lig(4).xvg` (26697 bytes)
+- `outputs/work/rmsd_lig(5).xvg` (26712 bytes)
+- `outputs/work/rmsd_lig(6).xvg` (26698 bytes)
+- `outputs/work/rmsd_lig(7).xvg` (26689 bytes)
+- `outputs/work/rmsd_lig(8).xvg` (26706 bytes)
+- `outputs/work/rmsd_lig(9).xvg` (26696 bytes)
+- `outputs/work/rmsd_lig.xvg` (26702 bytes)
+- `outputs/work/sasa_A(10).xvg` (21835 bytes)
+- `outputs/work/sasa_A(11).xvg` (21871 bytes)
+- `outputs/work/sasa_A(12).xvg` (21850 bytes)
+- `outputs/work/sasa_A(13).xvg` (21875 bytes)
+- `outputs/work/sasa_A(14).xvg` (21868 bytes)
+- `outputs/work/sasa_A(15).xvg` (21865 bytes)
+- `outputs/work/sasa_A(16).xvg` (21859 bytes)
+- `outputs/work/sasa_A(17).xvg` (21835 bytes)
+- `outputs/work/sasa_A(18).xvg` (21850 bytes)
+- `outputs/work/sasa_A(2).xvg` (21873 bytes)
+- `outputs/work/sasa_A(3).xvg` (21851 bytes)
+- `outputs/work/sasa_A(4).xvg` (21865 bytes)
+- `outputs/work/sasa_A(5).xvg` (21851 bytes)
+- `outputs/work/sasa_A(6).xvg` (21858 bytes)
+- `outputs/work/sasa_A(7).xvg` (21851 bytes)
+- `outputs/work/sasa_A(8).xvg` (21861 bytes)
+- `outputs/work/sasa_A(9).xvg` (21858 bytes)
+- `outputs/work/sasa_A.xvg` (21851 bytes)
+- `outputs/work/sasa_AB(10).xvg` (21848 bytes)
+- `outputs/work/sasa_AB(11).xvg` (21851 bytes)
+- `outputs/work/sasa_AB(12).xvg` (21863 bytes)
+- `outputs/work/sasa_AB(13).xvg` (21850 bytes)
+- `outputs/work/sasa_AB(14).xvg` (21863 bytes)
+- `outputs/work/sasa_AB(15).xvg` (21878 bytes)
+- `outputs/work/sasa_AB(16).xvg` (21870 bytes)
+- `outputs/work/sasa_AB(17).xvg` (21862 bytes)
+- `outputs/work/sasa_AB(18).xvg` (21842 bytes)
+- `outputs/work/sasa_AB(2).xvg` (21833 bytes)
+- `outputs/work/sasa_AB(3).xvg` (21878 bytes)
+- `outputs/work/sasa_AB(4).xvg` (21850 bytes)
+- `outputs/work/sasa_AB(5).xvg` (21872 bytes)
+- `outputs/work/sasa_AB(6).xvg` (21870 bytes)
+- `outputs/work/sasa_AB(7).xvg` (21863 bytes)
+- `outputs/work/sasa_AB(8).xvg` (21832 bytes)
+- `outputs/work/sasa_AB(9).xvg` (21863 bytes)
+- `outputs/work/sasa_AB.xvg` (21851 bytes)
+- `outputs/work/sasa_B(10).xvg` (21884 bytes)
+- `outputs/work/sasa_B(11).xvg` (21848 bytes)
+- `outputs/work/sasa_B(12).xvg` (21855 bytes)
+- `outputs/work/sasa_B(13).xvg` (21848 bytes)
+- `outputs/work/sasa_B(14).xvg` (21848 bytes)
+- `outputs/work/sasa_B(15).xvg` (21884 bytes)
+- `outputs/work/sasa_B(16).xvg` (21869 bytes)
+- `outputs/work/sasa_B(17).xvg` (21869 bytes)
+- `outputs/work/sasa_B(18).xvg` (21854 bytes)
+- `outputs/work/sasa_B(2).xvg` (21862 bytes)
+- `outputs/work/sasa_B(3).xvg` (21864 bytes)
+- `outputs/work/sasa_B(4).xvg` (21857 bytes)
+- `outputs/work/sasa_B(5).xvg` (21863 bytes)
+- `outputs/work/sasa_B(6).xvg` (21857 bytes)
+- `outputs/work/sasa_B(7).xvg` (21867 bytes)
+- `outputs/work/sasa_B(8).xvg` (21856 bytes)
+- `outputs/work/sasa_B(9).xvg` (21854 bytes)
+- `outputs/work/sasa_B.xvg` (21862 bytes)
+- `outputs/work/slurm-6408780.log` (213129 bytes)
+- `outputs/work/slurm-6505423.log` (5305 bytes)
+- `outputs/work/slurm-6505908.log` (539 bytes)
+- `outputs/work/slurm-6510625.log` (648279 bytes)
+
+## Scripts
+
+- `scripts/01_analyse_md_results_and_write_phase_report/source/044_append.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/024_step_1_select_3_actives_find_3_structurally_similar.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/025_check_property_names_first_few_molecules.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/026_chem_sdmolsupplier.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/027_chem_sdmolsupplier.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/028_chem_sdwriter.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/029_dict.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/030_os_makedirs.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/031_cpd_class_update.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/032_list_what_s_top_level_module.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/033_print.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/034_chem_sdmolsupplier.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/035_chem_sdmolsupplier.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/036_open.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/037_os_makedirs.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/038_open.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/039_extract_lig_top.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/040_extract_lig_top.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/041_protein.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/create_ndx(2).py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/create_ndx.py`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/run_md(2).sh`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/run_md(3).sh`
+- `scripts/01_md_distinction_test_actives_vs_inactives_on_cdk2/source/run_md.sh`
+- `scripts/01_running_stage_1_screen_triage/source/001_chem_sdmolsupplier.py`
+- `scripts/01_running_stage_1_screen_triage/source/002_fix_inactive_parsing_get_active_smiles_scaffolds.py`
+- `scripts/01_running_stage_1_screen_triage/source/003_build_mol_objects_smiles.py`
+- `scripts/01_running_stage_1_screen_triage/source/004_open.py`
+- `scripts/01_running_stage_1_screen_triage/source/005_precise_h_bond_analysis_donor_acceptor_pairs_within.py`
+- `scripts/01_running_stage_1_screen_triage/source/006_13_15_thn_actives_exclude_eds00492874_eds00492986.py`
+- `scripts/01_running_stage_1_screen_triage/source/007_explicit_designed_analogue_smiles_template_core_o_c.py`
+- `scripts/01_running_stage_1_screen_triage/source/008_write_all_compounds_sdf_etkdg_3d_coords_includes_15.py`
+- `scripts/01_running_stage_1_screen_triage/source/009_run_aidd_tool.py`
+- `scripts/01_running_stage_1_screen_triage/source/010_write_actives_only_sdf.py`
+- `scripts/01_running_stage_1_screen_triage/source/011_check_what_variables_available_prior_session.py`
+- `scripts/01_running_stage_1_screen_triage/source/012_check_results_directory_any_gnina_output.py`
+- `scripts/01_running_stage_1_screen_triage/source/013_check_structure_all_cpds.py`
+- `scripts/01_running_stage_1_screen_triage/source/014_read_back_sdf_get_names.py`
+- `scripts/01_running_stage_1_screen_triage/source/015_list.py`
+- `scripts/01_running_stage_1_screen_triage/source/016_run_aidd_tool.py`
+- `scripts/01_running_stage_1_screen_triage/source/017_run_aidd_tool.py`
+- `scripts/01_running_stage_1_screen_triage/source/018_shutil_copy.py`
+- `scripts/01_running_stage_1_screen_triage/source/019_dict.py`
+- `scripts/01_running_stage_1_screen_triage/source/020_parse_docked.py`
+- `scripts/01_running_stage_1_screen_triage/source/021_list.py`
+- `scripts/01_running_stage_1_screen_triage/source/022_merge_docking_scores_adme.py`
+- `scripts/01_running_stage_1_screen_triage/source/023_build_r_group_annotation_dict_source.py`
+- `scripts/md_prep/EDS00441134_gmx/EDS00441134.amb2gmx/rungmx.sh`
+- `scripts/md_prep/EDS00444974_gmx/EDS00444974.amb2gmx/rungmx.sh`
+- `scripts/md_prep/EDS00445742_gmx/EDS00445742.amb2gmx/rungmx.sh`
+- `scripts/md_prep/EDS00480994_gmx/EDS00480994.amb2gmx/rungmx.sh`
+- `scripts/md_prep/EDS00481054_gmx/EDS00481054.amb2gmx/rungmx.sh`
+- `scripts/md_prep/EDS00495858_gmx/EDS00495858.amb2gmx/rungmx.sh`
+- `scripts/md_prep/inputs/create_ndx.py`
+- `scripts/md_prep/inputs/run_md.sh`
+- `scripts/source/001_chem_sdmolsupplier.py`
+- `scripts/source/002_fix_inactive_parsing_get_active_smiles_scaffolds.py`
+- `scripts/source/003_build_mol_objects_smiles.py`
+- `scripts/source/004_open.py`
+- `scripts/source/005_precise_h_bond_analysis_donor_acceptor_pairs_within.py`
+- `scripts/source/006_13_15_thn_actives_exclude_eds00492874_eds00492986.py`
+- `scripts/source/007_explicit_designed_analogue_smiles_template_core_o_c.py`
+- `scripts/source/008_write_all_compounds_sdf_etkdg_3d_coords_includes_15.py`
+- `scripts/source/009_run_aidd_tool.py`
+- `scripts/source/010_write_actives_only_sdf.py`
+- `scripts/source/011_check_what_variables_available_prior_session.py`
+- `scripts/source/012_check_results_directory_any_gnina_output.py`
+- `scripts/source/013_check_structure_all_cpds.py`
+- `scripts/source/014_read_back_sdf_get_names.py`
+- `scripts/source/015_list.py`
+- `scripts/source/016_run_aidd_tool.py`
+- `scripts/source/017_run_aidd_tool.py`
+- `scripts/source/018_shutil_copy.py`
+- `scripts/source/019_dict.py`
+- `scripts/source/020_parse_docked.py`
+- `scripts/source/021_list.py`
+- `scripts/source/022_merge_docking_scores_adme.py`
+- `scripts/source/023_build_r_group_annotation_dict_source.py`
+- `scripts/source/024_step_1_select_3_actives_find_3_structurally_similar.py`
+- `scripts/source/025_check_property_names_first_few_molecules.py`
+- `scripts/source/026_chem_sdmolsupplier.py`
+- `scripts/source/027_chem_sdmolsupplier.py`
+- `scripts/source/028_chem_sdwriter.py`
+- `scripts/source/029_dict.py`
+- `scripts/source/030_os_makedirs.py`
+- `scripts/source/031_cpd_class_update.py`
+- `scripts/source/032_list_what_s_top_level_module.py`
+- `scripts/source/033_print.py`
+- `scripts/source/034_chem_sdmolsupplier.py`
+- `scripts/source/035_chem_sdmolsupplier.py`
+- `scripts/source/036_open.py`
+- `scripts/source/037_os_makedirs.py`
+- `scripts/source/038_open.py`
+- `scripts/source/039_extract_lig_top.py`
+- `scripts/source/040_extract_lig_top.py`
+- `scripts/source/041_protein.py`
+- `scripts/source/043_os_path_join.py`
+- `scripts/source/044_append.py`
+- `scripts/source/run_md(4).sh`
+- `scripts/source/run_md(5).sh`
+- `scripts/source/run_md(6).sh`
+- `scripts/source/run_md(7).sh`
+
+## Inputs
+
+- No inputs recorded.
+
+## Limitations and Caveats
+
+- This study has not been reviewed. The results are raw model output.
+- Reproducibility depends on the availability of the tool images listed above.
+
+## Provenance
+
+Full provenance chain is in `PROVENANCE.json`. It includes: which operations were model-generated, which were reviewed, by whom, and what was approved.

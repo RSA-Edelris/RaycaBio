@@ -1,0 +1,51 @@
+; Combined topology: CDK2-CCNE + EDS00441134
+; Force field: AMBER14SB (protein) + GAFF2/Gasteiger (ligand)
+; Water: TIP3P
+; Generated for pilot MD comparison study
+
+; AMBER14SB force field
+#include "amber14sb.ff/forcefield.itp"
+
+; Additional GAFF2 atom types (ligand EDS00441134)
+#include "EDS00441134_atomtypes.itp"
+
+; Protein chains (AMBER14SB)
+#include "protein_Protein_chain_A.itp"
+
+; Position restraints for chain A (used during equilibration)
+#ifdef POSRES
+#include "protein_posre_Protein_chain_A.itp"
+#endif
+
+#include "protein_Protein_chain_B.itp"
+
+; Position restraints for chain B
+#ifdef POSRES
+#include "protein_posre_Protein_chain_B.itp"
+#endif
+
+; Ligand molecule
+#include "EDS00441134_mol.itp"
+
+; Position restraints for ligand
+#ifdef POSRES
+#include "posre_EDS00441134.itp"
+#endif
+
+; TIP3P water
+#include "amber14sb.ff/tip3p.itp"
+
+; Ions
+#include "amber14sb.ff/ions.itp"
+
+[ system ]
+CDK2-CCNE + EDS00441134 (inactive)
+
+[ molecules ]
+; The exact counts will be written by the cluster script after solvation
+; Protein_chain_A   1
+; Protein_chain_B   1
+; EDS00441134              1
+; SOL               NWAT
+; NA                NNA
+; CL                NCL

@@ -1,0 +1,67 @@
+Info: acdoctor mode is on: check and diagnose problems in the input file.
+Info: The atom type is set to gaff2; the options available to the -at flag are
+      gaff, gaff2, amber, bcc, abcg2, and sybyl.
+
+-- Check Format for sdf File --
+   Status: pass
+Info: Determining atomic numbers from atomic symbols which are case sensitive.
+Running: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/bondtype -j full -i ANTECHAMBER_BOND_TYPE.AC0 -o ANTECHAMBER_BOND_TYPE.AC -f ac -an no
+
+Running: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/atomtype -i ANTECHAMBER_AC.AC0 -o ANTECHAMBER_AC.AC -p gaff2 -an no
+Running: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin/atomtype -i ANTECHAMBER_GAS.AC -o ANTECHAMBER_GAS_AT.AC -d /home/ubuntu/rayca-runtime/.mamba/envs/rayca/dat/antechamber/ATOMTYPE_GAS.DEF
+
+-I: Adding /home/ubuntu/rayca-runtime/.mamba/envs/rayca/dat/leap/prep to search path.
+-I: Adding /home/ubuntu/rayca-runtime/.mamba/envs/rayca/dat/leap/lib to search path.
+-I: Adding /home/ubuntu/rayca-runtime/.mamba/envs/rayca/dat/leap/parm to search path.
+-I: Adding /home/ubuntu/rayca-runtime/.mamba/envs/rayca/dat/leap/cmd to search path.
+-f: Source tleap_EDS00441134.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap_EDS00441134.in
+----- Source: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/ubuntu/rayca-runtime/.mamba/envs/rayca/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/ubuntu/rayca-runtime/.mamba/envs/rayca/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.30, Oct 2025)
+Loading Mol2 file: ./EDS00441134.mol2
+Reading MOLECULE named MOL
+Loading parameters: ./EDS00441134.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 13 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	MOL	1
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+============================================================================
+| ACPYPE: AnteChamber PYthon Parser interfacE v. 2023.10.27 (c) 2026 AWSdS |
+============================================================================
+Converting Amber input files to Gromacs ...
+==> Writing GROMACS files
+
+==> Disambiguating lower and uppercase atomtypes in GMX top file, even if identical.
+
+==> Writing GMX dihedrals for GMX 4.5 and higher.
+
+Total time of execution: less than a second

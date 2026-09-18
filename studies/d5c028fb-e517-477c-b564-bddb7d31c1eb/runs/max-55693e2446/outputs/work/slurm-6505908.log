@@ -1,0 +1,10 @@
+Job dir: /scratch/u6sp/hpcuser.u6sp/rayca/max-197f97fe7e
+Scratch: /scratch/u6sp/hpcuser.u6sp/md_cdk2_48546
+GMXLIB: /projects/u6sp/software-aarch64/gromacs-2026.1-mpi/share/gromacs/top
+GMX:                        :-) GROMACS - gmx_mpi, 2026.1 (-:
+ions_tip3p.itp: OK
+cp: cannot stat '/scratch/u6sp/hpcuser.u6sp/rayca/max-197f97fe7e/./tmp/ompi.nid011234.1483807324': No such file or directory
+
+RAYCA: the job stopped at line 22 with exit 1
+RAYCA: the command was: bash run_md.sh
+RAYCA: if that command is allowed to fail, end it with || true

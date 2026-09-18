@@ -1,0 +1,47 @@
+;
+;	File 'protein.top' was generated
+;	By user: unknown (1000)
+;	On host: platform.europe-north1-a.c.project-s-496512.internal
+;	At date: Tue Sep  8 16:25:17 2026
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	              :-) GROMACS - gmx pdb2gmx, 2026.3-conda_forge (-:
+;	
+;	Executable:   /home/ubuntu/rayca-runtime/.mamba/envs/rayca/bin.AVX2_256/gmx
+;	Data prefix:  /home/ubuntu/rayca-runtime/.mamba/envs/rayca
+;	Working dir:  /home/ubuntu/rayca-sessions/d5c028fb-e517-477c-b564-bddb7d31c1eb-396fce89620d/md_prep
+;	Command line:
+;	  gmx pdb2gmx -f protein_fixed.pdb -o protein.gro -p protein.top -i protein_posre.itp -ff amber14sb -water tip3p -ignh -ter
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "amber14sb.ff/forcefield.itp"
+
+; Include chain topologies
+#include "protein_Protein_chain_A.itp"
+#include "protein_Protein_chain_B.itp"
+
+; Include water topology
+#include "amber14sb.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "amber14sb.ff/ions_tip3p.itp"
+
+[ system ]
+; Name
+Protein
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
