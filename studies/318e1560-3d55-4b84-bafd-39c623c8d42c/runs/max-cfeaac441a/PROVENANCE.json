@@ -1,0 +1,572 @@
+{
+  "study_id": "318e1560-3d55-4b84-bafd-39c623c8d42c",
+  "run_id": "max-cfeaac441a",
+  "published_at": "2026-09-18T09:31:57Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/structures/3MXF.pdb",
+      "sha256": "534dcb8ea9fa29956249b5133b22187c3867363b16a6b98dd8219c18c5d3250f",
+      "size": 235143,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/structures/5T35.pdb",
+      "sha256": "d5bee17246fa783303c117e357c2f7b91a486fcd95d196b5099a9b88bc714947",
+      "size": 1252341,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/001_pathlib_path.py",
+      "sha256": "85482dbe608b01dc4ea065d5462efed71223017612e829b90d4b95ab0e96ce95",
+      "size": 467,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/002_parse_both_pdb_files_identify_chains_hetatm_residues.py",
+      "sha256": "5ae17e856e3ba8b211229281b4a2095d1379b69cd6ad0d363bbee7c9aec57e09",
+      "size": 1165,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/003_deeper_inspection_5t35_identify_which_chains_vhl.py",
+      "sha256": "26570bea62c932d4edf01e65578c1ec21dfd0cb03d1c81bce99ef2326d652dcc",
+      "size": 2345,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/004_read_ca_coords.py",
+      "sha256": "7a7a9985fa8bfb139359532a794f86f2956aaf0d461a167f0d98256639fb6350",
+      "size": 1995,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/helpers.py",
+      "sha256": "99cc0a97e20b9df36f075770ef94b4739731888125eed42f48274d2a37c03956",
+      "size": 2074,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/005_write_helper_functions_file_they_persist_across.py",
+      "sha256": "deea7878232e59176f9dd1bdeebf941d4a37249e6f9a626b0668b3cc06ccaefc",
+      "size": 2250,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/006_sys_path_insert.py",
+      "sha256": "40bf6dfe940adc07d66534b717bae8fa6b51527d079cc10445050eae214111eb",
+      "size": 1170,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/007_bd1_has_127_res_42_168_bd2_has_111_res_349_459_try.py",
+      "sha256": "4cbf7081a4ef0648814840b88abc8189b4944c82ff48339a69dd829aecde3e7e",
+      "size": 1450,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/008_sys_path_insert.py",
+      "sha256": "81347c925b91af6c1debc2591dcc3f7eb286c4c62788a747e1399ae551d11e4b",
+      "size": 1548,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/009_extract_seqres_sequences_bd1_3mxf_bd2_5t35.py",
+      "sha256": "e0b1af386562f72b4f64ca904060e7b861bb26dd2e9c92e8fd31f4128967f3b7",
+      "size": 2032,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/010_records.py",
+      "sha256": "5043d4aef470d59c0c1cb12bb57114c2c12e032f2207748635353ac5b869f9ad",
+      "size": 3366,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/011_apply_transform.py",
+      "sha256": "2860f447f28cee191db5c57b160531a4f3e002480d66924071aaf3c7db92966b",
+      "size": 2728,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/012_apply_transform.py",
+      "sha256": "0fc6ad6306b99e17ef2fd248187bcad92323cca9a1c7c63df606b4839b8689a5",
+      "size": 3691,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/013_interface_analysis_linker_cooperativity_model.py",
+      "sha256": "e07ea33e0930962c8237e3877269aab43ed73807df40698cfd1ef3027dad8344",
+      "size": 2283,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/014_ternary_pose_ensemble_sampling_linker_cooperativity.py",
+      "sha256": "2d4a611a5565cede81fbcb6128d8acd169da6ba9ad130eb08ba312c251e7ba0d",
+      "size": 4375,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/015_normalized_gaussian_chain_effective_concentration_c.py",
+      "sha256": "dd242c83597d5ae0373e4e56db1105bbb8e92fe2587da64847471ea5b477429a",
+      "size": 2482,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/016_composite_cooperativity_model_calibrated_p_vec_r_d_1.py",
+      "sha256": "87db861a3158afebd6f4b3629399bc6b9b2641efc97146654cbd9e5e6804b5ae",
+      "size": 2761,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/figures/brd4bd1_vhl_linker_ranking.png",
+      "sha256": "b01940bebe5f2b7eacf0d933cccd55bc82e9f4870f4de0e413ac63a6b43fac36",
+      "size": 129865,
+      "kind": "images",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/017_matplotlib_use.py",
+      "sha256": "eaa55fa8c665b3b733553f6452082251c4a7222f411ae8aa1be4d0bd2da55aa2",
+      "size": 3000,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "reports/report.md",
+      "sha256": "16fdce2c02aa6b354f4ded5c9dcad08f04575c09a6ca4ac18fcdc9453e84aeea",
+      "size": 6429,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_brd4_bd1_vhl_protac_ternary_complex_modeling_and.md",
+      "sha256": "ae8b69e933b59b6a735335a48e611599556a20dcb9bfbd86f7c83177fa651cea",
+      "size": 4706,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-a68c10f391",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_writeup_brd4bd1_vhl_protac.md",
+      "sha256": "051594b458eff76838c7fff557b6252fbf5e8b8ecad60aad2b70a8cb9d93a656",
+      "size": 4598,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/audit_brd4bd1_vhl_protac.md",
+      "sha256": "6b90f4000f96cad16e08e2acdb29cddd11bac10926c067ceae2fcf57c52ec87b",
+      "size": 5104,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "01_write_ternary_complex_pdb_bd1_vhl_elongincb/source/018_pathlib_path.py",
+      "sha256": "9ed7942ca1fb855400db893e31cb09f02bbd6c91ebd35a80377250880b6a2099",
+      "size": 3852,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-be59ee11d3",
+      "committed": true
+    },
+    {
+      "path": "01_write_ternary_complex_pdb_bd1_vhl_elongincb/structures/BRD4BD1_VHL_ternary_model.pdb",
+      "sha256": "6e89975ee7db7efc97a12ce2b75f71886aca1920be276a689cef4114482eea63",
+      "size": 261087,
+      "kind": "molecules",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-be59ee11d3",
+      "committed": true
+    },
+    {
+      "path": "01_write_ternary_complex_pdb_bd1_vhl_elongincb/source/019_build_ternary_complex_pdb_chain_bd1_atom_jq1_hetatm.py",
+      "sha256": "9dd1b52927dcc8fb223695fae761baa80c71479abf9f72a8463715a3073edea2",
+      "size": 3959,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-be59ee11d3",
+      "committed": true
+    },
+    {
+      "path": "01_write_ternary_complex_pdb_bd1_vhl_elongincb/source/020_sanity_checks_written_pdb.py",
+      "sha256": "93623281fed5093318af93da5c9a881007172601e2c3099a99aed90a61b778f6",
+      "size": 2449,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "run python",
+      "run_id": "max-be59ee11d3",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_01_write_ternary_complex_pdb_bd1_vhl_elongincb.md",
+      "sha256": "1e2846799a9815f00625b7de4226031dc0907eea34670ea5ddd2fca930999ccf",
+      "size": 2337,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-be59ee11d3",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_writeup_ternary_pdb.md",
+      "sha256": "7d1f70282236467bc8bd534cdb0e98835eaa7126af5dbbd2263568479ad78275",
+      "size": 3180,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "reports/audit_ternary_pdb.md",
+      "sha256": "0284bdaa7b617edcfa0fa8574861f8fc07f88deccff8ad94ae1c63b8054f32bc",
+      "size": 2236,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "report",
+      "run_id": "",
+      "committed": true
+    },
+    {
+      "path": "brd4_vhl_protac/helpers.py",
+      "size": 2074,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/004_read_ca_coords.py",
+      "size": 1995,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/002_parse_both_pdb_files_identify_chains_hetatm_residues.py",
+      "size": 1165,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/013_interface_analysis_linker_cooperativity_model.py",
+      "size": 2283,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/015_normalized_gaussian_chain_effective_concentration_c.py",
+      "size": 2482,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/010_records.py",
+      "size": 3366,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/019_build_ternary_complex_pdb_chain_bd1_atom_jq1_hetatm.py",
+      "size": 3959,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/001_pathlib_path.py",
+      "size": 467,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/011_apply_transform.py",
+      "size": 2728,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/017_matplotlib_use.py",
+      "size": 3000,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/020_sanity_checks_written_pdb.py",
+      "size": 2449,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/003_deeper_inspection_5t35_identify_which_chains_vhl.py",
+      "size": 2345,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/005_write_helper_functions_file_they_persist_across.py",
+      "size": 2250,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/016_composite_cooperativity_model_calibrated_p_vec_r_d_1.py",
+      "size": 2761,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/009_extract_seqres_sequences_bd1_3mxf_bd2_5t35.py",
+      "size": 2032,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/018_pathlib_path.py",
+      "size": 3852,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/006_sys_path_insert.py",
+      "size": 1170,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/014_ternary_pose_ensemble_sampling_linker_cooperativity.py",
+      "size": 4375,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/012_apply_transform.py",
+      "size": 3691,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/008_sys_path_insert.py",
+      "size": 1548,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/007_bd1_has_127_res_42_168_bd2_has_111_res_349_459_try.py",
+      "size": 1450,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "318e1560-3d55-4b84-bafd-39c623c8d42c",
+    "run_id": "max-cfeaac441a",
+    "outcome": "",
+    "pushed_at": "2026-09-18T09:31:57Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/001_pathlib_path.py": "85482dbe608b01dc4ea065d5462efed71223017612e829b90d4b95ab0e96ce95",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/002_parse_both_pdb_files_identify_chains_hetatm_residues.py": "5ae17e856e3ba8b211229281b4a2095d1379b69cd6ad0d363bbee7c9aec57e09",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/003_deeper_inspection_5t35_identify_which_chains_vhl.py": "26570bea62c932d4edf01e65578c1ec21dfd0cb03d1c81bce99ef2326d652dcc",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/004_read_ca_coords.py": "7a7a9985fa8bfb139359532a794f86f2956aaf0d461a167f0d98256639fb6350",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/helpers.py": "99cc0a97e20b9df36f075770ef94b4739731888125eed42f48274d2a37c03956",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/005_write_helper_functions_file_they_persist_across.py": "deea7878232e59176f9dd1bdeebf941d4a37249e6f9a626b0668b3cc06ccaefc",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/006_sys_path_insert.py": "40bf6dfe940adc07d66534b717bae8fa6b51527d079cc10445050eae214111eb",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/007_bd1_has_127_res_42_168_bd2_has_111_res_349_459_try.py": "4cbf7081a4ef0648814840b88abc8189b4944c82ff48339a69dd829aecde3e7e",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/008_sys_path_insert.py": "81347c925b91af6c1debc2591dcc3f7eb286c4c62788a747e1399ae551d11e4b",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/009_extract_seqres_sequences_bd1_3mxf_bd2_5t35.py": "e0b1af386562f72b4f64ca904060e7b861bb26dd2e9c92e8fd31f4128967f3b7",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/010_records.py": "5043d4aef470d59c0c1cb12bb57114c2c12e032f2207748635353ac5b869f9ad",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/011_apply_transform.py": "2860f447f28cee191db5c57b160531a4f3e002480d66924071aaf3c7db92966b",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/012_apply_transform.py": "0fc6ad6306b99e17ef2fd248187bcad92323cca9a1c7c63df606b4839b8689a5",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/013_interface_analysis_linker_cooperativity_model.py": "e07ea33e0930962c8237e3877269aab43ed73807df40698cfd1ef3027dad8344",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/014_ternary_pose_ensemble_sampling_linker_cooperativity.py": "2d4a611a5565cede81fbcb6128d8acd169da6ba9ad130eb08ba312c251e7ba0d",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/015_normalized_gaussian_chain_effective_concentration_c.py": "dd242c83597d5ae0373e4e56db1105bbb8e92fe2587da64847471ea5b477429a",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/016_composite_cooperativity_model_calibrated_p_vec_r_d_1.py": "87db861a3158afebd6f4b3629399bc6b9b2641efc97146654cbd9e5e6804b5ae",
+    "scripts/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/source/017_matplotlib_use.py": "eaa55fa8c665b3b733553f6452082251c4a7222f411ae8aa1be4d0bd2da55aa2",
+    "scripts/01_write_ternary_complex_pdb_bd1_vhl_elongincb/source/018_pathlib_path.py": "9ed7942ca1fb855400db893e31cb09f02bbd6c91ebd35a80377250880b6a2099",
+    "scripts/01_write_ternary_complex_pdb_bd1_vhl_elongincb/source/019_build_ternary_complex_pdb_chain_bd1_atom_jq1_hetatm.py": "9dd1b52927dcc8fb223695fae761baa80c71479abf9f72a8463715a3073edea2",
+    "scripts/01_write_ternary_complex_pdb_bd1_vhl_elongincb/source/020_sanity_checks_written_pdb.py": "93623281fed5093318af93da5c9a881007172601e2c3099a99aed90a61b778f6",
+    "scripts/brd4_vhl_protac/helpers.py": "99cc0a97e20b9df36f075770ef94b4739731888125eed42f48274d2a37c03956",
+    "scripts/source/004_read_ca_coords.py": "7a7a9985fa8bfb139359532a794f86f2956aaf0d461a167f0d98256639fb6350",
+    "scripts/source/002_parse_both_pdb_files_identify_chains_hetatm_residues.py": "5ae17e856e3ba8b211229281b4a2095d1379b69cd6ad0d363bbee7c9aec57e09",
+    "scripts/source/013_interface_analysis_linker_cooperativity_model.py": "e07ea33e0930962c8237e3877269aab43ed73807df40698cfd1ef3027dad8344",
+    "scripts/source/015_normalized_gaussian_chain_effective_concentration_c.py": "dd242c83597d5ae0373e4e56db1105bbb8e92fe2587da64847471ea5b477429a",
+    "scripts/source/010_records.py": "5043d4aef470d59c0c1cb12bb57114c2c12e032f2207748635353ac5b869f9ad",
+    "scripts/source/019_build_ternary_complex_pdb_chain_bd1_atom_jq1_hetatm.py": "9dd1b52927dcc8fb223695fae761baa80c71479abf9f72a8463715a3073edea2",
+    "scripts/source/001_pathlib_path.py": "85482dbe608b01dc4ea065d5462efed71223017612e829b90d4b95ab0e96ce95",
+    "scripts/source/011_apply_transform.py": "2860f447f28cee191db5c57b160531a4f3e002480d66924071aaf3c7db92966b",
+    "scripts/source/017_matplotlib_use.py": "eaa55fa8c665b3b733553f6452082251c4a7222f411ae8aa1be4d0bd2da55aa2",
+    "scripts/source/020_sanity_checks_written_pdb.py": "93623281fed5093318af93da5c9a881007172601e2c3099a99aed90a61b778f6",
+    "scripts/source/003_deeper_inspection_5t35_identify_which_chains_vhl.py": "26570bea62c932d4edf01e65578c1ec21dfd0cb03d1c81bce99ef2326d652dcc",
+    "scripts/source/005_write_helper_functions_file_they_persist_across.py": "deea7878232e59176f9dd1bdeebf941d4a37249e6f9a626b0668b3cc06ccaefc",
+    "scripts/source/016_composite_cooperativity_model_calibrated_p_vec_r_d_1.py": "87db861a3158afebd6f4b3629399bc6b9b2641efc97146654cbd9e5e6804b5ae",
+    "scripts/source/009_extract_seqres_sequences_bd1_3mxf_bd2_5t35.py": "e0b1af386562f72b4f64ca904060e7b861bb26dd2e9c92e8fd31f4128967f3b7",
+    "scripts/source/018_pathlib_path.py": "9ed7942ca1fb855400db893e31cb09f02bbd6c91ebd35a80377250880b6a2099",
+    "scripts/source/006_sys_path_insert.py": "40bf6dfe940adc07d66534b717bae8fa6b51527d079cc10445050eae214111eb",
+    "scripts/source/014_ternary_pose_ensemble_sampling_linker_cooperativity.py": "2d4a611a5565cede81fbcb6128d8acd169da6ba9ad130eb08ba312c251e7ba0d",
+    "scripts/source/012_apply_transform.py": "0fc6ad6306b99e17ef2fd248187bcad92323cca9a1c7c63df606b4839b8689a5",
+    "scripts/source/008_sys_path_insert.py": "81347c925b91af6c1debc2591dcc3f7eb286c4c62788a747e1399ae551d11e4b",
+    "scripts/source/007_bd1_has_127_res_42_168_bd2_has_111_res_349_459_try.py": "4cbf7081a4ef0648814840b88abc8189b4944c82ff48339a69dd829aecde3e7e",
+    "outputs/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/structures/3MXF.pdb": "534dcb8ea9fa29956249b5133b22187c3867363b16a6b98dd8219c18c5d3250f",
+    "outputs/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/structures/5T35.pdb": "d5bee17246fa783303c117e357c2f7b91a486fcd95d196b5099a9b88bc714947",
+    "outputs/01_brd4_bd1_vhl_protac_ternary_complex_modeling_and/figures/brd4bd1_vhl_linker_ranking.png": "b01940bebe5f2b7eacf0d933cccd55bc82e9f4870f4de0e413ac63a6b43fac36",
+    "outputs/reports/report.md": "16fdce2c02aa6b354f4ded5c9dcad08f04575c09a6ca4ac18fcdc9453e84aeea",
+    "outputs/reports/phase_01_brd4_bd1_vhl_protac_ternary_complex_modeling_and.md": "ae8b69e933b59b6a735335a48e611599556a20dcb9bfbd86f7c83177fa651cea",
+    "outputs/reports/phase_writeup_brd4bd1_vhl_protac.md": "051594b458eff76838c7fff557b6252fbf5e8b8ecad60aad2b70a8cb9d93a656",
+    "outputs/reports/audit_brd4bd1_vhl_protac.md": "6b90f4000f96cad16e08e2acdb29cddd11bac10926c067ceae2fcf57c52ec87b",
+    "outputs/01_write_ternary_complex_pdb_bd1_vhl_elongincb/structures/BRD4BD1_VHL_ternary_model.pdb": "6e89975ee7db7efc97a12ce2b75f71886aca1920be276a689cef4114482eea63",
+    "outputs/reports/phase_01_write_ternary_complex_pdb_bd1_vhl_elongincb.md": "1e2846799a9815f00625b7de4226031dc0907eea34670ea5ddd2fca930999ccf",
+    "outputs/reports/phase_writeup_ternary_pdb.md": "7d1f70282236467bc8bd534cdb0e98835eaa7126af5dbbd2263568479ad78275",
+    "outputs/reports/audit_ternary_pdb.md": "0284bdaa7b617edcfa0fa8574861f8fc07f88deccff8ad94ae1c63b8054f32bc",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
