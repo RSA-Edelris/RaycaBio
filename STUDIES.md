@@ -25,7 +25,7 @@ Every study this repository holds, regenerated on each push from the repository'
 | [`CHEMBL3916849-kinome-profile`](studies/CHEMBL3916849-kinome-profile) | 1 | unknown |
 | [`a15a0dd1-6e21-4a08-9938-aca20555ef3d`](studies/a15a0dd1-6e21-4a08-9938-aca20555ef3d) | 1 | recorded |
 | [`a26cc075-95a4-4e76-8438-9c117af1a9de`](studies/a26cc075-95a4-4e76-8438-9c117af1a9de) | 2 | recorded |
-| [`ac852d49-937d-4ccf-b894-872f25baae1d`](studies/ac852d49-937d-4ccf-b894-872f25baae1d) | 2 | recorded |
+| [`ac852d49-937d-4ccf-b894-872f25baae1d`](studies/ac852d49-937d-4ccf-b894-872f25baae1d) | 3 | recorded |
 | [`c29e716e-6774-4a9b-8ead-aba645849be4`](studies/c29e716e-6774-4a9b-8ead-aba645849be4) | 4 | recorded |
 | [`c6bff8e9-db20-41e3-b952-83c9e35071ad`](studies/c6bff8e9-db20-41e3-b952-83c9e35071ad) | 1 | recorded |
 | [`d5c028fb-e517-477c-b564-bddb7d31c1eb`](studies/d5c028fb-e517-477c-b564-bddb7d31c1eb) | 2 | recorded |
