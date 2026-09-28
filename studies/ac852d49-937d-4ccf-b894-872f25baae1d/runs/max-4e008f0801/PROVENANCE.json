@@ -1,0 +1,96 @@
+{
+  "study_id": "ac852d49-937d-4ccf-b894-872f25baae1d",
+  "run_id": "max-4e008f0801",
+  "published_at": "2026-09-28T10:10:48Z",
+  "review_state": {},
+  "is_reviewed": false,
+  "tool_versions": [],
+  "provenance_records": [
+    {
+      "path": "reports/phase_01_design_hte_campaign_for_suzuki_miyaura_coupling_.md",
+      "sha256": "37563838bf7aa476a4a44b52f95a49d3dab4730ca29710943df5d54348acabe2",
+      "size": 1648,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-01c5ef17a8",
+      "committed": true
+    },
+    {
+      "path": "reports/audit_hte_suzuki_campaign.md",
+      "sha256": "25d47e6bd28a5729c7defbbf3d11b96b75e195e1351cb2e3be5ec16bc98474b7",
+      "size": 13512,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "write",
+      "run_id": "max-01c5ef17a8",
+      "committed": true
+    },
+    {
+      "path": "reports/phase_02_task_ac4f987e65e66cd75.md",
+      "sha256": "abf8e9cf68175594adbe239f76615c8d77b0a04d377b3f4a4c1f2a9db2129550",
+      "size": 1894,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "agent",
+      "run_id": "max-01c5ef17a8",
+      "committed": true
+    },
+    {
+      "path": "01_create_pdf_of_current_chat_session_using_fpdf2/source/001_sanitize.py",
+      "sha256": "e2c5050ec61eaab60a6c490b24f74985c54fa4d794f95753d07a2384a93143b7",
+      "size": 16258,
+      "kind": "code",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-7bbde21eaa",
+      "committed": true
+    },
+    {
+      "path": "01_create_pdf_of_current_chat_session_using_fpdf2/reports/suzuki_hte_chat_session.pdf",
+      "sha256": "22d5956202ea60f48f5dcbd7f67eb3f0f2e1ec1705d5c3aaa25f961ab4cc5fb4",
+      "size": 13587,
+      "kind": "documents",
+      "version": 1,
+      "supersedes": null,
+      "step": "task update",
+      "run_id": "max-7bbde21eaa",
+      "committed": true
+    },
+    {
+      "path": "source/001_sanitize.py",
+      "size": 16258,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    },
+    {
+      "path": "source/002_sanitize.py",
+      "size": 12458,
+      "kind": "code",
+      "source": "workspace",
+      "committed": true
+    }
+  ],
+  "run_metadata": {
+    "session_id": "ac852d49-937d-4ccf-b894-872f25baae1d",
+    "run_id": "max-4e008f0801",
+    "outcome": "",
+    "pushed_at": "2026-09-28T10:10:48Z"
+  },
+  "unreviewed_warning": "WARNING: This study has NOT been reviewed. Results are unreviewed model output and must not be cited or relied upon without independent verification.",
+  "file_digests": {
+    "scripts/01_create_pdf_of_current_chat_session_using_fpdf2/source/001_sanitize.py": "e2c5050ec61eaab60a6c490b24f74985c54fa4d794f95753d07a2384a93143b7",
+    "scripts/source/001_sanitize.py": "e2c5050ec61eaab60a6c490b24f74985c54fa4d794f95753d07a2384a93143b7",
+    "scripts/source/002_sanitize.py": "04bc52101946725ebe649e52f185fb22fe2f5969ee5bb61540bcf6188726eb4c",
+    "outputs/reports/phase_01_design_hte_campaign_for_suzuki_miyaura_coupling_.md": "37563838bf7aa476a4a44b52f95a49d3dab4730ca29710943df5d54348acabe2",
+    "outputs/reports/audit_hte_suzuki_campaign.md": "25d47e6bd28a5729c7defbbf3d11b96b75e195e1351cb2e3be5ec16bc98474b7",
+    "outputs/reports/phase_02_task_ac4f987e65e66cd75.md": "abf8e9cf68175594adbe239f76615c8d77b0a04d377b3f4a4c1f2a9db2129550",
+    "outputs/01_create_pdf_of_current_chat_session_using_fpdf2/reports/suzuki_hte_chat_session.pdf": "22d5956202ea60f48f5dcbd7f67eb3f0f2e1ec1705d5c3aaa25f961ab4cc5fb4",
+    ".tool-versions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
